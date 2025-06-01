@@ -39,3 +39,6 @@ frontend/.env*
 # typescript
 /frontend/*.tsbuildinfo
 /frontend/next-env.d.ts
+
+
+.DS_Store
