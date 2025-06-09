@@ -38,12 +38,10 @@ export default function RaaHieroglyphMatrix() {
 
 
   useEffect(() => {
-    console.log('RaaHieroglyphMatrix');
     const initial = generateInitialGrid();
     setGrid(initial);
 
     const interval = setInterval(() => {
-      console.log('updateGrid');
       setGrid(prev => (prev ? updateGrid(prev) : prev));
     }, 1300);
 
@@ -53,7 +51,13 @@ export default function RaaHieroglyphMatrix() {
   if (!grid) return null;
 
   return (
-    <div className="absolute inset-0 grid grid-cols-35 grid-rows-15">
+    <div 
+      className="absolute inset-0 grid"
+      style={{
+        gridTemplateColumns: `repeat(${COLS}, 1fr)`,
+        gridTemplateRows: `repeat(${ROWS}, 1fr)`,
+      }}
+    >
       {grid.map((row, rowIndex) =>
         row.map((cell, colIndex) => (
           <div
@@ -71,8 +75,6 @@ export default function RaaHieroglyphMatrix() {
                 height: '80%',
                 filter: 'contrast(1)'
               }}
-              onLoad={() => console.log('Image loaded')}
-              onError={(e) => console.log('Image failed to load:', e)}
             />
             )}
           </div>
