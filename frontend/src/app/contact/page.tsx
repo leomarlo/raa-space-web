@@ -11,7 +11,6 @@ export default function ContactPage() {
     <div className="relative w-full h-screen overflow-hidden">
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
       <Entrance
-        initialNavOpen={true}
         initialMenuSelection={'Contact'}
         itemArrangement={2}
         navOpen={navOpen}

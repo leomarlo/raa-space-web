@@ -1,6 +1,5 @@
 'use client';
 
-import Head from 'next/head';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
@@ -12,7 +11,6 @@ export default function TelpaPage() {
     <div className="relative w-full h-screen overflow-hidden text-[#f5f5dc]">
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
       <Entrance
-        initialNavOpen={true}
         initialMenuSelection={'RAA SPACE'}
         itemArrangement={2}
         navOpen={navOpen}
@@ -25,10 +23,10 @@ export default function TelpaPage() {
             Raa is a venue for performances, exhibitions, workshops and other cultural events located in the center of Riga.
           </p>
           <p>
-            Raa is raa. If it was something else it wouldn't be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called <em>Reductio ad Absurdum</em>, sometimes also abbreviated to <strong>RAA</strong>.
+            Raa is raa. If it was something else it wouldn&apos;t be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called <em>Reductio ad Absurdum</em>, sometimes also abbreviated to <strong>RAA</strong>.
           </p>
           <p>
-            Had Raa been created on June 1st 2025 or later, it couldn't have been what it is now and besides who would create Raa after registering the domain <code>raa.space</code>?
+            Had Raa been created on June 1st 2025 or later, it couldn&apos;t have been what it is now and besides who would create Raa after registering the domain <code>raa.space</code>?
           </p>
         </div>
       </div>

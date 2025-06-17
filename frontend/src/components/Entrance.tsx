@@ -2,20 +2,18 @@
 
 import { useEffect, useState } from 'react';
 import Menu from '@/components/Menu';
-import RegisterForm from '@/components/RegisterForm';
 
 const ROWS = 20;
 const COLS = 35;
 
 interface EntranceProps {
-    initialNavOpen: boolean;
     initialMenuSelection: string | null; // optional;
     itemArrangement: 1 | 2;
     navOpen: boolean;
     setNavOpen: (navOpen: boolean) => void;
   }
 
-export default function Entrance({ initialNavOpen, initialMenuSelection, itemArrangement, navOpen, setNavOpen }: EntranceProps) {
+export default function Entrance({ initialMenuSelection, itemArrangement, navOpen, setNavOpen }: EntranceProps) {
   const [hovered, setHovered] = useState<[number, number] | null>(null);
   const [activeItem, setActiveItem] = useState<string | null>(initialMenuSelection);
 

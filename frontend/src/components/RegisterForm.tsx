@@ -1,12 +1,7 @@
 'use client';
 
-import { useEffect, useRef, useState } from 'react';
 
-interface RegisterFormProps {
-  navOpen: boolean;
-}
-
-export default function RegisterForm({ navOpen }: RegisterFormProps) {
+export default function RegisterForm() {
 
   return (
     <div className="absolute inset-0 flex items-center justify-center z-18">

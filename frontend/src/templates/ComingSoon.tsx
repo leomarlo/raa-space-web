@@ -2,7 +2,6 @@
 
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import { useEffect } from 'react';
-import { RaaHieroglyphMatrixProps } from '@/types/main';
 import { useRouter } from 'next/navigation';
 
 
