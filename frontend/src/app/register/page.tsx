@@ -1,5 +1,6 @@
 'use client';
 
+import Head from 'next/head';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import RegisterForm from '@/components/RegisterForm';

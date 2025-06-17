@@ -10,9 +10,6 @@ export default function TelpaPage() {
 
   return (
     <div className="relative w-full h-screen overflow-hidden text-[#f5f5dc]">
-      <Head>
-        <title>RAA SPACE | Telpa</title>
-      </Head>
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
       <Entrance
         initialNavOpen={true}

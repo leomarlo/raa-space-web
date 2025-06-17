@@ -11,9 +11,6 @@ export default function CuratorsPage() {
   
     return (
       <div className="relative w-full h-screen overflow-hidden">
-        <Head>
-            <title>RAA SPACE | Curators</title>
-        </Head>
         <RaaHieroglyphMatrix frequency={0} initialState={0} />
         <Entrance
           initialNavOpen={true}
