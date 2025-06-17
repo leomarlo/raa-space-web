@@ -2,7 +2,9 @@
 
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import { useEffect } from 'react';
+import { RaaHieroglyphMatrixProps } from '@/types/main';
 import { useRouter } from 'next/navigation';
+
 
 export default function ComingSoon() {
   const router = useRouter();
@@ -12,12 +14,12 @@ export default function ComingSoon() {
   }, []);
 
   const handleEnter = () => {
-    router.push('/raa');
+    router.push('/enter');
   };
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
-      <RaaHieroglyphMatrix />
+      <RaaHieroglyphMatrix frequency={1300} initialState={0}/>
 
       {/* Foreground Content with White Border */}
       <div className="border-white border-[3pt] p-8 rounded-lg z-10 bg-black">
