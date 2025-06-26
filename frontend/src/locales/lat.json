@@ -1,0 +1,37 @@
+{
+  "title": "IEEJ RAA TELPĀ",
+  "description": "RAA ir uznirstošs norises centrs, kurā regulāri notiek teātra un laikmetīgās mākslas izrādes, izstādes un darbnīcas. Mazs zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
+  "openingNote": "Atvēršana: 2025. gada 11. jūlijā.",
+  "enterButton": "IEEJ",
+  "menu": {
+    "raaSpace": "RAA TELPA",
+    "program": "Programma",
+    "register": "Reģistrēties",
+    "contact": "Kontakti",
+    "curators": "Kuratori",
+    "opening": "Atklāšana",
+    "members": "Biedri",
+    "location": "Atrašanās vieta"
+  },
+  "telpa": {
+    "paragraph1": "RAA ir uznirstošs norises centrs, kurā regulāri notiek teātra un laikmetīgās mākslas izrādes, izstādes un darbnīcas. Mazs zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
+    "paragraph2": "Raa ir raa. Ja tas būtu kas cits, to nesauktu šādi. Dažās zinātnes nozarēs arguments, kas pierāda apgalvojumu, parādot, ka pretējais noved pie absurduma, tiek saukts par Reductio ad Absurdum, saīsināti arī RAA.",
+    "paragraph3": "Ja Raa būtu radīts 2025. gada 1. jūnijā vai vēlāk, tas nevarētu būt tas, kas tas ir tagad. Turklāt — kurš gan veidotu Raa pēc tam, kad jau ir reģistrēts domēns raa.space?"
+  },
+  "program": {
+    "comingSoon": "Drīzumā",
+    "openingEvent": "Atklāšanas pasākums notiks 11. jūlijā. Tu esi sirsnīgi aicināts. Skaties paziņojumu ",
+    "openingEventLink": "Veldze."
+  },
+  "register": {
+    "title": "REĢISTRĒJIES RAA TELPĀ",
+    "description": "Ja vēlies būt daļa no RAA Telpas, lūdzu, ievadi savu e-pasta adresi zemāk.",
+    "placeholder": "Ievadi savu e-pastu",
+    "submit": "IEEJ"
+  },
+  "contact": {
+    "email": "Sazinies ar mums pa e-pastu",
+    "location": "Mūs var atrast Matīsa ielā 8, Rīgā.",
+    "instagram": "Seko mums Instagram:"
+  }
+}
