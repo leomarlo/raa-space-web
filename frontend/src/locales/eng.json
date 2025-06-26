@@ -1,0 +1,37 @@
+{
+  "title": "ENTER RAA SPACE",
+  "description": "RAA is a pop-up venue that hosts regular theatrical and contemporary performances, exhibitions and workshops. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
+  "openingNote": "We are opening on July 11th, 2025.",
+  "enterButton": "ENTER",
+  "menu": {
+    "raaSpace": "RAA SPACE",
+    "program": "Program",
+    "register": "Register",
+    "contact": "Contact",
+    "curators": "Curators",
+    "opening": "Opening",
+    "members": "Members",
+    "location": "Location"
+  },
+  "telpa": {
+    "paragraph1": "RAA is a pop-up venue that hosts regular theatrical and contemporary performances, exhibitions and workshops. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
+    "paragraph2": "Raa is raa. If it was something else it wouldn't be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called Reductio ad Absurdum, sometimes also abbreviated to RAA.",
+    "paragraph3": "Had Raa been created on June 1st 2025 or later, it couldn't have been what it is now and besides who would create Raa after registering the domain raa.space?"
+  },
+  "program": {
+    "comingSoon": "Coming soon",
+    "openingEvent": "We are having our opening event on the 11th of July. You are warmly invited. See the announcement on ",
+    "openingEventLink": "Veldze."
+  },
+  "register": {
+    "title": "REGISTER AT RAA SPACE",
+    "description": "If you want to be part of the RAA Space, please enter your email below.",
+    "placeholder": "Enter your email",
+    "submit": "ENTER"
+  },
+  "contact": {
+    "email": "Contact us at",
+    "location": "We are located at Matīsa iela 8, Rīga.",
+    "instagram": "Follow us on Instagram:"
+  }
+}

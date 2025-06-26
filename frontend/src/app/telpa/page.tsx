@@ -3,9 +3,11 @@
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
+import { useLanguage } from '@/context/LanguageContext';
 
 export default function TelpaPage() {
   const [navOpen, setNavOpen] = useState(true);
+  const { t } = useLanguage();
 
   return (
     <div className="relative w-full h-screen overflow-hidden text-[#f5f5dc]">
@@ -18,16 +20,10 @@ export default function TelpaPage() {
       />
 
       <div className="absolute inset-0 flex items-center justify-center z-20">
-        <div className="bg-black/80 p-8 rounded-lg max-w-xl text-l space-y-6 text-justify leading-relaxed">
-          <p>
-          RAA is a pop-up venue that hosts regular theatrical and contemporary performances, exhibitions and workshops. A little herbal bar offers the possibility to take in some Latvian forest in the centre of Riga.
-          </p>
-          <p>
-            Raa is raa. If it was something else it wouldn&apos;t be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called <em>Reductio ad Absurdum</em>, sometimes also abbreviated to <strong>RAA</strong>.
-          </p>
-          <p>
-            Had Raa been created on June 1st 2025 or later, it couldn&apos;t have been what it is now and besides who would create Raa after registering the domain <code>raa.space</code>?
-          </p>
+        <div className="bg-black/80 p-8 rounded-none max-w-xl text-l space-y-6 text-justify leading-relaxed">
+          <p>{t.telpa.paragraph1}</p>
+          <p>{t.telpa.paragraph2}</p>
+          <p>{t.telpa.paragraph3}</p>
         </div>
       </div>
     </div>
