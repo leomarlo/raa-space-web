@@ -23,7 +23,7 @@ export default function ProgramPage() {
           <br />
           <br />
           {t.program.openingEvent}
-          <a href="https://www.instagram.com/p/DLUciNyNjXL/?img_index=1" target="_blank" rel="noopener noreferrer" className="underline">
+          <a href="https://www.instagram.com/p/DLUciNyNjXL" target="_blank" rel="noopener noreferrer" className="underline">
             {t.program.openingEventLink}
           </a>
         </div>
