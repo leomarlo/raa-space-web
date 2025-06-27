@@ -24,6 +24,10 @@ export default function TelpaPage() {
           <p>{t.telpa.paragraph1}</p>
           <p>{t.telpa.paragraph2}</p>
           <p>{t.telpa.paragraph3}</p>
+          {t.telpa.findUsOnInstagram}
+          <a href="https://www.instagram.com/raa_riga/" target="_blank" rel="noopener noreferrer" className="underline">
+            {t.telpa.instagram}
+          </a>
         </div>
       </div>
     </div>

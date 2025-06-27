@@ -14,12 +14,14 @@
     "location": "Atrašanās vieta"
   },
   "telpa": {
-    "paragraph1": "RAA ir uznirstošs norises centrs, kurā regulāri notiek teātra un laikmetīgās mākslas izrādes, izstādes un darbnīcas. Mazs zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
-    "paragraph2": "Raa ir raa. Ja tas būtu kas cits, to nesauktu šādi. Dažās zinātnes nozarēs arguments, kas pierāda apgalvojumu, parādot, ka pretējais noved pie absurduma, tiek saukts par Reductio ad Absurdum, saīsināti arī RAA.",
-    "paragraph3": "Ja Raa būtu radīts 2025. gada 1. jūnijā vai vēlāk, tas nevarētu būt tas, kas tas ir tagad. Turklāt — kurš gan veidotu Raa pēc tam, kad jau ir reģistrēts domēns raa.space?"
+    "paragraph1": "RAA ir pop-up kultūras telpa, kurā regulāri norisinās teatrālas un laikmetīgas performances, ekspozīcijas un darbnīcas. Neliels zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
+    "paragraph2": "RAA ir un paliek RAA. Ja tas būtu kas cits, to sauktu citādi. Reductio ad Absurdum — saīsināti RAA — ir arguments, ko izmanto dažās zinātnes nozarēs. Tas pierāda apgalvojumu par to, ka pretējais noved pie absurda.",
+    "paragraph3": "Ja RAA tiktu izveidots 2025. gada 1. jūnijā vai vēlāk, tas vairs nebūtu tas RAA, kas tas ir šobrīd. Turklāt — kurš izveidotu RAA, ja domēns raa.space jau ir reģistrēts?",
+    "findUsOnInstagram": "Mūs var atrast Instagram: ",
+    "instagram": "@raa_riga"
   },
   "program": {
-    "comingSoon": "Drīzumā",
+    "comingSoon": "Drīz",
     "openingEvent": "Atklāšanas pasākums notiks 11. jūlijā. Tu esi sirsnīgi aicināts. Skaties paziņojumu ",
     "openingEventLink": "Veldze."
   },
