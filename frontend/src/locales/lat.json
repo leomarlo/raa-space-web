@@ -1,6 +1,6 @@
 {
   "title": "IEEJ RAA TELPĀ",
-  "description": "RAA ir uznirstošs norises centrs, kurā regulāri notiek teātra un laikmetīgās mākslas izrādes, izstādes un darbnīcas. Mazs zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
+  "description": "RAA ir pop-up kultūras telpa, kurā regulāri norisinās teatrālas un laikmetīgas performances, ekspozīcijas un darbnīcas. Neliels zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
   "openingNote": "Atvēršana: 2025. gada 11. jūlijā.",
   "enterButton": "IEEJ",
   "menu": {
@@ -16,7 +16,7 @@
   "telpa": {
     "paragraph1": "RAA ir pop-up kultūras telpa, kurā regulāri norisinās teatrālas un laikmetīgas performances, ekspozīcijas un darbnīcas. Neliels zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
     "paragraph2": "RAA ir un paliek RAA. Ja tas būtu kas cits, to sauktu citādi. Reductio ad Absurdum — saīsināti RAA — ir arguments, ko izmanto dažās zinātnes nozarēs. Tas pierāda apgalvojumu par to, ka pretējais noved pie absurda.",
-    "paragraph3": "Ja RAA tiktu izveidots 2025. gada 1. jūnijā vai vēlāk, tas vairs nebūtu tas RAA, kas tas ir šobrīd. Turklāt — kurš izveidotu RAA, ja domēns raa.space jau ir reģistrēts?",
+    "paragraph3": "Ja RAA tiktu izveidots 2025. gada 1. jūnijā vai vēlāk, tas vairs nebūtu tas RAA, kas ir šobrīd. Turklāt — kurš izveidotu RAA, ja domēns raa.space jau ir reģistrēts?",
     "findUsOnInstagram": "Mūs var atrast Instagram: ",
     "instagram": "@raa_riga"
   },
