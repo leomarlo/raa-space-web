@@ -13,7 +13,7 @@ export default function ComingSoon() {
   };
 
   const toggleLabel = locale === 'eng' ? 'Latviski, lūdzu' : 'In British English, please';
-  const toggleBgColor = locale === 'eng' ? '#8B0000' : '#00008B'; // red or blue
+  const toggleBgColor = locale === 'eng' ? '#8B0000' : '#596369'; // red or blue
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
