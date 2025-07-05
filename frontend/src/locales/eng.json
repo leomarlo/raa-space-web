@@ -1,6 +1,6 @@
 {
   "title": "ENTER RAA SPACE",
-  "description": "RAA is a pop-up venue that hosts regular theatrical and contemporary performances, exhibitions and workshops. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
+  "description": "RAA is a cultural space that hosts regular theatrical and contemporary performances, exhibitions and workshops. At RAA you don’t have to be loud to be heard. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
   "openingNote": "We are opening on July 11th, 2025.",
   "enterButton": "ENTER",
   "menu": {
@@ -14,9 +14,8 @@
     "location": "Location"
   },
   "telpa": {
-    "paragraph1": "RAA is a pop-up venue that hosts regular theatrical and contemporary performances, exhibitions and workshops. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
+    "paragraph1": "RAA is a cultural space that hosts regular theatrical and contemporary performances, exhibitions and workshops. At RAA you don’t have to be loud to be heard. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
     "paragraph2": "Raa is raa. If it was something else it wouldn't be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called Reductio ad Absurdum, sometimes also abbreviated to RAA.",
-    "paragraph3": "Had Raa been created on June 1st 2025 or later, it couldn't have been what it is now and besides who would create Raa after registering the domain raa.space?",
     "findUsOnInstagram": "Find us on Instagram: ",
     "instagram": "@raa_riga"
     },
