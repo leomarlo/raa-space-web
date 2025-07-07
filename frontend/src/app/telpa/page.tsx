@@ -23,7 +23,6 @@ export default function TelpaPage() {
         <div className="bg-black/80 p-8 rounded-none max-w-xl text-l space-y-6 text-justify leading-relaxed">
           <p>{t.telpa.paragraph1}</p>
           <p>{t.telpa.paragraph2}</p>
-          <p>{t.telpa.paragraph3}</p>
           {t.telpa.findUsOnInstagram}
           <a href="https://www.instagram.com/raa_riga/" target="_blank" rel="noopener noreferrer" className="underline">
             {t.telpa.instagram}
