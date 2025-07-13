@@ -2,6 +2,7 @@
 
 import { useEffect, useState } from 'react';
 import Menu from '@/components/Menu';
+import { useLanguage } from '@/context/LanguageContext';
 
 const ROWS = 20;
 const COLS = 35;
@@ -17,11 +18,14 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
   const [hovered, setHovered] = useState<[number, number] | null>(null);
   const [activeItem, setActiveItem] = useState<string | null>(initialMenuSelection);
 
-    useEffect(() => {
-    if (!navOpen) {
-        setActiveItem(null);
-    }
-    }, [navOpen]);
+  const { locale, setLocale } = useLanguage();
+
+  useEffect(() => {
+  console.log('navOpen changed to', navOpen, ' in Entrance');  
+  if (!navOpen) {
+      setActiveItem(null);
+  }
+  }, [navOpen]);
 
   const handleClick = (row: number, col: number) => {
     if (row === 1 && col === 1) {
@@ -43,8 +47,28 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
     return null;
   };
 
+
+  const toggleLabel =
+    locale === 'eng' ? 'LATVISKI, LŪDZU' : 'IN BRITISH ENGLISH, PLEASE';
+  const toggleBgColor = locale === 'eng' ? '#8B0000' : '#1E3A8A'; // dark red or dark blue
+
+
   return (
     <>
+          {/* Language Toggle styled like menu items */}
+    <div className="fixed top-6 right-6 z-50">
+      <button
+        onClick={() => setLocale(locale === 'eng' ? 'lat' : 'eng')}
+        className="uppercase font-extrabold text-[#f5f5dc] bg-[#8B0000] px-4 py-2 text-sm sm:text-base pointer-events-auto"
+        style={{
+          backgroundColor: toggleBgColor,
+          border: '2px solid #f5f5dc',
+          borderRadius: '0px',
+        }}
+      >
+        {toggleLabel}
+      </button>
+    </div>
     <div
       className="absolute inset-0 grid"
       style={{
@@ -68,7 +92,7 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
                 if (!isMenuToggle) setHovered(null);
               }}
               className="w-full h-full flex items-center justify-center"
-              style={{ aspectRatio: '1 / 1' }}
+              style={{ aspectRatio: '1 / 1' , position: 'relative' }}
             >
               {isMenuToggle ? (
                 <div className="bg-black p-1 rounded z-30">
@@ -100,8 +124,8 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
     </div>
     <Menu 
         isOpen={navOpen} 
+        setNavOpen={setNavOpen}
         activeItem={activeItem}
-        setActiveItem={setActiveItem}
         itemArrangement={itemArrangement}
     />
     </>
