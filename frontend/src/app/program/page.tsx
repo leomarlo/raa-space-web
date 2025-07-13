@@ -4,10 +4,15 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import ProgramCard from '@/components/ProgramCard'; // ← import the card
+import ProgramItem from '@/types/program';
 
 export default function ProgramPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
+
+  // Use the localized program item
+  const programData: ProgramItem = t.program.items.raaOpening;
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -21,14 +26,9 @@ export default function ProgramPage() {
         navOpen={navOpen}
         setNavOpen={setNavOpen}
       />
-      <div className="absolute inset-0 flex items-center justify-center z-10 pointer-events-none">
-        <div className="bg-black/90 text-[#f5f5dc] text-3xl font-semibold p-8 rounded-none pointer-events-auto text-center">
-          <br />
-          <br />
-          {t.program.openingEvent}
-          <a href="https://www.instagram.com/p/DLUciNyNjXL" target="_blank" rel="noopener noreferrer" className="underline">
-            {t.program.openingEventLink}
-          </a>
+      <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
+        <div className="max-w-3xl w-full">
+          <ProgramCard item={programData} />
         </div>
       </div>
     </div>

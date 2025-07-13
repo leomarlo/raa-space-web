@@ -20,9 +20,21 @@
     "instagram": "@raa_riga"
     },
   "program": {
-    "comingSoon": "Coming soon",
-    "openingEvent": "We are having our opening event on the 11th of July. You are warmly invited. See the announcement on ",
-    "openingEventLink": "Veldze."
+    "items": {
+      "raaOpening": {
+        "id": "1",
+        "title": "R A A opening #1",
+        "image": "/assets/raa-opening/banner.jpg",
+        "shortDescription": "The new interdisciplinary cultural space R A A will open its doors.",
+        "location": "RAA",
+        "when": "Friday 11th of July from 6pm magno cum tempore till 11pm",
+        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
+        "fbLink": "https://fb.me/e/671NSHkww",
+        "registrationLink": "No Registration Needed",
+        "price": "free entry",
+        "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
+      }
+    }
   },
   "register": {
     "title": "REGISTER AT RAA SPACE",
