@@ -6,12 +6,15 @@ import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function TelpaPage() {
-  const [navOpen, setNavOpen] = useState(true);
+  const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
   return (
     <div className="relative w-full h-screen overflow-hidden text-[#f5f5dc]">
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      {navOpen && (
+        <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
+      )}
       <Entrance
         initialMenuSelection={'RAA SPACE'}
         itemArrangement={2}

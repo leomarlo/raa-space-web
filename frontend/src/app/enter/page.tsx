@@ -10,6 +10,9 @@ export default function RaaPage() {
     return (
       <div className="relative w-full h-screen overflow-hidden">
         <RaaHieroglyphMatrix frequency={0} initialState={0} />
+        {navOpen && (
+          <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
+        )}
         <Entrance
           initialMenuSelection={null}
           itemArrangement={1}
