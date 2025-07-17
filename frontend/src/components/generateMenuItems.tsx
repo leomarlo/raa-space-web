@@ -28,8 +28,8 @@ const useGenerateMenuItems = (layoutType: number): Record<string, MenuItem> => {
       route: 'register',
       positions:
         layoutType === 0
-          ? Array.from({ length: 8 }, (_, i): [number, number] => [i + 4, 11])
-          : Array.from({ length: 8 }, (_, i): [number, number] => [7, i + 1]),
+          ? Array.from({ length: 9 }, (_, i): [number, number] => [i + 4, 11])
+          : Array.from({ length: 9 }, (_, i): [number, number] => [7, i + 1]),
     },
     contact: {
       label: t.menu.contact,
@@ -39,13 +39,13 @@ const useGenerateMenuItems = (layoutType: number): Record<string, MenuItem> => {
           ? Array.from({ length: 7 }, (_, i): [number, number] => [13, i + 8])
           : Array.from({ length: 7 }, (_, i): [number, number] => [9, i + 1]),
     },
-    curators: {
-      label: t.menu.curators,
-      route: 'curators',
+    team: {
+      label: t.menu.team,
+      route: 'team',
       positions:
         layoutType === 0
-          ? Array.from({ length: 8 }, (_, i): [number, number] => [i + 9, 17])
-          : Array.from({ length: 8 }, (_, i): [number, number] => [11, i + 1]),
+          ? Array.from({ length: 7 }, (_, i): [number, number] => [i + 9, 17])
+          : Array.from({ length: 7 }, (_, i): [number, number] => [11, i + 1]),
     },
     opening: {
       label: t.menu.opening,

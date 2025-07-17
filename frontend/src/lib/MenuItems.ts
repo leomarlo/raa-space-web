@@ -23,9 +23,9 @@ const MENU_ITEMS: MenuItem[] = [
       positions: Array.from({ length: 7 }, (_, i) => [13, i + 8]), // horizontal at row 13, cols 12–18
     },
     {
-      label: 'Curators',
-      route: 'curators',
-      positions: Array.from({ length: 8 }, (_, i) => [i + 9, 17]), // vertical starting at row 6, col 21
+      label: 'Team',
+      route: 'team',
+      positions: Array.from({ length: 4 }, (_, i) => [i + 9, 17]), // vertical starting at row 6, col 21
     },
   ];
   
@@ -51,9 +51,9 @@ const MENU_ITEMS: MenuItem[] = [
         positions: Array.from({ length: 7 }, (_, i) => [9, i + 1]), // row 9, columns 1–7
       },
       {
-        label: 'Curators',
-        route: 'curators',
-        positions: Array.from({ length: 8 }, (_, i) => [11, i + 1]), // row 11, columns 1–8
+        label: 'Team',
+        route: 'team',
+        positions: Array.from({ length: 4 }, (_, i) => [11, i + 1]), // row 11, columns 1–8
       },
     ];
     
