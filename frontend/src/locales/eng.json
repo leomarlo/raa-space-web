@@ -1,14 +1,16 @@
 {
   "title": "ENTER RAA SPACE",
   "description": "RAA is a cultural space that hosts regular theatrical and contemporary performances, exhibitions and workshops. At RAA you don’t have to be loud to be heard. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
-  "openingNote": "We are opening on July 11th, 2025.",
+  "openingNote": "",
   "enterButton": "ENTER",
+  "more": "More",
+  "less": "Less",
   "menu": {
     "raaSpace": "RAA SPACE",
     "program": "Program",
     "register": "Register",
     "contact": "Contact",
-    "curators": "Curators",
+    "team": "Team",
     "opening": "Opening",
     "members": "Members",
     "location": "Location"
@@ -25,15 +27,60 @@
         "id": "1",
         "title": "R A A opening #1",
         "image": "/assets/raa-opening/banner.jpg",
+        "url": "/events/raa-opening",
         "shortDescription": "The new interdisciplinary cultural space R A A will open its doors.",
         "location": "RAA",
         "when": "Friday 11th of July from 6pm magno cum tempore till 11pm",
         "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
         "fbLink": "https://fb.me/e/671NSHkww",
-        "registrationLink": "No Registration Needed",
+        "registrationLink": "",
         "price": "free entry",
         "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
+      },
+      "tavaasKurpees": {
+        "id": "2",
+        "title": "In Your Shoes",
+        "image": "/assets/tavaas-kurpees/poster.jpg",
+        "url": "/events/tavaas-kurpees",
+        "shortDescription": "We invite you to the group exhibition of young artists “In Your Shoes” at RAA – the newest art space in Riga!",
+        "location": "RAA",
+        "when": "11 July, opening at 19:00. Until 18 July, every day from 16:00 to 19:00",
+        "instaLink": "https://www.instagram.com/p/DLwZ_5LIATU",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "Participating artists: Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nThe exhibition’s diverse artworks are united by their conceptual foundation – each work is based on a reference to another artist’s practice. The scope of references, rooted in each young artist’s individual interests, is wide: the focus of the work may be medium, theme, method, technique, materiality, attitude, or principle.\n\nThe works are a practical exercise and a personal attempt to learn by doing. We learn from each other, and the motivation to learn is natural curiosity, which manifests as interest in one another. To understand oneself, it is important to be aware of one's influences, to identify them, and to appreciate the inspiration provided by peers – as creativity is nothing but a new combination of accumulated knowledge, experience, and skills.\n\nThe exhibition is on view at RAA (@veldze.radosarupnica), Matīsa iela 8, from 12 to 18 July, daily from 16:00 to 19:00.\n\n🥪 On Tuesday, 15 July, join us for a sandwich workshop with Katrīna and Katrīne!\n\nThe exhibition is organized by 3rd-year students of LMA KAS and Maija Kurševa in collaboration with the @raa_riga team.\nSupported by LMA KAS VKN.\nExhibition friend: @sabrs_festival\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
       }
+    }
+  },
+  "team": {
+    "Leonhard": {
+      "id": "team-id-2",
+      "image": "/assets/team/Leo.jpeg",
+      "name": "Leonhard Horstmeyer",
+      "role": "",
+      "description": ""
+    },
+    "Jana": {
+      "id": "team-id-1",
+      "image": "/assets/team/JanaZari.JPG",
+      "name": "Jana Zariņa",
+      "role": "",
+      "description": ""
+    },
+    "Paula": {
+      "id": "team-id-3",
+      "image": "/assets/team/Paula.jpg",
+      "name": "Paula Betija Antenišķe",
+      "role": "",
+      "description": ""
+    },
+    "Helias": {
+      "id": "team-id-4",
+      "image": "/assets/team/Helias.jpeg",
+      "name": "Helias Dzimoulakis",
+      "role": "",
+      "description": ""
     }
   },
   "register": {

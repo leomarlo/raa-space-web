@@ -8,16 +8,18 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
   const [expanded, setExpanded] = useState(false);
 
   return (
-    <div className="border-[3pt] border-white bg-black text-[#f5f5dc] p-6 md:p-8 max-w-3xl w-full mx-auto mb-8">
-      {/* Image */}
+    <div className="border-[3pt] border-black bg-black text-[#f5f5dc] p-6 md:p-8 max-w-3xl w-full mx-auto mb-8">
+      {/* Image on click open / push item.url */}
       <div className="w-full h-64 relative mb-4">
-        <Image
-          src={item.image}
-          alt={item.title}
-          fill
-          loading="lazy"
-          className="object-cover border border-white w-full h-auto"
-        />
+        <a href={item.url} target="_blank" rel="noopener noreferrer">
+          <Image
+            src={item.image}
+            alt={item.title}
+            fill
+            loading="lazy"
+            className="object-cover border border-black w-full h-auto"
+          />
+        </a>
       </div>
 
       {/* Basic Info */}
@@ -26,7 +28,7 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
       <p className="mb-1"><strong>{item.when}</strong></p>
       <p className="mb-4"><strong>{item.price}</strong></p>
 
-      {/* Buttons */}
+      {/* Register should show alert that no need to register */}
       <div className="flex flex-wrap gap-4 mt-4">
         <a
           href={item.registrationLink}
@@ -34,7 +36,7 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
           rel="noopener noreferrer"
           className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
         >
-          Register
+          {item.registrationLink ? 'Register' : 'No Registration Needed'}
         </a>
 
         <button
@@ -47,7 +49,7 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
 
       {/* Expandable Description */}
       {expanded && (
-        <p className="mt-4 text-justify leading-relaxed">
+        <p className="mt-4 text-justify leading-relaxed whitespace-pre-line">
           {item.description}
         </p>
       )}

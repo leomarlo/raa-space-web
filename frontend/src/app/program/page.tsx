@@ -4,15 +4,16 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import ProgramCard from '@/components/ProgramCard'; // ← import the card
+import ProgramCard from '@/components/ProgramCard';
 import ProgramItem from '@/types/program';
 
 export default function ProgramPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
-  // Use the localized program item
-  const programData: ProgramItem = t.program.items.raaOpening;
+  // Convert program.items object to array
+  const programItems: ProgramItem[] = Object.values(t.program.items);
+
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -28,7 +29,9 @@ export default function ProgramPage() {
       />
       <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
         <div className="max-w-3xl w-full">
-          <ProgramCard item={programData} />
+          {programItems.map((item) => (
+            <ProgramCard key={item.id} item={item} />
+          ))}
         </div>
       </div>
     </div>

@@ -3,6 +3,7 @@ interface ProgramItem {
   id: string;
   image: string;
   title: string;
+  url: string;
   location: string;
   shortDescription: string;
   when: string;

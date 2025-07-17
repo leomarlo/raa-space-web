@@ -1,14 +1,16 @@
 {
   "title": "IEEJ RAA TELPĀ",
   "description": "RAA ir kultūras telpa, kurā regulāri norisinās teatrālas un laikmetīgas performances, izstādes un darbnīcas. RAA ir vieta, kurā varēs izteikties tie, kas nerunā skaļi. Neliels zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
-  "openingNote": "Atvēršana: 2025. gada 11. jūlijā.",
+  "openingNote": "",
   "enterButton": "IEEJ",
+  "more": "Vairāk",
+  "less": "Mazāk",
   "menu": {
     "raaSpace": "RAA TELPA",
     "program": "Programma",
     "register": "Reģistrēties",
     "contact": "Kontakti",
-    "curators": "Kuratori",
+    "team": "Komanda",
     "opening": "Atklāšana",
     "members": "Biedri",
     "location": "Atrašanās vieta"
@@ -21,9 +23,66 @@
     "instagram": "@raa_riga"
   },
   "program": {
-    "comingSoon": "Drīz",
-    "openingEvent": "Atklāšanas pasākums notiks 11. jūlijā. Tu esi sirsnīgi aicināts. Skaties paziņojumu ",
-    "openingEventLink": "Veldze."
+    "items": {
+      "raaOpening": {
+        "id": "1",
+        "title": "R A A atklāšana #1",
+        "image": "/assets/raa-opening/banner.jpg",
+        "url": "/events/raa-opening",
+        "shortDescription": "Jaunā starpdisciplinārā kultūrtelpa R A A vērs savas durvis.",
+        "location": "RAA",
+        "when": "Piektdien, 11. jūlijā no plkst. 18.00 magno cum tempore līdz 23.00",
+        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
+        "fbLink": "https://fb.me/e/671NSHkww",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Piektdien, 11. jūlijā pl. 18.00 ver durvis jauna starpdisciplināra kultūrtelpa R A A.\nAtklāšanas vakarā gaidāms: LMA jauno mākslinieku izstāde Maijas Kurševas vadībā, elektroniskā un akustiskā mūzika, telpu izzināšana, sarunas ar atspirdzinošiem dzērieniem, kā arī kultūrtelpas veidotāju teatrāls priekšnesums, ar ko R A A iesāks savu teatrālo darbību.\n\nR A A atklāšana #1\n\nProgramma\n\n18.00 R A A atklāšana magno cum tempore (Dj Meile @esmeile)\n19.00 LMA KAS (@kustiba_attels_skana) jauno mākslinieku izstādes “Tavās kurpēs” atklāšana (festivāla SĀBRS ietvaros; Maijas Kurševas (@maija_kurseva) organizēta)\n20.00 Muzikālā performance (Katrīna Kovaļuka @lilmjaumjau, Ēriks Frišenfelds)\n21.00 Teatrālā atklāšana\n22.00 Dzīvā skaņa"
+      },
+      "tavaasKurpees": {
+        "id": "2",
+        "title": "Tavās Kurpēs",
+        "image": "/assets/tavaas-kurpees/poster.jpg",
+        "url": "/events/tavaas-kurpees",
+        "shortDescription": "Aicinām uz jauno mākslinieku grupas izstādi “Tavās kurpēs” jaunākajā Rīgas mākslas telpā RAA!",
+        "location": "RAA",
+        "when": "11. jūlijs, atklāšana plkst. 19.00. Līdz 18. jūlijam katru dienu no 16.00 līdz 19.00",
+        "instaLink": "https://www.instagram.com/p/DLwZ_5LIATU",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Izstādē piedalās Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nIzstādes daudzveidīgos darbus vieno to veidošanas koncepcija, proti, katra darba pamatā ir atsauce uz kāda cita mākslinieka praksi. Atsauču lietojuma spektrs, balstīts katra jaunā mākslinieka individuālajās interesēs, arī ir plašs – darba fokuss var būt medijs, tēma, metode, tehnika, materialitāte, attieksme vai princips.\n\nIzstādes darbi ir praktisks vingrinājums un individuāls mēģinājums mācīties darot. Mēs mācāmies viens no otra, un motivācija mācīties ir dabiska ziņkārība, kas izpaužas kā interese vienam par otru. Lai zinātu sevi, ir svarīgi apzināties savas ietekmes, identificēt tās un novērtēt iedvesmu, ko sniedz līdzcilvēki, jo jaunrade ir nekas cits kā vien uzkrāto zināšanu, pieredzes un prasmju jauna kombinācija.\n\nIzstāde skatāma RAA telpā @veldze.radosarupnica, Matīsa ielā 8 no 12. līdz 18. jūlijam katru dienu no 16.00 līdz 19.00.\n\n🥪 Otrdien, 15. jūlijā gaidīsim jūs uz sviestmaižu vorkšopu ar Katrīni un Katrīnu!\n\nIzstādi organizē LMA KAS 3. kursa studenti un Maija Kurševa sadarbībā ar @raa_riga komandu.\nIzstādi atbalsta LMA KAS VKN.\nIzstādes draugs @sabrs_festival.\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
+      }
+    }
+  },
+  "team": {
+    "Leonhard": {
+      "id": "team-id-1",
+      "image": "/assets/team/Leo.jpeg",
+      "name": "Leonhard Horstmeyer",
+      "role": "",
+      "description": ""
+    },
+    "Jana": {
+      "id": "team-id-2",
+      "image": "/assets/team/JanaZari.JPG",
+      "name": "Jana Zariņa",
+      "role": "",
+      "description": ""
+    },
+    "Paula": {
+      "id": "team-id-3",
+      "image": "/assets/team/Paula.jpg",
+      "name": "Paula Betija Antenišķe",
+      "role": "",
+      "description": ""
+    },
+    "Helias": {
+      "id": "team-id-4",
+      "image": "/assets/team/Helias.jpeg",
+      "name": "Helias Dzimoulakis",
+      "role": "",
+      "description": ""
+    }
   },
   "register": {
     "title": "REĢISTRĒJIES RAA TELPĀ",
