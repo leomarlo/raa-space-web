@@ -5,11 +5,11 @@ import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function TavaasKurpeesPage() {
+export default function FireExhibitionPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage(); // Access localized text
 
-  const event = t.program.items.tavaasKurpees; // Shortcut
+  const event = t.program.items.fireExhibition; // Shortcut
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -34,17 +34,9 @@ export default function TavaasKurpeesPage() {
           </h1>
 
           {/* Event Description */}
-          <div className="text-justify leading-relaxed whitespace-pre-line mb-8">
+          <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
-
-          {/* PDF iframe */}
-          <iframe
-            src="/assets/tavaas-kurpees/TavaasKurpees.pdf"
-            className="w-full h-[600px] border border-[#8B0000] rounded-md"
-            title={`${event.title} PDF`}
-          ></iframe>
-          <br />
         </div>
       </div>
     </div>

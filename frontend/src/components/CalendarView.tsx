@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useRef, useEffect } from 'react';
-import { ProgramItem, CalendarViewProps } from '@/types/program';
+import { CalendarViewProps, Translations } from '@/types/program';
 import { useLanguage } from '@/context/LanguageContext';
 
 const calendarColors = [
@@ -27,8 +27,9 @@ function hexToRgba(hex: string, opacity: number): string {
   return `rgba(${r}, ${g}, ${b}, ${opacity})`;
 }
 
+
 // Translate day name to localized label
-function getDayLabel(dayName: string, t: any): string {
+function getDayLabel(dayName: string, t: Translations): string {
   const fallback = dayName.slice(0, 3).toUpperCase();
   switch (dayName) {
     case 'monday': return t.days.monday.abbr || fallback;
@@ -42,7 +43,31 @@ function getDayLabel(dayName: string, t: any): string {
   }
 }
 
-export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewProps) {
+function getMonthLabel(monthIndex: number, t: Translations): string {
+  const fallback = [
+    'JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN',
+    'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'
+  ][monthIndex];
+
+  switch (monthIndex) {
+    case 1: return t.months.january.name || fallback;
+    case 2: return t.months.february.name || fallback;
+    case 3: return t.months.march.name || fallback;
+    case 4: return t.months.april.name || fallback;
+    case 5: return t.months.may.name || fallback;
+    case 6: return t.months.june.name || fallback;
+    case 7: return t.months.july.name || fallback;
+    case 8: return t.months.august.name || fallback;
+    case 9: return t.months.september.name || fallback;
+    case 10: return t.months.october.name || fallback;
+    case 11: return t.months.november.name || fallback;
+    case 12: return t.months.december.name || fallback;
+    default: return fallback;
+  }
+}
+
+
+export default function CalendarView({ items, startDate, endDate, cellOpacity = 0.4 }: CalendarViewProps) {
   const today = new Date().toISOString().split('T')[0];
   const todayRef = useRef<HTMLDivElement | null>(null);
   const { t } = useLanguage();
@@ -55,10 +80,6 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
 
   const formatDate = (date: Date) => date.toISOString().split('T')[0];
 
-  // Calendar range: May 1st - October 1st, 2025
-  const startDate = new Date('2025-07-01T00:00:00Z');
-  const endDate = new Date('2025-08-01T23:59:59Z');
-
   const days: {
     date: string;
     month: string;
@@ -69,10 +90,11 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
 
   for (let d = new Date(startDate); d <= endDate; d.setDate(d.getDate() + 1)) {
     const monthIndex = d.getMonth() + 1; // May = 5
+    const monthLabel = getMonthLabel(monthIndex, t);
     const dayOfWeek = d.toLocaleDateString('en-US', { weekday: 'long' }).toLowerCase();
     days.push({
       date: formatDate(d),
-      month: d.toLocaleString('default', { month: 'long' }).toUpperCase(),
+      month: monthLabel,
       monthIndex,
       events: [],
       dayName: dayOfWeek
@@ -100,12 +122,9 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
   });
 
 
-  console.log(days);
-
-
   return (
     <div className="p-4">
-      <div className="grid [grid-template-columns:repeat(auto-fill,minmax(120px,1fr))]">
+      <div className="grid [grid-template-columns:repeat(auto-fill,minmax(120px,1fr))] gap-[4px]">
         {days.map((day, index) => {
           const isToday = day.date === today;
           const dayNumber = new Date(day.date).getDate();
@@ -116,8 +135,8 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
             <div
               key={index}
               ref={isToday ? todayRef : null}
-              className="relative aspect-[4/3] border border-[#8B0000] overflow-hidden"
-              style={{ backgroundColor: hexToRgba(cellColor, cellOpacity) }}
+              className="relative aspect-[3/4] border border-[#8B0000] overflow-hidden"
+              style={{ backgroundColor: hexToRgba(cellColor, isToday ? 0.9 : cellOpacity) }}
             >
               {/* Top-left: Day abbreviation */}
               <div className="absolute top-0 left-0 z-10 bg-[#8B0000] text-white text-xs px-1 border border-[#8B0000]">
@@ -128,6 +147,13 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
               <div className="absolute top-0 right-0 z-10 bg-[#8B0000] text-white text-xs px-1 border border-[#8B0000]">
                 {dayNumber}
               </div>
+
+              {/* Bottom bar: Today label only on today */}
+              {isToday && (
+                <div className="absolute bottom-0 left-0 right-0 z-10 bg-[#8B0000] text-white text-xs text-center border-t border-[#8B0000]">
+                  {t.today}
+                </div>
+              )}
   
               {/* Events */}
               {day.events.length > 0 ? (
@@ -138,9 +164,7 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
                   {day.events.map((event) => (
                     <a
                       key={event.id}
-                      href={event.url}
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href={event.url} // Opens in the same window
                       className="relative w-full h-full"
                     >
                       {/* Event image */}
@@ -148,14 +172,16 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
                         src={event.image}
                         alt={event.title}
                         fill
-                        className="object-cover z-0"
+                        className="object-cover w-full h-full z-0"
                       />
-                      {/* Event title */}
-                      <div className="absolute inset-0 flex items-center justify-center z-20">
-                        <span className="text-black font-bold text-center text-xs">
-                          {event.title}
-                        </span>
-                      </div>
+                      {/* Event title ... make the colour of the font black if showTextOverThumbnail = 1 and white if showTextOverThumbnail = 2*/}
+                      {event.showTextOverThumbnail!==0 && (
+                        <div className="absolute inset-0 flex items-center justify-center z-20">
+                          <span className={`font-bold text-center text-xs ${event.showTextOverThumbnail === 1 ? 'text-black' : 'text-white'}`}>
+                            {event.title}
+                          </span>
+                        </div>
+                      )}
                     </a>
                   ))}
                 </div>
@@ -165,6 +191,7 @@ export default function CalendarView({ items, cellOpacity = 0.4 }: CalendarViewP
                   {day.month}
                 </div>
               )}
+
             </div>
           );
         })}

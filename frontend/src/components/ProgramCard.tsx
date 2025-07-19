@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import type ProgramItem from '@/types/program';
+import { ProgramItem } from '@/types/program';
 
 export default function ProgramCard({ item }: { item: ProgramItem }) {
   const [expanded, setExpanded] = useState(false);
