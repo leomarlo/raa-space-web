@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import { useRef, useEffect } from 'react';
-import { CalendarViewProps, Translations } from '@/types/program';
+import { CalendarViewProps, Translations, ProgramItem } from '@/types/program';
 import { useLanguage } from '@/context/LanguageContext';
 
 const calendarColors = [
