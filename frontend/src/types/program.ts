@@ -4,6 +4,9 @@ interface ProgramItem {
   image: string;
   title: string;
   url: string;
+  startDate: string;
+  endDate: string;
+  color: string;
   location: string;
   shortDescription: string;
   when: string;
@@ -14,4 +17,10 @@ interface ProgramItem {
   description: string;
 }
 
-export default ProgramItem;
+type CalendarViewProps = {
+  items: ProgramItem[];
+  cellOpacity?: number;
+};
+
+// export ProgramItem and CalendarViewProps
+export type { ProgramItem, CalendarViewProps };
