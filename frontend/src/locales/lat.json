@@ -5,6 +5,7 @@
   "enterButton": "IEEJ",
   "more": "Vairāk",
   "less": "Mazāk",
+  "today": "Šodien",
   "menu": {
     "raaSpace": "RAA TELPA",
     "program": "Programma",
@@ -15,6 +16,90 @@
     "members": "Biedri",
     "location": "Atrašanās vieta"
   },
+  "calendarToggle": {
+    "list": "Saraksts",
+    "calendar": "Kalendārs"
+  },
+  "days": {
+    "monday": {
+      "abbr": "PIR",
+      "name": "Pirmdiena"
+    },
+    "tuesday": {
+      "abbr": "OTR",
+      "name": "Otrdiena"
+    },
+    "wednesday": {
+      "abbr": "TRE",
+      "name": "Trešdiena"
+    },
+    "thursday": {
+      "abbr": "CET",
+      "name": "Ceturtdiena"
+    },
+    "friday": {
+      "abbr": "PIE",
+      "name": "Piektdiena"
+    },
+    "saturday": {
+      "abbr": "SST",
+      "name": "Sestdiena"
+    },
+    "sunday": {
+      "abbr": "SVT",
+      "name": "Svētdiena"
+    }
+  },
+  "months": {
+    "january": {
+      "name": "Janvāris",
+      "abbr": "Jan"
+    },
+    "february": {
+      "name": "Februāris",
+      "abbr": "Feb"
+    },
+    "march": {
+      "name": "Marts",
+      "abbr": "Mar"
+    },
+    "april": {
+      "name": "Aprīlis",
+      "abbr": "Apr"
+    },
+    "may": {
+      "name": "Maijs",
+      "abbr": "Mai"
+    },
+    "june": {
+      "name": "Jūnijs",
+      "abbr": "Jun"
+    },
+    "july": {
+      "name": "Jūlijs",
+      "abbr": "Jul"
+    },
+    "august": {
+      "name": "Augusts",
+      "abbr": "Aug"
+    },
+    "september": {
+      "name": "Septembris",
+      "abbr": "Sep"
+    },
+    "october": {
+      "name": "Oktobris",
+      "abbr": "Okt"
+    },
+    "november": {
+      "name": "Novembris",
+      "abbr": "Nov"
+    },
+    "december": {
+      "name": "Decembris",
+      "abbr": "Dec"
+    }
+  },
   "telpa": {
     "paragraph1": "RAA ir kultūras telpa, kurā regulāri norisinās teatrālas un laikmetīgas performances, izstādes un darbnīcas. RAA ir vieta, kurā varēs izteikties tie, kas nerunā skaļi. Neliels zāļu veikals piedāvā iespēju sajust Latvijas mežu pašā Rīgas centrā.",
     "paragraph2": "RAA ir un paliek RAA. Ja tas būtu kas cits, to sauktu citādi. Reductio ad Absurdum — saīsināti RAA — ir arguments, ko izmanto dažās zinātnes nozarēs. Tas pierāda apgalvojumu par to, ka pretējais noved pie absurda.",
@@ -24,25 +109,110 @@
   },
   "program": {
     "items": {
-      "raaOpening": {
-        "id": "1",
-        "title": "R A A atklāšana #1",
-        "image": "/assets/raa-opening/banner.jpg",
-        "url": "/events/raa-opening",
-        "shortDescription": "Jaunā starpdisciplinārā kultūrtelpa R A A vērs savas durvis.",
+      "fireWorkshop": {
+        "id": "6",
+        "title": "Uguns darbnīca ar Arti Raitumu",
+        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "url": "/events/fire-workshop",
+        "startDate": "2025-08-02T18:00:00Z",
+        "endDate": "2025-08-03T18:00:00Z",
+        "color": "5",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "Arte Raituma iepazīstinās dalībniekus ar uguns pārveidojošo spēku un eksperimentālu koka dedzināšanas tehniku.",
         "location": "RAA",
-        "when": "Piektdien, 11. jūlijā no plkst. 18.00 magno cum tempore līdz 23.00",
-        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
-        "fbLink": "https://fb.me/e/671NSHkww",
+        "when": "2.–3. augusts, sākot no 18:00",
+        "instaLink": "",
+        "fbLink": "",
         "registrationLink": "",
         "price": "ieeja bez maksas",
-        "description": "Piektdien, 11. jūlijā pl. 18.00 ver durvis jauna starpdisciplināra kultūrtelpa R A A.\nAtklāšanas vakarā gaidāms: LMA jauno mākslinieku izstāde Maijas Kurševas vadībā, elektroniskā un akustiskā mūzika, telpu izzināšana, sarunas ar atspirdzinošiem dzērieniem, kā arī kultūrtelpas veidotāju teatrāls priekšnesums, ar ko R A A iesāks savu teatrālo darbību.\n\nR A A atklāšana #1\n\nProgramma\n\n18.00 R A A atklāšana magno cum tempore (Dj Meile @esmeile)\n19.00 LMA KAS (@kustiba_attels_skana) jauno mākslinieku izstādes “Tavās kurpēs” atklāšana (festivāla SĀBRS ietvaros; Maijas Kurševas (@maija_kurseva) organizēta)\n20.00 Muzikālā performance (Katrīna Kovaļuka @lilmjaumjau, Ēriks Frišenfelds)\n21.00 Teatrālā atklāšana\n22.00 Dzīvā skaņa"
+        "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas.\n\nGalvenie materiāli:\n• saplāksnis (apaļš vai kvadrātveida, max. 30x30 cm, parasti 2 gab. uz cilvēku)\n• garās sērkociņu kastes\n• sveces\n• caurspīdīgs matu laka (zīmējuma fiksēšanai uz virsmas)\n• papīra lente\n• vienkāršs papīrs un zīmējamie zīmuļi (priekšizpētes skicēm)\n• pirogrāfijas instruments"
       },
+
+      "fireExhibition": {
+        "id": "7",
+        "title": "Uguns darbnīcas izstāde",
+        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "url": "/events/fire-exhibition",
+        "startDate": "2025-08-04T18:00:00Z",
+        "endDate": "2025-08-06T18:00:00Z",
+        "color": "6",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "Izstāde ar darbiem, kas tapuši Arte Raitumas uguns darbnīcā.",
+        "location": "RAA",
+        "when": "4.–6. augusts, sākot no 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Izstāde, kurā apskatāmi darbi, kas radīti Arte Raitumas vadītajā uguns darbnīcā. Atklāj unikālus darbus, kas ataino uguns un koka mijiedarbību, iemūžinot atmiņu un pārmaiņu sajūtu."
+      },
+
+      "theatreOpening": {
+        "id": "5",
+        "title": "RAA teātra atklāšana",
+        "image": "/assets/theatre-opening/prelim-poster.jpeg",
+        "url": "/events/theatre-opening",
+        "startDate": "2025-08-01T18:00:00Z",
+        "endDate": "2025-08-01T21:00:00Z",
+        "color": "4",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "RAA teātra atklāšana.",
+        "location": "RAA",
+        "when": "1. augusts, no plkst. 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Pievienojies RAA teātra oficiālajai atklāšanai 1. augustā."
+      },
+
+      "typewriterMuseum": {
+        "id": "4",
+        "title": "Rakstāmmašīnu izstāde",
+        "image": "/assets/typewriter-museum/poster.jpg",
+        "url": "/events/typewriter-museum",
+        "startDate": "2025-07-24T19:00:00Z",
+        "endDate": "2025-07-26T19:00:00Z",
+        "color": "3",
+        "showTextOverThumbnail": 0,
+        "shortDescription": "Tikai četras dienas RAA kultūrtelpā: izpēti 20. gadsimta rakstāmmašīnu kolekciju un uzraksti ko savu uz divām autentiskām rakstāmmašīnām.",
+        "location": "RAA",
+        "when": "24.–27. jūlijs, no plkst. 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Tikai četras dienas, no 24. jūlija 19.00 līdz 27. jūlija 19.00, Tev ir iespēja iegremdēties pagātnēs laikos, kad stāsti tapa ar taustiņu pieskārienu un tintes triepienu RAA kultūrtelpā, Radošā rūpnīcā Veldze.\n\nIzstāde apvieno rūpīgi atlasītu 20. gadsimta rakstāmmašīnu kolekciju no vairākām pasaules valstīm – Vācijas, ASV, Zviedrijas un Itālijas. No agrīna art-noveau dizaina līdz modernismam — izpēti, kā rakstāmmašīnas attīstījās gan kā ikdienas rīki, gan kā nozīmīgi kultūras simboli.\n\n• Vēsturiskas rakstāmmašīnas no vairākām valstīm;\n• Ieskats to dizaina attīstībā gadsimta garumā;\n• Iespēja pašiem izmēģināt divas rakstāmmašīnas un uzrakstīt ko savu.\n\nJa esi rakstnieks, dizaina cienītājs, tehnikas entuziasts vai vienkārši vēlies sajust analogās pasaules ritmu — nāc ciemos! Nospied taustiņu. Atstāj nospiedumu. Iepazīsti mašīnas, kas rakstīja vēsturi."
+      },
+
+      "dzejasSinusoida": {
+        "id": "3",
+        "title": "Dzejas: Sinusoīda",
+        "image": "/assets/dzejas-sinusoiida/poster.jpg",
+        "url": "/events/dzejas-sinusoiida",
+        "startDate": "2025-07-27T17:00:00Z",
+        "endDate": "2025-07-27T23:00:00Z",
+        "color": "2",
+        "showTextOverThumbnail": 0,
+        "shortDescription": "Dzejas entuziastu grupas “Sintakses stupors” dzejas ilg-lasījums ar negaidītiem pavērsieniem, muzikālo atmosfēru nodrošinās Dabsolis un Kaspars Sils.",
+        "location": "RAA",
+        "when": "27. jūlijs, no 17:00 līdz 23:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Dzejas entuziastu grupas “Sintakses stupors” dzejas ilg-lasījums ar negaidītiem pavērsieniem.\n\nDalībnieki:\nLaima Ābele, Andris Alps, Valts Kleins, Kristīne Juckoviča, Zane Brūvere-Kvēpa, Mārīte Atēna, Elza Dobičina, Ilze Kuzmicka, Dita Putniņa, Aļesja Loseva, Arnolds Ščuckis, Pauls Kauķis, Meldra Ķemere, Linda Tīmane, Marta Veismane, Elīna Līce un citi.\n\nMuzikālo atmosfēru nodrošinās Dabsolis un Kaspars Sils.\n\nP.S. Pasākuma laikā būs pieejams brīvais mikrofons."
+      },
+
       "tavaasKurpees": {
         "id": "2",
         "title": "Tavās Kurpēs",
         "image": "/assets/tavaas-kurpees/poster.jpg",
         "url": "/events/tavaas-kurpees",
+        "startDate": "2025-07-11T19:00:00Z",
+        "endDate": "2025-07-18T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
         "shortDescription": "Aicinām uz jauno mākslinieku grupas izstādi “Tavās kurpēs” jaunākajā Rīgas mākslas telpā RAA!",
         "location": "RAA",
         "when": "11. jūlijs, atklāšana plkst. 19.00. Līdz 18. jūlijam katru dienu no 16.00 līdz 19.00",
@@ -51,6 +221,24 @@
         "registrationLink": "",
         "price": "ieeja bez maksas",
         "description": "Izstādē piedalās Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nIzstādes daudzveidīgos darbus vieno to veidošanas koncepcija, proti, katra darba pamatā ir atsauce uz kāda cita mākslinieka praksi. Atsauču lietojuma spektrs, balstīts katra jaunā mākslinieka individuālajās interesēs, arī ir plašs – darba fokuss var būt medijs, tēma, metode, tehnika, materialitāte, attieksme vai princips.\n\nIzstādes darbi ir praktisks vingrinājums un individuāls mēģinājums mācīties darot. Mēs mācāmies viens no otra, un motivācija mācīties ir dabiska ziņkārība, kas izpaužas kā interese vienam par otru. Lai zinātu sevi, ir svarīgi apzināties savas ietekmes, identificēt tās un novērtēt iedvesmu, ko sniedz līdzcilvēki, jo jaunrade ir nekas cits kā vien uzkrāto zināšanu, pieredzes un prasmju jauna kombinācija.\n\nIzstāde skatāma RAA telpā @veldze.radosarupnica, Matīsa ielā 8 no 12. līdz 18. jūlijam katru dienu no 16.00 līdz 19.00.\n\n🥪 Otrdien, 15. jūlijā gaidīsim jūs uz sviestmaižu vorkšopu ar Katrīni un Katrīnu!\n\nIzstādi organizē LMA KAS 3. kursa studenti un Maija Kurševa sadarbībā ar @raa_riga komandu.\nIzstādi atbalsta LMA KAS VKN.\nIzstādes draugs @sabrs_festival.\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
+      },
+      "raaOpening": {
+        "id": "1",
+        "title": "R A A atklāšana #1",
+        "image": "/assets/raa-opening/banner-opening.jpeg",
+        "url": "/events/raa-opening",
+        "startDate": "2025-07-11T18:00:00Z",
+        "endDate": "2025-07-11T23:00:00Z",
+        "color": "2",
+        "showTextOverThumbnail": 1,
+        "shortDescription": "Jaunā starpdisciplinārā kultūrtelpa R A A vērs savas durvis.",
+        "location": "RAA",
+        "when": "Piektdien, 11. jūlijā no plkst. 18.00 magno cum tempore līdz 23.00",
+        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
+        "fbLink": "https://fb.me/e/671NSHkww",
+        "registrationLink": "",
+        "price": "ieeja bez maksas",
+        "description": "Piektdien, 11. jūlijā pl. 18.00 ver durvis jauna starpdisciplināra kultūrtelpa R A A.\nAtklāšanas vakarā gaidāms: LMA jauno mākslinieku izstāde Maijas Kurševas vadībā, elektroniskā un akustiskā mūzika, telpu izzināšana, sarunas ar atspirdzinošiem dzērieniem, kā arī kultūrtelpas veidotāju teatrāls priekšnesums, ar ko R A A iesāks savu teatrālo darbību.\n\nR A A atklāšana #1\n\nProgramma\n\n18.00 R A A atklāšana magno cum tempore (Dj Meile @esmeile)\n19.00 LMA KAS (@kustiba_attels_skana) jauno mākslinieku izstādes “Tavās kurpēs” atklāšana (festivāla SĀBRS ietvaros; Maijas Kurševas (@maija_kurseva) organizēta)\n20.00 Muzikālā performance (Katrīna Kovaļuka @lilmjaumjau, Ēriks Frišenfelds)\n21.00 Teatrālā atklāšana\n22.00 Dzīvā skaņa"
       }
     }
   },
@@ -64,7 +252,7 @@
     },
     "Jana": {
       "id": "team-id-2",
-      "image": "/assets/team/JanaZari.JPG",
+      "image": "/assets/team/JanaZarina.JPG",
       "name": "Jana Zariņa",
       "role": "",
       "description": ""
@@ -78,7 +266,7 @@
     },
     "Helias": {
       "id": "team-id-4",
-      "image": "/assets/team/Helias.jpeg",
+      "image": "/assets/team/HeliasD.jpg",
       "name": "Helias Dzimoulakis",
       "role": "",
       "description": ""

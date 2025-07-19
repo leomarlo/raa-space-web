@@ -5,6 +5,7 @@
   "enterButton": "ENTER",
   "more": "More",
   "less": "Less",
+  "today": "Today",
   "menu": {
     "raaSpace": "RAA SPACE",
     "program": "Program",
@@ -15,6 +16,90 @@
     "members": "Members",
     "location": "Location"
   },
+  "calendarToggle": {
+    "list": "List",
+    "calendar": "Calendar"
+  },
+  "days": {
+    "monday": {
+      "abbr": "MO",
+      "name": "Monday"
+    },
+    "tuesday": {
+      "abbr": "TU",
+      "name": "Tuesday"
+    },
+    "wednesday": {
+      "abbr": "WE",
+      "name": "Wednesday"
+    },
+    "thursday": {
+      "abbr": "TH",
+      "name": "Thursday"
+    },
+    "friday": {
+      "abbr": "FR",
+      "name": "Friday"
+    },
+    "saturday": {
+      "abbr": "SA",
+      "name": "Saturday"
+    },
+    "sunday": {
+      "abbr": "SU",
+      "name": "Sunday"
+    }
+  },
+  "months": {
+    "january": {
+      "name": "January",
+      "abbr": "Jan"
+    },
+    "february": {
+      "name": "February",
+      "abbr": "Feb"
+    },
+    "march": {
+      "name": "March",
+      "abbr": "Mar"
+    },
+    "april": {
+      "name": "April",
+      "abbr": "Apr"
+    },
+    "may": {
+      "name": "May",
+      "abbr": "May"
+    },
+    "june": {
+      "name": "June",
+      "abbr": "Jun"
+    },
+    "july": {
+      "name": "July",
+      "abbr": "Jul"
+    },
+    "august": {
+      "name": "August",
+      "abbr": "Aug"
+    },
+    "september": {
+      "name": "September",
+      "abbr": "Sep"
+    },
+    "october": {
+      "name": "October",
+      "abbr": "Oct"
+    },
+    "november": {
+      "name": "November",
+      "abbr": "Nov"
+    },
+    "december": {
+      "name": "December",
+      "abbr": "Dec"
+    }
+  },
   "telpa": {
     "paragraph1": "RAA is a cultural space that hosts regular theatrical and contemporary performances, exhibitions and workshops. At RAA you don’t have to be loud to be heard. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
     "paragraph2": "Raa is raa. If it was something else it wouldn't be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called Reductio ad Absurdum, sometimes also abbreviated to RAA.",
@@ -23,25 +108,106 @@
     },
   "program": {
     "items": {
-      "raaOpening": {
-        "id": "1",
-        "title": "R A A opening #1",
-        "image": "/assets/raa-opening/banner.jpg",
-        "url": "/events/raa-opening",
-        "shortDescription": "The new interdisciplinary cultural space R A A will open its doors.",
+      "fireWorkshop": {
+        "id": "6",
+        "title": "Fire Workshop with Arte Raituma",
+        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "url": "/events/fire-workshop",
+        "startDate": "2025-08-02T18:00:00Z",
+        "endDate": "2025-08-03T18:00:00Z",
+        "color": "5",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "Arte Raituma introduces participants to the transformative element of fire through an experimental wood-burning technique.",
         "location": "RAA",
-        "when": "Friday 11th of July from 6pm magno cum tempore till 11pm",
-        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
-        "fbLink": "https://fb.me/e/671NSHkww",
+        "when": "2–3 August, starting from 18:00",
+        "instaLink": "",
+        "fbLink": "",
         "registrationLink": "",
         "price": "free entry",
-        "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
+        "description": "Fire is an element of transformation, refining what it encounters. The artist will introduce participants to this playful and seductive element that is the core principle of her artistic practice.\n\nParticipants are invited to learn an experimentally developed wood burning technique that creates a hazy, nuanced visual effect using the symbiosis of flame and wooden surface. The poetic contradiction between fire and wood suggests a memory of landscape, hence people are invited to explore their ‘inner landscapes’, to learn a natural and self-empowering expression as well as get to know more about sustainable art approaches.\n\nAll materials for the workshop are provided. The workshop is suitable for people without any previous knowledge in visual arts as well as art students or professional artists who would like to expand their skills and possibly implement new techniques in their own practice.\n\nThe length of the workshop is around 2.5 hours.\n\nMain materials:\n• plywood (round or square, max. 30x30 cm, usually 2 pieces per person)\n• long matches\n• candles\n• transparent hair spray (to fix the ‘drawing’ on the surface)\n• paper tape\n• simple paper and drawing pencils (for preliminary sketches)\n• pyrography tool"
+      },
+
+      "fireExhibition": {
+        "id": "7",
+        "title": "Fire Workshop Exhibition",
+        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "url": "/events/fire-exhibition",
+        "startDate": "2025-08-04T18:00:00Z",
+        "endDate": "2025-08-06T18:00:00Z",
+        "color": "6",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "An exhibition showcasing artworks created during Arte Raituma's fire workshop.",
+        "location": "RAA",
+        "when": "4–6 August, starting from 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "An exhibition featuring works created during Arte Raituma’s fire workshop. Explore unique wood-burned artworks that reflect the interplay of fire and surface, capturing memory and transformation."
+      },
+      "theatreOpening": {
+        "id": "5",
+        "title": "RAA Theatre Opening",
+        "image": "/assets/theatre-opening/prelim-poster.jpeg",
+        "url": "/events/theatre-opening",
+        "startDate": "2025-08-01T18:00:00Z",
+        "endDate": "2025-08-01T21:00:00Z",
+        "color": "4",
+        "showTextOverThumbnail": 2,
+        "shortDescription": "Opening of the RAA Theatre.",
+        "location": "RAA",
+        "when": "August 1, from 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "Join us for the official opening of the RAA Theatre on August 1."
+      },
+      "typewriterMuseum": {
+        "id": "4",
+        "title": "Typewriter Exhibition",
+        "image": "/assets/typewriter-museum/poster.jpg",
+        "url": "/events/typewriter-museum",
+        "startDate": "2025-07-24T19:00:00Z",
+        "endDate": "2025-07-26T19:00:00Z",
+        "color": "3",
+        "showTextOverThumbnail": 0,
+        "shortDescription": "Only four days at RAA: explore the 20th-century typewriter collection and try typing on two authentic typewriters.",
+        "location": "RAA",
+        "when": "July 24–27, from 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "For only four days, from July 24 at 19:00 until July 27 at 19:00, you have the chance to immerse yourself in the past, when stories were created with a keystroke and a stroke of ink at the RAA cultural space, Creative Workshop Veldze.\n\nThe exhibition features a carefully curated collection of 20th-century typewriters from several countries – Germany, USA, Sweden, and Italy. From early Art Nouveau designs to Modernism — explore how typewriters evolved both as everyday tools and as significant cultural symbols.\n\n• Historic typewriters from several countries;\n• Insights into the design evolution over a century;\n• A chance to try two typewriters yourself and write something of your own.\n\nIf you are a writer, design lover, technology enthusiast, or simply want to feel the rhythm of the analog world — come visit! Press a key. Leave an imprint. Discover the machines that wrote history."
+      },
+      "dzejasSinusoida": {
+        "id": "3",
+        "title": "Poetry: Sinusoid",
+        "image": "/assets/dzejas-sinusoiida/poster.jpg",
+        "url": "/events/dzejas-sinusoiida",
+        "startDate": "2025-07-27T17:00:00Z",
+        "endDate": "2025-07-27T23:00:00Z",
+        "color": "2",
+        "showTextOverThumbnail": 0,
+        "shortDescription": "A poetry marathon with unexpected twists by the group “Syntax Stupor,” with music by Dabsolis and Kaspars Sils.",
+        "location": "RAA",
+        "when": "July 27, from 17:00 to 23:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "A poetry marathon with unexpected twists by the poetry enthusiasts’ group “Syntax Stupor.”\n\nParticipants:\nLaima Ābele, Andris Alps, Valts Kleins, Kristīne Juckoviča, Zane Brūvere-Kvēpa, Mārīte Atēna, Elza Dobičina, Ilze Kuzmicka, Dita Putniņa, Aļesja Loseva, Arnolds Ščuckis, Pauls Kauķis, Meldra Ķemere, Linda Tīmane, Marta Veismane, Elīna Līce and others.\n\nThe musical atmosphere will be provided by Dabsolis and Kaspars Sils.\n\nP.S. An open microphone will be available during the event."
       },
       "tavaasKurpees": {
         "id": "2",
         "title": "In Your Shoes",
         "image": "/assets/tavaas-kurpees/poster.jpg",
         "url": "/events/tavaas-kurpees",
+        "startDate": "2025-07-11T19:00:00Z",
+        "endDate": "2025-07-18T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
         "shortDescription": "We invite you to the group exhibition of young artists “In Your Shoes” at RAA – the newest art space in Riga!",
         "location": "RAA",
         "when": "11 July, opening at 19:00. Until 18 July, every day from 16:00 to 19:00",
@@ -50,6 +216,24 @@
         "registrationLink": "",
         "price": "free entry",
         "description": "Participating artists: Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nThe exhibition’s diverse artworks are united by their conceptual foundation – each work is based on a reference to another artist’s practice. The scope of references, rooted in each young artist’s individual interests, is wide: the focus of the work may be medium, theme, method, technique, materiality, attitude, or principle.\n\nThe works are a practical exercise and a personal attempt to learn by doing. We learn from each other, and the motivation to learn is natural curiosity, which manifests as interest in one another. To understand oneself, it is important to be aware of one's influences, to identify them, and to appreciate the inspiration provided by peers – as creativity is nothing but a new combination of accumulated knowledge, experience, and skills.\n\nThe exhibition is on view at RAA (@veldze.radosarupnica), Matīsa iela 8, from 12 to 18 July, daily from 16:00 to 19:00.\n\n🥪 On Tuesday, 15 July, join us for a sandwich workshop with Katrīna and Katrīne!\n\nThe exhibition is organized by 3rd-year students of LMA KAS and Maija Kurševa in collaboration with the @raa_riga team.\nSupported by LMA KAS VKN.\nExhibition friend: @sabrs_festival\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
+      },
+      "raaOpening": {
+        "id": "1",
+        "title": "R A A opening #1",
+        "image": "/assets/raa-opening/banner-opening.jpeg",
+        "url": "/events/raa-opening",
+        "startDate": "2025-07-11T18:00:00Z",
+        "endDate": "2025-07-11T23:00:00Z",
+        "color": "2",
+        "showTextOverThumbnail": 1,
+        "shortDescription": "The new interdisciplinary cultural space R A A will open its doors.",
+        "location": "RAA",
+        "when": "Friday 11th of July from 6pm magno cum tempore till 11pm",
+        "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
+        "fbLink": "https://fb.me/e/671NSHkww",
+        "registrationLink": "",
+        "price": "free entry",
+        "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
       }
     }
   },
@@ -63,7 +247,7 @@
     },
     "Jana": {
       "id": "team-id-1",
-      "image": "/assets/team/JanaZari.JPG",
+      "image": "/assets/team/JanaZarina.JPG",
       "name": "Jana Zariņa",
       "role": "",
       "description": ""
@@ -77,7 +261,7 @@
     },
     "Helias": {
       "id": "team-id-4",
-      "image": "/assets/team/Helias.jpeg",
+      "image": "/assets/team/HeliasD.jpg",
       "name": "Helias Dzimoulakis",
       "role": "",
       "description": ""

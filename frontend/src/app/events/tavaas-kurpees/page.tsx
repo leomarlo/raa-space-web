@@ -7,43 +7,46 @@ import { useLanguage } from '@/context/LanguageContext';
 
 export default function TavaasKurpeesPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const { t } = useLanguage();
+  const { t } = useLanguage(); // Access localized text
+
+  const event = t.program.items.tavaasKurpees; // Shortcut
 
   return (
-    <div className="relative w-full min-h-screen overflow-hidden text-[#f5f5dc]">
+    <div className="relative w-full h-screen overflow-hidden">
+      {/* Background effect */}
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
-
       {navOpen && (
         <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
       )}
-
       <Entrance
-        initialMenuSelection={'RAA SPACE'}
-        itemArrangement={2}
+        initialMenuSelection={null}
+        itemArrangement={1}
         navOpen={navOpen}
         setNavOpen={setNavOpen}
       />
 
-      <div className="relative z-10 w-full pt-20 pb-8 px-4 sm:px-8 pointer-events-auto flex">
-        <div className="bg-black p-6 md:p-10 max-w-5xl w-full rounded-none space-y-6 text-left text-justify leading-relaxed text-[#f5f5dc] whitespace-pre-line">
-          <h1 className="text-4xl font-bold text-center mb-4">
-            {t.program.items.tavaasKurpees.title}
+      {/* Content area */}
+      <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
+        <div className="w-full sm:w-10/12 md:w-8/12 bg-black text-[#f5f5dc] p-6 sm:p-8 rounded-lg shadow-lg">
+          {/* Event Title */}
+          <h1 className="text-4xl font-bold mb-6 text-center">
+            {event.title}
           </h1>
 
-          <p>{t.program.items.tavaasKurpees.description}</p>
-
-          <div className="w-full aspect-[3/4]">
-            <iframe
-              src="/assets/tavaas-kurpees/TavaasKurpees.pdf"
-              width="100%"
-              height="800px"
-              className="border border-white w-full"
-              title="Tavaas Kurpees Exhibition PDF"
-            />
+          {/* Event Description */}
+          <div className="text-justify leading-relaxed whitespace-pre-line mb-8">
+            {event.description}
           </div>
+
+          {/* PDF iframe */}
+          <iframe
+            src="/assets/tavaas-kurpees/TavaasKurpees.pdf"
+            className="w-full h-[600px] border border-[#8B0000] rounded-md"
+            title={`${event.title} PDF`}
+          ></iframe>
+          <br />
         </div>
       </div>
-
     </div>
   );
 }

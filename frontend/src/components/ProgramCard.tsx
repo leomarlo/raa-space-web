@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import Image from 'next/image';
-import type ProgramItem from '@/types/program';
+import { ProgramItem } from '@/types/program';
 
 export default function ProgramCard({ item }: { item: ProgramItem }) {
   const [expanded, setExpanded] = useState(false);
@@ -10,14 +10,16 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
   return (
     <div className="border-[3pt] border-black bg-black text-[#f5f5dc] p-6 md:p-8 max-w-3xl w-full mx-auto mb-8">
       {/* Image on click open / push item.url */}
-      <div className="w-full h-64 relative mb-4">
+      <div className="w-full mb-4">
         <a href={item.url} target="_blank" rel="noopener noreferrer">
           <Image
             src={item.image}
             alt={item.title}
-            fill
+            width={800}
+            height={450}
+            sizes="100vw"
             loading="lazy"
-            className="object-cover border border-black w-full h-auto"
+            className="w-full h-auto border border-black object-contain mx-auto"
           />
         </a>
       </div>
