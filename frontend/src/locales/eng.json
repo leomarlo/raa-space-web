@@ -15,6 +15,10 @@
     "members": "Members",
     "location": "Location"
   },
+  "calendarToggle": {
+    "list": "List",
+    "calendar": "Calendar"
+  },
   "days": {
     "monday": {
       "abbr": "MO",

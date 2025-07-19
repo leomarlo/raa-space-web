@@ -15,6 +15,10 @@
     "members": "Biedri",
     "location": "Atrašanās vieta"
   },
+  "calendarToggle": {
+    "list": "Saraksts",
+    "calendar": "Kalendārs"
+  },
   "days": {
     "monday": {
       "abbr": "PIR",

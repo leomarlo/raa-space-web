@@ -34,14 +34,21 @@ export default function ProgramPage() {
       />
 
       {/* Fixed Toggle Button */}
-      <div className="fixed top-4 left-1/2 -translate-x-1/2 z-40 flex gap-2 bg-black border border-[#8B0000] px-4 py-2 rounded-full text-[#f5f5dc]">
+      <div
+        className="
+          fixed z-40 flex gap-2 bg-black border border-[#8B0000] px-4 py-2 rounded-full text-[#f5f5dc]
+          left-1/2 -translate-x-1/2
+          sm:top-4 sm:bottom-auto
+          top-auto bottom-4
+        "
+      >
         <button
           onClick={() => setView('list')}
           className={`px-3 py-1 rounded-full transition ${
             view === 'list' ? 'bg-[#8B0000] text-white' : ''
           }`}
         >
-          List View
+          {t.calendarToggle.list}
         </button>
         <button
           onClick={() => setView('calendar')}
@@ -49,9 +56,10 @@ export default function ProgramPage() {
             view === 'calendar' ? 'bg-[#8B0000] text-white' : ''
           }`}
         >
-          Calendar View
+          {t.calendarToggle.calendar}
         </button>
       </div>
+
 
       {/* Main Content Area */}
       <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
