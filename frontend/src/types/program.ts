@@ -16,6 +16,7 @@ interface ProgramItem {
   price: string;
   description: string;
   showTextOverThumbnail: number;
+  registerPage: string;
 }
 
 interface ProgramListViewProps {
