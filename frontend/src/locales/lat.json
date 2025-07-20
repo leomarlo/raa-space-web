@@ -123,8 +123,8 @@
         "when": "2.–3. augusts, sākot no 18:00",
         "instaLink": "",
         "fbLink": "",
-        "registrationLink": "",
-        "price": "ieeja bez maksas",
+        "registrationLink": "https://formspree.io/f/mzzvddrk",
+        "price": "25 EUR",
         "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas.\n\nGalvenie materiāli:\n• saplāksnis (apaļš vai kvadrātveida, max. 30x30 cm, parasti 2 gab. uz cilvēku)\n• garās sērkociņu kastes\n• sveces\n• caurspīdīgs matu laka (zīmējuma fiksēšanai uz virsmas)\n• papīra lente\n• vienkāršs papīrs un zīmējamie zīmuļi (priekšizpētes skicēm)\n• pirogrāfijas instruments"
       },
 
@@ -277,6 +277,11 @@
     "description": "Ja vēlies būt daļa no RAA Telpas, lūdzu, ievadi savu e-pasta adresi zemāk.",
     "placeholder": "Ievadi savu e-pastu",
     "submit": "IEEJ"
+  },
+  "registerWorkshop": {
+    "description": "Reģistrējies šeit",
+    "placeholder": "Ievadi savu e-pastu",
+    "submit": "REĢISTRĒT"
   },
   "contact": {
     "email": "Sazinies ar mums pa e-pastu",

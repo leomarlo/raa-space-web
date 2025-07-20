@@ -11,4 +11,16 @@ interface MenuItem {
     initialState: number; // integer seed
   }
 
-export type { MenuItem, RaaHieroglyphMatrixProps };
+  type RegisterFormProps = {
+    title: string;
+    description: string;
+    placeholder: string;
+    submit: string;
+  };
+
+  type RegisterFormPropsWithLink = {
+    registerFormProps: RegisterFormProps;
+    link: string;
+  };
+
+export type { MenuItem, RaaHieroglyphMatrixProps, RegisterFormProps, RegisterFormPropsWithLink };
