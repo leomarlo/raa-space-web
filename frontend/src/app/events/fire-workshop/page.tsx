@@ -4,13 +4,21 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import { RegisterFormInline } from '@/components/RegisterForm';
+import { RegisterFormProps } from '@/types/main';
+
 
 export default function FireWorkshopPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage(); // Access localized text
 
   const event = t.program.items.fireWorkshop; // Shortcut
-
+  const regForm: RegisterFormProps = {
+    title: "",
+    description: "",
+    placeholder: t.registerWorkshop.placeholder,
+    submit: t.registerWorkshop.submit,
+  };
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background effect */}
@@ -37,6 +45,11 @@ export default function FireWorkshopPage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
+          <br />
+          <div className="text-justify leading-relaxed whitespace-pre-line">
+            Price: {event.price}
+          </div>
+          <RegisterFormInline registerFormProps={regForm} link={event.registrationLink} />
         </div>
       </div>
     </div>

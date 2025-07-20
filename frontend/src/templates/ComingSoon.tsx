@@ -9,7 +9,7 @@ export default function ComingSoon() {
   const { locale, setLocale, t } = useLanguage();
 
   const handleEnter = () => {
-    router.push('/enter');
+    router.push('/program');
   };
 
   const toggleLabel = locale === 'eng' ? 'Latviski, lūdzu' : 'In British English, please';
