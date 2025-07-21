@@ -43,7 +43,7 @@ export default function MuseumPage() {
             {event.description}
           </div>
           <br />
-          <h2 className="text-2xl font-bold mb-4 text-center">{t.series.listings}</h2>
+          <h2 className="text-2xl font-bold mb-4 text-center">{t.series.  listings}</h2>
           <ProgramListView items={museumEvents} />
         </div>
       </div>
