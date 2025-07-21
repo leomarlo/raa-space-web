@@ -107,6 +107,18 @@
     "findUsOnInstagram": "Mūs var atrast Instagram: ",
     "instagram": "@raa_riga"
   },
+  "series": {
+    "listings": "Mūzeji",
+    "items": {
+      "raaMuseum": {
+        "id": "1",
+        "title": "RAA Mūzejs",
+        "image": "/assets/raa-museum/poster.jpg",
+        "url": "/events/raa-museum",
+        "description": "RAA Mūzejs ir mēnešiskas izstādes, kas piedāvā mūzikas, teatrālas un mākslas darbus, kas ataino RAA kultūrtelpas vēsturi."
+      }
+    }
+  },
   "program": {
     "items": {
       "fireWorkshop": {
