@@ -111,15 +111,15 @@
     "items": {
       "fireWorkshop": {
         "id": "6",
-        "title": "Uguns darbnīca ar Arti Raitumu",
+        "title": "Uguns darbnīca ar Artu Raitumu",
         "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
         "url": "/events/fire-workshop",
         "startDate": "2025-08-02T18:00:00Z",
         "endDate": "2025-08-03T18:00:00Z",
         "color": "5",
         "showTextOverThumbnail": 2,
-        "registerPage": "/register/fire-workshop-with-arte-raituma",
-        "shortDescription": "Arte Raituma iepazīstinās dalībniekus ar uguns pārveidojošo spēku un eksperimentālu koka dedzināšanas tehniku.",
+        "registerPage": "/register/fire-workshop-with-arta-raituma",
+        "shortDescription": "Arta Raituma iepazīstinās dalībniekus ar uguns pārveidojošo spēku un eksperimentālu koka dedzināšanas tehniku.",
         "location": "RAA",
         "when": "2.–3. augusts, sākot no 18:00",
         "instaLink": "",
@@ -139,14 +139,14 @@
         "color": "6",
         "showTextOverThumbnail": 2,
         "registerPage": "",
-        "shortDescription": "Izstāde ar darbiem, kas tapuši Arte Raitumas uguns darbnīcā.",
+        "shortDescription": "Izstāde ar darbiem, kas tapuši Arta Raitumas uguns darbnīcā.",
         "location": "RAA",
         "when": "4.–6. augusts, sākot no 18:00",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
         "price": "ieeja bez maksas",
-        "description": "Izstāde, kurā apskatāmi darbi, kas radīti Arte Raitumas vadītajā uguns darbnīcā. Atklāj unikālus darbus, kas ataino uguns un koka mijiedarbību, iemūžinot atmiņu un pārmaiņu sajūtu."
+        "description": "Izstāde, kurā apskatāmi darbi, kas radīti Arta Raitumas vadītajā uguns darbnīcā. Atklāj unikālus darbus, kas ataino uguns un koka mijiedarbību, iemūžinot atmiņu un pārmaiņu sajūtu."
       },
 
       "theatreOpening": {
