@@ -110,15 +110,15 @@
     "items": {
       "fireWorkshop": {
         "id": "6",
-        "title": "Fire Workshop with Arte Raituma",
+        "title": "Fire Workshop with Arta Raituma",
         "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
         "url": "/events/fire-workshop",
         "startDate": "2025-08-02T18:00:00Z",
         "endDate": "2025-08-03T18:00:00Z",
         "color": "5",
         "showTextOverThumbnail": 2,
-        "registerPage": "/register/fire-workshop-with-arte-raituma",
-        "shortDescription": "Arte Raituma introduces participants to the transformative element of fire through an experimental wood-burning technique.",
+        "registerPage": "/register/fire-workshop-with-arta-raituma",
+        "shortDescription": "Arta Raituma introduces participants to the transformative element of fire through an experimental wood-burning technique.",
         "location": "RAA",
         "when": "2–3 August, starting from 18:00",
         "instaLink": "",
@@ -137,7 +137,7 @@
         "endDate": "2025-08-06T18:00:00Z",
         "color": "6",
         "showTextOverThumbnail": 2,
-        "shortDescription": "An exhibition showcasing artworks created during Arte Raituma's fire workshop.",
+        "shortDescription": "An exhibition showcasing artworks created during Arta Raituma's fire workshop.",
         "registerPage": "",
         "location": "RAA",
         "when": "4–6 August, starting from 18:00",
@@ -145,7 +145,7 @@
         "fbLink": "",
         "registrationLink": "https://formspree.io/f/mzzvddrk",
         "price": "free entry",
-        "description": "An exhibition featuring works created during Arte Raituma’s fire workshop. Explore unique wood-burned artworks that reflect the interplay of fire and surface, capturing memory and transformation."
+        "description": "An exhibition featuring works created during Arta Raituma’s fire workshop. Explore unique wood-burned artworks that reflect the interplay of fire and surface, capturing memory and transformation."
       },
       "theatreOpening": {
         "id": "5",

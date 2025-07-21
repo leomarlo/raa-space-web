@@ -10,7 +10,7 @@ import ProgramListView from '@/components/ProgramListView';
 
 export default function ProgramPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const [view, setView] = useState<'list' | 'calendar'>('calendar');
+  const [view, setView] = useState<'list' | 'calendar'>('list');
   const { t } = useLanguage();
 
   const startDate = new Date('2025-07-01T00:00:00Z');
