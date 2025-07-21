@@ -106,6 +106,17 @@
     "findUsOnInstagram": "Find us on Instagram: ",
     "instagram": "@raa_riga"
     },
+  "series": {
+    "items": {
+      "raaMuseum": {
+        "id": "1",
+        "title": "RAA Museum",
+        "image": "/assets/raa-museum/poster.jpg",
+        "url": "/events/raa-museum",
+        "description": "RAA Museum is a series of monthly thematic exhibitions, in which mundane objects, and non-objects are presented."
+      }
+    }
+  },
   "program": {
     "items": {
       "fireWorkshop": {
