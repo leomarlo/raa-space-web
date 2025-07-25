@@ -7,25 +7,29 @@ import { useLanguage } from '@/context/LanguageContext';
 import { RegisterFormInline } from '@/components/RegisterForm';
 import { RegisterFormProps } from '@/types/main';
 
-
 export default function FireWorkshopPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const { t } = useLanguage(); // Access localized text
+  const { t } = useLanguage();
 
-  const event = t.program.items.fireWorkshop; // Shortcut
+  const event = t.program.items.fireWorkshop;
   const regForm: RegisterFormProps = {
-    title: "",
-    description: "",
+    title: '',
+    description: '',
     placeholder: t.registerWorkshop.placeholder,
     submit: t.registerWorkshop.submit,
   };
+
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen text-[#f5f5dc]">
       {/* Background effect */}
-      <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      <div className="absolute inset-0 -z-10">
+        <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      </div>
+
       {navOpen && (
         <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
       )}
+
       <Entrance
         initialMenuSelection={null}
         itemArrangement={1}
@@ -34,8 +38,9 @@ export default function FireWorkshopPage() {
       />
 
       {/* Content area */}
-      <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <div className="w-full sm:w-10/12 md:w-8/12 bg-black text-[#f5f5dc] p-6 sm:p-8 rounded-lg shadow-lg">
+      <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
+        {/* Black box only for content */}
+        <div className="max-w-4xl w-full bg-black p-6 sm:p-8 rounded-lg shadow-lg">
           {/* Event Title */}
           <h1 className="text-4xl font-bold mb-6 text-center">
             {event.title}
@@ -45,11 +50,19 @@ export default function FireWorkshopPage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
-          <br />
-          <div className="text-justify leading-relaxed whitespace-pre-line">
+
+          {/* Price */}
+          <div className="mt-6 text-justify leading-relaxed whitespace-pre-line">
             Price: {event.price}
           </div>
-          <RegisterFormInline registerFormProps={regForm} link={event.registrationLink} />
+
+          {/* Register Form */}
+          <div className="mt-6">
+            <RegisterFormInline
+              registerFormProps={regForm}
+              link={event.registrationLink}
+            />
+          </div>
         </div>
       </div>
     </div>

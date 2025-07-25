@@ -7,17 +7,21 @@ import { useLanguage } from '@/context/LanguageContext';
 
 export default function FireExhibitionPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const { t } = useLanguage(); // Access localized text
+  const { t } = useLanguage();
 
-  const event = t.program.items.fireExhibition; // Shortcut
+  const event = t.program.items.fireExhibition;
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen text-[#f5f5dc]">
       {/* Background effect */}
-      <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      <div className="absolute inset-0 -z-10">
+        <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      </div>
+
       {navOpen && (
         <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
       )}
+
       <Entrance
         initialMenuSelection={null}
         itemArrangement={1}
@@ -26,8 +30,8 @@ export default function FireExhibitionPage() {
       />
 
       {/* Content area */}
-      <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <div className="w-full sm:w-10/12 md:w-8/12 bg-black text-[#f5f5dc] p-6 sm:p-8 rounded-lg shadow-lg">
+      <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
+        <div className="max-w-4xl w-full bg-black/70 p-6 sm:p-8 rounded-lg shadow-lg">
           {/* Event Title */}
           <h1 className="text-4xl font-bold mb-6 text-center">
             {event.title}
