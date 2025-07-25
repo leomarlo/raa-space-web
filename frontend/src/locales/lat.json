@@ -133,12 +133,12 @@
         "registerPage": "/register/fire-workshop-with-arta-raituma",
         "shortDescription": "Arta Raituma iepazīstinās dalībniekus ar uguns pārveidojošo spēku un eksperimentālu koka dedzināšanas tehniku.",
         "location": "RAA",
-        "when": "2.–3. augusts, sākot no 18:00",
+        "when": "2.–3. augusts, sākot no 13:00 līdz 16:00",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "https://formspree.io/f/mzzvddrk",
         "price": "25 EUR",
-        "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas.\n\nGalvenie materiāli:\n• saplāksnis (apaļš vai kvadrātveida, max. 30x30 cm, parasti 2 gab. uz cilvēku)\n• garās sērkociņu kastes\n• sveces\n• caurspīdīgs matu laka (zīmējuma fiksēšanai uz virsmas)\n• papīra lente\n• vienkāršs papīrs un zīmējamie zīmuļi (priekšizpētes skicēm)\n• pirogrāfijas instruments"
+        "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas."
       },
 
       "fireExhibition": {
@@ -153,7 +153,7 @@
         "registerPage": "",
         "shortDescription": "Izstāde ar darbiem, kas tapuši Arta Raitumas uguns darbnīcā.",
         "location": "RAA",
-        "when": "4.–6. augusts, sākot no 18:00",
+        "when": "4.–6. augusts, sākot no 17:00 līdz 22:00",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
@@ -201,11 +201,11 @@
         "description": "Tikai četras dienas, no 24. jūlija 19.00 līdz 27. jūlija 19.00, Tev ir iespēja iegremdēties pagātnēs laikos, kad stāsti tapa ar taustiņu pieskārienu un tintes triepienu RAA kultūrtelpā, Radošā rūpnīcā Veldze.\n\nIzstāde apvieno rūpīgi atlasītu 20. gadsimta rakstāmmašīnu kolekciju no vairākām pasaules valstīm – Vācijas, ASV, Zviedrijas un Itālijas. No agrīna art-noveau dizaina līdz modernismam — izpēti, kā rakstāmmašīnas attīstījās gan kā ikdienas rīki, gan kā nozīmīgi kultūras simboli.\n\n• Vēsturiskas rakstāmmašīnas no vairākām valstīm;\n• Ieskats to dizaina attīstībā gadsimta garumā;\n• Iespēja pašiem izmēģināt divas rakstāmmašīnas un uzrakstīt ko savu.\n\nJa esi rakstnieks, dizaina cienītājs, tehnikas entuziasts vai vienkārši vēlies sajust analogās pasaules ritmu — nāc ciemos! Nospied taustiņu. Atstāj nospiedumu. Iepazīsti mašīnas, kas rakstīja vēsturi."
       },
 
-      "dzejasSinusoida": {
+      "dzejaSinusoida": {
         "id": "3",
-        "title": "Dzejas: Sinusoīda",
-        "image": "/assets/dzejas-sinusoiida/poster.jpg",
-        "url": "/events/dzejas-sinusoiida",
+        "title": "Dzeja: Sinusoīda",
+        "image": "/assets/dzeja-sinusoiida/RAA_dzejasSinusidaPRINT.jpg",
+        "url": "/events/dzeja-sinusoiida",
         "startDate": "2025-07-27T17:00:00Z",
         "endDate": "2025-07-27T23:00:00Z",
         "color": "2",
