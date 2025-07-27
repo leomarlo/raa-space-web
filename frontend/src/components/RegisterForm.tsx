@@ -45,5 +45,18 @@ function RegisterForm({ registerFormProps, link }: RegisterFormPropsWithLink) {
   );
 }
 
+// a list of register forms, basically an array of RegisterFormPropsWithLink
+function RegisterFormWithDifferentLinks({formWithLinks}: {formWithLinks: RegisterFormPropsWithLink[]}) {
+  return (
+    <div className="absolute inset-0 flex items-center justify-center z-18">
+      <div className="border-white border-[3pt] p-8 rounded-lg z-18 bg-black text-[#f5f5dc] translate-x-10">
+        {formWithLinks.map((formWithLink, index) => (
+          <RegisterFormInline key={index} registerFormProps={formWithLink.registerFormProps} link={formWithLink.link} />
+        ))}
+      </div>
+    </div>
+  );
+}
+
 // export both functions
-export { RegisterFormInline, RegisterForm };
+export { RegisterFormInline, RegisterForm , RegisterFormWithDifferentLinks};
