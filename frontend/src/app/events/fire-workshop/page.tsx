@@ -12,9 +12,16 @@ export default function FireWorkshopPage() {
   const { t } = useLanguage();
 
   const event = t.program.items.fireWorkshop;
-  const regForm: RegisterFormProps = {
+  const regForm2ndOfAugust: RegisterFormProps = {
     title: '',
-    description: '',
+    description: `${event.registerFor2ndOfAugust}. ${event.times}`,
+    placeholder: t.registerWorkshop.placeholder,
+    submit: t.registerWorkshop.submit,
+  };
+
+  const regForm3rdOfAugust: RegisterFormProps = {
+    title: '',
+    description: `${event.registerFor3rdOfAugust}. ${event.times}`,
     placeholder: t.registerWorkshop.placeholder,
     submit: t.registerWorkshop.submit,
   };
@@ -59,8 +66,12 @@ export default function FireWorkshopPage() {
           {/* Register Form */}
           <div className="mt-6">
             <RegisterFormInline
-              registerFormProps={regForm}
-              link={event.registrationLink}
+              registerFormProps={regForm2ndOfAugust}
+              link={"https://formspree.io/f/mzzvddrk"}
+            />
+            <RegisterFormInline
+              registerFormProps={regForm3rdOfAugust}
+              link={"https://formspree.io/f/xnnzdkzg"}
             />
           </div>
         </div>

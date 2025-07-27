@@ -123,7 +123,7 @@
       "fireWorkshop": {
         "id": "6",
         "title": "Fire Workshop with Arta Raituma",
-        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "image": "/assets/fire-workshop/uguns_poster_DRUKA_with_QR_code.png",
         "url": "/events/fire-workshop",
         "startDate": "2025-08-02T18:00:00Z",
         "endDate": "2025-08-03T18:00:00Z",
@@ -134,9 +134,12 @@
         "location": "RAA",
         "when": "2–3 August, starting from 13:00 to 16:00",
         "instaLink": "",
+        "times": "13:00 - 16:00",
         "fbLink": "",
         "registrationLink": "",
         "price": "25 EUR",
+        "registerFor2ndOfAugust": "Register for 2nd of August",
+        "registerFor3rdOfAugust": "Register for 3rd of August",
         "description": "Fire is an element of transformation, refining what it encounters. The artist will introduce participants to this playful and seductive element that is the core principle of her artistic practice.\n\nParticipants are invited to learn an experimentally developed wood burning technique that creates a hazy, nuanced visual effect using the symbiosis of flame and wooden surface. The poetic contradiction between fire and wood suggests a memory of landscape, hence people are invited to explore their ‘inner landscapes’, to learn a natural and self-empowering expression as well as get to know more about sustainable art approaches.\n\nAll materials for the workshop are provided. The workshop is suitable for people without any previous knowledge in visual arts as well as art students or professional artists who would like to expand their skills and possibly implement new techniques in their own practice.\n\nThe length of the workshop is around 2.5 hours."
       },
 
@@ -164,19 +167,19 @@
         "title": "RAA Theatre Opening",
         "image": "/assets/theatre-opening/prelim-poster.jpeg",
         "url": "/events/theatre-opening",
-        "startDate": "2025-08-01T18:00:00Z",
-        "endDate": "2025-08-01T21:00:00Z",
+        "startDate": "2025-08-07T18:00:00Z",
+        "endDate": "2025-08-07T21:00:00Z",
         "color": "4",
         "showTextOverThumbnail": 2,
         "registerPage": "",
         "shortDescription": "Opening of the RAA Theatre.",
         "location": "RAA",
-        "when": "August 1, from 18:00",
+        "when": "August 7, from 18:00",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
         "price": "free entry",
-        "description": "Join us for the official opening of the RAA Theatre on August 1."
+        "description": "Join us for the official opening of the RAA Theatre on August 7."
       },
       "typewriterMuseum": {
         "id": "4",

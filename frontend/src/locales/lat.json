@@ -124,7 +124,7 @@
       "fireWorkshop": {
         "id": "6",
         "title": "Uguns darbnīca ar Artu Raitumu",
-        "image": "/assets/fire-workshop/fire-workshop-placeholder.png",
+        "image": "/assets/fire-workshop/uguns_poster_DRUKA_with_QR_code.png",
         "url": "/events/fire-workshop",
         "startDate": "2025-08-02T18:00:00Z",
         "endDate": "2025-08-03T18:00:00Z",
@@ -136,8 +136,13 @@
         "when": "2.–3. augusts, sākot no 13:00 līdz 16:00",
         "instaLink": "",
         "fbLink": "",
-        "registrationLink": "https://formspree.io/f/mzzvddrk",
+        "times": "13:00 - 16:00",
+        "registrationLink": "",
+        "registrationLink2ndOfAugust": "https://formspree.io/f/mzzvddrk",
+        "registrationLink3rdOfAugust": "https://formspree.io/f/xnnzdkzg",
         "price": "25 EUR",
+        "registerFor2ndOfAugust": "Reģistrējies 2. augustā",
+        "registerFor3rdOfAugust": "Reģistrējies 3. augustā",
         "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas."
       },
 
@@ -166,19 +171,19 @@
         "title": "RAA teātra atklāšana",
         "image": "/assets/theatre-opening/prelim-poster.jpeg",
         "url": "/events/theatre-opening",
-        "startDate": "2025-08-01T18:00:00Z",
-        "endDate": "2025-08-01T21:00:00Z",
+        "startDate": "2025-08-07T18:00:00Z",
+        "endDate": "2025-08-07T21:00:00Z",
         "color": "4",
         "showTextOverThumbnail": 2,
         "registerPage": "",
         "shortDescription": "RAA teātra atklāšana.",
         "location": "RAA",
-        "when": "1. augusts, no plkst. 18:00",
+        "when": "7. augusts, no plkst. 18:00",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
         "price": "ieeja bez maksas",
-        "description": "Pievienojies RAA teātra oficiālajai atklāšanai 1. augustā."
+        "description": "Pievienojies RAA teātra oficiālajai atklāšanai 7. augustā."
       },
 
       "typewriterMuseum": {
