@@ -101,9 +101,14 @@
     }
   },
   "telpa": {
+    "title": "Space",
     "paragraph1": "RAA is a cultural space that hosts regular theatrical and contemporary performances, exhibitions and workshops. At RAA you don’t have to be loud to be heard. A little herbal shop offers the possibility to take in some Latvian forest in the centre of Riga.",
     "paragraph2": "Raa is raa. If it was something else it wouldn't be called so. In some fields of inquiry an argument that aims to establish a claim by proving that the contrary would lead to absurdity is called Reductio ad Absurdum, sometimes also abbreviated to RAA.",
     "findUsOnInstagram": "Find us on Instagram: ",
+    "layoutTitle": "Layout",
+    "layoutDescription": "The front-facing part of the space consists of an entrance foyer (35 m^2) and an exhibition hall (103m^2). There are 10 large windows facing the Matisa street, that gives the space its spacious and stage-like feeling. Behind the entrance foyer there is a shop called 'māte nātre' inside of 12m^2 separate room. The backward facing part consists of a long corridor that contains a backstage area (8m^2) and an adjacent toilet (4m^2). Then comes a theatre area with a theatre foyer and a small theatre room (13m^2). At the very end of the corridor there is a storage room (6,4m^2). We also have access to a magical court yard behind the building. From there one can reach all of Veldze quarter.",
+    "mapTitle": "Map",
+    "mapDescription": "You can find us at Matīsa iela 8, Rīga. Just opposite the fire station and the the Vidzeme Market. It is part of the Veldze quarter. The most recognizable landmark is a tall brick chimney that pokes out just behind RAA. The easiest way to reach RAA is via Brivibas street. You take any of the busses or trolley busses and get off at 'Matīsa iela' stop. Then you walk into Matīsa street and you will see RAA on your right after about 150m. You may also reach us via Krišjāņa Barona street. There are two trams that stop at 'Bernu pasaule', namely tram 1 and 11. You can get off at 'Bernu pasaule' stop and walk into Matīsa street. RAA is on your left after about 200m.",
     "instagram": "@raa_riga"
     },
   "series": {
