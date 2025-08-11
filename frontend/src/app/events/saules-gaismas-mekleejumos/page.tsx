@@ -4,26 +4,25 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { ProgramItem } from '@/types/program';
-import ProgramListView from '@/components/ProgramListView';
 
-export default function MuseumPage() {
+export default function SaulesGaismasMekleejumosPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const { t } = useLanguage(); // Access localized text
+  const { t } = useLanguage();
 
-  const event = t.series.items.raaMuseum; // Shortcut
-
-  const museumEvents: ProgramItem[] = [];
-  museumEvents.push(t.program.items.typewriterMuseum);
-  museumEvents.push(t.program.items.shelfStories);
+  // Expecting translations at: t.program.items.saulesGaismasMekleejumos
+  const event = t.program.items.saulesGaismasMekleejumos;
 
   return (
-    <div className="relative w-full h-screen overflow-hidden">
+    <div className="relative w-full min-h-screen text-[#f5f5dc]">
       {/* Background effect */}
-      <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      <div className="absolute inset-0 -z-10">
+        <RaaHieroglyphMatrix frequency={0} initialState={0} />
+      </div>
+
       {navOpen && (
         <div className="absolute inset-0 bg-black/70 z-30 pointer-events-auto" />
       )}
+
       <Entrance
         initialMenuSelection={null}
         itemArrangement={1}
@@ -44,9 +43,15 @@ export default function MuseumPage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
-          <br />
-          <h2 className="text-2xl font-bold mb-4 text-center">{t.series.  listings}</h2>
-          <ProgramListView items={museumEvents} />
+
+          {/* Price (if provided) */}
+          {event.price && (
+            <div className="mt-6 text-justify leading-relaxed whitespace-pre-line">
+              <span className="font-semibold">Price:</span> {event.price}
+            </div>
+          )}
+
+          {/* No registration section for this event */}
         </div>
       </div>
     </div>

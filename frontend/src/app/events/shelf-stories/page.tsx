@@ -4,18 +4,12 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
-import { ProgramItem } from '@/types/program';
-import ProgramListView from '@/components/ProgramListView';
 
-export default function MuseumPage() {
+export default function ShelfStoriesMuseumPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage(); // Access localized text
 
-  const event = t.series.items.raaMuseum; // Shortcut
-
-  const museumEvents: ProgramItem[] = [];
-  museumEvents.push(t.program.items.typewriterMuseum);
-  museumEvents.push(t.program.items.shelfStories);
+  const event = t.program.items.shelfStories; // Shortcut
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
@@ -32,9 +26,8 @@ export default function MuseumPage() {
       />
 
       {/* Content area */}
-      <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        {/* Black box only for content */}
-        <div className="max-w-4xl w-full bg-black p-6 sm:p-8 rounded-lg shadow-lg">
+      <div className="absolute inset-0 z-10 overflow-auto py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
+        <div className="w-full sm:w-10/12 md:w-8/12 bg-black text-[#f5f5dc] p-6 sm:p-8 rounded-lg shadow-lg">
           {/* Event Title */}
           <h1 className="text-4xl font-bold mb-6 text-center">
             {event.title}
@@ -44,9 +37,6 @@ export default function MuseumPage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
-          <br />
-          <h2 className="text-2xl font-bold mb-4 text-center">{t.series.  listings}</h2>
-          <ProgramListView items={museumEvents} />
         </div>
       </div>
     </div>
