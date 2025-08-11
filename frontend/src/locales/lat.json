@@ -134,7 +134,7 @@
         "startDate": "2025-08-14T18:00:00Z",
         "endDate": "2025-08-17T22:00:00Z",
         "color": "1",
-        "showTextOverThumbnail": 0,
+        "showTextOverThumbnail": 2,
         "registerPage": "",
         "shortDescription": "A Museum of objects sitting unmoved in a shelf corner whilst life is taking place around them. When have they last been moved?",
         "location": "RAA",
@@ -143,8 +143,7 @@
         "fbLink": "",
         "registrationLink": "",
         "price": "ieeja bez maksas",
-        "description": "Priekšmetu muzejs – priekšmeti nekustīgi sēž plaukta stūrī, kamēr ap tiem norit dzīve. Kad tie pēdējo reizi tika pārvietoti?\n\nKatram priekšmetam plauktā ir brīdis, kad tas pēdējo reizi tika pārvietots, aizskarts vai lietots. Pēc tam tie gaida savu laiku. Plaukta priekšmetus vieno šī īpašība, jo tie lielākoties ir inerti, un plaukts ir vieta, kur tie var būt tieši tādi. Var pienākt brīdis, kad tos atkal paņem rokās vai tie pakustas dabas spēku dēļ. Šāds brīdis noteikti pienāks. Tādējādi katram šādam priekšmetam ir dabisks dzīves cikls: tos noliek tur, jo tiem nav autonomijas, un kādudien tos nomaina vai aizvāc. Bet kāpēc tie tika nolikti tieši tur? Šādam nozīmīgam brīdim ir savi apstākļi, iecere un kāds, kas veic darbību. Vai šis cilvēks apzinās priekšmeta likteni? Ka uz ļoti ilgu laiku tā būs pēdējā reize, kad priekšmets tiks pakustināts. Šeit mēs piedāvājam šo priekšmetu fotoalbumu viņu eksistences laikā.\n\nJa tev ir fotogrāfijas ar priekšmetiem tavā plauktā, lūdzu, atnes tos vai to fotogrāfijas uz RAA un pastāsti mums priekšmeta stāstu. Kas priekšmetu tur atveda, kas notika tajā dienā, kas noteica priekšmeta likteni. Izstāde tiks atklāta ceturtdien, 14. augustā, plkst. 19:00.",
-        "exhibitionOpening": "Izstādes atklāšana 14. augustā plkst. 19:00"
+        "description": "Priekšmetu muzejs – priekšmeti nekustīgi sēž plaukta stūrī, kamēr ap tiem norit dzīve. Kad tie pēdējo reizi tika pārvietoti?\n\nKatram priekšmetam plauktā ir brīdis, kad tas pēdējo reizi tika pārvietots, aizskarts vai lietots. Pēc tam tie gaida savu laiku. Plaukta priekšmetus vieno šī īpašība, jo tie lielākoties ir inerti, un plaukts ir vieta, kur tie var būt tieši tādi. Var pienākt brīdis, kad tos atkal paņem rokās vai tie pakustas dabas spēku dēļ. Šāds brīdis noteikti pienāks. Tādējādi katram šādam priekšmetam ir dabisks dzīves cikls: tos noliek tur, jo tiem nav autonomijas, un kādudien tos nomaina vai aizvāc. Bet kāpēc tie tika nolikti tieši tur? Šādam nozīmīgam brīdim ir savi apstākļi, iecere un kāds, kas veic darbību. Vai šis cilvēks apzinās priekšmeta likteni? Ka uz ļoti ilgu laiku tā būs pēdējā reize, kad priekšmets tiks pakustināts. Šeit mēs piedāvājam šo priekšmetu fotoalbumu viņu eksistences laikā.\n\nJa tev ir fotogrāfijas ar priekšmetiem tavā plauktā, lūdzu, atnes tos vai to fotogrāfijas uz RAA un pastāsti mums priekšmeta stāstu. Kas priekšmetu tur atveda, kas notika tajā dienā, kas noteica priekšmeta likteni. Izstāde tiks atklāta ceturtdien, 14. augustā, plkst. 19:00."
       },
       "saulesGaismasMekleejumos": {
         "id": "10",
@@ -154,7 +153,7 @@
         "startDate": "2025-08-18T18:00:00Z",
         "endDate": "2025-08-26T22:00:00Z",
         "color": "1",
-        "showTextOverThumbnail": 0,
+        "showTextOverThumbnail": 1,
         "registerPage": "",
         "shortDescription": "Saules gaismas meklējumos /// In search of sunshine. Friča Ripa personālizstāde.",
         "location": "RAA",
