@@ -37,6 +37,8 @@ export default function ShelfStoriesMuseumPage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
+          <br />
+          Bring your shelf-stories.
         </div>
       </div>
     </div>
