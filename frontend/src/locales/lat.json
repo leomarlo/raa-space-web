@@ -9,6 +9,7 @@
   "menu": {
     "raaSpace": "RAA TELPA",
     "program": "Programma",
+    "series": "Sērija",
     "register": "Reģistrēties",
     "contact": "Kontakti",
     "team": "Komanda",
@@ -113,19 +114,56 @@
     "instagram": "@raa_riga"
   },
   "series": {
-    "listings": "Mūzeji",
+    "title": "RAA Sērija",
+    "description": "RAA mēs rīkojam vairākus regulārus atkārtojošos pasākumus. Mēs tos saucam par RAA sērijām. Atkarībā no konkrētās sērijas jūs tajos varat piedalīties katru nedēļu, katru mēnesi vai reizi gadā.",
     "items": {
       "raaMuseum": {
         "id": "1",
         "title": "RAA Mūzejs",
-        "image": "/assets/raa-museum/poster.jpg",
-        "url": "/events/raa-museum",
+        "image": "/assets/raa-museum/logo-prelim.jpg",
+        "url": "/museum",
+        "listings": "Mūzejs",
         "description": "RAA Mūzejs ir mēnešiskas izstādes, kas piedāvā mūzikas, teatrālas un mākslas darbus, kas ataino RAA kultūrtelpas vēsturi."
+      },
+      "dialogoAdAbsurdum": {
+        "id": "2",
+        "title": "Dialogo Ad Absurdum",
+        "image": "/assets/dialogo-ad-absurdum/logo.png",
+        "url": "/dialogo-ad-absurdum",
+        "events": "Pasākumi",
+        "description": "Dialogo Ad Absurdum ir performatīva izpēte dialogiem. Apmeklētājs ieejā atklāj sevi un par dialogu mākslu."
+      },
+      "kabiirijasSalons": {
+        "id": "3",
+        "title": "Kabiirijas Salons",
+        "image": "/assets/kabiirijas-salons/poster.jpg",
+        "url": "/kabiirijas-salons",
+        "events": "Pasākumi",
+        "description": "Katru ceturtdienu “Kàtoptron Teātris” (Matīsa iela 8, RAA) būs atvērts visiem — tiem, kuri piedzīvojuši neveiksmes vai gandrīz neveiksmes — māksliniekiem Rīgā, brīvai un eksperimentālai mākslinieciskai izpausmei jebkurā formā. No gleznošanas un skicēšanas līdz brīvām mūzikas improvizācijām, performancēm, groteskai modei, dejai, dzejai utt."
       }
     }
   },
   "program": {
     "items": {
+      "kabiirijasSalons1": {
+        "id": "11",
+        "title": "Kabiirijas Salons 1",
+        "image": "/assets/kabiirijas-salons/poster.jpg",
+        "url": "/kabiirijas-salons",
+        "startDate": "2025-08-14T20:00:00Z",
+        "endDate": "2025-08-14T23:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Katru ceturtdienu “Kàtoptron Teātris” (Matīsa iela 8, RAA) būs atvērts visiem — tiem, kuri piedzīvojuši neveiksmes vai gandrīz neveiksmes — māksliniekiem Rīgā, brīvai un eksperimentālai mākslinieciskai izpausmei jebkurā formā. No gleznošanas un skicēšanas līdz brīvām mūzikas improvizācijām, performancēm, groteskai modei, dejai, dzejai utt.",
+        "location": "RAA",
+        "when": "14.08.2025, no 20:00 līdz 23:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ziedojumi",
+        "description": "Profesionāli un neprofesionāli mākslinieki ir laipni aicināti apsēsties mūsu mājīgajā un brīnišķīgajā viesistabā, pagatavot sev dzērienu un radīt Mākslu. Vai arī — neradīt Mākslu vispār; to sauc par vojerismu.\n\nKā tas strādā? Ļaujiet man vispirms izņemt ķiploku no savas dvēseles. Labi, gatavs: durvis vaļā no 20:30, un jūs varat pievienoties mums, atnesot ideju, kuru gribat iedzīvināt. Jebko. Jebko, kas padarīs jūsu dzīvi interesantāku. Es vardarbīgi aicinu jūs nākt, sēdēt, dzert, skicēt, rakstīt, uzstāties sev vai citiem caur improvizāciju. Spēlēt kopīgu mūziku, kas starp mums var uzspridzināt mistiku; dejot uz tās, raudāt uz tās, pūst uz tās vai ignorēt to ar snobisku augstprātību. Zīmēt — uz ķermeņiem, uz papīra, uz pierēm. Spēlēt mūziku vai iznīcināt to. Veikt maģiju vai rituālus; izsmiet maģiju un rituālus. Apgulties un sapņot mūsu mazajā teātra skatuvē (kas katru mikropimpi liek sajusties kā zirgam).\n\nFlirtēt drīkst, cik sirds kāro, bet pieskārieni — tikai ar piekrišanu; citādi es nogriezīšu tavu locekli un pabarošu ar to mūsu iedomāto suni Helgu.\n\nNeizdevusī Metafora ir jaunā, varenākā Metafora. Pamēģināsim to pieklājīgi vandāliski izpostīt.\n\nSVARĪGI: Mūsu teātrī ir pieejami daži mūzikas instrumenti (viena elektriskā ģitāra ar pastiprinātāju, viena klasiskā ģitāra, mazs bungas komplekts, 19. gadsimta galda klavieres), ir flomāsteri, lelles, gaismas, pat kādas teātra drēbes. Ja tev ir kaut kas konkrēts iecerēts, lūdzu, atnes pats (piemēram, savu instrumentu — vēlams kaut ko patētisku).\n\nCeturtdiena, 14. augusts: Dialogo ad Absurdum, atvērta skatuve frīku šovam, mūzikas spēlēšana, maģisku simbolu radīšana un ķermeņu apzīmēšana, neērtība un, cerams, arī kāda filma.\n\nIeeja bez maksas, bet ZIEDO, lai mēs turpinātu!"
+      },
       "shelfStories": {
         "id": "9",
         "title": "RAA Mūzejs: Plaukta stāstījumi",

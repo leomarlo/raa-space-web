@@ -9,6 +9,7 @@
   "menu": {
     "raaSpace": "RAA SPACE",
     "program": "Program",
+    "series": "Series",
     "register": "Register",
     "contact": "Contact",
     "team": "Team",
@@ -112,19 +113,56 @@
     "instagram": "@raa_riga"
     },
   "series": {
-    "listings": "Museums",
+    "title": "RAA Series",
+    "description": "At RAA we hold several repeating regular events. We call them RAA series. You may visit them either weekly, monthly or yearly, depending on the series.",
     "items": {
       "raaMuseum": {
         "id": "1",
         "title": "RAA Museum",
-        "image": "/assets/raa-museum/poster.jpg",
-        "url": "/events/raa-museum",
+        "image": "/assets/raa-museum/logo-prelim.jpg",
+        "url": "/museum",
+        "listings": "Museums",
         "description": "RAA Museum is a series of monthly thematic exhibitions, in which mundane objects, and non-objects are presented."
+      },
+      "dialogoAdAbsurdum": {
+        "id": "2",
+        "title": "Dialogo Ad Absurdum",
+        "image": "/assets/dialogo-ad-absurdum/logo.png",
+        "url": "/dialogo-ad-absurdum",
+        "events": "Events",
+        "description": "Dialogo Ad Absurdum is an performative exploration of  dialogues. The visitor enters into a space where they find out about themselves and about the art of dialogue."
+      },
+      "kabiirijasSalons": {
+        "id": "3",
+        "title": "Kabiirijas Salons",
+        "image": "/assets/kabiirijas-salons/poster.jpg",
+        "url": "/kabiirijas-salons",
+        "events": "Events",
+        "description": "Every Thursday of the week the Kàtoptron Teātris (Matīsa 8, RAA) will be open to all -failed or almost failed - artists in Rīga, for free and experimental artistic expression of any kind. From painting and sketching, to open music Jamming, performance, grotesque fashion, dance, poetry etc."
       }
     }
   },
   "program": {
     "items": {
+      "kabiirijasSalons1": {
+        "id": "11",
+        "title": "Kabiirijas Salons 1",
+        "image": "/assets/kabiirijas-salons/poster.jpg",
+        "url": "/kabiirijas-salons",
+        "startDate": "2025-08-14T20:00:00Z",
+        "endDate": "2025-08-14T23:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Every Thursday of the week the Kàtoptron Teātris (Matīsa 8, RAA) will be open to all -failed or almost failed - artists in Rīga, for free and experimental artistic expression of any kind. From painting and sketching, to open music Jamming, performance, grotesque fashion, dance, poetry etc.",
+        "location": "RAA",
+        "when": "14.08.2025, from 20:00 to 23:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Donations",
+        "description": "Professional and non professional artists are welcome to take a seat in our cozy and wonderful living room, fix their own drink and make Art. Or, not make Art at all; it's called voyeurism.\n\nHow does it work? Let me explain by removing the garlic from my soul first. Okay, now: Doors are open from 20:30, where you are able to join us, carrying an idea that you would like to bring to life. Anything. Anything that can make your life more interesting. I violently encourage you to come, sit, drink, sketch, write, perform for yourself or others through improvisation. Play collective music that can explode some mysticism among us; dance to it, cry to it, fart to it or, snob it. Draw, draw on bodies, on paper, on foreheads. Play music, or destroy it. Perform Magic or Rituals; make fun of magic and rituals. Lie down and dream, inside our own tiny theater stage (that makes every micropimpis feel like a horse).\n\nYou can be as flirty as you want to, and touch only when there's consent; otherwise I'll cut your dick and feed it to our imaginary dog, Helga.\n\nThe failed Metaphor is the new, mightier Metaphor. Let's try vandalizing it, yet with charm.\n\nIMPORTANT: Our theater provides some music instruments (one electric guitar with amplifier, one classical guitar, a tiny set of drums, a 19th Century table piano), we have markers, dolls, lights, even some theatrical clothes. In case you have something specific in mind, lūdzu bring it yourself (for example, your own instrument, something pathetic preferably).\n\nThursday, August 14th: Dialogo ad Absurdum, Open stage Freak show, music playing, magical symbol creation and body drawing, awkwardness, and hopefully a film.\n\nEntrance Free, But DONATE, so we keep on"
+      },
       "shelfStories": {
         "id": "9",
         "title": "RAA Museum: Shelf Stories",

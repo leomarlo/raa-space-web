@@ -7,15 +7,16 @@ import { useLanguage } from '@/context/LanguageContext';
 import { ProgramItem } from '@/types/program';
 import Image from 'next/image';
 
-export default function MuseumPage() {
+export default function DialogoAdAbsurdumPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
-  const series = t.series.items.raaMuseum;
+  const series = t.series.items.dialogoAdAbsurdum;
 
-  const museumEvents: ProgramItem[] = [
-    t.program.items.typewriterMuseum,
-    t.program.items.shelfStories,
+  const dialogoAdAbsurdumEvents: ProgramItem[] = [
+    t.program.items.raaOpening,
+    t.program.items.theatreOpening,
+    t.program.items.kabiirijasSalons1,
   ];
 
   return (
@@ -47,9 +48,9 @@ export default function MuseumPage() {
               {series.description}
             </div>
             <br />
-            <h2 className="text-2xl font-bold mb-4 text-center">{series.listings}</h2>
+            <h2 className="text-2xl font-bold mb-4 text-center">{series.events}</h2>
             <div className="flex flex-col gap-4">
-              {museumEvents.map((event) => (
+              {dialogoAdAbsurdumEvents.map((event) => (
                 <div key={event.id} className="flex flex-row gap-4">
                   <div className="w-1/4">
                   <a href={event.url} target="_blank" rel="noopener noreferrer">
