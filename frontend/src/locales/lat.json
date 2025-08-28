@@ -145,6 +145,27 @@
   },
   "program": {
     "items": {
+      "secondVarietyShow": {
+          "id": "12",
+          "title": "Otrā Varietē Izrāde",
+          "image": "/assets/second-variety-show/poster.jpg",
+          "url": "/events/second-variety-show",
+          "startDate": "2025-09-01T19:00:00Z",
+          "endDate": "2025-09-01T23:00:00Z",
+          "color": "1",
+          "showTextOverThumbnail": 1,
+          "registerPage": "/register/second-variety-show",
+          "times": "19:00 - 24:00",
+          "shortDescription": "Pievienojieties Otrajai Varietē Izrādei Kàtoptron Teātrī 2025. gada 1. septembrī – vakars, kas būs pilns ar izrādēm, muzikālām improvizācijām un radošiem eksperimentiem.",
+          "location": "RAA",
+          "when": "2025. gada 1. septembrī, no plkst. 19:00 līdz 23:00",
+          "instaLink": "https://www.instagram.com/p/DN227bnVPwl/",
+          "fbLink": "",
+          "registrationLink": "",
+          "registerFor1stOfSeptember": "Rezervēt vietu 2025. gada 1. septembrī",
+          "price": "Ieejas maksa: 4€ (izpildītājiem un Teātrim). Ziedojumi laipni gaidīti.",
+          "description": "Aicinām jūs piedalīties mūsu briesmīgajā otrajā varietē izrādē Kàtoptron Teātrī, 2025. gada 1. septembrī (relatīvi runājot) RADOŠĀ RŪPNĪCĀ VELDZE.\n\nŠoreiz turpinām savas iepriekšējās performatīvās aktivitātes, bet ar nelielu pagriezienu. Aizņemoties no Pepsi.\n\nPlkst. 19:00 esat aicināti vērot divas pavisam jaunas mini izrādes, kuras veidojusi Santa Didzus, režijā Santa Didzus un Helias Dzimoulakis. Pēc viņas iepriekšējo izrāžu pretrunīgajiem panākumiem Santa atgriežas ar dusmām un spēku. Nepalaidiet garām mūsu mīļāko leļļu meistari un aktrisi darbībā.\n\nPlkst. 20:00 turpinām skatītāju iecienīto Muzikālā Orākula Sēriju. Kā tas darbojas? Jūs esat aicināti vienatnē ienākt Kàtoptron Teātra telpā, apsēsties uz krēsla un aizvērt acis. Mūsu mūziķi, kurus vada Augstā Priesteriene Anna Ozoliņa, “nolasīs” jūs un mēģinās radīt jūsu skaņu portretu caur spontānu improvizāciju. Tādā veidā jūs klausīsieties melodiju, kas radīta tikai jums un tiks atskaņota tikai vienreiz mūžā. Sakarā ar tās mistisko un intīmo raksturu, jebkāda veida ieraksti nav atļauti.\n\nPlkst. 21:00 esat aicināti paņemt līdzi savu muzikālo – vai nemuzikālo – instrumentu un pievienoties improvizācijas džemam, ko vada un iedvesmo mūsu neortodoksālais mīms Mr Mish. Jūtieties brīvi atvērties, kļūdīties, radīt maģisku cringe vai pat pazust mūsu cirka hipnotiskajā nebūtībā.\n\nTikmēr Daniels mācīs jūs žonglēt, un citi dīvaini tēli labprāt sniegs ieskatu savā pasaulē.\n\nJa vēlaties rezervēt vietu Muzikālajam Orākulam un dubultajai izrādei, lūdzu, sazinieties ar mums Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, pa e-pastu eliastzimoulakis@gmail.com vai enter@raa.space.\n\nIeejas maksa visam pasākumam: 4€ (izpildītājiem un Teātrim).\nZiedojumi ir laipni gaidīti.\nDzērienus nodrošina Teātris."
+        },
       "kabiirijasSalons1": {
         "id": "11",
         "title": "Kabiirijas Salons 1",
