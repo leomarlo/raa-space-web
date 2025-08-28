@@ -144,6 +144,27 @@
   },
   "program": {
     "items": {
+      "secondVarietyShow": {
+        "id": "12",
+        "title": "Second Variety Show",
+        "image": "/assets/second-variety-show/poster.jpg",
+        "url": "/events/second-variety-show",
+        "startDate": "2025-09-01T19:00:00Z",
+        "endDate": "2025-09-01T23:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/second-variety-show",
+        "shortDescription": "Join us for the Second Variety Show at Kàtoptron Teātris on September 1st, 2025 – an evening of performances, musical improvisation, and playful experiments.",
+        "location": "RAA",
+        "when": "1st of September 2025, from 19:00 to 23:00",
+        "times": "19:00 - 24:00",
+        "instaLink": "https://www.instagram.com/p/DN227bnVPwl/",
+        "fbLink": "",
+        "registrationLink": "",
+        "registerFor1stOfSeptember": "Register for 1st of September",
+        "price": "Entrance fee: 4€ (for performers and Theater). Donations welcome.",
+        "description": "You are welcome to participate in our terrible second variety show at Kàtoptron Teātris, on September 1st, the year of 2025 (relatively speaking), at RADOŠĀ RŪPNĪCĀ VELDZE.\n\nThis time, we continue our previous performative activities but with a twist. Borrowing from Pepsi.\n\nAt 19:00 you are invited to spectate two brand new mini performances by Santa Didzus, directed by Santa Didzus and Helias Dzimoulakis. Following the controversial success of her previous performances, Santa strikes back with wrath and might. Make sure you witness our favourite puppeteer/actor in (fr)action.\n\nAt 20:00, we continue the fan-favourite Musical Oracle Series. How does it work? You are invited to enter the Kàtoptron Theatre room by yourself, sit on a chair and close your eyes. Our musicians, led by the High Priestess Anna Ozoliņa, will \"read\" you and attempt to create your sound portrait through instant improvisation. In a way, you're invited to listen to a tune made exclusively for you that will be heard only once in your lifetime. Due to its mystical and intimate nature, any type of recording is not allowed.\n\nAt 21:00, you're invited to bring your own musical – or non-musical – instrument and join an improvisational jam led and championed by our unorthodox mime, Mr Mish. Feel free to open up, fail, create magical cringe or even be absorbed by our circus's hypnotic oblivion.\n\nIn the meantime, Daniels will be teaching you how to juggle, and other bizarre characters would love to provide you some insight into their world.\n\nIn case you wanna book your attendance for the Musical Oracle and the double performance, please contact us on Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, at eliastzimoulakis@gmail.com or enter@raa.space.\n\nEntrance Fee for the whole event: 4€ (for performers and Theater).\nDonations are happily accepted.\nDrinks are provided by the Theater."
+      },
       "kabiirijasSalons1": {
         "id": "11",
         "title": "Kabiirijas Salons 1",
