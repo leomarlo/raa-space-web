@@ -15,6 +15,7 @@ export default function DialogoAdAbsurdumPage() {
 
   const kabiirijasSalonsEvents: ProgramItem[] = [
     t.program.items.kabiirijasSalons1,
+    t.program.items.secondVarietyShow,
   ];
 
   return (

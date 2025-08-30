@@ -144,6 +144,25 @@
   },
   "program": {
     "items": {
+      "laimePliistUzTraukiem": {
+        "id": "13",
+        "title": "LAIME PLĪST UZ TRAUKIEM",
+        "image": "/assets/laime-pliist-uz-traukiem/poster.jpg",
+        "url": "/events/laime-pliist-uz-traukiem",
+        "startDate": "2025-08-28T19:00:00Z",
+        "endDate": "2025-08-31T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "A joint exhibition by Elza Albiņa and Uģis Albiņš exploring coexistence, dissolving boundaries, and the transformations of the everyday through installations and spatial narratives.",
+        "location": "Matīsa Street 8, @raa_riga, @veldze.radosarupnica",
+        "when": "Exhibition opening on 28.08.2025 at 19:00\nOpen for viewing 29.08.–31.08. from 16:00 to 19:00",
+        "instaLink": "https://www.instagram.com/p/DNpvt-rI4gL",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entry",
+        "description": "We are delighted to announce and invite you to the joint exhibition by Elza Albiņa (@elzzala) and Uģis Albiņš (@ug_gis): **LAIME PLĪST UZ TRAUKIEM**.\n\n**Opening:** 28.08. at 19:00\n**Exhibition on view:** 29.08. to 31.08., from 16:00 to 19:00\n\n**Venue:**\nMatīsa Street 8\n@raa_riga\n@veldze.radosarupnica\n\nThe exhibition presents an installation — a series of objects created by Elza and Uģis — forming a shared-life landscape, a spatial reflection on coexistence, breaking down boundaries, and the transformations of the everyday.\n\n**About Elza Albiņa:**\nElza creates audiovisual works and installations. In her artistic practice, she often integrates techniques and technologies drawn from her background in restoration, offering new forms of interpretation for events beyond the boundaries of facts. She explores the ambivalent relationships between fragments and wholes, copies and originals. Elza holds a Bachelor's degree in Kustība.Attēls.Skaņa and a Master's degree in Visual Communication from the Art Academy of Latvia. She actively participates in exhibitions and art events in Latvia and abroad.\n\n**About Uģis Albiņš:**\nUģis creates works that reflect and provoke multilayered questions about our surrounding environment, using various techniques and media, including 3D printing, to reveal dialogues between material and form. He works with systems and standards that shape our culture, embodying specific aesthetic qualities. Uģis approaches abstract questions as visual phenomena, challenging the meaning of form beyond its utilitarian function and using function itself as a mode of expression and part of the visual language. He holds both a Bachelor's and a Master's degree in Visual Communication from the Art Academy of Latvia and actively participates in exhibitions and art events in Latvia and internationally."
+      },
       "secondVarietyShow": {
         "id": "12",
         "title": "Second Variety Show",

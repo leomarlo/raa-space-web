@@ -145,6 +145,26 @@
   },
   "program": {
     "items": {
+      "laimePliistUzTraukiem": {
+        "id": "13",
+        "title": "LAIME PLĪST UZ TRAUKIEM",
+        "image": "/assets/laime-pliist-uz-traukiem/poster.jpg",
+        "url": "/events/laime-pliist-uz-traukiem",
+        "startDate": "2025-08-28T19:00:00Z",
+        "endDate": "2025-08-31T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Elzas un Uģa Albiņu kopizstāde, kas caur instalācijām un telpiskām ainavām pēta līdzāspastāvēšanu, robežu nojaukšanu un ikdienišķā transformācijas.",
+        "location": "Matīsa iela 8, @raa_riga, @veldze.radosarupnica",
+        "when": "Izstādes atklāšana 28.08.2025 plkst. 19:00\nApskatāma 29.08.–31.08. no 16:00 līdz 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "description": "Liels prieks izziņot un ielūgt uz Elzas Albiņas (@elzzala) un Uģa Albiņa (@ug_gis) kopizstādi **LAIME PLĪST UZ TRAUKIEM**.\n\n**Izstādes atklāšana:** 28.08. plkst. 19:00\n**Izstāde apskatāma:** no 29.08. līdz 31.08., no 16:00 līdz 19:00\n\n**Norises vieta:**\nMatīsa iela 8\n@raa_riga\n@veldze.radosarupnica\n\nIzstāde piedāvā instalāciju – vairāku objektu sēriju, ko Elza un Uģis veido kā kopdzīves ainavu, telpisku pārdomu par līdzāspastāvēšanu, robežu nojaukšanu un ikdienišķā transformācijām.\n\n**Par Elzu Albiņu:**\nElza veido audiovizuālus darbus un instalācijas. Savā mākslinieciskajā daiļradē viņa nereti iekļauj restauratora profesijā sastopamās prakses iezīmes un tehnoloģijas, piedāvājot jaunas interpretāciju formas par notikumiem ārpus faktu robežām. Viņa pēta fragmentu un veseluma, kopijas un oriģināla ambivalentās attiecības. Ieguvusi bakalaura grādu Kustība.Attēls.Skaņa un maģistra grādu Vizuālās Komunikācijas apakšnozarē Latvijas Mākslas akadēmijā. Aktīvi piedalās izstādēs un mākslas notikumos Latvijā un ārpus tās.\n\n**Par Uģi Albiņu:**\nUģis veido darbus, kas daudzslāņaini atspoguļo un rosina jautājumus par mūsu apkārtējo vidi, izmantojot dažādas tehnikas un medijus, tostarp arī 3D druku, atklājot materiālu un formas dialogu. Viņš strādā ar sistēmām un standartiem, kas mūs ieskauj, iemiesojot kultūru noteiktas estētiskās kvalitātes. Uģis pievēršas abstraktiem jautājumiem kā vizuāliem fenomeniem, apšaubot formas nozīmi ārpus tās utilitārā pielietojuma un izmantojot funkciju kā izteiksmes līdzekli vai kā daļu no vizuālās valodas. Ieguvis bakalaura un maģistra grādu Vizuālās Komunikācijas apakšnozarē Latvijas Mākslas akadēmijā. Aktīvi piedalās izstādēs un mākslas notikumos Latvijā un ārpus tās."
+      },
+
       "secondVarietyShow": {
           "id": "12",
           "title": "Otrā Varietē Izrāde",
