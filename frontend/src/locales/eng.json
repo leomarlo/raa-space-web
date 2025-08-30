@@ -144,6 +144,49 @@
   },
   "program": {
     "items": {
+      "pilseetasNaktii": {
+        "id": "14",
+        "title": "Cities by Night",
+        "image": "/assets/pilsetas-naktii/poster.jpg",
+        "url": "/events/pilsetas-naktii",
+        "startDate": "2025-09-03T16:00:00Z",
+        "endDate": "2025-09-12T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Homo Novus presents the exhibition “Cities by Night” by Italian artist Valentina Medda, exploring women’s perceptions of safety and danger in urban space.",
+        "location": "RAA",
+        "when": "03.09. Wednesday 16:00–20:00\n04.09. Thursday 16:00–20:00\n05.09. Friday 16:00–20:00\n06.09. Saturday 14:00–23:00\n07.09. Sunday 14:00–18:00\n09.09. Tuesday 16:00–20:00\n10.09. Wednesday 16:00–20:00\n11.09. Thursday 16:00–20:00\n12.09. Friday 16:00–20:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "externalLink": "https://homonovus.lv/en/event/pilsetas-nakti/",
+        "externalLinkText": "Please Visit the Event Page on the Homo Novus website",
+        "price": "Free entry",
+        "description": "Cities by Night\nValentina Medda (Italy)\n\nCities by Night is a site-specific participatory project on women’s* perception of danger in the urban space.\n\nIn April, women of different backgrounds, origins, gender and ages were invited to explore the streets of Riga, wandering alone at dusk, avoiding the areas where they felt uncomfortable. The result of their walks are several “Riga by Night” maps of the city whose boundaries have been redrawn based on their experiences, with areas perceived as unsafe obscured by the artist, as if non-existing.\n\nOstensibly refiguring a merely personal experience, the new borders – geographical, physical, emotional and political – show how not only gender but also shared beliefs, prejudices and cultural background shape, redefine and contract urban space and someone’s access to it.\n\nThe project has so far been realized in Paris (FR), Amsterdam (NL), Bologna and Bergamo (IT), Trondheim (NO), Pristina (XZ), and Milan (IT).\n\nValentina Medda is a Sardinian interdisciplinary artist based in Bologna. Her artistic practice unfolds between image, performance and site-specific interventions, investigating the relationship between public and private, body and architecture, city and social belonging. Her work has been presented in international contexts including Santarcangelo Festival, AUAWIRLEBEN in Hamburg, Little Bastard in Norway, Mladi Levi in Ljubljana. She has been artist-in-residence at BAR in Beirut, Cité des Arts, Paris, Flux Factory, NY, Les bains connective, Brussels, MaisonVentidue, Bologna. She has received the Cimetta Fund, Movin up Regione Emilia Romagna, NYFA’s IAP Mentorship and Tina Art PRIZE. She was a winner of the distribution grant PERFORM EUROPE 2021, Stronger Peripheries-Southern Coalition and the 11th Italian Council. With her last project “The Last Lamentation” she won again the 2024/2025 edition of PERFORM EUROPE."
+
+      },
+      "laimePliistUzTraukiem": {
+        "id": "13",
+        "title": "LAIME PLĪST UZ TRAUKIEM",
+        "image": "/assets/laime-pliist-uz-traukiem/poster.jpg",
+        "url": "/events/laime-pliist-uz-traukiem",
+        "startDate": "2025-08-28T19:00:00Z",
+        "endDate": "2025-08-31T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "A joint exhibition by Elza Albiņa and Uģis Albiņš exploring coexistence, dissolving boundaries, and the transformations of the everyday through installations and spatial narratives.",
+        "location": "Matīsa Street 8, @raa_riga, @veldze.radosarupnica",
+        "when": "Exhibition opening on 28.08.2025 at 19:00\nOpen for viewing 29.08.–31.08. from 16:00 to 19:00",
+        "instaLink": "https://www.instagram.com/p/DNpvt-rI4gL",
+        "fbLink": "",
+        "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "price": "Free entry",
+        "description": "We are delighted to announce and invite you to the joint exhibition by Elza Albiņa (@elzzala) and Uģis Albiņš (@ug_gis): **LAIME PLĪST UZ TRAUKIEM**.\n\n**Opening:** 28.08. at 19:00\n**Exhibition on view:** 29.08. to 31.08., from 16:00 to 19:00\n\n**Venue:**\nMatīsa Street 8\n@raa_riga\n@veldze.radosarupnica\n\nThe exhibition presents an installation — a series of objects created by Elza and Uģis — forming a shared-life landscape, a spatial reflection on coexistence, breaking down boundaries, and the transformations of the everyday.\n\n**About Elza Albiņa:**\nElza creates audiovisual works and installations. In her artistic practice, she often integrates techniques and technologies drawn from her background in restoration, offering new forms of interpretation for events beyond the boundaries of facts. She explores the ambivalent relationships between fragments and wholes, copies and originals. Elza holds a Bachelor's degree in Kustība.Attēls.Skaņa and a Master's degree in Visual Communication from the Art Academy of Latvia. She actively participates in exhibitions and art events in Latvia and abroad.\n\n**About Uģis Albiņš:**\nUģis creates works that reflect and provoke multilayered questions about our surrounding environment, using various techniques and media, including 3D printing, to reveal dialogues between material and form. He works with systems and standards that shape our culture, embodying specific aesthetic qualities. Uģis approaches abstract questions as visual phenomena, challenging the meaning of form beyond its utilitarian function and using function itself as a mode of expression and part of the visual language. He holds both a Bachelor's and a Master's degree in Visual Communication from the Art Academy of Latvia and actively participates in exhibitions and art events in Latvia and internationally."
+      },
       "secondVarietyShow": {
         "id": "12",
         "title": "Second Variety Show",
@@ -162,6 +205,8 @@
         "fbLink": "",
         "registrationLink": "",
         "registerFor1stOfSeptember": "Register for 1st of September",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "Entrance fee: 4€ (for performers and Theater). Donations welcome.",
         "description": "You are welcome to participate in our terrible second variety show at Kàtoptron Teātris, on September 1st, the year of 2025 (relatively speaking), at RADOŠĀ RŪPNĪCĀ VELDZE.\n\nThis time, we continue our previous performative activities but with a twist. Borrowing from Pepsi.\n\nAt 19:00 you are invited to spectate two brand new mini performances by Santa Didzus, directed by Santa Didzus and Helias Dzimoulakis. Following the controversial success of her previous performances, Santa strikes back with wrath and might. Make sure you witness our favourite puppeteer/actor in (fr)action.\n\nAt 20:00, we continue the fan-favourite Musical Oracle Series. How does it work? You are invited to enter the Kàtoptron Theatre room by yourself, sit on a chair and close your eyes. Our musicians, led by the High Priestess Anna Ozoliņa, will \"read\" you and attempt to create your sound portrait through instant improvisation. In a way, you're invited to listen to a tune made exclusively for you that will be heard only once in your lifetime. Due to its mystical and intimate nature, any type of recording is not allowed.\n\nAt 21:00, you're invited to bring your own musical – or non-musical – instrument and join an improvisational jam led and championed by our unorthodox mime, Mr Mish. Feel free to open up, fail, create magical cringe or even be absorbed by our circus's hypnotic oblivion.\n\nIn the meantime, Daniels will be teaching you how to juggle, and other bizarre characters would love to provide you some insight into their world.\n\nIn case you wanna book your attendance for the Musical Oracle and the double performance, please contact us on Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, at eliastzimoulakis@gmail.com or enter@raa.space.\n\nEntrance Fee for the whole event: 4€ (for performers and Theater).\nDonations are happily accepted.\nDrinks are provided by the Theater."
       },
@@ -175,6 +220,8 @@
         "color": "1",
         "showTextOverThumbnail": 1,
         "registerPage": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "shortDescription": "Every Thursday of the week the Kàtoptron Teātris (Matīsa 8, RAA) will be open to all -failed or almost failed - artists in Rīga, for free and experimental artistic expression of any kind. From painting and sketching, to open music Jamming, performance, grotesque fashion, dance, poetry etc.",
         "location": "RAA",
         "when": "14.08.2025, from 20:00 to 23:00",
@@ -200,6 +247,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "A Museum of objects sitting unmoved in a shelf corner whilst life is taking place around them. When have they last been moved?\n\nEach object on a shelf has a time when it was last moved, touched or used. After that they have been biding their time. Shelf objects have this thing in common, because they are mostly inert and the shelf is the place where they can be just that. There might be a time for them to be picked up again or to move due to the forces of nature. There most certainly will be this time. Each such object hence has a natural life cycle that sees them being placed there for lack of autonomy and them being replaced or taken away. But why were they placed there? Such a momentous instance has a circumstance, has an intent, has some one who is doing the action. Does that someone know of the object's predicament. That it would be the last time for this object to move in a loong time. Here we present the photo-album of these objects during their life time.\n\nIf you have photos of objects in your shelf, please bring them or their photos to RAA and tell us the story of the object. What brought the object there, what happened on that day to cast the destiny of the object. It will go on exhibit on the Thursday 14th of August at 19:00."
       },
@@ -219,6 +268,8 @@
         "instaLink": "https://www.instagram.com/p/DNBNsE5CHDI/",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "Saules gaismas meklējumos /// In search of sunshine. All are welcome to the opening of Fricis Ripa's first solo show on 18th of august starting from 17:00, hosted by @raa_riga (matīsa street 8)\n\nEvening entertainment:\n19:00 Reivs\n20:00 Muuzis\n21:00 DJ KAĶIS & DJ SUNS\n\nExhibition will be on display till 26.08.2025.\nOpening hours: 14:00 - 20:00"
       },
@@ -239,6 +290,8 @@
         "times": "13:00 - 16:00",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "25 EUR",
         "registerFor2ndOfAugust": "Register for 2nd of August",
         "registerFor3rdOfAugust": "Register for 3rd of August",
@@ -261,6 +314,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "https://formspree.io/f/mzzvddrk",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "An exhibition featuring works created during Arta Raituma’s fire workshop. Explore unique wood-burned artworks that reflect the interplay of fire and surface, capturing memory and transformation."
       },
@@ -280,6 +335,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "Join us for the official opening of the Katoptron Teātris on August 9 starting from 19:00.\n\nProgram:\nReversed Oracle Series\nOpen Stage Gringefest\nHorrible Puppett\nRadio Fake Magic\nJuggling Workshop.\n\nConducted by Helias Dzimoulakis"
       },
@@ -299,6 +356,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "Ksenija Kumačova (b. 1997) is a young photography artist who actively explores the interaction between humans and local nature in her practice. Her interest in plants began eight years ago during her pharmaceutical studies, when plant research required a scientific approach. This rational inquiry soon evolved into a broader interest — viewing plants through the lens of culture, art, and emotional self-reflection.\n\nPhotographer: Ksenija Kumačova (@ksenijakum) \nCurator: Jana Zariņa (@tobeawhile) \n07.08. 19.00–22:00 (atklāšana) \n08.08. 19.00–22:00 \n09.08. 19.00–22:00 \n10.08. 19.00–22:00 \n@raa_riga"
       },
@@ -318,6 +377,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "For only four days, from July 24 at 19:00 until July 27 at 19:00, you have the chance to immerse yourself in the past, when stories were created with a keystroke and a stroke of ink at the RAA cultural space, Creative Workshop Veldze.\n\nThe exhibition features a carefully curated collection of 20th-century typewriters from several countries – Germany, USA, Sweden, and Italy. From early Art Nouveau designs to Modernism — explore how typewriters evolved both as everyday tools and as significant cultural symbols.\n\n• Historic typewriters from several countries;\n• Insights into the design evolution over a century;\n• A chance to try two typewriters yourself and write something of your own.\n\nIf you are a writer, design lover, technology enthusiast, or simply want to feel the rhythm of the analog world — come visit! Press a key. Leave an imprint. Discover the machines that wrote history."
       },
@@ -337,6 +398,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "A poetry marathon with unexpected twists by the poetry enthusiasts’ group “Syntax Stupor.”\n\nParticipants:\nLaima Ābele, Andris Alps, Valts Kleins, Kristīne Juckoviča, Zane Brūvere-Kvēpa, Mārīte Atēna, Elza Dobičina, Ilze Kuzmicka, Dita Putniņa, Aļesja Loseva, Arnolds Ščuckis, Pauls Kauķis, Meldra Ķemere, Linda Tīmane, Marta Veismane, Elīna Līce and others.\n\nThe musical atmosphere will be provided by Dabsolis and Kaspars Sils.\n\nP.S. An open microphone will be available during the event."
       },
@@ -356,6 +419,8 @@
         "instaLink": "https://www.instagram.com/p/DLwZ_5LIATU",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "Participating artists: Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nThe exhibition’s diverse artworks are united by their conceptual foundation – each work is based on a reference to another artist’s practice. The scope of references, rooted in each young artist’s individual interests, is wide: the focus of the work may be medium, theme, method, technique, materiality, attitude, or principle.\n\nThe works are a practical exercise and a personal attempt to learn by doing. We learn from each other, and the motivation to learn is natural curiosity, which manifests as interest in one another. To understand oneself, it is important to be aware of one's influences, to identify them, and to appreciate the inspiration provided by peers – as creativity is nothing but a new combination of accumulated knowledge, experience, and skills.\n\nThe exhibition is on view at RAA (@veldze.radosarupnica), Matīsa iela 8, from 12 to 18 July, daily from 16:00 to 19:00.\n\n🥪 On Tuesday, 15 July, join us for a sandwich workshop with Katrīna and Katrīne!\n\nThe exhibition is organized by 3rd-year students of LMA KAS and Maija Kurševa in collaboration with the @raa_riga team.\nSupported by LMA KAS VKN.\nExhibition friend: @sabrs_festival\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
       },
@@ -375,6 +440,8 @@
         "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
         "fbLink": "https://fb.me/e/671NSHkww",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "free entry",
         "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
       }

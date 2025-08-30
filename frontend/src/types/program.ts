@@ -17,6 +17,8 @@ interface ProgramItem {
   description: string;
   showTextOverThumbnail: number;
   registerPage: string;
+  externalLink: string;
+  externalLinkText: string;
 }
 
 interface ProgramListViewProps {
