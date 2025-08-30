@@ -145,6 +145,27 @@
   },
   "program": {
     "items": {
+      "pilseetasNaktii": {
+        "id": "14",
+        "title": "Pilsētas naktī",
+        "image": "/assets/pilseetas-naktii/poster.jpg",
+        "url": "/events/pilseetas-naktii",
+        "startDate": "2025-09-03T16:00:00Z",
+        "endDate": "2025-09-12T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Homo Novus piedāvā itāļu mākslinieces Valentinas Medas izstādi “Pilsētas naktī”, kas pēta sieviešu drošības un draudu uztveri pilsētvidē.",
+        "location": "RAA",
+        "when": "03.09. trešdiena 16:00–20:00\n04.09. ceturtdiena 16:00–20:00\n05.09. piektdiena 16:00–20:00\n06.09. sestdiena 14:00–23:00\n07.09. svētdiena 14:00–18:00\n09.09. otrdiena 16:00–20:00\n10.09. trešdiena 16:00–20:00\n11.09. ceturtdiena 16:00–20:00\n12.09. piektdiena 16:00–20:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "externalLink": "https://homonovus.lv/en/event/pilsetas-nakti/",
+        "externalLinkText": "Lūdzu, apmeklēt event lapu Homo Novus vietnē",
+        "price": "Ieeja bez maksas",
+        "description": "“Pilsētas naktī” ir izstāde un vietkonkrēts līdzdalības projekts par sieviešu* draudu uztveri pilsētvidē. Šī gada aprīlī dažāda vecuma, tautības un profesiju sievietes tika aicinātas piedalīties pilsētas izpētē, lai noteiktu vietas Rīgā, kurās viņas jūtas droši, pastaigājoties vienatnē krēslas stundās, un kur šī drošības sajūta beidzas. Šī pētījuma rezultātā tapušas “Rīgas nakts” kartes, kur robežas iezīmētas, pamatojoties uz sieviešu pieredzi. Vietas, ko viņas uzskatīja par nedrošām, māksliniece ir aizklājusi, it kā tās nepastāvētu.\n\nŠķietami personiskā pieredze, pārvērsta pilsētas kartēs, atklāj jaunas ģeogrāfiskās, fiziskās, emocionālās un politiskās robežas, kā arī to, ka ne vien dzimums, bet arī uzskati, aizspriedumi un kultūras piederība veido, nosaka un reizēm sašaurina pilsētas telpu un piekļuvi tai.\n\nLīdz šim projekts ir īstenots Parīzē (Francija), Amsterdamā (Nīderlande), Boloņā un Bergamo (Itālija), Trondheimā (Norvēģija), Prištinā (Kosova) un Milānā (Itālija).\n\nAutore: Valentina Meda (Itālija)\nKurators: Homo Novus\n\nValentina Meda ir sardīniešu izcelsmes starpdisciplinārā māksliniece, kas dzīvo Boloņā. Viņas mākslinieciskā darbība aptver skatuves un vizuālo mākslu, kā arī vietkonkrētas intervences, kurās viņa pēta attiecības starp publisko un privāto, ķermeni un arhitektūru, pilsētu un sociālo piederību. Viņas darbi ir bijuši izstādīti starptautiskos festivālos, tostarp Santarcangelo Itālijā, AUAWIRLEBEN Hamburgā, Little Bastard Norvēģijā un Mladi Levi Ļubļanā. Viņa ir bijusi māksliniece rezidencē BAR Beirutā, Cité des Arts Parīzē, Flux Factory Ņujorkā, Les bains connective Briselē un MaisonVentidue Boloņā. Viņa ir saņēmusi Cimetta fonda, Movin up Regione Emilia Romagna, NYFA IAP Mentorship un Tina Art PRIZE balvas. Viņa ir PERFORM EUROPE 2021, Stronger Peripheries-Southern Coalition un 11. Italian Council stipendijas laureāte. Ar savu pēdējo projektu “Pēdējā sēru dziesma” viņa atkal uzvarēja PERFORM EUROPE 2024/2025 gada konkursā."
+      },
       "laimePliistUzTraukiem": {
         "id": "13",
         "title": "LAIME PLĪST UZ TRAUKIEM",
@@ -155,6 +176,8 @@
         "color": "1",
         "showTextOverThumbnail": 1,
         "registerPage": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "shortDescription": "Elzas un Uģa Albiņu kopizstāde, kas caur instalācijām un telpiskām ainavām pēta līdzāspastāvēšanu, robežu nojaukšanu un ikdienišķā transformācijas.",
         "location": "Matīsa iela 8, @raa_riga, @veldze.radosarupnica",
         "when": "Izstādes atklāšana 28.08.2025 plkst. 19:00\nApskatāma 29.08.–31.08. no 16:00 līdz 19:00",
@@ -182,6 +205,8 @@
           "instaLink": "https://www.instagram.com/p/DN227bnVPwl/",
           "fbLink": "",
           "registrationLink": "",
+          "externalLink": "",
+          "externalLinkText": "",
           "registerFor1stOfSeptember": "Rezervēt vietu 2025. gada 1. septembrī",
           "price": "Ieejas maksa: 4€ (izpildītājiem un Teātrim). Ziedojumi laipni gaidīti.",
           "description": "Aicinām jūs piedalīties mūsu briesmīgajā otrajā varietē izrādē Kàtoptron Teātrī, 2025. gada 1. septembrī (relatīvi runājot) RADOŠĀ RŪPNĪCĀ VELDZE.\n\nŠoreiz turpinām savas iepriekšējās performatīvās aktivitātes, bet ar nelielu pagriezienu. Aizņemoties no Pepsi.\n\nPlkst. 19:00 esat aicināti vērot divas pavisam jaunas mini izrādes, kuras veidojusi Santa Didzus, režijā Santa Didzus un Helias Dzimoulakis. Pēc viņas iepriekšējo izrāžu pretrunīgajiem panākumiem Santa atgriežas ar dusmām un spēku. Nepalaidiet garām mūsu mīļāko leļļu meistari un aktrisi darbībā.\n\nPlkst. 20:00 turpinām skatītāju iecienīto Muzikālā Orākula Sēriju. Kā tas darbojas? Jūs esat aicināti vienatnē ienākt Kàtoptron Teātra telpā, apsēsties uz krēsla un aizvērt acis. Mūsu mūziķi, kurus vada Augstā Priesteriene Anna Ozoliņa, “nolasīs” jūs un mēģinās radīt jūsu skaņu portretu caur spontānu improvizāciju. Tādā veidā jūs klausīsieties melodiju, kas radīta tikai jums un tiks atskaņota tikai vienreiz mūžā. Sakarā ar tās mistisko un intīmo raksturu, jebkāda veida ieraksti nav atļauti.\n\nPlkst. 21:00 esat aicināti paņemt līdzi savu muzikālo – vai nemuzikālo – instrumentu un pievienoties improvizācijas džemam, ko vada un iedvesmo mūsu neortodoksālais mīms Mr Mish. Jūtieties brīvi atvērties, kļūdīties, radīt maģisku cringe vai pat pazust mūsu cirka hipnotiskajā nebūtībā.\n\nTikmēr Daniels mācīs jūs žonglēt, un citi dīvaini tēli labprāt sniegs ieskatu savā pasaulē.\n\nJa vēlaties rezervēt vietu Muzikālajam Orākulam un dubultajai izrādei, lūdzu, sazinieties ar mums Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, pa e-pastu eliastzimoulakis@gmail.com vai enter@raa.space.\n\nIeejas maksa visam pasākumam: 4€ (izpildītājiem un Teātrim).\nZiedojumi ir laipni gaidīti.\nDzērienus nodrošina Teātris."
@@ -202,6 +227,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "Ziedojumi",
         "description": "Profesionāli un neprofesionāli mākslinieki ir laipni aicināti apsēsties mūsu mājīgajā un brīnišķīgajā viesistabā, pagatavot sev dzērienu un radīt Mākslu. Vai arī — neradīt Mākslu vispār; to sauc par vojerismu.\n\nKā tas strādā? Ļaujiet man vispirms izņemt ķiploku no savas dvēseles. Labi, gatavs: durvis vaļā no 20:30, un jūs varat pievienoties mums, atnesot ideju, kuru gribat iedzīvināt. Jebko. Jebko, kas padarīs jūsu dzīvi interesantāku. Es vardarbīgi aicinu jūs nākt, sēdēt, dzert, skicēt, rakstīt, uzstāties sev vai citiem caur improvizāciju. Spēlēt kopīgu mūziku, kas starp mums var uzspridzināt mistiku; dejot uz tās, raudāt uz tās, pūst uz tās vai ignorēt to ar snobisku augstprātību. Zīmēt — uz ķermeņiem, uz papīra, uz pierēm. Spēlēt mūziku vai iznīcināt to. Veikt maģiju vai rituālus; izsmiet maģiju un rituālus. Apgulties un sapņot mūsu mazajā teātra skatuvē (kas katru mikropimpi liek sajusties kā zirgam).\n\nFlirtēt drīkst, cik sirds kāro, bet pieskārieni — tikai ar piekrišanu; citādi es nogriezīšu tavu locekli un pabarošu ar to mūsu iedomāto suni Helgu.\n\nNeizdevusī Metafora ir jaunā, varenākā Metafora. Pamēģināsim to pieklājīgi vandāliski izpostīt.\n\nSVARĪGI: Mūsu teātrī ir pieejami daži mūzikas instrumenti (viena elektriskā ģitāra ar pastiprinātāju, viena klasiskā ģitāra, mazs bungas komplekts, 19. gadsimta galda klavieres), ir flomāsteri, lelles, gaismas, pat kādas teātra drēbes. Ja tev ir kaut kas konkrēts iecerēts, lūdzu, atnes pats (piemēram, savu instrumentu — vēlams kaut ko patētisku).\n\nCeturtdiena, 14. augusts: Dialogo ad Absurdum, atvērta skatuve frīku šovam, mūzikas spēlēšana, maģisku simbolu radīšana un ķermeņu apzīmēšana, neērtība un, cerams, arī kāda filma.\n\nIeeja bez maksas, bet ZIEDO, lai mēs turpinātu!"
       },
@@ -221,6 +248,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Priekšmetu muzejs – priekšmeti nekustīgi sēž plaukta stūrī, kamēr ap tiem norit dzīve. Kad tie pēdējo reizi tika pārvietoti?\n\nKatram priekšmetam plauktā ir brīdis, kad tas pēdējo reizi tika pārvietots, aizskarts vai lietots. Pēc tam tie gaida savu laiku. Plaukta priekšmetus vieno šī īpašība, jo tie lielākoties ir inerti, un plaukts ir vieta, kur tie var būt tieši tādi. Var pienākt brīdis, kad tos atkal paņem rokās vai tie pakustas dabas spēku dēļ. Šāds brīdis noteikti pienāks. Tādējādi katram šādam priekšmetam ir dabisks dzīves cikls: tos noliek tur, jo tiem nav autonomijas, un kādudien tos nomaina vai aizvāc. Bet kāpēc tie tika nolikti tieši tur? Šādam nozīmīgam brīdim ir savi apstākļi, iecere un kāds, kas veic darbību. Vai šis cilvēks apzinās priekšmeta likteni? Ka uz ļoti ilgu laiku tā būs pēdējā reize, kad priekšmets tiks pakustināts. Šeit mēs piedāvājam šo priekšmetu fotoalbumu viņu eksistences laikā.\n\nJa tev ir fotogrāfijas ar priekšmetiem tavā plauktā, lūdzu, atnes tos vai to fotogrāfijas uz RAA un pastāsti mums priekšmeta stāstu. Kas priekšmetu tur atveda, kas notika tajā dienā, kas noteica priekšmeta likteni. Izstāde tiks atklāta ceturtdien, 14. augustā, plkst. 19:00."
       },
@@ -240,6 +269,8 @@
         "instaLink": "https://www.instagram.com/p/DNBNsE5CHDI/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Saules gaismas meklējumos /// In search of sunshine. Visi laipni aicināti uz Friča Ripa pirmās personālizstādes atklāšanu 18. augustā no plkst. 17:00, ko rīko @raa_riga (Matīsa iela 8)\n\nVakara programma:\n19:00 Reivs\n20:00 Muuzis\n21:00 DJ KAĶIS & DJ SUNS\n\nIzstāde būs apskatāma līdz 26.08.2025.\nDarba laiks: 14:00 - 20:00"
       },
@@ -262,6 +293,8 @@
         "registrationLink": "",
         "registrationLink2ndOfAugust": "https://formspree.io/f/mzzvddrk",
         "registrationLink3rdOfAugust": "https://formspree.io/f/xnnzdkzg",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "25 EUR",
         "registerFor2ndOfAugust": "Reģistrējies 2. augustā",
         "registerFor3rdOfAugust": "Reģistrējies 3. augustā",
@@ -284,6 +317,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Izstāde, kurā apskatāmi darbi, kas radīti Arta Raitumas vadītajā uguns darbnīcā. Atklāj unikālus darbus, kas ataino uguns un koka mijiedarbību, iemūžinot atmiņu un pārmaiņu sajūtu."
       },
@@ -304,6 +339,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Pievienojies Katoptron Teātris oficiālajai atklāšanai 9. augustā sākot no 19:00.\n\nProgramma:\nReversed Oracle Series\nOpen Stage Gringefest\nHorrible Puppett\nRadio Fake Magic\nJuggling Workshop.\n\nConducted by Helias Dzimoulakis"
       },
@@ -323,6 +360,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Ksenija Kumačova (d. 1997.g.) ir jauna fotomāksliniece, kas savā praksē aktīvi pēta cilvēka un lokālas dabas mijiedarbību. Viņas interese par augiem aizsākās pirms 8 gadiem farmācijas studiju laikā, kad augu izziņai vajadzēja pieiet zinātniski. Racionāla izziņa drīz vien pārtapa par interesi uz augiem skatīties plašāk – caur kultūras, mākslas un emocionālas pašrefleksijas prizmu.\n\nPhotographer: Ksenija Kumačova (@ksenijakum) \nCurator: Jana Zariņa (@tobeawhile) \n07.08. 19.00–22:00 (atklāšana) \n08.08. 19.00–22:00 \n09.08. 19.00–22:00 \n10.08. 19.00–22:00 \n@raa_riga \n"
       },
@@ -342,10 +381,11 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Tikai četras dienas, no 24. jūlija 19.00 līdz 27. jūlija 19.00, Tev ir iespēja iegremdēties pagātnēs laikos, kad stāsti tapa ar taustiņu pieskārienu un tintes triepienu RAA kultūrtelpā, Radošā rūpnīcā Veldze.\n\nIzstāde apvieno rūpīgi atlasītu 20. gadsimta rakstāmmašīnu kolekciju no vairākām pasaules valstīm – Vācijas, ASV, Zviedrijas un Itālijas. No agrīna art-noveau dizaina līdz modernismam — izpēti, kā rakstāmmašīnas attīstījās gan kā ikdienas rīki, gan kā nozīmīgi kultūras simboli.\n\n• Vēsturiskas rakstāmmašīnas no vairākām valstīm;\n• Ieskats to dizaina attīstībā gadsimta garumā;\n• Iespēja pašiem izmēģināt divas rakstāmmašīnas un uzrakstīt ko savu.\n\nJa esi rakstnieks, dizaina cienītājs, tehnikas entuziasts vai vienkārši vēlies sajust analogās pasaules ritmu — nāc ciemos! Nospied taustiņu. Atstāj nospiedumu. Iepazīsti mašīnas, kas rakstīja vēsturi."
       },
-
       "dzejaSinusoida": {
         "id": "3",
         "title": "Dzeja: Sinusoīda",
@@ -362,6 +402,8 @@
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Dzejas entuziastu grupas “Sintakses stupors” dzejas ilg-lasījums ar negaidītiem pavērsieniem.\n\nDalībnieki:\nLaima Ābele, Andris Alps, Valts Kleins, Kristīne Juckoviča, Zane Brūvere-Kvēpa, Mārīte Atēna, Elza Dobičina, Ilze Kuzmicka, Dita Putniņa, Aļesja Loseva, Arnolds Ščuckis, Pauls Kauķis, Meldra Ķemere, Linda Tīmane, Marta Veismane, Elīna Līce un citi.\n\nMuzikālo atmosfēru nodrošinās Dabsolis un Kaspars Sils.\n\nP.S. Pasākuma laikā būs pieejams brīvais mikrofons."
       },
@@ -382,6 +424,8 @@
         "instaLink": "https://www.instagram.com/p/DLwZ_5LIATU",
         "fbLink": "",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Izstādē piedalās Ance Dālmane, Ēriks Frišenfelds, Katrīna Kovaļuka, Katrīne Kate Kucina-Arbidāne, Sofija Mālniece, Maija Seņkova, Dagnis Stikāns.\n\nIzstādes daudzveidīgos darbus vieno to veidošanas koncepcija, proti, katra darba pamatā ir atsauce uz kāda cita mākslinieka praksi. Atsauču lietojuma spektrs, balstīts katra jaunā mākslinieka individuālajās interesēs, arī ir plašs – darba fokuss var būt medijs, tēma, metode, tehnika, materialitāte, attieksme vai princips.\n\nIzstādes darbi ir praktisks vingrinājums un individuāls mēģinājums mācīties darot. Mēs mācāmies viens no otra, un motivācija mācīties ir dabiska ziņkārība, kas izpaužas kā interese vienam par otru. Lai zinātu sevi, ir svarīgi apzināties savas ietekmes, identificēt tās un novērtēt iedvesmu, ko sniedz līdzcilvēki, jo jaunrade ir nekas cits kā vien uzkrāto zināšanu, pieredzes un prasmju jauna kombinācija.\n\nIzstāde skatāma RAA telpā @veldze.radosarupnica, Matīsa ielā 8 no 12. līdz 18. jūlijam katru dienu no 16.00 līdz 19.00.\n\n🥪 Otrdien, 15. jūlijā gaidīsim jūs uz sviestmaižu vorkšopu ar Katrīni un Katrīnu!\n\nIzstādi organizē LMA KAS 3. kursa studenti un Maija Kurševa sadarbībā ar @raa_riga komandu.\nIzstādi atbalsta LMA KAS VKN.\nIzstādes draugs @sabrs_festival.\n\n@ance.dalmane\n@eric_art_vomit\n@lilmjaumjau\n@kkattriine\n@_maija_sss\n@dagnisstikans"
       },
@@ -401,6 +445,8 @@
         "instaLink": "https://www.instagram.com/p/DLxALZWNiab/",
         "fbLink": "https://fb.me/e/671NSHkww",
         "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
         "price": "ieeja bez maksas",
         "description": "Piektdien, 11. jūlijā pl. 18.00 ver durvis jauna starpdisciplināra kultūrtelpa R A A.\nAtklāšanas vakarā gaidāms: LMA jauno mākslinieku izstāde Maijas Kurševas vadībā, elektroniskā un akustiskā mūzika, telpu izzināšana, sarunas ar atspirdzinošiem dzērieniem, kā arī kultūrtelpas veidotāju teatrāls priekšnesums, ar ko R A A iesāks savu teatrālo darbību.\n\nR A A atklāšana #1\n\nProgramma\n\n18.00 R A A atklāšana magno cum tempore (Dj Meile @esmeile)\n19.00 LMA KAS (@kustiba_attels_skana) jauno mākslinieku izstādes “Tavās kurpēs” atklāšana (festivāla SĀBRS ietvaros; Maijas Kurševas (@maija_kurseva) organizēta)\n20.00 Muzikālā performance (Katrīna Kovaļuka @lilmjaumjau, Ēriks Frišenfelds)\n21.00 Teatrālā atklāšana\n22.00 Dzīvā skaņa"
       }

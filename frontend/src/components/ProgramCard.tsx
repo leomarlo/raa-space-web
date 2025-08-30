@@ -33,17 +33,27 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
       {/* */}
       <div className="flex flex-wrap gap-4 mt-4">
 
-      {/* If there is a register page, then create a link not in new tab, the button stays the same */}
-      {item.registerPage && (
-        <a
-          href={item.registerPage}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
-        >
-          Register
-        </a>
-      )}
+        {/* If there is a register page, then create a link not in new tab, the button stays the same */}
+        {item.registerPage && (
+          <a
+            href={item.registerPage}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+          >
+            Register
+          </a>
+        )}
+        {item.externalLink && (
+          <a
+            href={item.externalLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+          >
+            {item.externalLinkText}
+          </a>
+        )}
         <button
           onClick={() => setExpanded(!expanded)}
           className="px-4 py-2 border border-[#8B0000] text-[#f5f5dc] rounded-full hover:bg-[#8B0000] transition"
