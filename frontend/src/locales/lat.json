@@ -145,6 +145,27 @@
   },
   "program": {
     "items": {
+      "dzoelaTeilore": {
+        "id": "15",
+        "title": "Džoelas Teilores vieslasījums",
+        "image": "/assets/dzoela-teilore/Dzoela_Teilore_Raa_A3.jpg",
+        "url": "/events/dzoela-teilore",
+        "startDate": "2025-09-08T19:00:00Z",
+        "endDate": "2025-09-08T21:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Kvīru dzejas dienu ietvaros 8. jūlijā RAA telpā viesosies britu dzejniece, performanču māksliniece un dramaturģe Džoela Teilore. Pasākums notiks angļu valodā ar dažiem dzejoļu atdzejojumiem latviski. Ieeja bez maksas.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "08.09.2025, otrdiena, plkst. 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "price": "Ieeja bez maksas",
+        "description": "Kvīru dzejas dienu ietvaros pirmdien, 8. jūlijā, plkst. 19.00 RAA telpā, Matīsa ielā 8, Rīgā, viesosies ievērojamā, lieliskā, azartiskā britu dzejniece Džoela Teilore (Joelle Taylor).\n\nDžoela Teilore ir dzejniece, performanču māksliniece un dramaturģe. Viņa ir vairāku dzejas krājumu un lugu, kā arī viena romāna autore. Teilore par saviem darbiem saņēmusi vairākus nozīmīgus literārus apbalvojumus. Par krājumu \"C+nto & Othered Poems\" (2021) ieguvusi prestižo T. S. Eliota balvu. Viņa ir bijusi Lielbritānijas dzejas slama čempione, kā arī dibinājusi SLAMbassadors – jauniešu slama čempionātu.\n\nLatviski ar Džoelas Teilores dzejoļiem var iepazīties literatūras žurnālā \"Punctum\" Raimondas Arājas atdzejojumā: https://www.punctummagazine.lv/2024/01/22/canto/\n\nPasākums notiks angļu valodā ar dažu dzejoļu atdzejojumiem latviski Ingas Gailes un Raimondas Arājas izpildījumā.\n\nIeeja par brīvu.\n\nPasākumu rīko biedrība \"Latvijas PEN\", Džoelas Teilores viesošanos Rīgā finansiāli atbalsta Lielbritānijas vēstniecība Rīgā (@britishembassyriga).\n\nAttēlu darināja Elīna Brasliņa."
+      },
       "pilseetasNaktii": {
         "id": "14",
         "title": "Pilsētas naktī",
