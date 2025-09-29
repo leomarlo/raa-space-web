@@ -145,6 +145,29 @@
   },
   "program": {
     "items": {
+      "rigaSockExchange": {
+        "id": "23",
+        "title": "Rīgas Zeķu birža",
+        "image": "/assets/riga-sock-exchange/poster.png",
+        "url": "/events/riga-sock-exchange",
+        "startDate": "2025-10-05T17:00:00Z",
+        "endDate": "2025-10-05T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/riga-sock-exchange",
+        "shortDescription": "Kas notiek ar zeķēm, kad tās zaudē savu pāri? Tās nonāk Rīgas Zeķu biržā – ar Vienas Zeķes Iepazīšanos, Zeķu Cīņām un Zeķu Apmaiņu. Atved savu vientuļo zeķi uz RAA un piedalies jautrā pēcpusdienā!",
+        "location": "RAA.space, Matīsa iela 8 (pretī ugunsdzēsēju depo), Rīga",
+        "when": "05.10.2025, svētdiena, 17:00–20:00",
+        "instaLink": "https://www.instagram.com/p/DPMkwvHiPvJ/",
+        "fbLink": "",
+        "registrationLink": "https://formspree.io/f/xblzgpvd",
+        "price": "Ieeja: lūdzu, atnesiet vienu izmazgātu zeķi. Ziedojums 5€ ir laipni gaidīts.",
+        "registerForRigaSockExchange": "Reģistrējies Rīgas Zeķu biržai",
+        "times": "5 oktobris, 17:00–20:00",
+        "externalLink": "https://www.instagram.com/p/DPMkwvHiPvJ/",
+        "externalLinkText": "Instagram Post",
+        "description": "Rīga beidzot uzņem pasākumu, uz kuru gaidījušas visas vientuļās zeķes: Rīgas Zeķu birža!\n\nPēdējo reizi skapī redzētā, savijusies ar savu pāri, tava zeķe varēja pazust putekļsūcējā, iekrist veļas atvilktnē, tikt saplosīta un apēsta kaimiņa suņa, pazust vecmāmiņas dīvāna spraugā pie zobiem vai arī vienkārši piedzīvot klasisko noslēpumaino veļas likteni, kas atraitņojis daudzas zeķes.\n\nJa tava zeķe jau tāpat bija nogurusi no sava partnera vai meklē jaunu piedzīvojumu – vai ko ilgstošāku, vai gluži otrādi, ko pavisam ikdienišķu – Rīgas Zeķu birža ir īstā vieta. Tevi gaida jautra pēcpusdiena ar šādu programmu:\n\n- 17:00 – Zeķu Iepazīšanās šovs\n- 18:00 – Zeķu Cīņas (jautra spēle arī īpašniekiem)\n- 19:00 – Zeķu Apmaiņa (atrodi savai vientuļajai zeķei jaunu pāri)\n\nVakaru vadīs Reinis Ziediņš un Leonhards Horstmeyers. Pasākumu pavadīs dzīva mūzika. Varēs baudīt īpašos “zeķtailus” vai kādu dzērienu no mūsu meža bāra \"māte nātre\".\n\nKad: 5. oktobris, 17:00–20:00\nKur: RAA.space (Matīsa iela 8, pretī ugunsdzēsēju depo)\nIeeja: lūdzu, atnesiet vienu izmazgātu zeķi. Ziedojums 5€ ir laipni gaidīts.\nReģistrācija: (skatīt zemāk esošo saiti)\n\nTiekamies drīz!"
+      },
       "scentArtFestival": {
         "id": "20",
         "title": "Scent Art Festival",
