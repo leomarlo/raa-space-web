@@ -144,6 +144,29 @@
   },
   "program": {
     "items": {
+      "rigaSockExchange": {
+        "id": "23",
+        "title": "Riga Sock Exchange",
+        "image": "/assets/riga-sock-exchange/poster.png",
+        "url": "/events/riga-sock-exchange",
+        "startDate": "2025-10-05T17:00:00Z",
+        "endDate": "2025-10-05T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/riga-sock-exchange",
+        "shortDescription": "What happens to socks when they loose their partner? They go to the Riga Sock Exchange with Single Sock Dating, Sock Wrestling and Sock Exchange. Bring your single socks to RAA and join an afternoon of fun: Sock Dating, Sock Wrestling, and the great Sock Exchange.",
+        "location": "RAA.space, Matīsa Street 8 (opposite fire brigade), Riga",
+        "when": "05.10.2025, Sunday, 17:00–20:00",
+        "instaLink": "https://www.instagram.com/p/DPMkwvHiPvJ/",
+        "fbLink": "",
+        "registrationLink": "https://formspree.io/f/xblzgpvd",
+        "price": "Entrance: bring a washed single sock. Donation of 5€ welcome.",
+        "registerForRigaSockExchange": "Register for Riga Sock Exchange",
+        "times": "5 October, 17:00–20:00",
+        "externalLink": "https://www.instagram.com/p/DPMkwvHiPvJ/",
+        "externalLinkText": "Instagram Post",
+        "description": "Riga finally hosts the event your single socks have all been waiting for: The Riga Sock Exchange!\n\nLast seen in the closet, entwined with its partner, your sock might have been sucked up by a vacuum cleaner, slipped into the lingerie drawer, torn and digested by neighbour's dog, fallen into a sofa crevasse near grandma's teeth or it suffered the classic mysterious laundry fate that has widowed many socks.\n\nIf your single sock was anyways bored of its previous partner or it simply looks for a new adventure or something more long term, maybe something out of the ordinary or in fact something quite ordinary. The Riga Sock Exchange is where to go and enjoy a late afternoon of fun with the following program lined up:\n\n- 17h - Sock Dating Show\n- 18h - Sock Wrestling (playful sock-game also for sock-owners)\n- 19h - Sock Exchange (find other single socks)\n\nYou will be guided through the evening by Reinis Ziediņš and Leonhard Horstmeyer. The event will be accompanied by live music. You can enjoy one of our special socktails or some hot or cold beverages from our forest bar \"māte nātre\".\n\nWhen: 5th of October, 17h–20h\nWhere: RAA.space (Matīsa iela 8, opposite of fire brigade)\nEntrance: Please bring a washed single sock. Donation of 5€ is welcome.\nRegistration: Please do register (see link below)\n\nSee you soon!"
+      },
       "scentArtFestival": {
         "id": "20",
         "title": "Scent Art Festival",
