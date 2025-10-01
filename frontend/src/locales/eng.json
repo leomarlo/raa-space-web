@@ -144,6 +144,29 @@
   },
   "program": {
     "items": {
+      "resTacta": {
+        "id": "24",
+        "title": "res tacta — performance / creative workshop",
+        "image": "/assets/res-tacta/poster.png",
+        "url": "/events/res-tacta",
+        "startDate": "2025-10-08T18:30:00Z",
+        "endDate": "2025-10-08T21:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/res-tacta",
+        "times": "18:30 - 21:30",
+        "registerForResTacta": "Register for res tacta",
+        "shortDescription": "An evening of touch, sound, and long-exposure photography: phonographs, piano, interactive experiments, and the forest bar “māte nātre”. 08.10 at 18:30, RAA. Free entry.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "08.10.2025, Wednesday, 18:30",
+        "instaLink": "https://www.instagram.com/p/DPPYv2ujK7X/",
+        "fbLink": "",
+        "registrationLink": "https://formspree.io/f/mvgwroay",
+        "price": "Free entry",
+        "externalLink": "https://www.instagram.com/p/DPPYv2ujK7X/",
+        "externalLinkText": "Instagram Post",
+        "description": "res tacta. performance / creative workshop\n\nFrom Latin: “a thing that is touched” or “a tangible thing.”\n\nAn object touched by the human hand becomes a link between historical heritage and a living instrument, from which a unique experience is born in the moment of contact — here and now.\n\nThe phonograph needle touches the record, the piano hammer vibrates the strings, the camera shutter releases and the curtain opens to capture a moment that becomes tangible.\n______________________\n\nThe evening will feature the musical performance “All My Phonographs,” where the sounds of phonographs intertwine with piano accompaniment in a long-exposure light aesthetic. Visitors will also be able to explore the history and construction of phonographs and meet collector Sanita Duka.\n\nIn the second part of the evening, led by Jevgenija Frolova, everyone is invited to take part in an interactive analogue photography experiment — moving to music, photographing one another with long-exposure settings, and engaging in creative collaboration in the making of images.\n\nPhotographer Armands Andže will capture the course of the evening using the dry plate technique with three historic large-format cameras, resulting in three unique long-exposure images from different perspectives.\n\nLater, the photographs from this evening will be exhibited at RAA as a reminder of the fleeting moment of touch that became a tangible memory.\n\nThroughout the event, the forest bar “māte nātre” will be open, offering forest-inspired drinks from the Baltics.\n\n⚪️ Dress code: light-colored clothes, which stand out best in long-exposure photographs.\n\n🎟 Free entry\n\nSee you soon!\n\nLine-up:\n• Sanita Duka — phonograph collection\n• Jevgenija Frolova — analogue photography experiment\n• Armands Andže — dry plate photography\n• Jana Zariņa — performative piano accompaniment in long exposure"
+      },
       "rigaSockExchange": {
         "id": "23",
         "title": "Riga Sock Exchange",

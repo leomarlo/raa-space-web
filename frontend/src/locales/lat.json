@@ -145,6 +145,29 @@
   },
   "program": {
     "items": {
+      "resTacta": {
+        "id": "24",
+        "title": "res tacta — performance / radošā darbnīca",
+        "image": "/assets/res-tacta/poster.png",
+        "url": "/events/res-tacta",
+        "startDate": "2025-10-08T18:30:00Z",
+        "endDate": "2025-10-08T21:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/res-tacta",
+        "times": "18:30 - 21:30",
+        "registerForResTacta": "Reģistrējies res tacta",
+        "shortDescription": "Pieskāriena estētika mūzikā, fotogrāfijā un kustībā: patafoni, klavieres, ilgās ekspozīcijas eksperimenti un zāļu bārs “māte nātre”. 08.10. plkst. 18:30, RAA. Ieeja brīva.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "08.10.2025, trešdiena, plkst. 18:30",
+        "instaLink": "https://www.instagram.com/p/DPPYv2ujK7X/",
+        "fbLink": "",
+        "registrationLink": "https://formspree.io/f/mvgwroay",
+        "price": "Ieeja brīva",
+        "externalLink": "https://www.instagram.com/p/DPPYv2ujK7X/",
+        "externalLinkText": "Instagram Post",
+        "description": "res tacta. performance / radošā darbnīca\n\nno latīņu valodas “lieta, kas ir skarta, pieskarta” jeb “taustīta lieta”\n\nPriekšmets, kuram pieskārusies cilvēka roka, kļūst par saiti starp vēsturisko mantojumu un dzīvu instrumentu, no kura pieskāriena brīdī dzimst unikāla pieredze – šeit un tagad.\n\nPatafona adata pieskaras platei, klavieru amuriņš ievibrē stīgas, fotokameras slēdzis atbrīvojas un aizkars atveras, lai notvertu mirkli, kas kļūst taustāms.\n______________________\n\nVakara gaitā skanēs muzikālā performance “Visi mani patafoni”, kurā patafonu skaņas mijiedarbosies ar klavieru pavadījumu long exposure gaismas estētikā. Būs iespēja iepazīties ar patafonu vēsturi un uzbūvi, kā arī satikt šo unikālo instrumentu kolekcionāri Sanitu Duku.\n\nPasākuma otrajā daļā, Jevgēnijas Frolovas vadībā, ikviens aicināts piedalīties interaktīvā analogās fotogrāfijas eksperimentā – kustēties mūzikas ritmā, fotografēt viens otru ar ilgās ekspozīcijas iestatījumiem un ļauties radošai sadarbībai attēla veidošanā.\n\nFotogrāfs Armands Andže iemūžinās vakara norisi sausās plates tehnikā, izmantojot trīs vēsturiskus lielizmēra fotoaparātus – rezultātā taps trīs unikāli ilgās ekspozīcijas kadri no dažādiem skatpunktiem.\n\nVēlāk šī vakara fotogrāfijas tiks izstādītas RAA telpā kā atgādinājums par pieskāriena mirkli, kas pārtapis taustāmā atmiņā.\n\nPasākuma laikā darbosies arī zāļu bārs “māte nātre”, kurā varēs nogaršot meža iedvesmotus dzērienus no Baltijas valstīm.\n\n⚪️ Dress code: gaišas drēbes, kas labāk izceļas ilgās ekspozīcijas fotogrāfijās.\n\n🎟 Ieeja: brīva\n\nUz tikšanos,\n\nLine-up:\n• Sanita Duka — patafonu kolekcija\n• Jevgēnija Frolova — analogās fotogrāfijas eksperiments\n• Armands Andže — sausās plates fotogrāfija\n• Jana Zariņa — klavieru ilgās ekspozīcijas performatīvais pavadījums"
+      },
       "rigaSockExchange": {
         "id": "23",
         "title": "Rīgas Zeķu birža",
