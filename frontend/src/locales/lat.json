@@ -145,6 +145,27 @@
   },
   "program": {
     "items": {
+      "kizomba": {
+        "id": "26",
+        "title": "Kizomba / UrbanKiz Party",
+        "image": "/assets/kizomba/poster.png",
+        "url": "/events/kizomba",
+        "startDate": "2025-10-04T19:00:00Z",
+        "endDate": "2025-10-04T23:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Rudens karstākais deju vakars Rīgā! Kizomba / UrbanKiz ballīte ar DJ mūziku, siltu atmosfēru un bezalkoholisku bāru. 04.10 plkst. 19:00, RAA.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "04.10.2025, sestdiena, plkst. 19:00",
+        "instaLink": "https://www.instagram.com/p/DO8tsN4iJzA",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "https://www.instagram.com/p/DO8tsN4iJzA",
+        "externalLinkText": "Skatīt instagram post",
+        "description": "Rudens karstākais deju vakars Rīgā!\n✨ Kizomba / UrbanKiz PARTY by Prima Studio ✨\n📅 4. oktobris | 19:00\n📍 Kultūras telpa RAA, Matīsa iela 8\n\nTevi sagaida:\n💃 Silta atmosfēra\n🌆 Urbānās vides šarms\n🎶 DJ ritmi, kas neļaus sēdēt malā\n🥤 Bezalkoholisku atspirdzinošu dzērienu bārs\n\n👉 Paķer līdzi draugus, deju mīlestību un smaidu – pārējo nodrošinām mēs!\n\nSaglabā šo postu un padod ziņu saviem draugiem!"
+      },
       "resTacta": {
         "id": "24",
         "title": "res tacta — performance / radošā darbnīca",
@@ -194,7 +215,7 @@
       "scentArtFestival": {
         "id": "20",
         "title": "Scent Art Festival",
-        "image": "/assets/scent-art-festival/raa_coming_soon.png",
+        "image": "/assets/scent-art-festival/poster.jpg",
         "url": "/events/scent-art-festival",
         "startDate": "2025-10-10T18:00:00Z",
         "endDate": "2025-10-12T20:00:00Z",
@@ -233,17 +254,17 @@
         "externalLinkText": "",
         "description": "Apraksts sekos"
       },
-      "pilsetasCilvekiemExhibition": {
+      "brivibasExperience": {
         "id": "22",
-        "title": "Pilsēta cilvēkiem – izstāde",
-        "image": "/assets/pilsetas-cilvekiem-exhibition/raa_coming_soon.png",
-        "url": "/events/pilsetas-cilvekiem-exhibition",
+        "title": "Brīvības Experience",
+        "image": "/assets/brivibas-experience/poster.png",
+        "url": "/events/brivibas-experience",
         "startDate": "2025-10-16T14:00:00Z",
         "endDate": "2025-10-30T20:00:00Z",
         "color": "1",
         "showTextOverThumbnail": 1,
         "registerPage": "",
-        "shortDescription": "Izstāde par Rīgas ielu pagātni, tagadni un iespējamo nākotni – kā padarīt pilsētu draudzīgu cilvēkiem, nevis automašīnām. 16.–30. oktobris, RAA.",
+        "shortDescription": "Interaktīva izstāde par Brīvības ielu – tās vēsturi, šodienu un iespējamo nākotni. Kā padarīt pilsētu draudzīgāku cilvēkiem, nevis automašīnām. 16.–30. oktobris, RAA.",
         "location": "RAA, Matīsa iela 8, Rīga",
         "when": "16.–30.10.2025 (precīzs darba laiks tiks izziņots)",
         "instaLink": "",
@@ -252,7 +273,7 @@
         "price": "Ieeja bez maksas",
         "externalLink": "",
         "externalLinkText": "",
-        "description": "Rīga ir spērusi soļus, lai kļūtu cilvēkiem draudzīgāka, taču pārāk daudzas ielas joprojām iestrēgušas padomju mantojuma ēnā – projektētas automašīnām, nevis dzīvei. Asfalts uzvar kokus, stāvvietas – publisko telpu, satiksme – dzīvas ielas. Pievienojies apvienībai “Pilsēta cilvēkiem”, lai pašā Rīgas sirdī izgaismotu absurdās ikdienas realitātes, kurās esam iemācīti samierināties. Izmantojot dažādas vizualizācijas, 3D modeļus un citus vizuālos līdzekļus, tiks parādīta mūsu ielu vēsture, esošais stāvoklis un iespējamie nākotnes scenāriji.\n\nRīkotājs: Apvienība “Pilsēta cilvēkiem”.\nAptuvenais norises laiks: 16.–30. oktobris."
+        "description": "Brīvības Experience ir interaktīva izstāde, kas veltīta vienai no nozīmīgākajām Rīgas ielām – Brīvības ielai. Tā aicina apmeklētājus iepazīt ielas pagātni, šodienas izaicinājumus un nākotnes potenciālu. Lai gan Rīga ir spērusi soļus, lai kļūtu draudzīgāka cilvēkiem, pārāk daudz ielu joprojām ir iestrēgušas padomju mantojuma ēnā – projektētas automašīnām, nevis dzīvei. Asfalts bieži vien ņem virsroku pār kokiem, stāvvietas – pār publisko telpu, satiksme – pār dzīvu ielu.\n\nIzmantojot dažādas vizualizācijas, 3D modeļus un citus vizuālos līdzekļus, izstāde izgaismos Brīvības ielas vēsturi, tās esošo stāvokli un potenciālos nākotnes scenārijus. Apmeklētājiem būs iespēja pašiem piedalīties domāšanā par to, kā padarīt pilsētu cilvēkiem draudzīgāku.\n\nRīkotājs: Brunis Kibilds (Apvienība “Pilsēta cilvēkiem”).\nNorises laiks: 16.–30. oktobris, RAA."
       },
       "exoFotoIzstade": {
         "id": "19",
