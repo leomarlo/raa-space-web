@@ -65,6 +65,13 @@ export default function TelpaPage() {
             width={1000}
             height={1000}
           />
+          <Image 
+            src="/assets/telpa/layout_with_windows_2.png"
+            alt="Telpa Layout" 
+            className="w-full h-auto rounded-lg shadow-md"
+            width={1000}
+            height={1000}
+          />
           <h2 id="map" className="text-2xl font-bold text-center">{t.telpa.mapTitle}</h2>
           <p className="text-justify leading-relaxed">{t.telpa.mapDescription}</p>
           <Image 

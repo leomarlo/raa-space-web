@@ -144,6 +144,27 @@
   },
   "program": {
     "items": {
+      "kizomba": {
+        "id": "26",
+        "title": "Kizomba / UrbanKiz Party",
+        "image": "/assets/kizomba/poster.png",
+        "url": "/events/kizomba",
+        "startDate": "2025-10-04T19:00:00Z",
+        "endDate": "2025-10-04T23:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "The hottest autumn dance night in Riga! Kizomba / UrbanKiz party with DJ music, warm vibes and a refreshing non-alcoholic bar. 04.10 at 19:00, RAA.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "04.10.2025, Saturday, 19:00",
+        "instaLink": "https://www.instagram.com/p/DO8tsN4iJzA",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entry",
+        "externalLink": "https://www.instagram.com/p/DO8tsN4iJzA",
+        "externalLinkText": "See Instagram post",
+        "description": "The hottest dance night of the autumn in Riga!\n✨ Kizomba / UrbanKiz PARTY by Prima Studio ✨\n📅 October 4 | 19:00\n📍 RAA, Matīsa Street 8\n\nWhat to expect:\n💃 A warm and welcoming atmosphere\n🌆 The charm of the urban environment\n🎶 DJ rhythms that will keep you on your feet\n🥤 A refreshing non-alcoholic drinks bar\n\n👉 Bring your friends, your love for dance and a smile – we’ll take care of the rest!\n\nSave this post and share it with your friends!"
+      },
       "resTacta": {
         "id": "24",
         "title": "res tacta — performance / creative workshop",
@@ -193,7 +214,7 @@
       "scentArtFestival": {
         "id": "20",
         "title": "Scent Art Festival",
-        "image": "/assets/scent-art-festival/raa_coming_soon.png",
+        "image": "/assets/scent-art-festival/poster.jpg",
         "url": "/events/scent-art-festival",
         "startDate": "2025-10-10T18:00:00Z",
         "endDate": "2025-10-12T20:00:00Z",
@@ -232,26 +253,26 @@
         "externalLinkText": "",
         "description": "Description coming soon"
       },
-      "pilsetasCilvekiemExhibition": {
+      "brivibasExperience": {
         "id": "22",
-        "title": "City for People – Exhibition",
-        "image": "/assets/pilsetas-cilvekiem-exhibition/raa_coming_soon.png",
-        "url": "/events/pilsetas-cilvekiem-exhibition",
+        "title": "Brīvības Experience",
+        "image": "/assets/brivibas-experience/poster.png",
+        "url": "/events/brivibas-experience",
         "startDate": "2025-10-16T14:00:00Z",
         "endDate": "2025-10-30T20:00:00Z",
         "color": "1",
         "showTextOverThumbnail": 1,
         "registerPage": "",
-        "shortDescription": "An exhibition about Riga’s streets – their past, present, and possible futures. How to make the city friendly for people, not cars. 16–30 October, RAA.",
+        "shortDescription": "An interactive exhibition about Brīvības Street – its history, its present, and its possible futures. How can Riga’s streets become more people-friendly instead of car-dominated? 16–30 October, RAA.",
         "location": "RAA, Matīsa Street 8, Riga",
-        "when": "16–30.10.2025 (Opening hours TBA)",
+        "when": "16–30.10.2025 (exact opening hours to be announced)",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
         "price": "Free entry",
         "externalLink": "",
         "externalLinkText": "",
-        "description": "While Riga has taken steps toward becoming more people-friendly, too many streets remain stuck in a Soviet hangover — built for cars instead of life. Asphalt beats trees, parking trumps public space, traffic drowns out thriving streets. Join City for People as we expose the absurd everyday reality we’ve been tricked into accepting in the very heart of Riga. The event will use diverse visualizations, 3D models and other visual media to showcase the historical, existing and potential future of our streets.\n\nEvent organizer: City for People.\nEstimated event time: 16–30 October."
+        "description": "Brīvības Experience is an interactive exhibition dedicated to one of Riga’s most important streets – Brīvības Street. The exhibition invites visitors to explore the street’s history, its current challenges, and its future potential. While Riga has taken steps towards becoming more people-friendly, too many streets remain stuck in a Soviet hangover — designed for cars rather than life. Asphalt often triumphs over trees, parking over public space, and traffic over thriving streets.\n\nThrough visualizations, 3D models, and other creative media, the exhibition sheds light on Brīvības Street’s past, its present reality, and possible scenarios for the future. Visitors are invited to actively take part in imagining how Riga can transform into a city that truly belongs to its people.\n\nOrganizer: Brunis Kibilds (Pilsēta Cilvēkiem).\nDates: 16–30 October, RAA."
       },
       "exoFotoIzstade": {
         "id": "19",
