@@ -4,6 +4,7 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import EventLinks from '@/components/EventLinks';
 
 export default function PilseetasNaktiiPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -56,13 +57,8 @@ export default function PilseetasNaktiiPage() {
             <span className="font-semibold">Opening Times:<br/></span> {event.when}
           </div>
 
-          {event.externalLink && (
-            <div className="mt-6 text-justify leading-relaxed whitespace-pre-line">
-              <a href={event.externalLink} target="_blank" rel="noopener noreferrer">
-                {event.externalLinkText}: {event.externalLink}
-              </a>
-            </div>
-          )}
+          {/* Event Links */}
+          <EventLinks event={event} />
 
           {/* No registration section for this event */}
         </div>
