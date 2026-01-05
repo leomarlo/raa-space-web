@@ -4,6 +4,7 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+import EventLinks from '@/components/EventLinks';
 
 export default function BrivibasExperiencePage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -41,6 +42,9 @@ export default function BrivibasExperiencePage() {
           <div className="text-justify leading-relaxed whitespace-pre-line">
             {event.description}
           </div>
+
+          {/* Event Links */}
+          <EventLinks event={event} />
         </div>
       </div>
     </div>

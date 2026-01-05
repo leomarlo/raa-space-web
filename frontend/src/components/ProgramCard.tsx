@@ -44,6 +44,16 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
             Register
           </a>
         )}
+        {item.instaLink && (
+          <a
+            href={item.instaLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+          >
+            Instagram
+          </a>
+        )}
         {item.externalLink && (
           <a
             href={item.externalLink}
