@@ -145,10 +145,31 @@
   },
   "program": {
     "items": {
+      "asFarSoNear": {
+        "id": "34",
+        "title": "AS DISTANT, SO NEAR — Open Call",
+        "image": "/assets/as-far-so-near/open-call.jpg",
+        "url": "/events/as-far-so-near",
+        "startDate": "2026-01-29T18:00:00Z",
+        "endDate": "2026-02-27T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Atvērts uzsaukums 30 dienu līdzdalības instalācijai (zero-waste), kas būs redzama tikai caur logiem. Pieteikšanās līdz 16. janvārim.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "29.01–27.02.2026 (atklāšana 29.01, noslēgums 27.02). Pieteikšanās termiņš: 16.01.",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Dalības maksa: 20€ (10€ depozīts tiek atgriezts pēc objektu savākšanas)",
+        "externalLink": "https://www.instagram.com/p/DTBNRnzCC9o/",
+        "externalLinkText": "Instagram event",
+        "description": "AS DISTANT, SO NEAR ir tēma, kas iedvesmota no frāzes “kā augšā, tā apakšā” un iezīmē divu pretēju galu spoguļošanos, kas noved pie līdzīga efekta. Šī atvērtā līdzdalības instalācija ir par kompozicionāliem skatpunktiem: intīmi vai attālināti? dziļi vai sekli? pārāk tuvu vai pārāk tālu?\n\n30 dienu laikā mainīga līdzdalības instalācija, kas būs redzama tikai caur logiem. 10 dalībnieki. Aicināti arī pāri vai grupas. Ik pēc 3 dienām notiek ainas maiņa. Datumi tiek saskaņoti ar kuratoru.\n\nNoteikumi: Tu vari pievienot līdz 3 elementiem ainai, izmantot un pielāgot iepriekšējo ainu. Saskaņā ar projekta zero-waste mākslas principu esošie objekti ir jāizmanto atkārtoti, tos pārvietojot, nevis izņemot.\n\nNorises laiks: no 29. janvāra (atklāšana) līdz 27. februārim (noslēgums).\n\nDalība: ikviens.\n\nPieteikšanās: nosūti savu ideju pirmajai ainai uz enter@raa.space.\n\nMaksa: ja pieteikums tiek apstiprināts, dalības reģistrācijai (telpu atbalstam) jāsamaksā 20€. Pēc objektu savākšanas 10€ depozīts tiek atgriezts.\n\nPieteikšanās termiņš: 16. janvāris.\n\nRīkotāji: RAA.space un kurators Helias Dzimoulakis."
+      },
       "marksOzolinsKoncerts": {
         "id": "33",
         "title": "Marka Ozoliņa koncerts",
-        "image": "/assets/marks-ozolins-koncerts/raa_coming_soon.png",
+        "image": "/assets/marks-ozolins-koncerts/poster.jpg",
         "url": "/events/marks-ozolins-koncerts",
         "startDate": "2025-12-28T19:00:00Z",
         "endDate": "2025-12-28T22:00:00Z",

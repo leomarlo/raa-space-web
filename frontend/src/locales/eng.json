@@ -144,10 +144,31 @@
   },
   "program": {
     "items": {
+      "asFarSoNear": {
+        "id": "34",
+        "title": "AS DISTANT, SO NEAR — Open Call",
+        "image": "/assets/as-far-so-near/open-call.jpg",
+        "url": "/events/as-far-so-near",
+        "startDate": "2026-01-29T18:00:00Z",
+        "endDate": "2026-02-27T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Open call for a 30-day evolving, zero-waste participatory installation — visible only through the windows. Apply by January 16.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "29.01–27.02.2026 (Opening 29.01, Closing 27.02). Application deadline: 16.01.",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Participation fee: 20€ (10€ deposit returned after collecting your objects)",
+        "externalLink": "https://www.instagram.com/p/DTBNRnzCC9o/",
+        "externalLinkText": "Instagram event",
+        "description": "AS DISTANT, SO NEAR is a theme inspired by the verse “as above, so below” that signals the mirroring of two different ends which reach the same effect. This open participatory installation is about compositional points of perspective: Intimate or distant? Deep or shallow? Too close or too far?\n\n30 days evolving participatory installation, visible only through the windows. 10 participants. Pairs or groups are welcome. Every 3 days there is a change of scene. Dates are chosen in coordination with the curator.\n\nRules: You may add up to 3 elements into the scene, use and adjust the previous scene. In line with the project’s zero-waste art policy, existing objects must be reused through relocation rather than removal.\n\nDuration: January 29 (Opening) till February 27 (Closing).\n\nParticipation: Anyone.\n\nApplication: Write your idea for the first scene to enter@raa.space.\n\nFee: In case your application is accepted, pay 20 Euro to register (rent support) and receive 10 Euro deposit back after you fetched your objects.\n\nApplication Deadline: January 16.\n\nHost: Organized by RAA.space and curator in charge Helias Dzimoulakis."
+      },
       "marksOzolinsKoncerts": {
         "id": "33",
         "title": "Mārks Ozoliņš — Concert Evening",
-        "image": "/assets/marks-ozolins-koncerts/raa_coming_soon.png",
+        "image": "/assets/marks-ozolins-koncerts/poster.jpg",
         "url": "/events/marks-ozolins-koncerts",
         "startDate": "2025-12-28T19:00:00Z",
         "endDate": "2025-12-28T22:00:00Z",
