@@ -14,7 +14,7 @@ export default function ProgramPageClient() {
   const { t } = useLanguage();
 
   const startDate = new Date('2025-07-01T00:00:00Z');
-  const endDate = new Date('2025-12-31T23:59:59Z');
+  const endDate = new Date('2026-10-31T23:59:59Z');
 
   const programItems: ProgramItem[] = Object.values(t.program.items).sort(
     (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
