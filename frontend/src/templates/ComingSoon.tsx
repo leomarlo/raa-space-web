@@ -40,8 +40,8 @@ export default function ComingSoon() {
     const today = new Date();
     // Set to start of day in local timezone for comparison
     const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 0, 4); // Jan 5, 2025 (month is 0-indexed)
-    const endDate = new Date(2026, 1, 20, 23, 59, 59); // Feb 20, 2025, 23:59:59
+    const startDate = new Date(2026, 0, 4); // Jan 5, 2026 (month is 0-indexed)
+    const endDate = new Date(2026, 0, 25, 23, 59, 59); // Jan 25, 2026, 23:59:59
     const inRange = todayStart >= startDate && todayStart <= endDate;
     return inRange;
   }, []);
