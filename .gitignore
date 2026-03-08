@@ -45,7 +45,7 @@ frontend/.env*
 /backend/.venv
 *__pycache__
 
-
+*CLAUDE.md
 # GLOBAL
 
 .env
