@@ -111,7 +111,7 @@
     "mapTitle": "Map",
     "mapDescription": "You can find us at Matīsa iela 8, Rīga. Just opposite the fire station and the the Vidzeme Market. It is part of the Veldze quarter. The most recognizable landmark is a tall brick chimney that pokes out just behind RAA. The easiest way to reach RAA is via Brivibas street. You take any of the busses or trolley busses and get off at 'Matīsa iela' stop. Then you walk into Matīsa street and you will see RAA on your right after about 150m. You may also reach us via Krišjāņa Barona street. There are two trams that stop at 'Bernu pasaule', namely tram 1 and 11. You can get off at 'Bernu pasaule' stop and walk into Matīsa street. RAA is on your left after about 200m.",
     "instagram": "@raa_riga"
-    },
+  },
   "series": {
     "title": "RAA Series",
     "description": "At RAA we hold several repeating regular events. We call them RAA series. You may visit them either weekly, monthly or yearly, depending on the series.",
@@ -139,11 +139,82 @@
         "url": "/kabiirijas-salons",
         "events": "Events",
         "description": "Every Thursday of the week the Kàtoptron Teātris (Matīsa 8, RAA) will be open to all -failed or almost failed - artists in Rīga, for free and experimental artistic expression of any kind. From painting and sketching, to open music Jamming, performance, grotesque fashion, dance, poetry etc."
+      },
+      "citizenResearch": {
+        "id": "4",
+        "title": "Citizen Research Meetup",
+        "image": "/assets/citizen-research/logo.svg",
+        "url": "/events/citizen-research-meetup-first-meeting",
+        "events": "Events",
+        "description": "Weekly meetups for researchers and curious minds. We share insights, learn new skills, and crunch publicly available data together."
       }
     }
   },
   "program": {
     "items": {
+      "citizenResearchMeetupFirstMeeting": {
+        "id": "37",
+        "title": "Citizen Research Meetup — First Meeting",
+        "image": "/assets/citizen-research-meetup-first-meeting/poster.png",
+        "url": "/events/citizen-research-meetup-first-meeting",
+        "startDate": "2026-03-17T18:00:00Z",
+        "endDate": "2026-03-17T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Interested in doing your own research with data available on the web? Join our weekly meetup at RAA. First meeting on March 17th.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "17.03.2026, from 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entry",
+        "externalLink": "https://jopalesi.science",
+        "externalLinkText": "jopalesi.science",
+        "description": "🔬 Interested in doing your own research with data available on the web?\n\nWe meet once a week at RAA to share interesting insights and questions that we ask. There will also be the opportunity to learn some new skills, meet other curious minds, munch cooking and crunch data.\n\n📅 First meeting: Tuesday, 17th of March\n📍 RAA.SPACE — Matīsa iela 8\n🍹 One free welcome drink from the Māte Nātre Bārs.\n\n🌐 Please also find some information on jopalesi.science who is hosting the event."
+      },
+      "maateNaatreAtklaashana": {
+        "id": "36",
+        "title": "Māte Nātre Opening",
+        "image": "/assets/maate-naatre-atklaashana/poster.jpg",
+        "url": "/events/maate-naatre-atklaashana",
+        "startDate": "2026-03-14T10:00:00Z",
+        "endDate": "2026-03-14T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Forest bar MAATE NAATRE invites you to its opening on March 14 from 12:00. RAA, Matīsa Street 8.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "14.03.2026, from 12:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Forest bar MAATE NAATRE invites you to its opening on March 14 from 12:00.\n\nAs part of the cultural space RAA, located in the Veldze Creative Factory (Matīsa Street 8), this bar is a small place where you can linger, meet others, taste a variety of nature-crafted drinks, see the current gallery exhibition, or step into a performance at the very small Katoptron Theatre.\n\nLater there will also be special offer hours, announced via @raa_riga.\n\nThe Second Riga Upcycling Festival will also take place on March 14 from 12:00 to 17:00.\n\nSee you there!"
+      },
+      "upcyclingTirgusMarch": {
+        "id": "35",
+        "title": "2nd Upcycling Festival \"Refresh the Old!\"",
+        "image": "/assets/upcycling-tirgus-march/poster.jpg",
+        "url": "/events/upcycling-tirgus-march",
+        "startDate": "2026-03-14T10:00:00Z",
+        "endDate": "2026-03-14T15:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "The 2nd Upcycling Festival in Riga! Creative workshops, clothing swap, upcycling market and music. March 14, Mākslas Veldze, Matīsa Street 8.",
+        "location": "Mākslas Veldze, Matīsa Street 8, Riga",
+        "when": "14.03.2026, 12:00–17:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance (workshops by donation)",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "🎉 The 2nd Upcycling Festival \"Refresh the Old!\" in Riga 🎉\n\nJoin us for a creative community gathering at\n@makslasveldze @raa_riga\n@veldze.radosarupnica\nMatīsa iela 8, Riga.\n\nThis will be more than just a market — it's a celebration of creativity, sustainability, and community, where old things are given a second life.\n\n🧵 Creative workshops\nEmbroidery · Clothing transformation · Handmade notebook stitching · Screen printing · Jewelry redesign · Wood restoration consultations · Rings made from everyday objects and more.\n\n👕 Clothing swap corner\nBring clothes or items you'd like to give a second life.\n\n🌿 Upcycling market\nClothing, jewelry, and home items that artists have transformed into something new.\n\n🎶 Music, conversations, and inspiration\nMeet like-minded people, share ideas, and create together.\nArtists will be joining from different cities across Latvia.\n\n🎟️ Free entrance\nWorkshops by donation.\n\nInspiring new friendships. A community on the same wavelength."
+      },
       "asFarSoNear": {
         "id": "34",
         "title": "AS DISTANT, SO NEAR — Open Call",
@@ -526,7 +597,7 @@
         "externalLinkText": "",
         "description": "“Sewing Machine Techno” is a performance where women transform the act of working at sewing machines into a rhythmic sound piece. Industrial noise and mechanical movements create a techno-like aesthetic, turning an everyday tool into a musical instrument. The performance explores the relationship between labor, body, and sound – how monotonous rhythm can become art, how routine turns into ritual, and physical work transforms into a shared manifestation of energy and freedom.\n\nSpecial guests:\n+ BmwAudi (dj)\n+ OtRa PUssYTe (dj)"
       },
-     "dzoelaTeilore": {
+      "dzoelaTeilore": {
         "id": "15",
         "title": "Joelle Taylor Reading",
         "image": "/assets/dzoela-teilore/Dzoela_Teilore_Raa_A3.jpg",
@@ -567,7 +638,6 @@
         "externalLinkText": "Please Visit the Event Page on the Homo Novus website",
         "price": "Free entry",
         "description": "Cities by Night\nValentina Medda (Italy)\n\nCities by Night is a site-specific participatory project on women’s* perception of danger in the urban space.\n\nIn April, women of different backgrounds, origins, gender and ages were invited to explore the streets of Riga, wandering alone at dusk, avoiding the areas where they felt uncomfortable. The result of their walks are several “Riga by Night” maps of the city whose boundaries have been redrawn based on their experiences, with areas perceived as unsafe obscured by the artist, as if non-existing.\n\nOstensibly refiguring a merely personal experience, the new borders – geographical, physical, emotional and political – show how not only gender but also shared beliefs, prejudices and cultural background shape, redefine and contract urban space and someone’s access to it.\n\nThe project has so far been realized in Paris (FR), Amsterdam (NL), Bologna and Bergamo (IT), Trondheim (NO), Pristina (XZ), and Milan (IT).\n\nValentina Medda is a Sardinian interdisciplinary artist based in Bologna. Her artistic practice unfolds between image, performance and site-specific interventions, investigating the relationship between public and private, body and architecture, city and social belonging. Her work has been presented in international contexts including Santarcangelo Festival, AUAWIRLEBEN in Hamburg, Little Bastard in Norway, Mladi Levi in Ljubljana. She has been artist-in-residence at BAR in Beirut, Cité des Arts, Paris, Flux Factory, NY, Les bains connective, Brussels, MaisonVentidue, Bologna. She has received the Cimetta Fund, Movin up Regione Emilia Romagna, NYFA’s IAP Mentorship and Tina Art PRIZE. She was a winner of the distribution grant PERFORM EUROPE 2021, Stronger Peripheries-Southern Coalition and the 11th Italian Council. With her last project “The Last Lamentation” she won again the 2024/2025 edition of PERFORM EUROPE."
-
       },
       "laimePliistUzTraukiem": {
         "id": "13",
@@ -700,7 +770,6 @@
         "registerFor3rdOfAugust": "Register for 3rd of August",
         "description": "Fire is an element of transformation, refining what it encounters. The artist will introduce participants to this playful and seductive element that is the core principle of her artistic practice.\n\nParticipants are invited to learn an experimentally developed wood burning technique that creates a hazy, nuanced visual effect using the symbiosis of flame and wooden surface. The poetic contradiction between fire and wood suggests a memory of landscape, hence people are invited to explore their ‘inner landscapes’, to learn a natural and self-empowering expression as well as get to know more about sustainable art approaches.\n\nAll materials for the workshop are provided. The workshop is suitable for people without any previous knowledge in visual arts as well as art students or professional artists who would like to expand their skills and possibly implement new techniques in their own practice.\n\nThe length of the workshop is around 2.5 hours."
       },
-
       "fireExhibition": {
         "id": "7",
         "title": "Fire Workshop Exhibition",

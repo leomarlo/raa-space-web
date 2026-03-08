@@ -10,6 +10,12 @@ export default function SeriesPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
+  const seriesItems = [
+    t.series.items.raaMuseum,
+    t.series.items.dialogoAdAbsurdum,
+    t.series.items.kabiirijasSalons,
+    t.series.items.citizenResearch,
+  ];
 
   return (
     <div className="relative w-full min-h-screen">
@@ -40,56 +46,38 @@ export default function SeriesPage() {
               {t.series.description}
             </div>
             <br />
-            <div className="flex flex-col gap-4">
-                <div key={t.series.items.raaMuseum.id} className="flex flex-row gap-4">
-                  <div className="w-1/4">
-                  <Image 
-                    src={t.series.items.raaMuseum.image} 
-                    alt={t.series.items.raaMuseum.title} 
-                    className="w-auto h-48"
-                    width={100} 
-                    height={100} 
-                    />
+            <div className="flex flex-col gap-6">
+              {seriesItems.map((item) => (
+                <div key={item.id} className="flex flex-row gap-4 items-start">
+                  <div className="w-1/4 shrink-0">
+                    {item.url ? (
+                      <a href={item.url} target="_blank" rel="noopener noreferrer">
+                        <div className="relative w-full aspect-square">
+                          <Image
+                            src={item.image}
+                            alt={item.title}
+                            fill
+                            className="object-contain"
+                          />
+                        </div>
+                      </a>
+                    ) : (
+                      <div className="relative w-full aspect-square">
+                        <Image
+                          src={item.image}
+                          alt={item.title}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
                   </div>
-                  <div className="w-3/4">
-                  <div className="flex flex-col gap-2">
-                    <h3 className="text-lg font-bold">{t.series.items.raaMuseum.title}</h3>
-                    <p className="text-sm">{t.series.items.raaMuseum.description}</p>
-                  </div>
-                  </div>
-                </div>
-                <div key={t.series.items.dialogoAdAbsurdum.id} className="flex flex-row gap-4">
-                  <div className="w-1/4">
-                  <a href={t.series.items.dialogoAdAbsurdum.url} target="_blank" rel="noopener noreferrer">
-                  <Image 
-                    src={t.series.items.dialogoAdAbsurdum.image} 
-                    alt={t.series.items.dialogoAdAbsurdum.title} 
-                    className="w-auto h-48"
-                    width={100} 
-                    height={100} 
-                    />
-                    </a>
-                  </div>
-                  <div className="w-3/4">
-                  <div className="flex flex-col gap-2">
-                    <h3 className="text-lg font-bold">{t.series.items.dialogoAdAbsurdum.title}</h3>
-                    <p className="text-sm">{t.series.items.dialogoAdAbsurdum.description}</p>
-                  </div>
+                  <div className="w-3/4 flex flex-col gap-2">
+                    <h3 className="text-lg font-bold">{item.title}</h3>
+                    <p className="text-sm">{item.description}</p>
                   </div>
                 </div>
-                <div key={t.series.items.kabiirijasSalons.id} className="flex flex-row gap-4">
-                  <div className="w-1/4">
-                  <a href={t.series.items.kabiirijasSalons.url} target="_blank" rel="noopener noreferrer">
-                  <Image 
-                    src={t.series.items.kabiirijasSalons.image} 
-                    alt={t.series.items.kabiirijasSalons.title} 
-                    className="w-auto h-48"
-                    width={100} 
-                    height={100} 
-                    />
-                    </a>
-                  </div>
-                </div>
+              ))}
             </div>
           </div>
         </div>

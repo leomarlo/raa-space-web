@@ -140,11 +140,82 @@
         "url": "/kabiirijas-salons",
         "events": "Pasākumi",
         "description": "Katru ceturtdienu “Kàtoptron Teātris” (Matīsa iela 8, RAA) būs atvērts visiem — tiem, kuri piedzīvojuši neveiksmes vai gandrīz neveiksmes — māksliniekiem Rīgā, brīvai un eksperimentālai mākslinieciskai izpausmei jebkurā formā. No gleznošanas un skicēšanas līdz brīvām mūzikas improvizācijām, performancēm, groteskai modei, dejai, dzejai utt."
+      },
+      "citizenResearch": {
+        "id": "4",
+        "title": "Citizen Research Meetup",
+        "image": "/assets/citizen-research/logo.svg",
+        "url": "/events/citizen-research-meetup-first-meeting",
+        "events": "Pasākumi",
+        "description": "Nedēļas tikšanās reizes pētniekiem un ziņkārīgiem prātiem. Dalāmies ar atklājumiem, apgūstam prasmes un kopā apstrādājam publiski pieejamos datus."
       }
     }
   },
   "program": {
     "items": {
+      "citizenResearchMeetupFirstMeeting": {
+        "id": "37",
+        "title": "Citizen Research Meetup — Pirmā tikšanās",
+        "image": "/assets/citizen-research-meetup-first-meeting/poster.png",
+        "url": "/events/citizen-research-meetup-first-meeting",
+        "startDate": "2026-03-17T18:00:00Z",
+        "endDate": "2026-03-17T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Interesē pašam veikt pētījumu ar interneta datiem? Pievienojies nedēļas tikšanās reizei RAA. Pirmā sanāksme — 17. martā.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "17.03.2026, no plkst. 18:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "https://jopalesi.science",
+        "externalLinkText": "jopalesi.science",
+        "description": "🔬 Interesē pašam veikt pētījumu ar datiem, kas pieejami internetā?\n\nMēs tikamies reizi nedēļā RAA, lai dalītos ar interesantiem atklājumiem un jautājumiem, ko uzdodam. Būs arī iespēja apgūt jaunas prasmes, iepazīt citus ziņkārīgus prātus, pagatavoties uzkodas un apstrādāt datus.\n\n📅 Pirmā tikšanās: otrdiena, 17. marts\n📍 RAA.SPACE — Matīsa iela 8\n🍹 Viens bezmaksas uzņemšanas dzēriens no Māte Nātre Bāra.\n\n🌐 Plašāka informācija par organizatoru: jopalesi.science"
+      },
+      "maateNaatreAtklaashana": {
+        "id": "36",
+        "title": "Māte Nātre Atklāšana",
+        "image": "/assets/maate-naatre-atklaashana/poster.jpg",
+        "url": "/events/maate-naatre-atklaashana",
+        "startDate": "2026-03-14T10:00:00Z",
+        "endDate": "2026-03-14T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Meža bārs MAATE NAATRE aicina uz savu atklāšanu 14. martā no plkst. 12.00. RAA, Matīsa iela 8.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "14.03.2026, no plkst. 12:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Meža bārs MAATE NAATRE aicina uz savu atklāšanu jau 14. martā no plkst. 12.00.\n\nEsot daļa no kultūrtelpas RAA, kas atrodas Radošajā rūpnīcā Veldze (Matīsa ielā 8), šis bārs ir neliela vieta, kur var aizkavēties, satikties, nogaršot dažādus dabas radītus dzērienus, apskatīt pašreizējo galerijas ekspozīciju vai iekļūt ļoti mazā teātra Katoptron kādā uzvedumā.\n\nTurpmāk solās būt arī stundas ar īpašiem piedāvājumiem, kas tiks anonsēti @raa_riga.\n\n14. martā gaidāms arī Otrais Rīgas Upcycling festivāls plkst. 12.00–17.00.\n\nUz tikšanos!"
+      },
+      "upcyclingTirgusMarch": {
+        "id": "35",
+        "title": "2. Upcycling festivāls \"Uzfrišini veco!\"",
+        "image": "/assets/upcycling-tirgus-march/poster.jpg",
+        "url": "/events/upcycling-tirgus-march",
+        "startDate": "2026-03-14T10:00:00Z",
+        "endDate": "2026-03-14T15:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Jau 2. Upcycling festivāls Rīgā! Radošās darbnīcas, apģērbu maiņa, upcycling tirdziņš un mūzika. 14. martā, Mākslas Veldze, Matīsa iela 8.",
+        "location": "Mākslas Veldze, Matīsa iela 8, Rīga",
+        "when": "14.03.2026, 12:00–17:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas (darbnīcas par ziedojumiem)",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "🎉 JAU 2. Upcycling festivāls \"Uzfrišini veco!\" Rīgā 🎉\n\n📍14.martā\nno plkst. 12:00 līdz 17:00\naicinām uz radošu kopābūšanu @makslasveldze \"Mākslas Veldzē\" @raa_riga\n@veldze.radosarupnica Matīsa iela 8.\n\nTas būs vairāk nekā tirdziņš — svētki radošumam, ilgtspējai un kopienai, kur lietas iegūst otro dzīvi.\n\n🧵 Radošās darbnīcas\nIzšūšana · Apģērbu pārveide · Blociņu šūšana · Sietspiede · Rotu pārveidošana · Dēļu atjaunošanas konsultācijas · Gredzeni no sadzīves priekšmetiem u.c.\n\n👕 Apģērbu maiņas punkts\nAtnes drēbes vai lietas, kurām gribi dot jaunu elpu.\n\n🌿 Upcycling tirdziņš\nApģērbi, rotas un mājlietas, kurām mākslinieki devuši jaunu dzīvi.\n\n🎶 Mūzika, sarunas un iedvesma\nSatiec līdzīgi domājošos, dalies idejās un radi kopā.\nMākslinieki brauks no dažādām Latvijas pilsētām.\n\n🎟️ Ieeja bez maksas\nDarbnīcas par ziedojumiem.\n\nIedvesmojošas, jaunas draudzības. Kopiena, kas ir uz viena viļņa."
+      },
       "asFarSoNear": {
         "id": "34",
         "title": "AS DISTANT, SO NEAR — Open Call",
@@ -590,30 +661,29 @@
         "price": "Ieeja bez maksas",
         "description": "Liels prieks izziņot un ielūgt uz Elzas Albiņas (@elzzala) un Uģa Albiņa (@ug_gis) kopizstādi **LAIME PLĪST UZ TRAUKIEM**.\n\n**Izstādes atklāšana:** 28.08. plkst. 19:00\n**Izstāde apskatāma:** no 29.08. līdz 31.08., no 16:00 līdz 19:00\n\n**Norises vieta:**\nMatīsa iela 8\n@raa_riga\n@veldze.radosarupnica\n\nIzstāde piedāvā instalāciju – vairāku objektu sēriju, ko Elza un Uģis veido kā kopdzīves ainavu, telpisku pārdomu par līdzāspastāvēšanu, robežu nojaukšanu un ikdienišķā transformācijām.\n\n**Par Elzu Albiņu:**\nElza veido audiovizuālus darbus un instalācijas. Savā mākslinieciskajā daiļradē viņa nereti iekļauj restauratora profesijā sastopamās prakses iezīmes un tehnoloģijas, piedāvājot jaunas interpretāciju formas par notikumiem ārpus faktu robežām. Viņa pēta fragmentu un veseluma, kopijas un oriģināla ambivalentās attiecības. Ieguvusi bakalaura grādu Kustība.Attēls.Skaņa un maģistra grādu Vizuālās Komunikācijas apakšnozarē Latvijas Mākslas akadēmijā. Aktīvi piedalās izstādēs un mākslas notikumos Latvijā un ārpus tās.\n\n**Par Uģi Albiņu:**\nUģis veido darbus, kas daudzslāņaini atspoguļo un rosina jautājumus par mūsu apkārtējo vidi, izmantojot dažādas tehnikas un medijus, tostarp arī 3D druku, atklājot materiālu un formas dialogu. Viņš strādā ar sistēmām un standartiem, kas mūs ieskauj, iemiesojot kultūru noteiktas estētiskās kvalitātes. Uģis pievēršas abstraktiem jautājumiem kā vizuāliem fenomeniem, apšaubot formas nozīmi ārpus tās utilitārā pielietojuma un izmantojot funkciju kā izteiksmes līdzekli vai kā daļu no vizuālās valodas. Ieguvis bakalaura un maģistra grādu Vizuālās Komunikācijas apakšnozarē Latvijas Mākslas akadēmijā. Aktīvi piedalās izstādēs un mākslas notikumos Latvijā un ārpus tās."
       },
-
       "secondVarietyShow": {
-          "id": "12",
-          "title": "Otrā Varietē Izrāde",
-          "image": "/assets/second-variety-show/poster.jpg",
-          "url": "/events/second-variety-show",
-          "startDate": "2025-09-01T19:00:00Z",
-          "endDate": "2025-09-01T23:00:00Z",
-          "color": "1",
-          "showTextOverThumbnail": 1,
-          "registerPage": "/register/second-variety-show",
-          "times": "19:00 - 24:00",
-          "shortDescription": "Pievienojieties Otrajai Varietē Izrādei Kàtoptron Teātrī 2025. gada 1. septembrī – vakars, kas būs pilns ar izrādēm, muzikālām improvizācijām un radošiem eksperimentiem.",
-          "location": "RAA",
-          "when": "2025. gada 1. septembrī, no plkst. 19:00 līdz 23:00",
-          "instaLink": "https://www.instagram.com/p/DN227bnVPwl/",
-          "fbLink": "",
-          "registrationLink": "",
-          "externalLink": "",
-          "externalLinkText": "",
-          "registerFor1stOfSeptember": "Rezervēt vietu 2025. gada 1. septembrī",
-          "price": "Ieejas maksa: 4€ (izpildītājiem un Teātrim). Ziedojumi laipni gaidīti.",
-          "description": "Aicinām jūs piedalīties mūsu briesmīgajā otrajā varietē izrādē Kàtoptron Teātrī, 2025. gada 1. septembrī (relatīvi runājot) RADOŠĀ RŪPNĪCĀ VELDZE.\n\nŠoreiz turpinām savas iepriekšējās performatīvās aktivitātes, bet ar nelielu pagriezienu. Aizņemoties no Pepsi.\n\nPlkst. 19:00 esat aicināti vērot divas pavisam jaunas mini izrādes, kuras veidojusi Santa Didzus, režijā Santa Didzus un Helias Dzimoulakis. Pēc viņas iepriekšējo izrāžu pretrunīgajiem panākumiem Santa atgriežas ar dusmām un spēku. Nepalaidiet garām mūsu mīļāko leļļu meistari un aktrisi darbībā.\n\nPlkst. 20:00 turpinām skatītāju iecienīto Muzikālā Orākula Sēriju. Kā tas darbojas? Jūs esat aicināti vienatnē ienākt Kàtoptron Teātra telpā, apsēsties uz krēsla un aizvērt acis. Mūsu mūziķi, kurus vada Augstā Priesteriene Anna Ozoliņa, “nolasīs” jūs un mēģinās radīt jūsu skaņu portretu caur spontānu improvizāciju. Tādā veidā jūs klausīsieties melodiju, kas radīta tikai jums un tiks atskaņota tikai vienreiz mūžā. Sakarā ar tās mistisko un intīmo raksturu, jebkāda veida ieraksti nav atļauti.\n\nPlkst. 21:00 esat aicināti paņemt līdzi savu muzikālo – vai nemuzikālo – instrumentu un pievienoties improvizācijas džemam, ko vada un iedvesmo mūsu neortodoksālais mīms Mr Mish. Jūtieties brīvi atvērties, kļūdīties, radīt maģisku cringe vai pat pazust mūsu cirka hipnotiskajā nebūtībā.\n\nTikmēr Daniels mācīs jūs žonglēt, un citi dīvaini tēli labprāt sniegs ieskatu savā pasaulē.\n\nJa vēlaties rezervēt vietu Muzikālajam Orākulam un dubultajai izrādei, lūdzu, sazinieties ar mums Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, pa e-pastu eliastzimoulakis@gmail.com vai enter@raa.space.\n\nIeejas maksa visam pasākumam: 4€ (izpildītājiem un Teātrim).\nZiedojumi ir laipni gaidīti.\nDzērienus nodrošina Teātris."
-        },
+        "id": "12",
+        "title": "Otrā Varietē Izrāde",
+        "image": "/assets/second-variety-show/poster.jpg",
+        "url": "/events/second-variety-show",
+        "startDate": "2025-09-01T19:00:00Z",
+        "endDate": "2025-09-01T23:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "/register/second-variety-show",
+        "times": "19:00 - 24:00",
+        "shortDescription": "Pievienojieties Otrajai Varietē Izrādei Kàtoptron Teātrī 2025. gada 1. septembrī – vakars, kas būs pilns ar izrādēm, muzikālām improvizācijām un radošiem eksperimentiem.",
+        "location": "RAA",
+        "when": "2025. gada 1. septembrī, no plkst. 19:00 līdz 23:00",
+        "instaLink": "https://www.instagram.com/p/DN227bnVPwl/",
+        "fbLink": "",
+        "registrationLink": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "registerFor1stOfSeptember": "Rezervēt vietu 2025. gada 1. septembrī",
+        "price": "Ieejas maksa: 4€ (izpildītājiem un Teātrim). Ziedojumi laipni gaidīti.",
+        "description": "Aicinām jūs piedalīties mūsu briesmīgajā otrajā varietē izrādē Kàtoptron Teātrī, 2025. gada 1. septembrī (relatīvi runājot) RADOŠĀ RŪPNĪCĀ VELDZE.\n\nŠoreiz turpinām savas iepriekšējās performatīvās aktivitātes, bet ar nelielu pagriezienu. Aizņemoties no Pepsi.\n\nPlkst. 19:00 esat aicināti vērot divas pavisam jaunas mini izrādes, kuras veidojusi Santa Didzus, režijā Santa Didzus un Helias Dzimoulakis. Pēc viņas iepriekšējo izrāžu pretrunīgajiem panākumiem Santa atgriežas ar dusmām un spēku. Nepalaidiet garām mūsu mīļāko leļļu meistari un aktrisi darbībā.\n\nPlkst. 20:00 turpinām skatītāju iecienīto Muzikālā Orākula Sēriju. Kā tas darbojas? Jūs esat aicināti vienatnē ienākt Kàtoptron Teātra telpā, apsēsties uz krēsla un aizvērt acis. Mūsu mūziķi, kurus vada Augstā Priesteriene Anna Ozoliņa, “nolasīs” jūs un mēģinās radīt jūsu skaņu portretu caur spontānu improvizāciju. Tādā veidā jūs klausīsieties melodiju, kas radīta tikai jums un tiks atskaņota tikai vienreiz mūžā. Sakarā ar tās mistisko un intīmo raksturu, jebkāda veida ieraksti nav atļauti.\n\nPlkst. 21:00 esat aicināti paņemt līdzi savu muzikālo – vai nemuzikālo – instrumentu un pievienoties improvizācijas džemam, ko vada un iedvesmo mūsu neortodoksālais mīms Mr Mish. Jūtieties brīvi atvērties, kļūdīties, radīt maģisku cringe vai pat pazust mūsu cirka hipnotiskajā nebūtībā.\n\nTikmēr Daniels mācīs jūs žonglēt, un citi dīvaini tēli labprāt sniegs ieskatu savā pasaulē.\n\nJa vēlaties rezervēt vietu Muzikālajam Orākulam un dubultajai izrādei, lūdzu, sazinieties ar mums Instagram: Kàtoptron_Teatris, Facebook: Helias Dzimoulakis, pa e-pastu eliastzimoulakis@gmail.com vai enter@raa.space.\n\nIeejas maksa visam pasākumam: 4€ (izpildītājiem un Teātrim).\nZiedojumi ir laipni gaidīti.\nDzērienus nodrošina Teātris."
+      },
       "kabiirijasSalons1": {
         "id": "11",
         "title": "Kabiirijas Salons 1",
@@ -703,7 +773,6 @@
         "registerFor3rdOfAugust": "Reģistrējies 3. augustā",
         "description": "Uguns ir pārveides elements, kas attīra visu, kam pieskaras. Māksliniece iepazīstinās dalībniekus ar šo rotaļīgo un vilinošo elementu, kas ir viņas mākslinieciskās prakses pamatā.\n\nDalībnieki apgūs eksperimentāli izstrādātu koka dedzināšanas tehniku, kas rada dūmakainu, niansētu vizuālo efektu, izmantojot liesmas un koka virsmas simbiozi. Poētiskais kontrasts starp uguni un koku atgādina ainavas atmiņu, aicinot dalībniekus izpētīt savas ‘iekšējās ainavas’, iemācīties dabisku un pašapliecinošu izteiksmi, kā arī uzzināt vairāk par ilgtspējīgas mākslas pieejām.\n\nVisi materiāli darbnīcai tiek nodrošināti. Darbnīca piemērota cilvēkiem bez iepriekšējām vizuālās mākslas zināšanām, kā arī mākslas studentiem un profesionāliem māksliniekiem, kas vēlas paplašināt savas prasmes un ieviest jaunus paņēmienus savā praksē.\n\nDarbnīcas ilgums ~2.5 stundas."
       },
-
       "fireExhibition": {
         "id": "7",
         "title": "Uguns darbnīcas izstāde",
@@ -725,7 +794,6 @@
         "price": "ieeja bez maksas",
         "description": "Izstāde, kurā apskatāmi darbi, kas radīti Arta Raitumas vadītajā uguns darbnīcā. Atklāj unikālus darbus, kas ataino uguns un koka mijiedarbību, iemūžinot atmiņu un pārmaiņu sajūtu."
       },
-
       "theatreOpening": {
         "id": "5",
         "title": "Katoptron Teātris Atklāšana",
@@ -810,7 +878,6 @@
         "price": "ieeja bez maksas",
         "description": "Dzejas entuziastu grupas “Sintakses stupors” dzejas ilg-lasījums ar negaidītiem pavērsieniem.\n\nDalībnieki:\nLaima Ābele, Andris Alps, Valts Kleins, Kristīne Juckoviča, Zane Brūvere-Kvēpa, Mārīte Atēna, Elza Dobičina, Ilze Kuzmicka, Dita Putniņa, Aļesja Loseva, Arnolds Ščuckis, Pauls Kauķis, Meldra Ķemere, Linda Tīmane, Marta Veismane, Elīna Līce un citi.\n\nMuzikālo atmosfēru nodrošinās Dabsolis un Kaspars Sils.\n\nP.S. Pasākuma laikā būs pieejams brīvais mikrofons."
       },
-
       "tavaasKurpees": {
         "id": "2",
         "title": "Tavās Kurpēs",
