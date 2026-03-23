@@ -49,5 +49,6 @@ frontend/.env*
 # GLOBAL
 
 .env
+*.env
 
 .DS_Store
