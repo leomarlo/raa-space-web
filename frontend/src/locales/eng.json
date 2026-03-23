@@ -191,8 +191,8 @@
         "registrationLink": "",
         "price": "Free",
         "externalLink": "https://www.meetup.com/de-DE/riga-mathematics-and-spirituality-group",
-        "externalLinkText": "Riga Mathematics and Spirituality Group on meetup.com",
-        "description": "An extraordinary session of the Recreational Research Meetup.\n\nDaniel Tsai will present a proof for the value of ζ(2) — the Riemann-Zeta function evaluated at 2.\n\nThe Riemann-Zeta function is defined as the infinite sum ζ(s) = 1 + 1/2ˢ + 1/3ˢ + 1/4ˢ + ⋯, and it sits at the heart of some of the deepest questions in mathematics. One of its most surprising and beautiful results is ζ(2) = 1 + 1/4 + 1/9 + 1/16 + ⋯ = π²/6 — the so-called Basel Problem, famously solved by Leonhard Euler in 1734. The fact that a sum of fractions of perfect squares turns out to involve π is, on its face, completely mysterious.\n\nDaniel's exposition is aimed at beginners: if you are comfortable with basic calculus — integrals, series, and a little patience — you have everything you need to follow along. No prior knowledge of number theory or complex analysis required.\n\n📅 Friday, 27th of March, from 18:00\n📍 RAA.SPACE — Matīsa iela 8\n\nAlso listed on the Riga Mathematics and Spirituality Group meetup page."
+        "externalLinkText": "link to meetup.com event",
+        "description": "An extraordinary session of the Recreational Research Meetup.\n\nDaniel Tsai will present a proof for the value of ζ(2) — the Riemann-Zeta function evaluated at 2.\n\nThe Riemann-Zeta function is defined as the infinite sum ζ(s) = 1 + 1/2ˢ + 1/3ˢ + 1/4ˢ + ⋯, and it sits at the heart of some of the deepest questions in mathematics. One of its most surprising and beautiful results is ζ(2) = 1 + 1/4 + 1/9 + 1/16 + ⋯ = π²/6 — the so-called Basel Problem, famously solved by Leonhard Euler in 1734. The fact that a sum of fractions of perfect squares turns out to involve π is, on its face, completely mysterious.\n\nDaniel's exposition is aimed at beginners: if you are comfortable with basic calculus — integrals, series, and a little patience — you have everything you need to follow along. No prior knowledge of number theory or complex analysis required.\n\n📅 Friday, 27th of March, from 18:00\n📍 RAA.SPACE — Matīsa iela 8"
       },
       "recreationalResearchMeetupSecondMeeting": {
         "id": "39",
@@ -211,8 +211,8 @@
         "fbLink": "",
         "registrationLink": "",
         "price": "Free entry",
-        "externalLink": "https://www.meetup.com/de-DE/riga-mathematics-and-spirituality-group",
-        "externalLinkText": "Riga Mathematics and Spirituality Group on meetup.com",
+        "externalLink": "https://jopalesi.science",
+        "externalLinkText": "jopalesi.science",
         "description": "The second meeting of the Recreational Research Meetup.\n\nWe meet once a week at RAA to share interesting insights and questions, learn new skills, meet other curious minds, munch on snacks, and crunch data.\n\n📅 Tuesday, 24th of March, from 18:00\n📍 RAA.SPACE — Matīsa iela 8\n🍹 One free welcome drink from the Māte Nātre Bārs."
       },
       "weavers": {
