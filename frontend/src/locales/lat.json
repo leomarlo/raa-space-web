@@ -192,7 +192,7 @@
         "registrationLink": "",
         "price": "Bezmaksas",
         "externalLink": "https://www.meetup.com/de-DE/riga-mathematics-and-spirituality-group",
-        "externalLinkText": "Riga Mathematics and Spirituality Group meetup.com lapā",
+        "externalLinkText": "link to meetup.com event",
         "description": "Recreational Research Meetup ārkārtas sesija.\n\nDaniels Tsai prezentēs ζ(2) vērtības pierādījumu — Rīmana Cēta funkcija, novērtēta pie 2.\n\nRīmana Cēta funkcija ir definēta kā bezgalīga summa ζ(s) = 1 + 1/2ˢ + 1/3ˢ + 1/4ˢ + ⋯, un tā atrodas dažu dziļāko matemātikas jautājumu centrā. Viens no tās pārsteidzošākajiem un skaistākajiem rezultātiem ir ζ(2) = 1 + 1/4 + 1/9 + 1/16 + ⋯ = π²/6 — tā sauktā Bāzeles problēma, ko 1734. gadā slaveni atrisināja Leonards Eilers. Fakts, ka pilnīgu kvadrātu daļu summa izrādās saistīta ar π, no pirmā acu uzmetiena ir pilnīgi mistisks.\n\nDaniela izklāsts paredzēts iesācējiem: ja esi ērti ar pamata matemātisko analīzi — integrāļiem, virknēm un nelielu pacietību — tev ir viss nepieciešamais, lai sekotu līdzi. Iepriekšējas zināšanas teorijā par skaitļiem vai kompleksajā analīzē nav nepieciešamas.\n\n📅 Piektdiena, 27. marts, no plkst. 18:00\n📍 RAA.SPACE — Matīsa iela 8"
       },
       "recreationalResearchMeetupSecondMeeting": {
@@ -212,8 +212,8 @@
         "fbLink": "",
         "registrationLink": "",
         "price": "Ieeja bez maksas",
-        "externalLink": "https://www.meetup.com/de-DE/riga-mathematics-and-spirituality-group",
-        "externalLinkText": "Riga Mathematics and Spirituality Group meetup.com lapā",
+        "externalLink": "https://jopalesi.science",
+        "externalLinkText": "jopalesi.science",
         "description": "Recreational Research Meetup otrā tikšanās.\n\nMēs tikamies reizi nedēļā RAA, lai dalītos ar interesantiem atklājumiem un jautājumiem, apgūtu jaunas prasmes, iepazītu citus ziņkārīgus prātus, pagatavotos uzkodas un apstrādātu datus.\n\n📅 Otrdiena, 24. marts, no plkst. 18:00\n📍 RAA.SPACE — Matīsa iela 8\n🍹 Viens bezmaksas uzņemšanas dzēriens no Māte Nātre Bāra."
       },
       "weavers": {
