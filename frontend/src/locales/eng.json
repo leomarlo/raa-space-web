@@ -15,7 +15,8 @@
     "team": "Team",
     "opening": "Opening",
     "members": "Members",
-    "location": "Location"
+    "location": "Location",
+    "mezaBars": "Meža Bārs"
   },
   "calendarToggle": {
     "list": "List",

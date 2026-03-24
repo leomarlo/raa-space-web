@@ -79,6 +79,14 @@ const useGenerateMenuItems = (layoutType: number): Record<string, MenuItem> => {
           ? Array.from({ length: 8 }, (_, i): [number, number] => [4 + i, 30])
           : Array.from({ length: 8 }, (_, i): [number, number] => [19, i + 1]),
     },
+    mezaBars: {
+      label: t.menu.mezaBars,
+      route: 'maate-naatre',
+      positions:
+        layoutType === 0
+          ? Array.from({ length: 9 }, (_, i): [number, number] => [5 + i, 20])
+          : Array.from({ length: 9 }, (_, i): [number, number] => [15, i + 1]),
+    },
   };
 
   return items;
