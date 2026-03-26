@@ -154,6 +154,27 @@
   },
   "program": {
     "items": {
+      "dialogoAdInfinitum": {
+        "id": "42",
+        "title": "Dialogo ad Infinitum",
+        "image": "/assets/weavers/poster.png",
+        "url": "/events/dialogo-ad-infinitum",
+        "startDate": "2026-03-26T17:00:00Z",
+        "endDate": "2026-03-26T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Leonharda Marlo performance. Galvenokārt bezpersoniski dialogi, kas nekad īsti nesākas — un nekad īsti nebeidzas. Daļa no izstādes Weavers RAA.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "26.03.2026, 20:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Galvenokārt bezpersonisks dialogs, kas nekad īsti nesākas — un nekad īsti nebeidzas.\n\nEs ievelku apmeklētājus sarunā. Virspusēji. Tēmas tiek uzturētas rūpīgi sīkas: laiks, pārvietošanās Rīgā, vai bitcoin samazināsies, futbols, olimpiskās spēles. Receptes. Lētas drēbes. Pavasara ziedi.\n\nDalībniekam rodas vairāki jautājumi: kas no viņa šeit tiek sagaidīts? Kā viņam ir jāuzvedas? Vai viņš patiešām ir ieinteresēts turpināt — vai arī pieklājība viņu tur vietā? Un varbūt vissvarīgākais: kā īsti beidzas šāda saruna?\n\nEs netiecos pēc patiestas sarunas. Bet es tevi arī nelaišu vaļā — vismaz pieklājības pēc ne.\n\n—\n\nIzrāde sākas ar tukšu skatuvi — tikai divi krēsli. Es sēžu vienā, skatoties uz otru. Pēc kāda klusuma es laiku pa laikam piemin, ka cilvēki šeit ir tik asociāli.\n\nKādā brīdī es pieej pie publikas — \"ei, sen neredzēti\" — un aicinu kādu uz neformālu sarunu. Ja atsakās: \"ups, sajaucu ar kādu citu. Jauki parunāties. Uz redzēšanos.\" Ja piekrituši, es vedu viņus pie krēsla. Es ne vienmēr apsēžos.\n\nApspriestās tēmas var ietvert: bezgalīgo pirmskaitļu daudzumu, normālos skaitļus, pēdējo iPhone, tavu mēteli, vai tev ir brāļi un māsas, un vienu vai divus personiskus stāstus par bailēm palikt vienam.\n\nKādā brīdī es sākšu dot signālus, ka gribu noslēgt. Paskatīšos uz pulksteni. Paskatīšos apkārt. Manas atbildes sāks klīst. Bet saruna turpinās."
+      },
       "laimesGovs": {
         "id": "41",
         "title": "Laimes Govs",

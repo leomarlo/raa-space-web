@@ -153,6 +153,27 @@
   },
   "program": {
     "items": {
+      "dialogoAdInfinitum": {
+        "id": "42",
+        "title": "Dialogo ad Infinitum",
+        "image": "/assets/weavers/poster.png",
+        "url": "/events/dialogo-ad-infinitum",
+        "startDate": "2026-03-26T17:00:00Z",
+        "endDate": "2026-03-26T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "A performance by Leonhard Marlo. An impersonal dialogue that never quite begins — and never quite ends. Part of the Weavers exhibition at RAA.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "26.03.2026, 20:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "A largely impersonal dialogue that never really begins — nor really ever ends.\n\nI engage visitors in conversation. Superficially. The topics are kept carefully small: the weather, commuting, whether bitcoin will go down, football, the Olympics. Recipes. Cheap clothes. Spring flowers.\n\nFor the participant, several questions arise: What is expected of them here? How are they supposed to behave? Are they genuinely interested in continuing — or is it politeness keeping them in place? And perhaps most pressingly: how does one actually end a conversation like this?\n\nI do not seek real conversation. But I will not let you go either — at least, not for politeness' sake.\n\n—\n\nThe performance begins with the stage empty except for two chairs. I sit in one, looking at the other. After some silence, I remark, in passing, that people are so antisocial these days.\n\nAt some point I approach the audience — \"hey, long time no see\" — and invite someone for an informal chat. If they decline: \"oops, must have mistaken you for someone else. Good talking. See you later.\" If they accept, I bring them to the chair. I do not always sit.\n\nTopics covered may include: the infinite number of prime numbers, normal numbers, the last iPhone, your coat, whether you have siblings, and a personal anecdote or two about the fear of being left alone.\n\nAt some point I will signal that I want to wrap up. I glance at the clock. I look around. My responses begin to drift. But the conversation continues."
+      },
       "laimesGovs": {
         "id": "41",
         "title": "Laimes Govs",
