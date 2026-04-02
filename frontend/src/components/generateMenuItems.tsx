@@ -87,6 +87,14 @@ const useGenerateMenuItems = (layoutType: number): Record<string, MenuItem> => {
           ? Array.from({ length: 9 }, (_, i): [number, number] => [5 + i, 20])
           : Array.from({ length: 9 }, (_, i): [number, number] => [15, i + 1]),
     },
+    donations: {
+      label: t.menu.donations,
+      route: 'donations',
+      positions:
+        layoutType === 0
+          ? Array.from({ length: 9 }, (_, i): [number, number] => [5 + i, 24])
+          : Array.from({ length: 9 }, (_, i): [number, number] => [17, i + 1]),
+    },
   };
 
   return items;

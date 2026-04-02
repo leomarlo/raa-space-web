@@ -12,7 +12,7 @@ interface MenuProps {
   itemArrangement: number;
 }
 
-const VISIBLE_KEYS = ['space', 'program', 'series', 'register', 'contact', 'team', 'mezaBars']; // subset of menu
+const VISIBLE_KEYS = ['space', 'program', 'series', 'register', 'contact', 'team', 'mezaBars', 'donations']; // subset of menu
 
 export default function Menu({ isOpen, setNavOpen, activeItem, itemArrangement }: MenuProps) {   
   const router = useRouter();
