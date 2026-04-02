@@ -16,7 +16,8 @@
     "opening": "Opening",
     "members": "Members",
     "location": "Location",
-    "mezaBars": "Meža Bārs"
+    "mezaBars": "Meža Bārs",
+    "donations": "Donations"
   },
   "calendarToggle": {
     "list": "List",
@@ -153,6 +154,27 @@
   },
   "program": {
     "items": {
+      "alternativa2annas": {
+        "id": "43",
+        "title": "ALTERNATĪVA: Traces from the Underground",
+        "image": "/assets/alternativa-2-annas/poster.jpeg",
+        "url": "/events/alternativa-2annas",
+        "startDate": "2026-04-10T17:00:00Z",
+        "endDate": "2026-05-04T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Exhibition by 2ANNAS International Short Film Festival, inspired by 30 years of underground cinema archives. Works by Laimdota Malle, alliance Kurss, Rebecca Korn, and Anastasia Shneps-Shneppe. Opening April 10 at 20:00.",
+        "location": "RAA, Matīsa Street 8, Riga",
+        "when": "10.04–04.05.2026 (Opening 10.04 at 20:00)",
+        "instaLink": "https://www.instagram.com/p/DWilbS_DK0V/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "https://2annas.lv",
+        "externalLinkText": "Learn more at 2annas.lv",
+        "description": "\"ALTERNATĪVA: Traces from the Underground\" is an exhibition inspired by the informal cinema archive of the Riga International Short Film Festival 2ANNAS, spanning 30 years. New works were created for the exhibition by artists Laimdota Malle (LV), alliance Kurss (LV), Rebecca Korn (UK), and Anastasia Shneps-Shneppe (LV).\n\nThe exhibition addresses the tension between official and alternative culture, creating a multi-layered exposition that includes photo, video, and spatial installation.\n\nOpening: April 10, 20:00 at RAA.\n\nDuring the exhibition, three special meetings will take place with curator Kristiāna Kārkliņa and the artists, offering a more nuanced look into the exposition.\n\nFree entrance.\n\nThe project is supported by Riga Municipality and the State Culture Capital Foundation (VKKF).\n\nFor more information, visit 2annas.lv."
+      },
       "dialogoAdInfinitum": {
         "id": "42",
         "title": "Dialogo ad Infinitum",
@@ -1040,13 +1062,6 @@
       "role": "",
       "description": ""
     },
-    "Paula": {
-      "id": "team-id-3",
-      "image": "/assets/team/Paula.jpg",
-      "name": "Paula Betija Antenišķe",
-      "role": "",
-      "description": ""
-    },
     "Helias": {
       "id": "team-id-4",
       "image": "/assets/team/HeliasD.jpg",
@@ -1070,5 +1085,15 @@
     "email": "Contact us at",
     "location": "We are located at Matīsa iela 8, Rīga.",
     "instagram": "Follow us on Instagram:"
+  },
+  "donations": {
+    "title": "Support RAA",
+    "intro": "RAA.SPACE is a registered non-profit association (biedrība) in Latvia (reg. no. 40008349569, registered 16.07.2025). Our goals are to foster collaboration between different art disciplines — music, visual art, dance, theatre, design and more — to promote contemporary and interdisciplinary art in Latvia and abroad, and to support artists, cultural workers and communities in their creative expression.",
+    "why": "We are sustained through donations and the events we host together. Your support helps us keep the space open, free for most events, and available to those who need it.",
+    "bankTitle": "Bank transfer",
+    "account": "Account",
+    "iban": "IBAN",
+    "tile": "Every donor — no matter the amount — is welcome to have their name on one of the tiles in the RAA space, if they wish.",
+    "thankYou": "Thank you for being part of RAA."
   }
 }

@@ -16,7 +16,8 @@
     "opening": "Atklāšana",
     "members": "Biedri",
     "location": "Atrašanās vieta",
-    "mezaBars": "Meža Bārs"
+    "mezaBars": "Meža Bārs",
+    "donations": "Ziedojumi"
   },
   "calendarToggle": {
     "list": "Saraksts",
@@ -154,6 +155,27 @@
   },
   "program": {
     "items": {
+      "alternativa2annas": {
+        "id": "43",
+        "title": "ALTERNATĪVA: No pagrīdes telpas",
+        "image": "/assets/alternativa-2-annas/poster.jpeg",
+        "url": "/events/alternativa-2annas",
+        "startDate": "2026-04-10T17:00:00Z",
+        "endDate": "2026-05-04T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "2ANNAS Starptautiskā īsfilmu festivāla izstāde, iedvesmojoties no 30 gadu pagrīdes kino arhīva. Darbus veidojuši Laimdota Malle, apvienība Kurss, Rebeka Korna un Anastasija Šneps-Šnepe. Atklāšana 10. aprīlī plkst. 20:00.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "10.04–04.05.2026 (Atklāšana 10.04 plkst. 20:00)",
+        "instaLink": "https://www.instagram.com/p/DWilbS_DK0V/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "https://2annas.lv",
+        "externalLinkText": "Vairāk: 2annas.lv",
+        "description": "No 10. aprīļa līdz 4. maijam kultūras telpā RAA (Radošais kvartāls Veldze, Matīsa iela 8, Rīga) iespējams aplūkot izstādi \"ALTERNATĪVA: no pagrīdes telpas\", kas tapusi, iedvesmojoties no Rīgas Starptautiskā īsfilmu festivāla 2ANNAS neformālā kino arhīva 30 gadu garumā. Jaundarbus izstādei veidojuši mākslinieki Laimdota Malle (LV), apvienība \"Kurss\" (LV), Rebeka Korna (UK) un Anastasija Šneps-Šnepe (LV).\n\nIzstāde pievēršas spriegumam starp oficiālo un alternatīvo kultūru, veidojot daudzslāņainu ekspozīciju, iekļaujot foto, video un telpisku instalāciju.\n\nIzstādes atklāšana norisināsies 10.04 plkst. 20.00, RAA telpā.\n\nIzstādes laikā notiks trīs īpašas tikšanās ar kuratori Kristiānu Kārkliņu un māksliniekiem, kas sneigs padziļinātāku ieskatu izstādē.\n\nIeeja izstādē bez maksas.\n\nProjektu atbalsta Rīgas dome un Valsts kultūrkapitāla fonds (VKKF).\n\nVairāk par izstādi: 2annas.lv."
+      },
       "dialogoAdInfinitum": {
         "id": "42",
         "title": "Dialogo ad Infinitum",
@@ -1043,13 +1065,6 @@
       "role": "",
       "description": ""
     },
-    "Paula": {
-      "id": "team-id-3",
-      "image": "/assets/team/Paula.jpg",
-      "name": "Paula Betija Antenišķe",
-      "role": "",
-      "description": ""
-    },
     "Helias": {
       "id": "team-id-4",
       "image": "/assets/team/HeliasD.jpg",
@@ -1073,5 +1088,15 @@
     "email": "Sazinies ar mums pa e-pastu",
     "location": "Mūs var atrast Matīsa ielā 8, Rīgā.",
     "instagram": "Seko mums Instagram:"
+  },
+  "donations": {
+    "title": "Atbalsti RAA",
+    "intro": "RAA.SPACE ir reģistrēta bezpeļņas biedrība Latvijā (reģ. nr. 40008349569, reģistrēta 16.07.2025). Mūsu mērķi ir veicināt sadarbību starp dažādām mākslas nozarēm — mūziku, vizuālo mākslu, deju, teātri, dizainu u.c. —, popularizēt laikmetīgo un starpdisciplināro mākslu Latvijā un ārvalstīs, kā arī atbalstīt māksliniekus, kultūras darbiniekus un sabiedrību radošās izpausmēs.",
+    "why": "Mēs pastāvam pateicoties ziedojumiem un kopīgi rīkotiem pasākumiem. Tavs atbalsts palīdz mums turēt telpu atvērtu, lielākoties bez maksas, un pieejamu tiem, kuriem tā nepieciešama.",
+    "bankTitle": "Bankas pārskaitījums",
+    "account": "Konts",
+    "iban": "IBAN",
+    "tile": "Katrs ziedotājs — neatkarīgi no summas — ir laipni aicināts iegūt savu vārdu uz vienas no RAA telpas flīzēm, ja vēlas.",
+    "thankYou": "Paldies, ka esi daļa no RAA."
   }
 }
