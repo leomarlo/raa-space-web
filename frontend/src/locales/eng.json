@@ -16,7 +16,7 @@
     "opening": "Opening",
     "members": "Members",
     "location": "Location",
-    "mezaBars": "Meža Bārs",
+    "mezaBars": "Forest Bar",
     "donations": "Donations"
   },
   "calendarToggle": {
@@ -112,7 +112,10 @@
     "layoutDescription": "The front-facing part of the space consists of an entrance foyer (35 m^2) and an exhibition hall (103m^2). There are 10 large windows facing the Matisa street, that gives the space its spacious and stage-like feeling. Behind the entrance foyer there is a shop called 'māte nātre' inside of 12m^2 separate room. The backward facing part consists of a long corridor that contains a backstage area (8m^2) and an adjacent toilet (4m^2). Then comes a theatre area with a theatre foyer and a small theatre room (13m^2). At the very end of the corridor there is a storage room (6,4m^2). We also have access to a magical court yard behind the building. From there one can reach all of Veldze quarter.",
     "mapTitle": "Map",
     "mapDescription": "You can find us at Matīsa iela 8, Rīga. Just opposite the fire station and the the Vidzeme Market. It is part of the Veldze quarter. The most recognizable landmark is a tall brick chimney that pokes out just behind RAA. The easiest way to reach RAA is via Brivibas street. You take any of the busses or trolley busses and get off at 'Matīsa iela' stop. Then you walk into Matīsa street and you will see RAA on your right after about 150m. You may also reach us via Krišjāņa Barona street. There are two trams that stop at 'Bernu pasaule', namely tram 1 and 11. You can get off at 'Bernu pasaule' stop and walk into Matīsa street. RAA is on your left after about 200m.",
-    "instagram": "@raa_riga"
+    "instagram": "@raa_riga",
+    "impressionsTitle": "Impressions",
+    "cvTitle": "Reference Document",
+    "cvDescription": "Download the RAA.SPACE reference document (CV) in English or Latvian."
   },
   "series": {
     "title": "RAA Series",
@@ -154,6 +157,48 @@
   },
   "program": {
     "items": {
+      "tp054k01xg": {
+        "id": "45",
+        "title": "TP054K-01xG",
+        "image": "/assets/TP054K-01xG/poster.jpeg",
+        "url": "/events/tp054k-01xg",
+        "startDate": "2026-05-15T16:00:00Z",
+        "endDate": "2026-06-08T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Duo exhibition by Alīna Burlakova & Viktorija Galkina. Large-format paintings in dialogue with metal pipe sculpture. Opening May 15 with a vocal performance by Eleonora Kampe.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "15.05–08.06.2026 (Opening 15.05 at 19:00)",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "TP054K-01xG is a duo exhibition by Alīna Burlakova and Viktorija Galkina, in which a series of large-format paintings interacts with metal sculpture, transforming the space into a field of abstract visual dialogue. The exhibition captures the fragmentation of perception and experience in an era where visual information continuously overlaps and loses a stable centre of meaning.\n\nThe visual language is built as a multi-layered, gestural abstraction with linear structures, spontaneous drawing elements and overlapping colour fields. The paintings are dominated by a light, white-toned palette referencing automatism and abstract expressionism with a subtle touch of naivism. Complementing them is a sculpture constructed from industrial pipes — a spatial gesture extending the principle of line into three dimensions, creating tension between industrial aesthetics and expressive, subjective experience.\n\nThe title TP054K-01xG functions as an encoded unit: without direct semantic attachment, it refuses narrative and leaves room for uncertainty, becoming a key to individual interpretation.\n\nOpening: May 15 at 19:00\nVocal performance by Eleonora Kampe\n\n—\n\nAlīna Burlakova (1992) is an interdisciplinary artist and graduate of the Painting Department of the Latvian Academy of Art (2023). She has studied at the Budapest University of Art (2021–2022) and the University of the Basque Country (2022), and is a member of the Butoh LAB performance group.\n\nViktorija Galkina (1988) is a contemporary artist completing her Sculpture MA at the Latvian Academy of Art (2026). She has studied at universities in Greece, Hungary and Croatia, and works across sculpture, installation and film production.\n\n—\n\nEleonora Kampe is a Latvian-Estonian voice artist and avant-garde singer based in Riga. She began her vocal career in 2010 and uses her voice as a versatile instrument across multiple formats — sound art, installation, free improvisation, noise music, and avant-garde blues. Her performances feature captivating vocalizations, primal expression and abstract sound experiments."
+      },
+      "esEsmuSeit": {
+        "id": "44",
+        "title": "Find Me, I Am Here",
+        "image": "/assets/es-esmu-seit/poster.jpg",
+        "url": "/events/es-esmu-seit",
+        "startDate": "2026-05-08T16:00:00Z",
+        "endDate": "2026-05-10T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 1,
+        "registerPage": "",
+        "shortDescription": "Pop-up group exhibition by students of the Latvian Academy of Art. Opening May 8 at 19:00 with musical accompaniment by exve. Exhibition continues May 9–10, 13:00–22:00.",
+        "location": "RAA, Matīsa iela 8, Rīga",
+        "when": "08–10.05.2026 (Opening 08.05 at 19:00)",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Pop-up group exhibition \"Find Me, I Am Here\" by students of the Latvian Academy of Art.\n\nThis year, for the first time as part of the course \"Exhibition Making Practice for Artists\", students from the painting, graphics, scenography, art history and theory departments are presenting a pop-up exhibition at RAA Space.\n\nOpening: May 8 at 19:00\nMusical accompaniment: exve\n\nMay 9–10: 13:00–22:00\n\nArtists: Alise Ilze Grišina, Alise Vorkalne, Anastasija Sirotska, Brigita Rubine, Estere Neimane, Evelīna Āboltiņa, Jānis Grāvītis, Jānis Kronītis, Katrīna Djadjura, Līva Ozoliņa, Viktorija Joniete, Vladlena Čehnija.\n\nCourse led by: LMA guest lecturer Ieva Stalšene.\n\nWith support from Veldze Radošā Rūpnīca."
+      },
       "alternativa2annas": {
         "id": "43",
         "title": "ALTERNATĪVA: Traces from the Underground",
@@ -1052,21 +1097,35 @@
       "id": "team-id-2",
       "image": "/assets/team/Leo.jpeg",
       "name": "Leonhard Horstmeyer",
-      "role": "",
+      "role": "master of disaster",
       "description": ""
     },
     "Jana": {
       "id": "team-id-1",
       "image": "/assets/team/JanaZarina.JPG",
       "name": "Jana Zariņa",
-      "role": "",
+      "role": "artistic director",
       "description": ""
     },
     "Helias": {
       "id": "team-id-4",
       "image": "/assets/team/HeliasD.jpg",
       "name": "Helias Dzimoulakis",
-      "role": "",
+      "role": "theatre director",
+      "description": ""
+    },
+    "Toms": {
+      "id": "team-id-5",
+      "image": "/assets/team/Toms.JPG",
+      "name": "Toms Dāvis Piņķis",
+      "role": "sounds, light and bar",
+      "description": ""
+    },
+    "Madara": {
+      "id": "team-id-6",
+      "image": "/assets/team/Madara.jpeg",
+      "name": "Madara Kurzemniece",
+      "role": "bar and space",
       "description": ""
     }
   },
@@ -1089,7 +1148,7 @@
   "donations": {
     "title": "Support RAA",
     "intro": "RAA.SPACE is a registered non-profit association (biedrība) in Latvia (reg. no. 40008349569, registered 16.07.2025). Our goals are to foster collaboration between different art disciplines — music, visual art, dance, theatre, design and more — to promote contemporary and interdisciplinary art in Latvia and abroad, and to support artists, cultural workers and communities in their creative expression.",
-    "why": "We are sustained through donations and the events we host together. Your support helps us keep the space open, free for most events, and available to those who need it.",
+    "why": "We are sustained through donations and the events we host together. Your support helps us cover the rent and continue our cultural activities.",
     "bankTitle": "Bank transfer",
     "account": "Account",
     "iban": "IBAN",

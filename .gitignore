@@ -41,6 +41,18 @@ frontend/.env*
 /frontend/*.tsbuildinfo
 /frontend/next-env.d.ts
 
+# LATEX
+telpa-cv/*.aux
+telpa-cv/*.log
+telpa-cv/*.out
+telpa-cv/*.toc
+telpa-cv/*.lof
+telpa-cv/*.lot
+telpa-cv/*.fls
+telpa-cv/*.fdb_latexmk
+telpa-cv/*.synctex.gz
+telpa-cv/*.xdv
+
 # BACKEND
 /backend/.venv
 *__pycache__

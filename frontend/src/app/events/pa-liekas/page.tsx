@@ -2,6 +2,7 @@
 
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
+import EventPageContent from '@/components/EventPageContent';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -9,12 +10,9 @@ export default function PaLiekasPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
-  const event = t.program.items.paLiekasIzstade;
-
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
-      {/* Background effect */}
-      <div className="absolute inset-0 -z-10">
+      <div className="fixed inset-0 -z-10">
         <RaaHieroglyphMatrix frequency={0} initialState={0} />
       </div>
 
@@ -29,19 +27,8 @@ export default function PaLiekasPage() {
         setNavOpen={setNavOpen}
       />
 
-      {/* Content area */}
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <div className="max-w-4xl w-full bg-black/70 p-6 sm:p-8 rounded-lg shadow-lg">
-          {/* Event Title */}
-          <h1 className="text-4xl font-bold mb-6 text-center">
-            {event.title}
-          </h1>
-
-          {/* Event Description */}
-          <div className="text-justify leading-relaxed whitespace-pre-line">
-            {event.description}
-          </div>
-        </div>
+        <EventPageContent event={t.program.items.paLiekasIzstade} />
       </div>
     </div>
   );

@@ -29,7 +29,7 @@ export default function Menu({ isOpen, setNavOpen, activeItem, itemArrangement }
   };
 
   return (
-    <div className="absolute inset-0 z-40 pointer-events-none">
+    <div className="fixed inset-0 z-40 pointer-events-none">
 
       {/* Menu Grid */}
       <div

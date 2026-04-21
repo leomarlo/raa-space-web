@@ -13,10 +13,10 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
       <div className="w-full mb-4">
         <a href={item.url} target="_blank" rel="noopener noreferrer">
           <Image
-            src={item.image}
+            src={item.image.replace(/(\.[^.]+)$/, '-mid$1')}
             alt={item.title}
-            width={800}
-            height={450}
+            width={400}
+            height={225}
             sizes="100vw"
             loading="lazy"
             className="w-full h-auto border border-black object-contain mx-auto"

@@ -1,0 +1,594 @@
+\nonstopmode
+\documentclass[a4paper,11pt]{article}
+
+\usepackage{fontspec}
+\usepackage[a4paper, top=2.2cm, bottom=2.2cm, left=2.2cm, right=2.2cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{microtype}
+\usepackage{hyperref}
+\usepackage{enumitem}
+\usepackage{array}
+\usepackage{ragged2e}
+\usepackage{parskip}
+\usepackage{fancyhdr}
+\usepackage{lastpage}
+\usepackage{calc}
+\usepackage{multirow}
+\usepackage{mdframed}
+
+\setmainfont[Ligatures=TeX]{Helvetica Neue}
+
+\definecolor{raaRed}{HTML}{8B0000}
+\definecolor{raaLight}{HTML}{f5f5dc}
+\definecolor{raaMid}{HTML}{888888}
+\definecolor{raaLine}{HTML}{cccccc}
+
+\hypersetup{colorlinks=true, urlcolor=raaRed, linkcolor=raaRed}
+
+\pagestyle{fancy}
+\fancyhf{}
+\renewcommand{\headrulewidth}{0pt}
+\fancyfoot[L]{\footnotesize\color{raaMid} RAA.SPACE --- Matīsa iela 8, Rīga}
+\fancyfoot[R]{\footnotesize\color{raaMid} \thepage\ / \pageref{LastPage}}
+
+\titleformat{\section}{\large\bfseries\color{raaRed}}{}{0em}{}[\color{raaLine}\titlerule]
+\titlespacing{\section}{0pt}{1.4em}{0.5em}
+
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+\titlespacing{\subsection}{0pt}{0.8em}{0.2em}
+
+\newcommand{\evententry}[5]{%
+  \noindent\begin{minipage}[t]{2.6cm}
+    \vspace{0pt}
+    \includegraphics[width=2.5cm,height=3cm,keepaspectratio]{#2}
+  \end{minipage}%
+  \hspace{0.3cm}%
+  \begin{minipage}[t]{\linewidth - 2.9cm}
+    \vspace{0pt}
+    {\footnotesize\color{raaRed}\textbf{#1} \hfill \textit{\color{raaMid}#5}}\\[-0.1em]
+    {\bfseries #3}\\[0.1em]
+    {\small\RaggedRight #4}
+  \end{minipage}%
+  \par\vspace{0.4em}
+  \noindent{\color{raaLine}\rule{\linewidth}{0.4pt}}
+  \par\vspace{0.4em}
+}
+
+\newcommand{\milestone}[2]{%
+  \noindent{\color{raaRed}\textbf{#1}} \quad #2\par\vspace{0.3em}
+}
+
+\newcommand{\teammember}[3]{%
+  \begin{minipage}[t]{2.2cm}
+    \vspace{0pt}
+    \includegraphics[width=2cm,height=2.5cm,keepaspectratio]{#3}
+  \end{minipage}%
+  \hspace{0.3cm}%
+  \begin{minipage}[t]{5.8cm}
+    \vspace{0pt}
+    {\bfseries #1}\\
+    {\small\color{raaMid}#2}
+  \end{minipage}%
+}
+
+\begin{document}
+
+% ═════════════════════════════════════════════════════════
+%  PAGE 1 — COVER + ABOUT
+% ═════════════════════════════════════════════════════════
+\thispagestyle{empty}
+
+\begin{center}
+  \includegraphics[width=5cm,keepaspectratio]{/Users/leo/Projects/Raa/web/frontend/public/raa_logo_but_use_svg_if_possible.png}
+  \par\vspace{0.6em}
+  {\large\bfseries RAA.SPACE --- Cultural Space}
+  \par\vspace{0.2em}
+  {\normalsize Radošā rūpnīca Veldze, Matīsa iela 8, Rīga LV-1001}
+\end{center}
+
+\vspace{0.4em}
+\begin{center}
+\includegraphics[width=\linewidth,height=8cm,keepaspectratio]{/Users/leo/Projects/Raa/web/frontend/public/assets/telpa/raa-galerija-1.jpg}
+\end{center}
+\vspace{0.4em}
+
+\begin{center}
+  \noindent{\color{raaLine}\rule{0.6\linewidth}{0.8pt}}
+  \par\vspace{0.4em}
+  \begin{tabular}{ccc}
+    \textbf{E-mail} & \textbf{Instagram} & \textbf{Address} \\[0.3em]
+    \href{mailto:enter@raa.space}{enter@raa.space} &
+    \href{https://instagram.com/raa_riga}{@raa\_riga} &
+    Matīsa iela 8, Rīga LV-1001 \\
+  \end{tabular}
+  \par\vspace{0.4em}
+  \noindent{\color{raaLine}\rule{0.6\linewidth}{0.8pt}}
+  \par\vspace{0.3em}
+  {\small\color{raaMid} Reference Document --- \today}
+\end{center}
+
+\vspace{0.5em}
+
+% ─────────────────────────────────────────────────────────
+\section{About}
+% ─────────────────────────────────────────────────────────
+
+RAA is an independent cultural space located in Radošā rūpnīca Veldze in central Riga, Latvia.
+It opened on \textbf{11 July 2025}.
+
+The space hosts a diverse programme: contemporary art exhibitions, theatre performances, concerts,
+poetry readings, workshops, festivals, and community gatherings.
+
+The space comprises an exhibition hall (103\,m$^2$), an entrance foyer (35\,m$^2$), a theatre room
+(13\,m$^2$) with a dedicated foyer, a backstage corridor, and access to a courtyard connecting
+the entire Veldze quarter.
+
+RAA (aka \textit{reductio ad absurdum}) leads claims to absurdity since 2025.
+At RAA you do not have to be loud to be heard.
+
+\vfill
+
+\noindent{\color{raaLine}\rule{\linewidth}{0.4pt}}
+{\footnotesize\color{raaMid}
+  \textbf{RAA.SPACE} \enspace
+  Biedrība (non-profit association) \enspace
+  Reg.\ 40008349569 \enspace
+  Matīsa iela 8, Rīga LV-1001
+}
+
+% ═════════════════════════════════════════════════════════
+%  PAGE 2 — TEAM + FOREST BAR + LAYOUT
+% ═════════════════════════════════════════════════════════
+\newpage
+
+% ─────────────────────────────────────────────────────────
+\section{Team}
+% ─────────────────────────────────────────────────────────
+
+\vspace{0.5em}
+\noindent
+\teammember{Leonhard Horstmeyer}{master of disaster}{/Users/leo/Projects/Raa/web/frontend/public/assets/team/Leo.jpeg}%
+\hspace{0.6cm}
+\teammember{Jana Zariņa}{artistic director}{/Users/leo/Projects/Raa/web/frontend/public/assets/team/JanaZarina.JPG}
+
+\vspace{0.8em}
+\noindent
+\teammember{Helias Dzimoulakis}{theatre director}{/Users/leo/Projects/Raa/web/frontend/public/assets/team/HeliasD.jpg}%
+\hspace{0.6cm}
+\teammember{Toms Dāvis Piņķis}{sounds, light and bar}{/Users/leo/Projects/Raa/web/frontend/public/assets/team/Toms-portrait.JPG}
+
+\vspace{0.8em}
+\noindent
+\teammember{Madara Kurzemniece}{bar and space}{/Users/leo/Projects/Raa/web/frontend/public/assets/team/Madara.jpeg}
+
+% ─────────────────────────────────────────────────────────
+\section{MAATE NAATRE}
+% ─────────────────────────────────────────────────────────
+
+MAATE NAATRE is a herbal bar located in the entrance foyer of RAA, part of Radošā rūpnīca Veldze
+in central Riga. Opened on 14 March 2026, it is a small place to linger, meet others, and taste
+a variety of nature-crafted drinks. The bar brings the Latvian forest to the city --- try
+different cocktails from the forest.
+
+% ─────────────────────────────────────────────────────────
+\section{Layout}
+% ─────────────────────────────────────────────────────────
+
+\vspace{0.5em}
+\noindent
+\begin{minipage}[t]{0.495\linewidth}
+  \vspace{0pt}
+  \includegraphics[width=\linewidth,height=7cm,keepaspectratio]{/Users/leo/Projects/Raa/web/frontend/public/assets/telpa/raa-galerija-0.jpg}
+  \par\vspace{0.3em}
+  {\small\color{raaMid}\textit{Main hall}}
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.495\linewidth}
+  \vspace{0pt}
+  \includegraphics[width=\linewidth,height=7cm,keepaspectratio]{/Users/leo/Projects/Raa/web/frontend/public/assets/telpa/layout.jpeg}
+  \par\vspace{0.3em}
+  {\small\color{raaMid}\textit{Layout of RAA (without the red area)}}
+\end{minipage}
+
+% ═════════════════════════════════════════════════════════
+%  PAGE 3 — TIMELINE
+% ═════════════════════════════════════════════════════════
+\newpage
+
+% ─────────────────────────────────────────────────────────
+\section{Timeline}
+% ─────────────────────────────────────────────────────────
+
+\milestone{July 2025}{RAA opened its doors on 11 July 2025. Inaugural group exhibition
+  \textit{In Your Shoes}, curated by Maija Kurševa, brought together seven artists from the
+  Latvian Academy of Art. Poetry marathon \textit{Sinusoid} with Syntax Stupor.}
+
+\milestone{August 2025}{Katoptron Teātris, RAA's resident theatre, opened under the direction
+  of Helias Dzimoulakis. Arta Raituma led a two-day fire workshop followed by an exhibition of
+  the resulting works. Solo exhibition \textit{Saules Gaismas Meklējumos} by Fricis Ripa.
+  Musical evening with Elza \& Uģis Albiņš. Photography exhibition by Ksenija Kumačova.}
+
+\milestone{September 2025}{Exhibition connected to the international theatre festival Homo Novus.
+  Sewing Machine Techno. British poet Joëlle Taylor (T.S. Eliot Prize winner) gave a reading.
+  Launch of Tvērums \#11. Evening with Erika Kolobanova \& Konstantins Belihs.}
+
+\milestone{October 2025}{Three-day International Scent Art Festival (10--12 Oct) with
+  international artists. res Tacta performance and workshop series. Brīvības Experience
+  (16--30 Oct) --- urban installation about Riga's main street by Brunis Kibilds.}
+
+\milestone{November 2025}{Kefirs Studio group exhibition. First Riga Upcycling Festival
+  (15 Nov). Photography exhibition by Veronika Geida. \textit{Through the Looking Glass}
+  --- photography by Paula Betija Antenišķe documenting Ivo Krieviņš and the Riga ballroom scene.}
+
+\milestone{December 2025}{WunderKombināts publication launch. Piano recital with
+  Andrejs Osokins. Tvērums December issue launch.}
+
+\milestone{January 2026}{Winter break and renovation works at RAA.}
+
+\milestone{February 2026}{30-day evolving installation \textit{AS DISTANT, SO NEAR} with
+  various artists, exploring themes of distance, proximity, and presence.}
+
+\milestone{March 2026}{Opening of MAATE NAATRE forest bar (14 Mar). Three research meetup
+  sessions. Book presentation. Weavers group exhibition and performance
+  \textit{Dialogo ad Infinitum} by Leonhard Horstmeyer.}
+
+\milestone{April 2026}{\textit{ALTERNATĪVA: Traces from the Underground} --- exhibition by
+  the 2ANNAS film festival (10 Apr -- 4 May), with four artists and three guided tours,
+  supported by Rīgas dome and VKKF.}
+
+% ═════════════════════════════════════════════════════════
+%  PAGE 4+ — EVENTS
+% ═════════════════════════════════════════════════════════
+\newpage
+
+% ─────────────────────────────────────────────────────────
+\section{Events}
+% ─────────────────────────────────────────────────────────
+
+{\small All events hosted at RAA since opening on 11 July 2025, in chronological order.
+Many more events for 2026 are planned but not yet listed here.}
+
+\vspace{0.6em}
+
+% ── JULY 2025 ──────────────────────────────────────────
+\subsection*{\color{raaMid} July 2025}
+
+\evententry%
+  {11 July 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/raa-opening/banner-opening-thumb.jpeg}%
+  {R A A Opening \#1}%
+  {The inaugural opening of RAA cultural space at Matīsa iela 8.}%
+  {Opening}
+
+\evententry%
+  {11--18 July 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/tavaas-kurpees/poster-thumb.jpg}%
+  {In Your Shoes}%
+  {Group exhibition curated by Maija Kurševa (3rd-year LMA KAS students). Each work references
+  another artist's practice. Seven participating artists.}%
+  {Exhibition}
+
+\evententry%
+  {24--27 July 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/typewriter-museum/poster-thumb.jpg}%
+  {Typewriter Museum Exhibition}%
+  {20th-century typewriter collection from Germany, USA, Sweden, and Italy.
+  Visitors could type on two authentic machines.}%
+  {Exhibition}
+
+\evententry%
+  {27 July 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/dzeja-sinusoiida/RAA_dzejasSinusidaPRINT-thumb.jpg}%
+  {Poetry: Sinusoid}%
+  {Poetry marathon by the group Syntax Stupor, with music by Dabsolis and Kaspars Sils.
+  Open microphone.}%
+  {Poetry / Music}
+
+% ── AUGUST 2025 ────────────────────────────────────────
+\subsection*{\color{raaMid} August 2025}
+
+\evententry%
+  {2--3 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/fire-workshop/uguns_poster_DRUKA_with_QR_code-thumb.png}%
+  {Fire Workshop with Arta Raituma}%
+  {Two-day experimental wood-burning workshop with artist Arta Raituma.}%
+  {Workshop}
+
+\evententry%
+  {4--6 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/fire-workshop/uguns_poster_DRUKA_with_QR_code-thumb.png}%
+  {Fire Workshop Exhibition}%
+  {Exhibition of artworks created during Arta Raituma's fire workshop.}%
+  {Exhibition}
+
+\evententry%
+  {7--10 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/kas-aug-starp-mums/poster-thumb.png}%
+  {Kas Aug Starp Mums}%
+  {Photography exhibition by Ksenija Kumačova (b.\ 1997).
+  Explores the interaction between humans and local nature.}%
+  {Exhibition}
+
+\evententry%
+  {9 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/theatre-opening/poster-thumb.png}%
+  {Katoptron Teātris Opening}%
+  {Opening of RAA's resident theatre, founded and directed by Helias Dzimoulakis.}%
+  {Theatre}
+
+\evententry%
+  {14 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/kabiirijas-salons/poster-thumb.jpg}%
+  {Kabiirijas Salons \#1}%
+  {Open stage for painting, music, performance, dance, and poetry.}%
+  {Performance / Open Stage}
+
+\evententry%
+  {14--17 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/shelf-stories/impression-thumb.jpeg}%
+  {RAA Museum: Shelf Stories}%
+  {A museum of objects donated by community members, each with its story.}%
+  {Exhibition}
+
+\evententry%
+  {18--26 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/saules-gaismas-mekleejumos/poster1-thumb.jpeg}%
+  {Saules Gaismas Meklējumos}%
+  {Solo exhibition by Fricis Ripa --- \textit{In Search of Sunshine}. Opening with DJ sets.}%
+  {Exhibition}
+
+\evententry%
+  {28 August 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/laime-pliist-uz-traukiem/poster-thumb.jpg}%
+  {Laime Plīst uz Traukiem}%
+  {An evening performance event.}%
+  {Performance}
+
+% ── SEPTEMBER 2025 ─────────────────────────────────────
+\subsection*{\color{raaMid} September 2025}
+
+\evententry%
+  {1 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/second-variety-show/poster-thumb.jpg}%
+  {Second Variety Show}%
+  {An evening of varied acts and performances.}%
+  {Performance}
+
+\evententry%
+  {3 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/pilseetas-naktii/poster-thumb.jpg}%
+  {Cities by Night}%
+  {Evening event exploring urban themes through art and performance.}%
+  {Event}
+
+\evententry%
+  {8 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/dzoela-teilore/Dzoela_Teilore_Raa_A3-thumb.jpg}%
+  {Joëlle Taylor --- Reading}%
+  {Poetry reading with British poet Joëlle Taylor, T.S.\ Eliot Prize winner.}%
+  {Literature / Poetry}
+
+\evententry%
+  {14 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/sujmasinu-tehno/poster-thumb.png}%
+  {Sewing Machine Techno}%
+  {An evening combining craft, community, and rhythm.}%
+  {Workshop / Event}
+
+\evententry%
+  {18 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/ja-nu-saule-rit-neuzaust/poster-thumb.jpeg}%
+  {Tvērums \#11 ``East'': What If the Sun Doesn't Rise Tomorrow}%
+  {Launch of the 11th issue of the literary journal Tvērums, themed around East and uncertainty.}%
+  {Literature / Launch}
+
+\evententry%
+  {27 September 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/exo-foto-izstade/poster-thumb.jpeg}%
+  {Exo --- Photography Exhibition}%
+  {Photography exhibition.}%
+  {Exhibition}
+
+% ── OCTOBER 2025 ───────────────────────────────────────
+\subsection*{\color{raaMid} October 2025}
+
+\evententry%
+  {4 October 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/kizomba/poster-thumb.png}%
+  {Kizomba / UrbanKiz Party}%
+  {Social dance party with Kizomba and UrbanKiz music.}%
+  {Dance / Party}
+
+\evententry%
+  {5 October 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/riga-sock-exchange/poster-thumb.png}%
+  {Riga Sock Exchange}%
+  {Community clothing exchange event.}%
+  {Community}
+
+\evententry%
+  {8 October 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/res-tacta/poster-thumb.png}%
+  {res tacta --- Performance / Creative Workshop}%
+  {Performance and workshop exploring tactile experience and bodily presence.}%
+  {Performance / Workshop}
+
+\evententry%
+  {10--12 October 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/scent-art-festival/poster-thumb.jpg}%
+  {International Scent Art Festival}%
+  {Three-day international festival dedicated to olfactory art --- exhibitions, performances,
+  workshops, and a scent tour of Riga.}%
+  {Festival}
+
+\evententry%
+  {16--30 October 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/brivibas-experience/poster-thumb.png}%
+  {Brīvības Experience --- Urban Installation}%
+  {Exhibition and urban installation dedicated to Riga's main street, Brīvības iela.
+  Using visualizations, 3D models, and other media, the project explores the street's
+  history, current state, and future scenarios. Organized by Brunis Kibilds
+  (Pilsēta cilvēkiem / City for People). Visitors were invited to participate in
+  rethinking how to make the city more people-friendly.}%
+  {Event}
+
+% ── NOVEMBER 2025 ──────────────────────────────────────
+\subsection*{\color{raaMid} November 2025}
+
+\evententry%
+  {6--9 November 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/kefirs-studio-exhibition/poster-thumb.jpg}%
+  {Kefirs Studio Exhibition}%
+  {Group exhibition by Kefirs Studio.}%
+  {Exhibition}
+
+\evententry%
+  {15 November 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/pirmais-rigas-upcycling-festivals/poster-thumb.jpg}%
+  {The First Riga Upcycling Festival}%
+  {Public event promoting sustainable design and reuse culture.
+  Workshops, market stalls, and community activities.}%
+  {Festival}
+
+\evententry%
+  {17 November 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/pa-liekas-izstade/poster-thumb.jpeg}%
+  {(pa)liekas --- Photography Exhibition}%
+  {Solo photography exhibition by Veronika Geida.}%
+  {Exhibition}
+
+\evententry%
+  {24--30 November 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/through-the-looking-glass/poster-thumb.jpg}%
+  {Through the Looking Glass}%
+  {Photography exhibition exploring queer identity and ballroom culture in Latvia.
+  Photography by Paula Betija Antenišķe, documenting Ivo Krieviņš and the Riga ballroom scene.
+  Supported by the European Union.}%
+  {Exhibition}
+
+% ── DECEMBER 2025 ──────────────────────────────────────
+\subsection*{\color{raaMid} December 2025}
+
+\evententry%
+  {9 December 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/wunderkombinats/poster-thumb.jpg}%
+  {WunderKombināts --- Publication Launch}%
+  {Launch of the WunderKombināts publication.}%
+  {Literature / Launch}
+
+\evententry%
+  {12 December 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/andrejs-osokins-koncerts/poster-thumb.jpg}%
+  {Concert with Andrejs Osokins}%
+  {Piano concert with Andrejs Osokins.}%
+  {Concert}
+
+\evententry%
+  {19 December 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/tverums-decembris/poster-thumb.jpg}%
+  {Tvērums --- December Issue Launch}%
+  {Launch of the December issue of literary journal Tvērums.}%
+  {Literature / Launch}
+
+\evententry%
+  {28 December 2025}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/marks-ozolins-koncerts/poster-thumb.jpg}%
+  {Mārks Ozoliņš --- Concert Evening}%
+  {Concert evening with Mārks Ozoliņš.}%
+  {Concert}
+
+% ── JANUARY 2026 ───────────────────────────────────────
+\subsection*{\color{raaMid} January 2026}
+
+\evententry%
+  {29 January 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/as-far-so-near/poster-thumb.jpeg}%
+  {AS DISTANT, SO NEAR --- Open Call}%
+  {Open call and exhibition exploring themes of distance, proximity, and presence.
+  Launch of a 30-day evolving installation with various participating artists.}%
+  {Exhibition / Open Call}
+
+% ── MARCH 2026 ─────────────────────────────────────────
+\subsection*{\color{raaMid} March 2026}
+
+\evententry%
+  {14 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/upcycling-tirgus-march/poster-thumb.jpg}%
+  {2nd Upcycling Festival ``Refresh the Old!''}%
+  {Second edition of the Riga Upcycling Festival. Market, workshops, and community activities.}%
+  {Festival}
+
+\evententry%
+  {14 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/maate-naatre-atklaashana/poster-thumb.jpg}%
+  {MAATE NAATRE --- Opening}%
+  {Opening of MAATE NAATRE herbal bar within the RAA space.}%
+  {Opening}
+
+\evententry%
+  {17, 24 \& 27 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/citizen-research-meetup-first-meeting/poster-thumb.png}%
+  {Research Meetup Series}%
+  {Three open gatherings at RAA for sharing insights, learning, and collective inquiry.
+  \textbf{Citizen Research Meetup} (17 Mar) --- launch of open weekly sessions to share
+  data-driven questions and learn new skills. Hosted by jopalesi.science.
+  \textbf{Recreational Research Meetup} (24 Mar) --- informal exchange of ideas and
+  curious questions among participants.
+  \textbf{Extraordinary Meeting: Riemann-Zeta} (27 Mar) --- special session dedicated
+  to the Riemann-Zeta function and mathematical beauty.}%
+  {Meetup / Research}
+
+\evententry%
+  {26 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/weavers/poster-thumb.png}%
+  {Weavers --- Exhibition}%
+  {Textile and interdisciplinary exhibition exploring weaving as metaphor and practice.}%
+  {Exhibition}
+
+\evententry%
+  {26 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/weavers/poster-thumb.png}%
+  {Dialogo ad Infinitum --- Performance}%
+  {Performance by Leonhard Horstmeyer. Part of the Weavers exhibition.}%
+  {Performance}
+
+\evententry%
+  {28 March 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/laimes-govs/poster-thumb.jpg}%
+  {Laimes Govs}%
+  {Community morning event.}%
+  {Event}
+
+% ── APRIL -- MAY 2026 ──────────────────────────────────
+\subsection*{\color{raaMid} April -- May 2026}
+
+\evententry%
+  {10 April -- 4 May 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/alternativa-2-annas/poster-thumb.jpeg}%
+  {ALTERNATĪVA: Traces from the Underground}%
+  {Exhibition by the Riga International Short Film Festival 2ANNAS. Works by Laimdota Malle (LV),
+  alliance Kurss (LV), Rebecca Korn (UK), and Anastasia Shneps-Shneppe (LV).
+  Curator: Kristiāna Kārkliņa. Three guided tours. Supported by Rīgas dome and VKKF.}%
+  {Exhibition}
+
+\evententry%
+  {8--10 May 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/es-esmu-seit/poster-thumb.jpg}%
+  {Atrodi mani, es esmu šeit}%
+  {Group exhibition by students of the Latvian Academy of Art (LMA), produced as part of the
+  course ``Exhibition Making Practice for Artists''. Curated by Ieva Stalšene.}%
+  {Exhibition}
+
+\evententry%
+  {15 May -- 8 June 2026}%
+  {/Users/leo/Projects/Raa/web/frontend/public/assets/TP054K-01xG/poster-thumb.jpeg}%
+  {TP054K-01xG}%
+  {Duo exhibition by Alīna Burlakova (b.\ 1992) and Viktorija Galkina (b.\ 1988).
+  Opening 15 May with a vocal performance by Eleonora Kampe.}%
+  {Exhibition}
+
+\end{document}
