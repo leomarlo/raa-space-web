@@ -169,7 +169,7 @@ export default function CalendarView({ items, startDate, endDate, cellOpacity = 
                     >
                       {/* Event image */}
                       <Image
-                        src={event.image}
+                        src={event.image.replace(/(\.[^.]+)$/, '-thumb$1')}
                         alt={event.title}
                         fill
                         className="object-cover w-full h-full z-0"

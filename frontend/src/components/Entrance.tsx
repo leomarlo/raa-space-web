@@ -70,7 +70,7 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
       </button>
     </div>
     <div
-      className="absolute inset-0 grid"
+      className="fixed inset-0 grid pointer-events-none"
       style={{
         gridTemplateColumns: `repeat(${COLS}, 1fr)`,
         gridTemplateRows: `repeat(${ROWS}, 1fr)`,
@@ -91,7 +91,7 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
               onMouseLeave={() => {
                 if (!isMenuToggle) setHovered(null);
               }}
-              className="w-full h-full flex items-center justify-center"
+              className={`w-full h-full flex items-center justify-center${isMenuToggle ? ' pointer-events-auto' : ''}`}
               style={{ aspectRatio: '1 / 1' , position: 'relative' }}
             >
               {isMenuToggle ? (

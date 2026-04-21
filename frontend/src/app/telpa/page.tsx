@@ -13,7 +13,7 @@ export default function TelpaPage() {
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
       {/* Background effect */}
-      <div className="absolute inset-0 -z-10">
+      <div className="fixed inset-0 -z-10">
         <RaaHieroglyphMatrix frequency={0} initialState={0} />
       </div>
 
@@ -53,6 +53,16 @@ export default function TelpaPage() {
             </a>
           </p>
           <h2 className="text-2xl font-bold text-center">
+            {t.telpa.impressionsTitle}
+          </h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+            <Image src="/assets/telpa/raa-galerija-0.jpg" alt="RAA Space" width={960} height={960} className="w-full h-auto rounded-lg shadow-md object-cover" />
+            <Image src="/assets/telpa/raa-galerija-1.jpg" alt="RAA Space" width={960} height={960} className="w-full h-auto rounded-lg shadow-md object-cover" />
+            <Image src="/assets/telpa/raa-galerija-2.jpg" alt="RAA Space" width={960} height={960} className="w-full h-auto rounded-lg shadow-md object-cover" />
+            <Image src="/assets/telpa/raa-galerija-3.jpg" alt="RAA Space" width={960} height={960} className="w-full h-auto rounded-lg shadow-md object-cover" />
+          </div>
+
+          <h2 className="text-2xl font-bold text-center">
             {t.telpa.layoutTitle}
           </h2>
 
@@ -74,13 +84,30 @@ export default function TelpaPage() {
           />
           <h2 id="map" className="text-2xl font-bold text-center">{t.telpa.mapTitle}</h2>
           <p className="text-justify leading-relaxed">{t.telpa.mapDescription}</p>
-          <Image 
-            src="/assets/telpa/map-with-arrow.png" 
-            alt="Telpa" 
+          <Image
+            src="/assets/telpa/map-with-arrow.png"
+            alt="Telpa"
             className="w-full h-auto rounded-lg shadow-md"
             width={1000}
             height={1000}
           />
+
+          <h2 className="text-2xl font-bold text-center">{t.telpa.cvTitle}</h2>
+          <p className="text-justify leading-relaxed">{t.telpa.cvDescription}</p>
+          <div className="flex flex-col gap-4">
+            <iframe
+              src="/assets/telpa/raa-cv-en.pdf"
+              className="w-full rounded-lg shadow-md"
+              style={{ height: '80vh' }}
+              title="RAA.SPACE CV (English)"
+            />
+            <iframe
+              src="/assets/telpa/raa-cv-lv.pdf"
+              className="w-full rounded-lg shadow-md"
+              style={{ height: '80vh' }}
+              title="RAA.SPACE CV (Latvian)"
+            />
+          </div>
         </div>
       </div>
     </div>

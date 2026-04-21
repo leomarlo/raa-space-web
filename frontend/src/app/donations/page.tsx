@@ -12,7 +12,7 @@ export default function DonationsPage() {
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
-      <div className="absolute inset-0 -z-10">
+      <div className="fixed inset-0 -z-10">
         <RaaHieroglyphMatrix frequency={0} initialState={0} />
       </div>
 
