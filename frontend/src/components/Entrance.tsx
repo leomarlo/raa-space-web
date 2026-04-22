@@ -70,7 +70,7 @@ export default function Entrance({ initialMenuSelection, itemArrangement, navOpe
       </button>
     </div>
     <div
-      className="fixed inset-0 grid pointer-events-none"
+      className="fixed inset-0 grid pointer-events-none z-40"
       style={{
         gridTemplateColumns: `repeat(${COLS}, 1fr)`,
         gridTemplateRows: `repeat(${ROWS}, 1fr)`,

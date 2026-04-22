@@ -15,8 +15,8 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
           <Image
             src={item.image.replace(/(\.[^.]+)$/, '-mid$1')}
             alt={item.title}
-            width={400}
-            height={225}
+            width={800}
+            height={450}
             sizes="100vw"
             loading="lazy"
             className="w-full h-auto border border-black object-contain mx-auto"
