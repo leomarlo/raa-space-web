@@ -116,6 +116,12 @@ export default function ComingSoon() {
             </div>
           </div>
         )}
+
+      </div>
+
+      {/* Opening Hours strip */}
+      <div className="fixed bottom-0 left-0 right-0 z-20 bg-black text-[#f5f5dc] text-xs text-center py-2 opacity-80">
+        {t.times.openingLabel}: {t.times.days}, {t.times.hours} &middot; {t.times.note}
       </div>
     </div>
   );

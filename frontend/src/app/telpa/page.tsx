@@ -40,18 +40,20 @@ export default function TelpaPage() {
           <p className="text-justify leading-relaxed">{t.telpa.paragraph1}</p>
           <p className="text-justify leading-relaxed">{t.telpa.paragraph2}</p>
 
-          {/* Instagram Link */}
+          {/* Opening times + Instagram */}
+          <p>{t.times.openingLabel}: {t.times.days}, {t.times.hours}. {t.times.note}</p>
           <p>
             {t.telpa.findUsOnInstagram}{' '}
-            <a 
-              href="https://www.instagram.com/raa_riga/" 
-              target="_blank" 
-              rel="noopener noreferrer" 
+            <a
+              href="https://www.instagram.com/raa_riga/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="underline text-[#f5f5dc] hover:text-white"
             >
               {t.telpa.instagram}
             </a>
           </p>
+
           <h2 className="text-2xl font-bold text-center">
             {t.telpa.impressionsTitle}
           </h2>
