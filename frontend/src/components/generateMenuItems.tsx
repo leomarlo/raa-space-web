@@ -23,13 +23,13 @@ const useGenerateMenuItems = (layoutType: number): Record<string, MenuItem> => {
           ? Array.from({ length: 7 }, (_, i): [number, number] => [10, i + 3])
           : Array.from({ length: 7 }, (_, i): [number, number] => [5, i + 1]),
     },
-    series: {
-      label: t.menu.series,
-      route: 'series',
+    times: {
+      label: t.menu.times,
+      route: 'times',
       positions:
         layoutType === 0
-          ? Array.from({ length: 6 }, (_, i): [number, number] => [10, i + 3])
-          : Array.from({ length: 6 }, (_, i): [number, number] => [7, i + 1]),
+          ? Array.from({ length: 5 }, (_, i): [number, number] => [10, i + 3])
+          : Array.from({ length: 5 }, (_, i): [number, number] => [7, i + 1]),
     },
     register: {
       label: t.menu.register,
