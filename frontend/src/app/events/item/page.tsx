@@ -28,7 +28,20 @@ export default function ItemPage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.item} />
+        <EventPageContent event={t.program.items.item}>
+          {t.program.items.item.externalLink && (
+            <div className="mt-6 text-center">
+              <a
+                href={t.program.items.item.externalLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-[#f5f5dc] px-6 py-2 text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
+              >
+                {t.program.items.item.externalLinkText}
+              </a>
+            </div>
+          )}
+        </EventPageContent>
       </div>
     </div>
   );
