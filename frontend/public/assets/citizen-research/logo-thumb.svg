@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <rect width="200" height="200" fill="#0a0a0a"/>
+  <!-- Magnifying glass -->
+  <circle cx="88" cy="88" r="38" fill="none" stroke="#f5f5dc" stroke-width="8"/>
+  <line x1="116" y1="116" x2="150" y2="150" stroke="#f5f5dc" stroke-width="8" stroke-linecap="round"/>
+  <!-- Data dots inside lens -->
+  <circle cx="76" cy="96" r="4" fill="#f5f5dc"/>
+  <circle cx="88" cy="80" r="4" fill="#f5f5dc"/>
+  <circle cx="100" cy="92" r="4" fill="#f5f5dc"/>
+  <line x1="76" y1="96" x2="88" y2="80" stroke="#f5f5dc" stroke-width="2" opacity="0.6"/>
+  <line x1="88" y1="80" x2="100" y2="92" stroke="#f5f5dc" stroke-width="2" opacity="0.6"/>
+  <!-- Label -->
+  <text x="100" y="178" font-family="monospace" font-size="10" fill="#f5f5dc" text-anchor="middle" letter-spacing="2">CITIZEN RESEARCH</text>
+</svg>
