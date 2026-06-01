@@ -17,47 +17,22 @@ export default function ComingSoon() {
   const toggleLabel = locale === 'eng' ? 'Latviski, lūdzu' : 'In British English, please';
   const toggleBgColor = locale === 'eng' ? '#8B0000' : '#00008B'; // red or blue
 
-  // Get upcoming event
+  // Pinned event for the flashing box
   const upcomingEvent = useMemo(() => {
-    const programItems: ProgramItem[] = Object.values(t.program.items);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0); // Set to start of day for comparison
-    
-    // Find the closest future event (including today)
-    const futureEvents = programItems
-      .filter(item => {
-        const eventDate = new Date(item.startDate);
-        eventDate.setHours(0, 0, 0, 0);
-        return eventDate >= today;
-      })
-      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-    
-    return futureEvents.length > 0 ? futureEvents[0] : null;
+    const programItems = t.program.items as Record<string, ProgramItem>;
+    return programItems['item'] ?? null;
   }, [t.program.items]);
 
-  // Check if we're in the active date range (Jan 5, 2025 to Feb 20, 2025)
+  // Show flashing box from Jun 1, 2026 through Jul 10, 2026
   const isActivePeriod = useMemo(() => {
     const today = new Date();
-    // Set to start of day in local timezone for comparison
     const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 0, 4); // Jan 5, 2026 (month is 0-indexed)
-    const endDate = new Date(2026, 0, 25, 23, 59, 59); // Jan 25, 2026, 23:59:59
-    const inRange = todayStart >= startDate && todayStart <= endDate;
-    return inRange;
+    const startDate = new Date(2026, 5, 1); // Jun 1, 2026
+    const endDate = new Date(2026, 6, 10, 23, 59, 59); // Jul 10, 2026
+    return todayStart >= startDate && todayStart <= endDate;
   }, []);
 
   const shouldShowFlashingBox = isActivePeriod && upcomingEvent && upcomingEvent.externalLink;
-  
-  // Debug logging (remove in production)
-  if (typeof window !== 'undefined') {
-    console.log('Flashing box debug:', {
-      isActivePeriod,
-      hasUpcomingEvent: !!upcomingEvent,
-      hasExternalLink: !!(upcomingEvent?.externalLink),
-      shouldShow: shouldShowFlashingBox,
-      upcomingEventTitle: upcomingEvent?.title
-    });
-  }
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
