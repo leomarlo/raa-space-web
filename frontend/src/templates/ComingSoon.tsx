@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useMemo } from 'react';
+import Link from 'next/link';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import { useLanguage } from '@/context/LanguageContext';
 import { ProgramItem } from '@/types/program';
@@ -17,47 +18,22 @@ export default function ComingSoon() {
   const toggleLabel = locale === 'eng' ? 'Latviski, lūdzu' : 'In British English, please';
   const toggleBgColor = locale === 'eng' ? '#8B0000' : '#00008B'; // red or blue
 
-  // Get upcoming event
+  // Pinned event for the flashing box
   const upcomingEvent = useMemo(() => {
-    const programItems: ProgramItem[] = Object.values(t.program.items);
-    const today = new Date();
-    today.setHours(0, 0, 0, 0); // Set to start of day for comparison
-    
-    // Find the closest future event (including today)
-    const futureEvents = programItems
-      .filter(item => {
-        const eventDate = new Date(item.startDate);
-        eventDate.setHours(0, 0, 0, 0);
-        return eventDate >= today;
-      })
-      .sort((a, b) => new Date(a.startDate).getTime() - new Date(b.startDate).getTime());
-    
-    return futureEvents.length > 0 ? futureEvents[0] : null;
+    const programItems = t.program.items as Record<string, ProgramItem>;
+    return programItems['item'] ?? null;
   }, [t.program.items]);
 
-  // Check if we're in the active date range (Jan 5, 2025 to Feb 20, 2025)
+  // Show flashing box from Jun 1, 2026 through Jul 10, 2026
   const isActivePeriod = useMemo(() => {
     const today = new Date();
-    // Set to start of day in local timezone for comparison
     const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 0, 4); // Jan 5, 2026 (month is 0-indexed)
-    const endDate = new Date(2026, 0, 25, 23, 59, 59); // Jan 25, 2026, 23:59:59
-    const inRange = todayStart >= startDate && todayStart <= endDate;
-    return inRange;
+    const startDate = new Date(2026, 5, 1); // Jun 1, 2026
+    const endDate = new Date(2026, 6, 10, 23, 59, 59); // Jul 10, 2026
+    return todayStart >= startDate && todayStart <= endDate;
   }, []);
 
   const shouldShowFlashingBox = isActivePeriod && upcomingEvent && upcomingEvent.externalLink;
-  
-  // Debug logging (remove in production)
-  if (typeof window !== 'undefined') {
-    console.log('Flashing box debug:', {
-      isActivePeriod,
-      hasUpcomingEvent: !!upcomingEvent,
-      hasExternalLink: !!(upcomingEvent?.externalLink),
-      shouldShow: shouldShowFlashingBox,
-      upcomingEventTitle: upcomingEvent?.title
-    });
-  }
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
@@ -98,11 +74,20 @@ export default function ComingSoon() {
         {shouldShowFlashingBox && (
           <div className="relative w-full">
             <div className="border-[#8B0000] border-[3pt] p-8 rounded-lg bg-black w-full flashing-box">
-              <h2 className="text-3xl font-bold mb-6 text-center text-[#f5f5dc]">
+              <h2 className="text-3xl font-bold mb-4 text-center text-[#f5f5dc]">
                 {upcomingEvent.title}
               </h2>
-              {upcomingEvent.externalLink && (
-                <div className="flex justify-center">
+              <p className="text-center text-[#f5f5dc] mb-6 leading-relaxed">
+                {t.calls.items.item.shortDescription}
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Link
+                  href="/calls/item"
+                  className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+                >
+                  Open Call
+                </Link>
+                {upcomingEvent.externalLink && (
                   <a
                     href={upcomingEvent.externalLink}
                     target="_blank"
@@ -111,8 +96,8 @@ export default function ComingSoon() {
                   >
                     {upcomingEvent.externalLinkText || 'Learn More'}
                   </a>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
         )}

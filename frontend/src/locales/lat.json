@@ -11,7 +11,7 @@
     "program": "Programma",
     "series": "Sērija",
     "times": "Laiki",
-    "register": "Reģistrēties",
+    "openCalls": "Open Calls",
     "contact": "Kontakti",
     "team": "Komanda",
     "opening": "Atklāšana",
@@ -1209,20 +1209,6 @@
       "name": "Helias Dzimoulakis",
       "role": "teātra direktors",
       "description": ""
-    },
-    "Toms": {
-      "id": "team-id-5",
-      "image": "/assets/team/Toms.JPG",
-      "name": "Toms Dāvis Piņķis",
-      "role": "skaņa, gaisma un bārs",
-      "description": ""
-    },
-    "Madara": {
-      "id": "team-id-6",
-      "image": "/assets/team/Madara.jpeg",
-      "name": "Madara Kurzemniece",
-      "role": "bārs un telpa",
-      "description": ""
     }
   },
   "register": {
@@ -1250,5 +1236,32 @@
     "iban": "IBAN",
     "tile": "Katrs ziedotājs — neatkarīgi no summas — ir laipni aicināts iegūt savu vārdu uz vienas no RAA telpas flīzēm, ja vēlas.",
     "thankYou": "Paldies, ka esi daļa no RAA."
+  },
+  "calls": {
+    "pageTitle": "Open Calls",
+    "items": {
+      "asFarSoNear": {
+        "id": "1",
+        "title": "AS DISTANT, SO NEAR — Open Call",
+        "image": "/assets/as-far-so-near/open-call.jpg",
+        "url": "/calls/as-far-so-near",
+        "deadline": "2026-01-15T23:59:59Z",
+        "shortDescription": "Atvērts uzsaukums 30 dienu līdzdalības instalācijai (zero-waste), kas būs redzama tikai caur logiem.",
+        "description": "AS DISTANT, SO NEAR ir tēma, kas iedvesmota no frāzes “kā augšā, tā apakšā” un iezīmē divu pretēju galu spoguļošanos, kas noved pie līdzīga efekta. Šī atvērtā līdzdalības instalācija ir par kompozicionāliem skatpunktiem: intīmi vai attālināti? dziļi vai sekli? pārāk tuvu vai pārāk tālu?\n\n30 dienu laikā mainīga līdzdalības instalācija, kas būs redzama tikai caur logiem. 10 dalībnieki. Aicināti arī pāri vai grupas. Ik pēc 3 dienām notiek ainas maiņa. Datumi tiek saskaņoti ar kuratoru.\n\nNoteikumi: Tu vari pievienot līdz 3 elementiem ainai, izmantot un pielāgot iepriekšējo ainu. Saskaņā ar projekta zero-waste mākslas principu esošie objekti ir jāizmanto atkārtoti, tos pārvietojot, nevis izņemot.\n\nNorises laiks: no 29. janvāra (atklāšana) līdz 27. februārim (noslēgums).\n\nDalība: ikviens.\n\nPieteikšanās: nosūti savu ideju pirmajai ainai uz enter@raa.space.\n\nMaksa: ja pieteikums tiek apstiprināts, dalības reģistrācijai (telpu atbalstam) jāsamaksā 20€. Pēc objektu savākšanas 10€ depozīts tiek atgriezts.\n\nPieteikšanās termiņš: 16. janvāris.\n\nRīkotāji: RAA.space un kurators Helias Dzimoulakis.",
+        "pdfLink": "",
+        "emailAddress": "enter@raa.space"
+      },
+      "item": {
+        "id": "2",
+        "title": "ITEM — Shuffled Time",
+        "image": "/assets/item/opencall/OPENCALL.jpg",
+        "url": "/calls/item",
+        "deadline": "2026-06-08T23:59:59Z",
+        "shortDescription": "24/7 performatīva nedēļa. 7 dienas, 7 mākslinieki — katram 24 stundas un visa RAA telpa.",
+        "description": "ATVĒRTAIS PIETEIKUMS performatīvai nedēļai RAA\nno 4. līdz 10. jūlijam.\n\n7 secīgās dienās mākslinieki vai mākslinieku grupas var aizpildīt 24 stundu laika nišu, lai Iedvesmotu, Temperētu, Paceltu, Kaldinātu telpu.\n\nKurē RAA, atbalsta Veldze RR.\n\nSūtiet mums savu ideju uz enter@raa.space\nDroši jautājiet!\n\n— — —\n\nITEM — Shuffled Time ir 7 dienu performance. Katru dienu mākslinieks vai grupa izmanto RAA telpu, lai 24 stundu periodā veidotu, izveidotu, radītu, izradītu, izpildītu, neizpildītu.\n\nMākslinieku/grupu vārdi un viņu attiecīgās performanças tiks atklāti šeit jūnija beigās. Performanses var ilgt visas 24 stundas vai arī tām var būt noteikts ilgums, vai vienkārši viena vai vairākas atklāšanas. Šī informācija tiks norādīta arī līdzās aprakstam.\n\nTelpa ir 138 m² ar 10 logiem, kas skatās uz Matīsa ielu, atdalīta no Vidzemes tirgus un Ugunsdzēsēju stacijas tikai ar tramvaja līniju 11. Var izmantot arī blakus esošo teritoriju.\n\nRAA.SPACE\nMatīsa iela 8, Rīgā",
+        "pdfLink": "/assets/item/opencall/OPENCALL.pdf",
+        "emailAddress": "enter@raa.space"
+      }
+    }
   }
 }

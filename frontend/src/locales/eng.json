@@ -11,7 +11,7 @@
     "program": "Program",
     "series": "Series",
     "times": "Times",
-    "register": "Register",
+    "openCalls": "Open Calls",
     "contact": "Contact",
     "team": "Team",
     "opening": "Opening",
@@ -1206,20 +1206,6 @@
       "name": "Helias Dzimoulakis",
       "role": "theatre director",
       "description": ""
-    },
-    "Toms": {
-      "id": "team-id-5",
-      "image": "/assets/team/Toms.JPG",
-      "name": "Toms Dāvis Piņķis",
-      "role": "sounds, light and bar",
-      "description": ""
-    },
-    "Madara": {
-      "id": "team-id-6",
-      "image": "/assets/team/Madara.jpeg",
-      "name": "Madara Kurzemniece",
-      "role": "bar and space",
-      "description": ""
     }
   },
   "register": {
@@ -1247,5 +1233,32 @@
     "iban": "IBAN",
     "tile": "Every donor — no matter the amount — is welcome to have their name on one of the tiles in the RAA space, if they wish.",
     "thankYou": "Thank you for being part of RAA."
+  },
+  "calls": {
+    "pageTitle": "Open Calls",
+    "items": {
+      "asFarSoNear": {
+        "id": "1",
+        "title": "AS DISTANT, SO NEAR — Open Call",
+        "image": "/assets/as-far-so-near/open-call.jpg",
+        "url": "/calls/as-far-so-near",
+        "deadline": "2026-01-15T23:59:59Z",
+        "shortDescription": "Open call for a 30-day evolving, zero-waste participatory installation — visible only through the windows.",
+        "description": "AS DISTANT, SO NEAR is a theme inspired by the verse “as above, so below” that signals the mirroring of two different ends which reach the same effect. This open participatory installation is about compositional points of perspective: Intimate or distant? Deep or shallow? Too close or too far?\n\n30 days evolving participatory installation, visible only through the windows. 10 participants. Pairs or groups are welcome. Every 3 days there is a change of scene. Dates are chosen in coordination with the curator.\n\nRules: You may add up to 3 elements into the scene, use and adjust the previous scene. In line with the project's zero-waste art policy, existing objects must be reused through relocation rather than removal.\n\nDuration: January 29 (Opening) till February 27 (Closing).\n\nParticipation: Anyone.\n\nApplication: Write your idea for the first scene to enter@raa.space.\n\nFee: In case your application is accepted, pay 20 Euro to register (rent support) and receive 10 Euro deposit back after you fetched your objects.\n\nApplication Deadline: January 16.\n\nHost: Organized by RAA.space and curator in charge Helias Dzimoulakis.",
+        "pdfLink": "",
+        "emailAddress": "enter@raa.space"
+      },
+      "item": {
+        "id": "2",
+        "title": "ITEM — Shuffled Time",
+        "image": "/assets/item/opencall/OPENCALL.jpg",
+        "url": "/calls/item",
+        "deadline": "2026-06-08T23:59:59Z",
+        "shortDescription": "A 24/7 performative week. 7 days, 7 artists, each has 24 hours available and the entire RAA space.",
+        "description": "OPEN CALL for a performative week at RAA\nfrom July 4th till July 10th.\n\nOn 7 consecutive days artists or artist groups can fill a 24h slot to Invoke, Temper, Elate, Mint the space.\n\nCurated by RAA and supported by Veldze RR.\n\nSend us your idea to enter@raa.space\nFeel free to ask questions!\n\n— — —\n\nITEM — Shuffled Time is a performance lasting 7 days. Each day an artist or a group uses the space of RAA to build, unbuild, create, uncreate, perform, unperform a 24-hour period of time.\n\nThe names of the artists/groups and their respective performances will be revealed here at the end of June. Performances may last for the entire 24 hours or have a specified duration, or simply one or more openings. This information will also be mentioned alongside the description.\n\nThe space is 138 m² and has 10 windows facing Matīsa iela, separated from the Vidzemes market and the fire brigade station just by tramline 11. The adjacent territory may also be used.\n\nRAA.SPACE\nMatīsa iela 8, Rīga",
+        "pdfLink": "/assets/item/opencall/OPENCALL.pdf",
+        "emailAddress": "enter@raa.space"
+      }
+    }
   }
 }
