@@ -2,6 +2,7 @@
 
 import { useRouter } from 'next/navigation';
 import { useMemo } from 'react';
+import Link from 'next/link';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import { useLanguage } from '@/context/LanguageContext';
 import { ProgramItem } from '@/types/program';
@@ -73,11 +74,20 @@ export default function ComingSoon() {
         {shouldShowFlashingBox && (
           <div className="relative w-full">
             <div className="border-[#8B0000] border-[3pt] p-8 rounded-lg bg-black w-full flashing-box">
-              <h2 className="text-3xl font-bold mb-6 text-center text-[#f5f5dc]">
+              <h2 className="text-3xl font-bold mb-4 text-center text-[#f5f5dc]">
                 {upcomingEvent.title}
               </h2>
-              {upcomingEvent.externalLink && (
-                <div className="flex justify-center">
+              <p className="text-center text-[#f5f5dc] mb-6 leading-relaxed">
+                {t.calls.items.item.shortDescription}
+              </p>
+              <div className="flex flex-wrap justify-center gap-4">
+                <Link
+                  href="/calls/item"
+                  className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+                >
+                  Open Call
+                </Link>
+                {upcomingEvent.externalLink && (
                   <a
                     href={upcomingEvent.externalLink}
                     target="_blank"
@@ -86,8 +96,8 @@ export default function ComingSoon() {
                   >
                     {upcomingEvent.externalLinkText || 'Learn More'}
                   </a>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
         )}
