@@ -37,3 +37,16 @@ body {
 .flashing-box {
   animation: flashGlow 1s ease-in-out infinite;
 }
+
+@keyframes greenGlow {
+  0%, 100% {
+    box-shadow: 0 0 0px #22c55e, 0 0 0px #22c55e, 0 0 0px #22c55e;
+  }
+  50% {
+    box-shadow: 0 0 20px #22c55e, 0 0 30px #22c55e, 0 0 40px #22c55e;
+  }
+}
+
+.green-glow-box {
+  animation: greenGlow 1.5s ease-in-out infinite;
+}

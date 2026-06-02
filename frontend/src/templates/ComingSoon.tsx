@@ -24,6 +24,13 @@ export default function ComingSoon() {
     return programItems['item'] ?? null;
   }, [t.program.items]);
 
+  const isSpecialPeriod = useMemo(() => {
+    const today = new Date();
+    const start = new Date(2026, 4, 28); // May 28, 2026 (2 weeks before)
+    const end   = new Date(2026, 5, 24, 23, 59, 59);
+    return today >= start && today <= end;
+  }, []);
+
   // Show flashing box from Jun 1, 2026 through Jul 10, 2026
   const isActivePeriod = useMemo(() => {
     const today = new Date();
@@ -107,6 +114,16 @@ export default function ComingSoon() {
       {/* Opening Hours strip */}
       <div className="fixed bottom-0 left-0 right-0 z-20 bg-black text-[#f5f5dc] text-xs text-center py-2 opacity-80">
         {t.times.openingLabel}: {t.times.days}, {t.times.hours} &middot; {t.times.note}
+        {isSpecialPeriod && (
+          <>
+            {' '}&middot;{' '}
+            <Link href="/times" className="underline hover:text-[#8B0000] transition-colors">
+              {locale === 'lat'
+                ? '11.–24.06. izmainīti darba laiki'
+                : '11–24 Jun different opening times'}
+            </Link>
+          </>
+        )}
       </div>
     </div>
   );

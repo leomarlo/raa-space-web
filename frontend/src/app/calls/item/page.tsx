@@ -82,10 +82,10 @@ export default function ItemCallPage() {
             {call.image && (
               <div className="mb-4 md:float-right md:w-2/5 md:ml-6 md:mb-2">
                 <Image
-                  src={call.image}
+                  src={call.image.replace(/(\.[^.]+)$/, '-mid$1')}
                   alt={call.title}
-                  width={600}
-                  height={800}
+                  width={540}
+                  height={675}
                   className="w-full h-auto rounded-lg"
                 />
               </div>

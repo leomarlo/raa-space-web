@@ -2,12 +2,19 @@
 
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
-import { useState } from 'react';
+import { useState, useMemo } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
 export default function MaateNaatrePage() {
   const [navOpen, setNavOpen] = useState(false);
   const { locale } = useLanguage();
+
+  const isClosedPeriod = useMemo(() => {
+    const today = new Date();
+    const start = new Date(2026, 4, 25); // May 25, 2026
+    const end   = new Date(2026, 5, 25, 23, 59, 59); // Jun 25, 2026
+    return today >= start && today <= end;
+  }, []);
 
   const isLat = locale === 'lat';
 
@@ -34,6 +41,19 @@ export default function MaateNaatrePage() {
           <h1 className="text-4xl font-bold text-center tracking-wide">
             Meža Bārs
           </h1>
+
+          {isClosedPeriod && (
+            <div className="border-[3pt] border-green-500 bg-black p-6 rounded-lg text-center green-glow-box">
+              <p className="text-green-400 font-bold text-lg mb-1">
+                {locale === 'lat' ? 'Meža Bārs būs slēgts' : 'Forest Bar will be closed'}
+              </p>
+              <p className="text-[#f5f5dc]">
+                {locale === 'lat'
+                  ? '8. – 25. jūnijs (vasaras atvaļinājums)'
+                  : '8 – 25 June (summer leave)'}
+              </p>
+            </div>
+          )}
 
           <div className="leading-relaxed text-justify text-lg">
             {isLat ? (

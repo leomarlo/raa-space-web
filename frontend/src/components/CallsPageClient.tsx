@@ -21,10 +21,10 @@ function OpenCallCard({ item }: { item: OpenCallItem }) {
       <div className="w-full mb-4">
         <Link href={item.url}>
           <Image
-            src={item.image}
+            src={item.image.replace(/(\.[^.]+)$/, '-mid$1')}
             alt={item.title}
-            width={800}
-            height={1000}
+            width={540}
+            height={675}
             sizes="100vw"
             loading="lazy"
             className="w-full h-auto object-contain mx-auto cursor-pointer"
