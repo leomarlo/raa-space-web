@@ -6,7 +6,7 @@ import EventPageContent from '@/components/EventPageContent';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function MacchiatoPage() {
+export default function MacchiatoXviSauleszakiPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
@@ -28,7 +28,7 @@ export default function MacchiatoPage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.macchiato} />
+        <EventPageContent event={t.program.items.macchiatoXviSauleszaki} />
       </div>
     </div>
   );
