@@ -1,0 +1,195 @@
+%% ══════════════════════════════════════════════════════════
+%%  RAA ŠAHA NEDĒĻA — Sponsorēšanas piedāvājums  (Latviski)
+%%  Mainiet sponsora nosaukumu šeit:
+\newcommand{\sponsor}{Signet Bank}
+%% ══════════════════════════════════════════════════════════
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=0cm,bottom=1.4cm,left=0cm,right=0cm]{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shadings}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+
+\definecolor{raacream}{HTML}{F5F5DC}
+\definecolor{raared}{HTML}{8B0000}
+\definecolor{raadark}{HTML}{0D0D0D}
+\definecolor{signetgold}{HTML}{C9A84C}
+\definecolor{mygray}{HTML}{555555}
+
+\pagestyle{empty}
+\setlength{\parskip}{3pt}
+\setlength{\columnsep}{1.1em}
+
+\newcommand{\sectionrule}[1]{%
+  \vspace{5pt}%
+  {\color{raared}\bfseries\large #1}\\[-3pt]%
+  {\color{raared}\rule{\linewidth}{0.8pt}}%
+  \vspace{3pt}%
+}
+
+\begin{document}
+
+%% ── BANERIS ──────────────────────────────────────────────
+\noindent\begin{tikzpicture}
+
+  \fill[raadark] (0,0) rectangle (21cm,6.8cm);
+
+  % Šaha galdiņš
+  \foreach \col in {0,...,7}{
+    \foreach \row in {0,...,7}{
+      \pgfmathparse{int(mod(\col+\row,2))}
+      \ifnum\pgfmathresult=0
+        \fill[raared,opacity=0.4]
+          ({6.81cm+\col*0.62cm},{0.55cm+\row*0.62cm})
+          rectangle
+          ({6.81cm+\col*0.62cm+0.62cm},{0.55cm+\row*0.62cm+0.62cm});
+      \fi
+    }
+  }
+
+  % Vinjete
+  \shade[inner color=raadark!0,outer color=raadark,shading=radial,opacity=0.78]
+    (10.5cm,3.4cm) ellipse (8.8cm and 4.2cm);
+
+  % RAA logo — augšējā kreisajā stūrī
+  \node[anchor=north west,inner sep=0] at (0.9cm,6.5cm)
+    {\includegraphics[height=1.25cm]{img/raa_logo_v2.png}};
+
+  % Etiķete — augšējā labajā stūrī
+  \node[anchor=north east,inner sep=0] at (20.1cm,6.55cm)
+    {\fontsize{6}{7.5}\selectfont\color{raacream!55}%
+     \textls[180]{S P O N S O R Ē Š A N A S \ \ P I E D Ā V Ā J U M S}};
+
+  % Virsraksts
+  \node[anchor=center] at (10.5cm,4.3cm)
+    {\fontsize{28}{32}\selectfont\bfseries\color{raacream}RAA \v{S}AHA NED\={E}\c{L}A};
+
+  % Datumi / norises vieta
+  \node[anchor=center] at (10.5cm,3.25cm)
+    {\fontsize{10}{12}\selectfont\color{raacream!78}%
+     \textit{20.–27. jūlijs, 2026\enspace·\enspace RAA.SPACE, Matīsa iela 8, Rīgā}};
+
+  % Adresāts
+  \node[anchor=center] at (10.5cm,1.6cm)
+    {\fontsize{9}{11}\selectfont\color{signetgold}%
+     Piedāvājums \ \textbf{\sponsor}};
+
+  % Sarkana josla
+  \fill[raared] (0,0) rectangle (21cm,0.32cm);
+
+\end{tikzpicture}
+
+%% ── SATURS ───────────────────────────────────────────────
+\begin{center}
+\begin{minipage}{0.87\paperwidth}
+
+\vspace{0.38cm}
+
+%% Par pasākumu
+\sectionrule{Par pasākumu}
+
+RAA Šaha nedēļa ir septiņu dienu šaha, kultūras un kopienas festivāls RAA.SPACE telpās Rīgas radošajā Veldzes kvartālā. Apvienojot grandmeistara simultānspēli, šaha operu ar starptautiskiem izpildītājiem, šaha teātri, bērnu darbnīcu, dzejas vakaru, ikdienas šaha kafejnīcu un noslēdzošo Hand \& Brain komandu turnīru, festivāls padara šahu par dzīvu mākslas formu, kas ir pieejama spēlētājiem, māksliniekiem, ģimenēm un zinātkārajiem jebkurā vecumā. RAA Šaha nedēļa iezīmēsies kā īpašs notikums Latvijas kultūras kalendārā.
+
+\vspace{0.22cm}
+
+%% Divas kolonnas: Programma | Auditorija + Kāpēc
+\begin{multicols}{2}
+
+\sectionrule{Programma}
+
+{\footnotesize\setlength{\parskip}{0pt}
+\begin{tabular}{@{}p{1.55cm}p{5.5cm}@{}}
+\textbf{Pirmdiena}  & \textbf{Atklāšanas vakars} \textit{(Pasaules Šaha diena)}\\
+\textbf{20. jūl.}   & 17:00 Atklāšana\\
+                    & 18:00 Bruno Rancis — Iepazīstināšana un bezmaksas šaha nodarbība\\
+                    & 20:00 Simultānspēle — Miķelis Vingris\\[3pt]
+\textbf{Otrdiena}   & Šaha kafejnīca (14:00–16:00 \& 19:00–22:00)\\
+\textbf{21. jūl.}   & Šaha galdiņu darbnīca — \textit{Arta Raituma}\\
+                    & Bērnu darbnīca: skatuves dizains\\
+                    & \hfill\textit{šaha operai}\\[3pt]
+\textbf{Trešdiena}  & Šaha kafejnīca (14:00–16:00 \& 19:00–22:00)\\
+\textbf{22. jūl.}   & \textbf{Operas vakars}\\
+                    & \textit{Philidor: Blaise et Blaisine}\\
+                    & \textit{Latviešu un lietuviešu mākslinieki}\\[3pt]
+\textbf{Ceturtdiena}& Šaha kafejnīca (14:00–16:00 \& 19:00–22:00)\\
+\textbf{23. jūl.}   & \textbf{Šaha teātris}\\
+                    & \textit{Leonhard Horstmeyer \&}\\
+                    & \textit{Santa Did\v{z}us}\\
+                    & Atklātņu veidošanas meistarklase\\[3pt]
+\textbf{Piektdiena} & Šaha kafejnīca (14:00–16:00 \& 19:00–22:00)\\
+\textbf{24. jūl.}   & Dzejas, literatūras un šaha vakars\\
+                    & \textit{Sintakses stupors}\\[3pt]
+\textbf{Sestdiena}  & \textbf{Hand \& Brain turnīrs}\\
+\textbf{25.–26.}    & \textit{Pāru šahs: ,,Brain`` nosauc figūru,}\\
+                    & \textit{,,Hand`` izdara gājienu}\\
+\end{tabular}
+}
+
+\columnbreak
+
+\sectionrule{Auditorija un sasniedzamība}
+
+{\small
+\begin{itemize}[leftmargin=*,itemsep=1.5pt,topsep=0pt]
+  \item \textbf{300+} apmeklētāju visā festivāla laikā
+  \item \textbf{80 vietas} Operas vakarā
+  \item Visām paaudzēm — spēlētāji, mākslinieki, studenti, entuziasti
+  \item Instagram \textbf{@raa\_riga} \& \textbf{@veldze.radosarupnica}:\\
+        kopā \textbf{7\,000+ sekotāju}
+  \item Soc.\ tīkli ar plašu auditoriju:\\
+        \textbf{@riga.neighborhood} \& \textbf{@notboring.riga}
+\end{itemize}
+}
+
+\vspace{0.25cm}
+\sectionrule{Kāpēc tas ir svarīgi}
+
+{\small Šahs šobrīd piedzīvo globālu kultūras renesansi. RAA Šaha nedēļa nostiprina \textbf{\sponsor u} intelekta, mākslas un kopienas krustpunktā, kur auditorija ir iesaistīta, zinātkāra un aptver vairākas paaudzes. Sponsorēšana šeit ir nozīmīgs ieguldījums Latvijas kultūras dzīvē, kas atbalsojas un ir jūtams visā Rīgas radošajā kopienā.}
+
+\end{multicols}
+
+\vspace{0.12cm}
+
+%% Sponsorēšanas pakete
+\sectionrule{Sponsorēšanas pakete — €\,2\,000}
+
+{\small
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{3.5cm} X @{}}
+Minēts visur         & \sponsor{} tiek pieminēts katrā pasākumā, uz visiem drukātajiem materiāliem un RAA.SPACE pasākuma lapā. \\[2pt]
+Sociālie tīkli       & Veltītas publikācijas + stāsti vietnēs @raa\_riga, @veldze.radosarupnica, @riga.neighborhood un @notboring.riga (7\,000+ kopīgā sasniedzamība). \\[2pt]
+Operas vakars        & 3 rezervētas VIP vietas Operas vakarā (22. jūl.). \\[2pt]
+Uzruna               & 3 minūšu uzruna atbalstītājiem Atklāšanas vakarā (20. jūl.). \\[2pt]
+Klātbūtne telpā      & \sponsor{} ekspozīcija RAA foajē — visas septiņas festivāla dienas. \\[2pt]
+Preses relīze        & Minēts kā galvenais sponsors visās mediju komunikācijās. \\
+\end{tabularx}
+}
+
+\vspace{0.38cm}
+
+%% Kājene
+\begin{center}
+{\footnotesize\color{mygray}
+\textbf{RAA.SPACE} \ · \ Matīsa iela 8, Rīgā \ · \
+\href{https://raa.space}{raa.space} \ · \
+\href{mailto:enter@raa.space}{enter@raa.space} \ · \
+@raa\_riga
+}
+\end{center}
+
+\end{minipage}
+\end{center}
+
+\end{document}

@@ -58,6 +58,10 @@ telpa-cv/*.xdv
 *__pycache__
 
 *CLAUDE.md
+
+# SPONSORSHIP
+sponsorship/out/*
+
 # GLOBAL
 
 .env
