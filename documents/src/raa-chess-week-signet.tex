@@ -1,0 +1,183 @@
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=0cm,bottom=0.5cm,left=0cm,right=0cm]{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usetikzlibrary{shadings}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{hyperref}
+\usepackage{lettrine}
+
+\hypersetup{hidelinks}
+
+% ── Colours ──────────────────────────────────────────────
+\definecolor{raacream}{HTML}{F5F5DC}
+\definecolor{raared}{HTML}{8B0000}
+\definecolor{raadark}{HTML}{0D0D0D}
+\definecolor{signetgold}{HTML}{C9A84C}
+
+\pagestyle{empty}
+\setlength{\parskip}{1pt}
+
+\newcommand{\sectionrule}[1]{%
+  \vspace{2pt}%
+  {\color{raared}\bfseries\large #1}\\[-2pt]%
+  {\color{raared}\rule{\linewidth}{0.8pt}}%
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+%% ══════════════════════════════════════════════════════════
+%%  BANNER  (A4 = 21 cm wide; banner height = 6.5 cm)
+%% ══════════════════════════════════════════════════════════
+\noindent\begin{tikzpicture}
+
+  % Dark background
+  \fill[raadark] (0,0) rectangle (21cm,6.0cm);
+
+  % Chess-board: 8×8, sq = 0.6cm, starts at x=6.9cm, y=0.4cm
+  \foreach \col in {0,...,7}{
+    \foreach \row in {0,...,7}{
+      \pgfmathparse{int(mod(\col+\row,2))}
+      \ifnum\pgfmathresult=0
+        \fill[raared,opacity=0.45]
+          ({6.9cm + \col*0.6cm},{0.4cm + \row*0.6cm})
+          rectangle
+          ({6.9cm + \col*0.6cm + 0.6cm},{0.4cm + \row*0.6cm + 0.6cm});
+      \fi
+    }
+  }
+
+  % Radial vignette to blend board into darkness
+  \shade[inner color=raadark!0,outer color=raadark,shading=radial,opacity=0.72]
+    (10.5cm,3.0cm) ellipse (8.5cm and 3.6cm);
+
+  % RAA logo — top left
+  \node[anchor=north west,inner sep=0] at (1.1cm,5.7cm)
+    {\includegraphics[height=1.3cm]{raa_logo.png}};
+
+  % "SPONSORSHIP PROPOSAL" — top right
+  \node[anchor=north east,inner sep=0] at (19.9cm,5.8cm)
+    {\fontsize{6.5}{8}\selectfont\color{raacream!60}%
+     \textls[200]{S P O N S O R S H I P \ \ P R O P O S A L}};
+
+  % Main title
+  \node[anchor=center] at (10.5cm,3.7cm)
+    {\fontsize{28}{32}\selectfont\bfseries\color{raacream}RAA CHESS WEEK};
+
+  % Dates / venue
+  \node[anchor=center] at (10.5cm,2.75cm)
+    {\fontsize{10}{12}\selectfont\color{raacream!80}%
+     \textit{July 20 – 26, 2026\enspace·\enspace RAA.SPACE, Matīsa iela 8, Rīga}};
+
+  % "Presented to" line
+  \node[anchor=center] at (10.5cm,1.4cm)
+    {\fontsize{8.5}{10}\selectfont\color{signetgold}%
+     Presented to \ \textbf{Signet Bank}};
+
+  % Bottom red stripe
+  \fill[raared] (0,0) rectangle (21cm,0.3cm);
+
+\end{tikzpicture}
+
+%% ══════════════════════════════════════════════════════════
+%%  BODY
+%% ══════════════════════════════════════════════════════════
+\begin{center}
+\begin{minipage}{0.90\paperwidth}
+
+\vspace{0.2cm}
+
+%% ── About ───────────────────────────────────────────────
+\sectionrule{About the Event}
+
+RAA Chess Week is a seven-day festival of chess, culture and community at RAA.SPACE in Rīga's creative Veldze quarter. Bridging the historic depth of chess with performance, craft and social play, it transforms RAA's 138 m² gallery into a living chess venue — welcoming players, artists, students, families and the culturally curious. The week culminates in a theatrical chess opera, making RAA Chess Week a singular event on Latvia's arts calendar.
+
+\vspace{0.1cm}
+
+%% ── Programme & Audience side by side ───────────────────
+\begin{multicols}{2}
+
+\sectionrule{Programme}
+
+{\footnotesize
+\begin{tabular}{@{}ll@{}}
+\textbf{Mon 20} & Opening Evening \& Meisterklasse \\
+                & \textit{Classical openings, simultaneous exhibition} \\[1pt]
+\textbf{Tue 21} & Chessboard Workshop \\
+                & \textit{Craft workshop with Rūdolfs Berķis} \\[1pt]
+\textbf{Wed 22} & Philidor Opera Night \\
+                & \textit{Blaise et Blaisine — concert performance} \\[1pt]
+\textbf{Thu 23} & Fun Tournament \\
+                & \textit{Open Swiss, chess cookies by local bakery} \\[1pt]
+\textbf{Fri 24} & Chess Theatre \\
+                & \textit{Original pieces by emerging directors} \\[1pt]
+\textbf{Sat 25} & Reading Evening \\
+                & \textit{Zweig's \textup{Die Schachnovelle} + screening} \\[1pt]
+\textbf{Sun 26} & Closing Play Day \\
+                & \textit{Simultaneous exhibition, prize-giving}\\
+\end{tabular}
+}
+
+\columnbreak
+
+\sectionrule{Audience \& Reach}
+
+{\small
+\begin{itemize}[leftmargin=*,itemsep=2pt,topsep=0pt]
+  \item \textbf{500+} total visitors across the week
+  \item \textbf{80–120} guests per evening event
+  \item Ages 8–70: artists, students, professionals
+  \item Latvian and international attendees
+  \item Instagram \textbf{@raa\_riga}: 3,000+ followers
+  \item Press coverage via Veldze creative quarter network
+\end{itemize}
+}
+
+\vspace{0.1cm}
+\sectionrule{Why It Matters}
+
+{\small Chess is experiencing a global cultural renaissance. RAA Chess Week places Signet Bank at the intersection of \textbf{intellect, art and community} — an audience that is engaged, discerning and loyal. Sponsorship here signals a genuine commitment to Latvia's cultural life.}
+
+\end{multicols}
+
+\vspace{0.05cm}
+
+%% ── Sponsorship Package ─────────────────────────────────
+\sectionrule{Sponsorship Package — €\,2\,500}
+
+{\small
+\begin{tabularx}{\linewidth}{@{} >{\bfseries}p{3.2cm} X @{}}
+Logo on materials    & Printed posters, programmes, and RAA.SPACE website event page. \\[1pt]
+Social media         & 3× dedicated Instagram posts + stories (3,000+ reach); tagged in all event announcements throughout the week. \\[1pt]
+Opening invitations  & 4 VIP places at Philidor Opera Night (Wed 22 Jul) with reserved seating and post-concert reception. \\[1pt]
+Speaking opportunity & 3-minute welcome address at the Opening Evening (Mon 20 Jul) in front of an engaged arts and culture audience. \\[1pt]
+On-site presence     & Signet Bank display in the RAA foyer for the full seven days of the festival. \\[1pt]
+Press release        & Named as principal sponsor in all media communications. \\
+\end{tabularx}
+}
+
+\vspace{0.1cm}
+
+%% ── Footer ──────────────────────────────────────────────
+\begin{center}
+{\footnotesize\color{gray}
+\textbf{RAA.SPACE} \ · \ Matīsa iela 8, Rīga \ · \ \href{https://raa.space}{raa.space}
+\ · \ \href{mailto:enter@raa.space}{enter@raa.space} \ · \ @raa\_riga
+}
+\end{center}
+
+\end{minipage}
+\end{center}
+
+\end{document}
