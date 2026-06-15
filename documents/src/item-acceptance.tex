@@ -1,0 +1,137 @@
+%% ══════════════════════════════════════════════════════════
+%%  RAA — ITEM Acceptance Letter
+%%  Set applicant name and reimbursement flag here:
+\newcommand{\applicantname}{Jana Zarina}
+\newcommand{\reimbursementtype}{baltic}   %% BUILD: none | baltic | non-baltic
+%% ══════════════════════════════════════════════════════════
+
+\documentclass[a4paper,10pt]{article}
+
+\usepackage[top=2.2cm,bottom=2cm,left=2.8cm,right=2.8cm]{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{ifthen}
+
+\hypersetup{hidelinks}
+
+\definecolor{raared}{HTML}{8B0000}
+\definecolor{mygray}{HTML}{555555}
+
+\pagestyle{empty}
+\setlength{\parskip}{5pt}
+
+\newcommand{\ruledtitle}[1]{%
+  \vspace{4pt}%
+  {\color{raared}\bfseries #1}\\[-4pt]%
+  {\color{raared}\rule{\linewidth}{0.6pt}}%
+  \vspace{2pt}%
+}
+
+\begin{document}
+
+%% ── Header ───────────────────────────────────────────────
+\noindent
+\begin{minipage}[t]{0.6\textwidth}
+  \vspace{0pt}
+  {\large\bfseries\color{raared}ITEM — Shuffled Time}\\[2pt]
+  {\small\color{mygray}Performatīvā nedēļa · RAA.SPACE · 4.–10. jūlijs, 2026}
+\end{minipage}%
+\begin{minipage}[t]{0.4\textwidth}
+  \vspace{0pt}
+  \raggedleft
+  \includegraphics[height=1.4cm]{img/raa_logo_v2.png}
+\end{minipage}
+
+\vspace{0.5cm}
+{\color{raared}\rule{\linewidth}{0.8pt}}
+\vspace{0.3cm}
+
+%% ── Salutation ───────────────────────────────────────────
+Dear \textbf{\applicantname},
+
+We are happy to let you know that your application for \textbf{ITEM — Shuffled Time} — the performative week at RAA.SPACE from July 4th to July 10th, 2026 — has been successful.
+
+\vspace{0.2cm}
+
+%% ── Confirmation Fee ─────────────────────────────────────
+\ruledtitle{Confirmation Fee}
+
+To confirm your participation, please transfer a fee of \textbf{€20} to:
+
+\begin{tabular}{@{}ll@{}}
+Beneficiary & RAA.SPACE \\
+IBAN        & LV76HABA0551062076709 \\
+Bank        & Swedbank \\
+Reference   & ITEM-\textit{your name(s)} \\
+\end{tabular}
+
+The confirmation fee will be returned to you after the end of the event.
+
+\vspace{0.1cm}
+
+%% ── Programme ────────────────────────────────────────────
+\ruledtitle{Programme}
+
+The full programme will be compiled and published by \textbf{June 18th}. Until then, please let us know:
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt,topsep=3pt]
+  \item Whether any of the available days (\textbf{July 4–10}) would \emph{not} work for you.
+  \item Whether you have a preference for a particular day.
+\end{itemize}
+
+\vspace{0.1cm}
+
+%% ── Please Send ──────────────────────────────────────────
+\ruledtitle{Please Also Send Us}
+
+\begin{itemize}[leftmargin=1.4em,itemsep=2pt,topsep=3pt]
+  \item A \textbf{finalized description} of your performance. It would be great — though not obligatory — to mention how your work relates to the theme of \textit{Shuffled Time}.
+  \item Your \textbf{Instagram handle(s)}.
+  \item \textbf{Displayed name(s)} as you wish to appear in the programme.
+  \item A \textbf{short bio} (or one per artist if applying as a duo or group).
+  \item A \textbf{URL} you wish to share (website, portfolio, etc.).
+\end{itemize}
+
+\vspace{0.1cm}
+
+%% ── Media ────────────────────────────────────────────────
+\ruledtitle{Media Coverage}
+
+Please let us know whether you \textbf{consent to photography and filming} during your performance, or whether you \textbf{wish for no media coverage}. Your preference will be respected and communicated to our audience.
+
+\vspace{0.1cm}
+
+%% ── Reimbursement (optional) ─────────────────────────────
+\ifthenelse{\equal{\reimbursementtype}{none}}{}{%
+\ruledtitle{Travel Reimbursement}
+
+\ifthenelse{\equal{\reimbursementtype}{baltic}}{%
+You are welcome to apply for a travel reimbursement of up to \textbf{€100 per person}. Please include your travel details when you confirm participation.
+}{%
+You are welcome to apply for a travel reimbursement of up to \textbf{€300 per person}. Please include your travel details when you confirm participation.
+}
+
+\vspace{0.1cm}
+}
+
+%% ── Closing ──────────────────────────────────────────────
+We are very much looking forward to welcoming you at RAA.
+
+\vspace{0.5cm}
+
+\noindent
+With warm regards,\\[2pt]
+\textbf{RAA.SPACE}\\[1pt]
+{\small\color{mygray}Matīsa iela 8, Rīga\enspace·\enspace
+\href{mailto:enter@raa.space}{enter@raa.space}\enspace·\enspace
+\href{https://raa.space}{raa.space}\enspace·\enspace
+@raa\_riga}
+
+\end{document}
