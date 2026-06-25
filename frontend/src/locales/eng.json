@@ -1286,11 +1286,11 @@
           {
             "date": "09.07.2026",
             "title": "Presence in Absence Piece 3",
-            "description": "“Presence in Absence” is a series by artist Lisette Ros that she started in Mexico-City in 2023. In the live performance Piece three, Ros grapples with her own presence, manipulating control and consciousness by taking-in a natural hypnotic.",
+            "description": "\"Presence in Absence\" is a series by artist Lisette Ros that she started in Mexico-City in 2023, deriving from her research \"The Absence of Metamorphosis\" (2023). In this series she focuses on the perceptible act of presence in absence by examining 'The Absent Body'. In the live performance \"Presence in Absence\" Piece Three, Ros grapples with her own presence, manipulating control and consciousness by taking-in a natural hypnotic. This has been part of her nightly ritual since 2014, as she suffers from DSPS (Delayed Sleep Phase Syndrome).",
             "artists": [
               {
                 "displayName": "Lisette Ros",
-                "image": "/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg",
+                "image": "/assets/item/09_7_presenceinabsencepiece3/LisetteRos.png",
                 "ig": "lisetteros",
                 "url": "https://www.lisetteros.com/",
                 "nationality": "NL"
@@ -1299,12 +1299,12 @@
             "registrationUrl": "https://formspree.io/f/xaqgeeyk",
             "interventionTime": "20:00",
             "coreTime": "",
-            "themeImage": "/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg",
-            "revealed": false,
+            "themeImage": "/assets/item/09_7_presenceinabsencepiece3/theme.jpeg",
+            "revealed": true,
             "slug": "presence-in-absence-piece-3",
-            "bio": "",
+            "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "/item/presenceinabsence_piecethree"
           },
           {
             "date": "10.07.2026",

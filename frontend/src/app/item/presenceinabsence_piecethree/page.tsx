@@ -33,12 +33,12 @@ type ItemEvent = {
 
 const REGISTRATION_OPENS = new Date('2026-06-26T00:00:00');
 
-export default function NowPage() {
+export default function PresenceInAbsencePieceThreePage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
   const allEvents = t.program.features.item.events as ItemEvent[];
-  const event = allEvents.find((e) => e.slug === 'now')!;
+  const event = allEvents.find((e) => e.slug === 'presence-in-absence-piece-3')!;
 
   function handleRegisterClick(ev: React.MouseEvent<HTMLAnchorElement>) {
     if (new Date() < REGISTRATION_OPENS) {
@@ -71,7 +71,7 @@ export default function NowPage() {
           <p className="text-xs text-[#f5f5dc]/50 text-center mb-2 tracking-widest uppercase">
             ITEM — Shuffled Time &nbsp;·&nbsp; {event.date} &nbsp;·&nbsp; {event.coreTime || 'All day'}
           </p>
-          <h1 className="text-4xl sm:text-5xl font-bold mb-3 text-center">{event.title}</h1>
+          <h1 className="text-3xl sm:text-4xl font-bold mb-3 text-center">{event.title}</h1>
           <p className="text-center text-sm text-[#f5f5dc]/70 mb-8">
             {event.artists.map((a, i) => (
               <span key={i}>
@@ -107,8 +107,8 @@ export default function NowPage() {
               <Image
                 src={event.themeImage}
                 alt={event.title}
-                width={540}
-                height={675}
+                width={400}
+                height={600}
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -118,7 +118,7 @@ export default function NowPage() {
             <div className="clear-both" />
           </div>
 
-          {/* Artist bio */}
+          {/* Bio */}
           {event.bio && (
             <div className="border-t border-[#f5f5dc]/20 pt-6 mb-8">
               <h2 className="text-xs uppercase tracking-widest text-[#f5f5dc]/50 mb-3">
@@ -140,6 +140,24 @@ export default function NowPage() {
             </div>
           )}
 
+          {/* Additional images */}
+          <div className="border-t border-[#f5f5dc]/20 pt-6 mb-8 grid grid-cols-2 gap-4">
+            <Image
+              src="/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg"
+              alt="Presence in Absence 1"
+              width={540}
+              height={540}
+              className="w-full h-auto rounded"
+            />
+            <Image
+              src="/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence3.jpeg"
+              alt="Presence in Absence 3"
+              width={540}
+              height={540}
+              className="w-full h-auto rounded"
+            />
+          </div>
+
           {/* Bottom links */}
           <div className="border-t border-[#f5f5dc]/20 pt-6 flex flex-wrap gap-3 justify-center">
             {event.instagramPost && (
@@ -150,6 +168,16 @@ export default function NowPage() {
                 className="inline-block border border-[#f5f5dc] px-5 py-2 text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
               >
                 Instagram Post
+              </a>
+            )}
+            {event.artists[0]?.url && (
+              <a
+                href={event.artists[0].url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-[#f5f5dc] px-5 py-2 text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
+              >
+                lisetteros.com
               </a>
             )}
             <Link
