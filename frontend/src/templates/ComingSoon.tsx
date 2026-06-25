@@ -85,24 +85,22 @@ export default function ComingSoon() {
                 {upcomingEvent.title}
               </h2>
               <p className="text-center text-[#f5f5dc] mb-6 leading-relaxed">
-                {t.calls.items.item.shortDescription}
+                {upcomingEvent.shortDescription}
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  href="/calls/item"
+                  href="/events/item"
                   className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
                 >
-                  Open Call
+                  {upcomingEvent.title}
                 </Link>
                 {upcomingEvent.externalLink && (
-                  <a
+                  <Link
                     href={upcomingEvent.externalLink}
-                    target="_blank"
-                    rel="noopener noreferrer"
                     className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
                   >
-                    {upcomingEvent.externalLinkText || 'Learn More'}
-                  </a>
+                    {upcomingEvent.externalLinkText || 'Register'}
+                  </Link>
                 )}
               </div>
             </div>

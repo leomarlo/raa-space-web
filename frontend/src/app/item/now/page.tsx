@@ -69,7 +69,7 @@ export default function NowPage() {
 
           {/* Header */}
           <p className="text-xs text-[#f5f5dc]/50 text-center mb-2 tracking-widest uppercase">
-            ITEM — Shuffled Time &nbsp;·&nbsp; {event.date} &nbsp;·&nbsp; {event.interventionTime}
+            ITEM — Shuffled Time &nbsp;·&nbsp; {event.date} &nbsp;·&nbsp; {event.coreTime || 'All day'}
           </p>
           <h1 className="text-4xl sm:text-5xl font-bold mb-3 text-center">{event.title}</h1>
           <p className="text-center text-sm text-[#f5f5dc]/70 mb-8">
