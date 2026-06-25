@@ -169,23 +169,23 @@
       "item": {
         "id": "49",
         "title": "ITEM — Shuffled Time",
-        "image": "/assets/item/poster.png",
+        "image": "/assets/item/item-poster.jpeg",
         "url": "/events/item",
-        "startDate": "2026-07-04T00:00:00Z",
-        "endDate": "2026-07-10T23:59:00Z",
+        "startDate": "2026-07-05T00:00:00Z",
+        "endDate": "2026-07-11T23:59:00Z",
         "color": "1",
         "showTextOverThumbnail": 0,
         "registerPage": "",
-        "shortDescription": "Open call: artists or artist groups can fill a 24-hour slot across 7 days to Invoke, Temper, Elate, Mint the space. Send your idea to enter@raa.space. July 4–10.",
+        "shortDescription": "ITEM — Shuffled Time: a seven-day performative week at RAA. Each day one artist has a 24-hour window to Invoke, Temper, Elate, Mint the space. July 5–11, 2026.",
         "location": "RAA.SPACE, Matīsa iela 8, Rīga",
-        "when": "04.–10.07.2026",
+        "when": "05.–11.07.2026",
         "instaLink": "",
         "fbLink": "",
         "registrationLink": "",
         "price": "Free entrance",
-        "externalLink": "/assets/item/OPENCALL.pdf",
-        "externalLinkText": "Open Call Poster (PDF)",
-        "description": "RAA kultūrtelpa aicina pieteikties performatīvai nedēļai, kas norisināsies no 4.jūlija līdz 10.jūlijam.\n\nKatru dienu mākslinieks, māksliniece vai mākslinieku grupa izmantos RAA galveno zāli, lai 24 stundu laikā iedzīvinātu, veidotu, piepildītu un atklātu telpu no jauna.\nPerformance var ilgt visas 24 stundas, vai arī īsāku laika posmu, ietverot vienu vai vairākas uzstāšanās.\n\nRAA galvenā zāle ir 138 m² plaša telpa ar 10 logiem uz Matīsa ielu. To no Vidzemestirgus un Ugunsdzēsēju depo atdala 11. tramvaja līnija.\n\nDalība ir bez maksas. Lūgums nosūtīt savas idejas aprakstu uz e-pastu enter@raa.space.\n\nENGLISH >\n\nRAA Cultural Space invites artists and artist groups to apply for a performative week taking place from July 4 to July 10.\n\nEach day, one artist or artist group will occupy RAA's main hall for a 24-hour period to Invoke, Temper, Elate, Mint the space. The performance may last the full 24 hours or take place over a shorter duration, consisting of one or multiple openings.\n\nRAA's main hall is a 138 m² space with 10 windows facing Matīsa Street. It is separated from Vidzeme Market and the Fire Brigade by Tram Line 11.\n\nParticipation is free of charge.\n\nPlease send us a description of your proposal to enter@raa.space."
+        "externalLink": "/item/intervention-registration",
+        "externalLinkText": "Intervention Registration",
+        "description": "ITEM - Shuffled Time is a seven-day performative week at RAA cultural space in Rīgā. Each day one artist or artist group has a 24-hour time window to Invoke, Temper, Elate, Mint the RAA Space.\n\nThe window starts and ends at 9h in the morning. Exactly how the 24 hours are filled is at the discretion of the artists. ANYONE is invited to pass by the space at ANY time. The 7 performances will be revealed in the coming days, where the artists will also specify the core-times of their durational performance. However, on each day there is a pre-scheduled intervention — please find the times on [raa.space/item/intervention-registration](/item/intervention-registration) (registration enabled from 26th of June). In some cases these are workshops with limited capacity, so please do register.\n\nThe participating artists this year are: Ilze Mazpane ([@mazpane](https://www.instagram.com/mazpane/)), Maruta Gredzena ([@em.gaa](https://www.instagram.com/em.gaa/)), Lisette Ros ([@lisetteros](https://www.instagram.com/lisetteros/)), Kristiāna Šuksta ([@kristiana.suksta](https://www.instagram.com/kristiana.suksta/)), Ilze Aulmane ([@ilsy_aulman](https://www.instagram.com/ilsy_aulman/)), Vanessa Brzić ([website](https://inspirehep.net/authors/3072683)), Sandris Muriņš ([@sandrismurins](https://www.instagram.com/sandrismurins/)), Ernests Ā ([@ernests.aa](https://www.instagram.com/ernests.aa/)), Jana Zariņa ([@tobeawhile](https://www.instagram.com/tobeawhile/))\n\nStay Tuned for the program!\n\nThanks also to Radošā Rūpnīca Veldze ([@veldze.radosarupnica](https://www.instagram.com/veldze.radosarupnica/)) and LaiZinat.com"
       },
       "galleryLateTp054k": {
         "id": "48",
@@ -1183,6 +1183,181 @@
         "price": "free entry",
         "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
       }
+    },
+    "features": {
+      "item": {
+        "title": "ITEM — Intervention Registration",
+        "description": "On each day there is a pre-scheduled intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
+        "events": [
+          {
+            "date": "05.07.2026",
+            "title": "Aulmane",
+            "description": "",
+            "artists": [
+              {
+                "displayName": "Ilze Aulmane",
+                "image": "/assets/item/05_7_aulmane/aulmane.png",
+                "ig": "ilsy_aulman",
+                "nationality": "LV"
+              }
+            ],
+            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "interventionTime": "19:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/05_7_aulmane/aulmane.png",
+            "revealed": false,
+            "slug": "aulmane",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          },
+          {
+            "date": "06.07.2026",
+            "title": "Now",
+            "description": "In her interactive performance \"Now\", Maruta Gredzena explores whether communication without words can be true.\n\nVisitors become participants, choosing and wearing light, paper-based wearable sculptures in response to their present state. The forms can feel like cocoons — soft, fluffy, geometric, or rock-like — creating a temporary second skin. Each choice reshapes a shifting collective composition, where everyone becomes both observer and artwork.\n\nThe work asks: can honesty exist without language? The forms carry the artist's intimate visual language, yet are activated only through others. The question of authorship and non-verbal communication arises: is the language already created in form, or does it emerge only in the moment it is chosen and moved?\n\nHere, form becomes language, presence becomes communication, and material becomes a shared way of speaking.",
+            "artists": [
+              {
+                "displayName": "Maruta Gredzena",
+                "image": "/assets/item/06_7_now/profile.png",
+                "ig": "em.gaa",
+                "nationality": "LV"
+              }
+            ],
+            "registrationUrl": "https://formspree.io/f/xykqeegr",
+            "interventionTime": "19:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/06_7_now/Press_photo_performance_NOW.png",
+            "revealed": true,
+            "slug": "now",
+            "bio": "Maruta Gredzena is interested in what happens when nothing stays still. A life shaped by continual relocation has shifted her practice from making objects to creating spaces for interaction.\n\nRooted in porcelain and ceramic sculpture and expanded through graphic art, her practice now unfolds through installations that use paper, material, and playfulness to explore communication beyond language.\n\nWandering between the Baltic coast and the Iberian Peninsula has cultivated a migratory way of working. Drawn to places that feel temporarily safe, she treats movement as both method and subject, transforming displacement into encounters where form, color, pattern and participation become a shared language.",
+            "instagramPost": "https://www.instagram.com/p/DaAUtnzILBn/",
+            "pageUrl": "/item/now"
+          },
+          {
+            "date": "07.07.2026",
+            "title": "N.3",
+            "description": "Ernests will arrive with a rope, initially wrapping it around one of the gallery’s columns. He will then tie the end of it to his leg and walk around the column, attempting to distance himself by making wide circles both within the gallery space and beyond its walls. The piece has no strict time limit, but the intended duration is from 18:00 to 24:00.",
+            "artists": [
+              {
+                "displayName": "Ernests Ā",
+                "image": "/assets/item/07_7_N.3/ernests.jpeg",
+                "ig": "ernests.aa",
+                "nationality": "LV"
+              }
+            ],
+            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "interventionTime": "19:00",
+            "coreTime": "18:00 – 24:00",
+            "themeImage": "/assets/item/07_7_N.3/rope.jpeg",
+            "revealed": false,
+            "slug": "n3",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          },
+          {
+            "date": "08.07.2026",
+            "title": "Gluttony",
+            "description": "An experimental performance exploring meat consumption through the combination of poetry and scent. By combining language, olfaction, and time, Gluttony invites the audience to construct personal meanings and reflect on desire, memory, and the sensory dimensions of meat consumption.",
+            "artists": [
+              {
+                "displayName": "Kristiāna Šuksta",
+                "image": "/assets/item/08_7_gluttony/kristianasuksta.webp",
+                "ig": "kristiana.suksta",
+                "nationality": "LV"
+              },
+              {
+                "displayName": "Sandris Muriņš",
+                "image": "/assets/item/08_7_gluttony/sandrismurins.jpeg",
+                "ig": "sandrismurins",
+                "nationality": "LV"
+              }
+            ],
+            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "interventionTime": "19:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/08_7_gluttony/13.jpg.jpeg",
+            "revealed": false,
+            "slug": "gluttony",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          },
+          {
+            "date": "09.07.2026",
+            "title": "Presence in Absence Piece 3",
+            "description": "“Presence in Absence” is a series by artist Lisette Ros that she started in Mexico-City in 2023. In the live performance Piece three, Ros grapples with her own presence, manipulating control and consciousness by taking-in a natural hypnotic.",
+            "artists": [
+              {
+                "displayName": "Lisette Ros",
+                "image": "/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg",
+                "ig": "lisetteros",
+                "url": "https://www.lisetteros.com/",
+                "nationality": "NL"
+              }
+            ],
+            "registrationUrl": "https://formspree.io/f/xaqgeeyk",
+            "interventionTime": "20:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg",
+            "revealed": false,
+            "slug": "presence-in-absence-piece-3",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          },
+          {
+            "date": "10.07.2026",
+            "title": "Timescores",
+            "description": "The performance situates social and historical conditions inside an evolving room. Audience members draw cards from decks of event scores — short instructions that produce actions involving the body, objects, sound, and space.",
+            "artists": [
+              {
+                "displayName": "Vanessa Brzić",
+                "image": "/assets/item/10_7_timescores/vanessa.jpg",
+                "url": "https://inspirehep.net/authors/3072683",
+                "nationality": "HR"
+              }
+            ],
+            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "interventionTime": "19:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/10_7_timescores/promo_photo.jpeg",
+            "revealed": false,
+            "slug": "timescores",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          },
+          {
+            "date": "11.07.2026",
+            "title": "Laiks telpā",
+            "description": "Šī būs ilgstošā performance, kura esošajā Raa telpā, kāda tā ir, no uz vietas pieejamajiem objektiem radīs muzikāli-ķermeniški-telpisku subjektīvā laikā pieredzi ar mērķi pētīt to, kā laiks izplešas, saraujas, skrien, apstājas un pazūd.",
+            "artists": [
+              {
+                "displayName": "Ilze Mazpane",
+                "image": "/assets/item/11_7_laikstelpa/ilze_bw_dip_portreti_9.jpg",
+                "ig": "mazpane",
+                "nationality": "LV"
+              },
+              {
+                "displayName": "Jana Zariņa",
+                "image": "/assets/item/11_7_laikstelpa/JanaZarina.jpeg",
+                "ig": "tobeawhile",
+                "nationality": "LV"
+              }
+            ],
+            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "interventionTime": "19:00",
+            "coreTime": "",
+            "themeImage": "/assets/item/11_7_laikstelpa/ilze_bw_dip_portreti_9.jpg",
+            "revealed": false,
+            "slug": "laiks-telpa",
+            "bio": "",
+            "instagramPost": "",
+            "pageUrl": ""
+          }
+        ]
+      }
     }
   },
   "team": {
@@ -1255,7 +1430,7 @@
         "url": "/calls/item",
         "deadline": "2026-06-08T23:59:59Z",
         "shortDescription": "A 24/7 performative week. 7 days, 7 artists, each has 24 hours available and the entire RAA space.",
-        "description": "OPEN CALL for a performative week at RAA\nfrom July 4th till July 10th.\n\nOn 7 consecutive days artists or artist groups can fill a 24h slot to Invoke, Temper, Elate, Mint the space.\n\nCurated by RAA and supported by Veldze RR.\n\nSend us your idea to enter@raa.space\nFeel free to ask questions!\n\n— — —\n\nITEM — Shuffled Time is a performance lasting 7 days. Each day an artist or a group uses the space of RAA to build, unbuild, create, uncreate, perform, unperform a 24-hour period of time.\n\nThe names of the artists/groups and their respective performances will be revealed here at the end of June. Performances may last for the entire 24 hours or have a specified duration, or simply one or more openings. This information will also be mentioned alongside the description.\n\nThe space is 138 m² and has 10 windows facing Matīsa iela, separated from the Vidzemes market and the fire brigade station just by tramline 11. The adjacent territory may also be used.\n\nRAA.SPACE\nMatīsa iela 8, Rīga",
+        "description": "OPEN CALL for a performative week at RAA\nfrom July 6th till July 11th.\n\nOn 7 consecutive days artists or artist groups can fill a 24h slot to Invoke, Temper, Elate, Mint the space.\n\nCurated by RAA and supported by Veldze RR.\n\nSend us your idea to enter@raa.space\nFeel free to ask questions!\n\n— — —\n\nITEM — Shuffled Time is a performance lasting 7 days. Each day an artist or a group uses the space of RAA to build, unbuild, create, uncreate, perform, unperform a 24-hour period of time.\n\nThe names of the artists/groups and their respective performances will be revealed here at the end of June. Performances may last for the entire 24 hours or have a specified duration, or simply one or more openings. This information will also be mentioned alongside the description.\n\nThe space is 138 m² and has 10 windows facing Matīsa iela, separated from the Vidzemes market and the fire brigade station just by tramline 11. The adjacent territory may also be used.\n\nRAA.SPACE\nMatīsa iela 8, Rīga",
         "pdfLink": "/assets/item/opencall/OPENCALL.pdf",
         "emailAddress": "enter@raa.space"
       }

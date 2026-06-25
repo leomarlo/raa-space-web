@@ -1,0 +1,354 @@
+%% ══════════════════════════════════════════════════════════
+%%  ITEM — Shuffled Time   Sponsorēšanas piedāvājums  (Latviski)
+\newcommand{\sponsor}{BALCIA}
+%% ══════════════════════════════════════════════════════════
+
+\documentclass[a4paper,9.5pt]{article}
+
+\usepackage[top=0cm,bottom=0cm,left=0cm,right=0cm]{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{ifthen}
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+\pagestyle{empty}
+\setlength{\parskip}{1.5pt}
+\setlength{\columnsep}{0.8em}
+
+\definecolor{raacream}{HTML}{F5F5DC}
+\definecolor{raared}{HTML}{CC2222}
+\definecolor{raadark}{HTML}{0D0D0D}
+\definecolor{itemgold}{HTML}{D4A84B}
+\definecolor{mygray}{HTML}{555555}
+
+\newcommand{\sectionrule}[1]{%
+  \vspace{3pt}%
+  {\color{raared}\bfseries\normalsize #1}\\[-3pt]%
+  {\color{raared}\rule{\linewidth}{0.8pt}}%
+  \vspace{2pt}%
+}
+
+%% Performances karte: {datums}{nosaukums}{mākslinieks}{attēls/none}{apraksts}{bio}
+\newcommand{\perfcard}[6]{%
+  \noindent\begin{minipage}[t]{0.37\linewidth}
+    \vspace{0pt}
+    {\small\color{raared}\textbf{#1}}\\[1pt]
+    {\bfseries\small #2}\\[2pt]
+    {\footnotesize\textit{#3}}\\[5pt]
+    \ifthenelse{\equal{#4}{none}}{%
+      {\setlength{\fboxsep}{0pt}%
+       \colorbox{black!8}{\parbox[c][3.6cm][c]{\linewidth}{%
+         \centering\footnotesize\color{mygray}attēls drīz}}}%
+    }{%
+      \makebox[\linewidth][c]{%
+        \includegraphics[height=3.6cm,width=\linewidth,keepaspectratio=true]{#4}}%
+    }%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.60\linewidth}
+    \vspace{0pt}
+    {\small #5}%
+    \par\vspace{5pt}%
+    {\footnotesize\color{mygray}\textbf{Biogrāfija:}\enspace #6}%
+  \end{minipage}%
+  \par\vspace{0.35cm}%
+  {\color{raared!35}\rule{\linewidth}{0.4pt}}%
+  \par\vspace{0.35cm}%
+}
+
+\begin{document}
+
+%% ══════════════════════════════════════════════════════════
+%%  1. LAPPUSE — PILNEKRĀNA PLAKĀTS + PIEDĀVĀJUMA SATURS
+%% ══════════════════════════════════════════════════════════
+\noindent
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \useasboundingbox (0,0) rectangle (21,29.7);
+
+  %% Plakāts — izstiepts līdz lapas malām, bez atkāpēm
+  \node[anchor=south west, inner sep=0pt] at (0,0) {%
+    \includegraphics[width=21cm,height=29.7cm,keepaspectratio=false]{img/item-poster.jpg}%
+  };
+
+  %% Tumšs pārklājums teksta salasāmībai
+  \fill[black,opacity=0.67] (0,0) rectangle (21,29.7);
+
+  %% ── GALVENE ──────────────────────────────────────────────
+
+  \node[anchor=north west, inner sep=0pt] at (0.9,29.4) {%
+    \includegraphics[height=1.1cm]{img/raa_logo_v2.png}%
+  };
+
+  \node[anchor=north east, inner sep=0pt] at (20.1,29.5) {%
+    \fontsize{5.5}{7}\selectfont\color{raacream!50}%
+    \textls[180]{S P O N S O R Ē Š A N A S \ \ P I E D Ā V Ā J U M S}%
+  };
+
+  \node[anchor=center] at (10.5,26.8) {%
+    \fontsize{26}{31}\selectfont\bfseries\color{raacream}%
+    ITEM\,—\,SHUFFLED TIME%
+  };
+
+  \node[anchor=center] at (10.5,25.9) {%
+    \fontsize{9}{11}\selectfont\color{raacream!80}%
+    \textit{5.–11. jūlijs 2026\enspace·\enspace RAA.SPACE, Matīsa iela 8, Rīga}%
+  };
+
+  \node[anchor=center] at (10.5,24.85) {%
+    \fontsize{9}{11}\selectfont\color{itemgold}%
+    Iesniegts\enspace\textbf{\sponsor}%
+  };
+
+  \fill[raared] (0,24.15) rectangle (21,24.45);
+
+  %% ── SATURS ───────────────────────────────────────────────
+  \node[anchor=north west, text width=19cm, inner sep=0pt] at (1.0,24.0) {%
+    \begin{minipage}[t]{19cm}
+      \color{raacream}
+      \setlength{\parskip}{1.5pt}
+      \setlength{\columnsep}{0.8em}
+
+      \vspace{0.18cm}
+      \sectionrule{Par pasākumu}
+
+      \small
+      ITEM\,—\,Shuffled Time ir septiņu dienu performatīva nedēļa RAA.SPACE Rīgā.
+      Katru dienu mākslinieks, māksliniece vai mākslinieku grupa izmantos RAA galveno
+      zāli (138\,m\textsuperscript{2} plaša telpa ar desmit logiem uz Matīsa ielu), lai
+      24 stundu laikā iedzīvinātu, veidotu, piepildītu un atklātu telpu no jauna.
+      Performance var ilgt visas 24 stundas, vai arī īsāku laika posmu, ietverot vienu
+      vai vairākas uzstāšanās.
+      Programma apvieno septiņas mākslinieciskas balsis ilgstošās performances,
+      ķermeniskās mākslas, eksperimentālās dzejas, aromagrāfijas un interaktīvās
+      instalācijas žanros. Organizē RAA, atbalsta Veldze Radošā Rūpnīca.
+
+      \vspace{0.1cm}
+
+      \begin{multicols}{2}
+
+        \sectionrule{Programma}
+
+        {\footnotesize\setlength{\parskip}{0pt}
+        \begin{tabular}{@{}p{1.35cm}p{5.65cm}@{}}
+        \textbf{Sv. 5.07}   & \textbf{Ilze Aulmane}\\
+                             & \textit{(sīkāka informācija drīz)}\\[1pt]
+        \textbf{P. 6.07}    & \textbf{NOW} — Maruta Gredzena\\
+                             & Interaktīva velšanas performance\\[1pt]
+        \textbf{O. 7.07}    & \textbf{N.3} — Ernests Ā\\
+                             & Virve \& izturība, 18:00–24:00\\[1pt]
+        \textbf{T. 8.07}    & \textbf{Rijība} — K.\,Šuksta \& S.\,Murins\\
+                             & Aromagrāfijas performance\\[1pt]
+        \textbf{C. 9.07}    & \textbf{Presence in Absence Pt.\,3}\\
+                             & Lisette Ros\\[1pt]
+        \textbf{Pk. 10.07}  & \textbf{Time Scores} — Vanessa Brzič\\
+                             & Fluxus participatorā performance\\[1pt]
+        \textbf{S. 11.07}   & \textbf{Laiks Telpā} — Ilze Mazpane\\
+                             & \& Jana Zariņa\\
+                             & Ilgstoša mūzikas-ķermeņa-telpas performance\\
+        \end{tabular}
+        }
+
+        \columnbreak
+
+        \sectionrule{Auditorija un sasniedzamība}
+
+        {\small
+        \begin{itemize}[leftmargin=*,itemsep=1pt,topsep=0pt]
+          \item \textbf{200+} apmeklētāji nedēļas laikā
+          \item Starptautiski un vietējie mākslinieki, mākslas profesionāļi,
+                ziņkārīgā publika
+          \item Instagram \textbf{@raa\_riga} \& \textbf{@veldze.radosarupnica}:\\
+                kopā \textbf{7\,000+} sekotāji
+          \item Mediju sasniedzamība: \textbf{100gkultura},
+                \textbf{riga-neighbourhood},\\
+                \textbf{arterritory.com}, \textbf{notboring.riga}
+        \end{itemize}
+        }
+
+        \vspace{0.05cm}
+        \sectionrule{Kāpēc tas ir svarīgi}
+
+        {\small Ilgstoša un dzīvā performance ir neapstrādāta un neatkārtojama.
+        \textbf{\sponsor} atbalstītu ITEM — nedēļu, kas notiek RAA.SPACE, telpā ar
+        stabilu performances un vizuālās mākslas programmu kopš tās dibināšanas:
+        Homo Novus, Kefīrs Studio, 2 Annas, Alīna Burlakova, Andrejs Osokins un
+        daudzi citi. Sponsorēšana šeit ir patiess kultūras ieguldījums — redzams un
+        jūtams iesaistītai, mākslai atvērtai auditorijai.}
+
+      \end{multicols}
+
+      \vspace{0.05cm}
+
+      \sectionrule{Sponsorēšanas pakete — \texteuro\,2\,000}
+
+      {\small
+      \begin{tabularx}{19cm}{@{}>{\bfseries}p{3.3cm}X@{}}
+      Pieminēts visur        & \sponsor{} tiek pieminēts katrā pasākumā, visos drukas
+                               materiālos un RAA.SPACE pasākuma lapā.\\[2pt]
+      Sociālie mediji        & Veltītas publikācijas un stāsti @raa\_riga,
+                               @veldze.radosarupnica, riga-neighbourhood, notboring.riga,
+                               100gkultura, arterritory.com (7\,000+ kopējā sasniedzamība).\\[2pt]
+      VIP pieeja             & 3 rezervētas vietas katru vakaru. Ielūgumi uz mākslinieku
+                               tikšanās reizēm un atklāšanas vakariem.\\[2pt]
+      Uzstāšanās iespēja     & Īss uzstāšanās vārds atklāšanas vakarā (5. jūl.).\\[2pt]
+      Klātbūtne uz vietas    & \sponsor{} ekspozīcija RAA foajē visas nedēļas garumā.\\[2pt]
+      Preses atspoguļojums   & Nosaukts kā galvenais sponsors visos mediju paziņojumos.\\
+      \end{tabularx}
+      }
+
+    \end{minipage}%
+  };
+
+  %% ── APAKŠDAĻAS JOSLA ─────────────────────────────────────
+  \fill[raadark,opacity=0.88] (0,0) rectangle (21,0.82);
+  \node[anchor=center] at (10.5,0.41) {%
+    \fontsize{7.5}{9}\selectfont\color{raacream!80}%
+    \textbf{RAA.SPACE}\enspace·\enspace
+    Matīsa iela 8, Rīga\enspace·\enspace
+    \href{https://raa.space}{raa.space}\enspace·\enspace
+    \href{mailto:enter@raa.space}{enter@raa.space}\enspace·\enspace
+    @raa\_riga%
+  };
+
+\end{tikzpicture}
+
+%% ══════════════════════════════════════════════════════════
+%%  2.+ LAPPUSE — PERFORMANCES KARTES
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm}
+
+\noindent
+{\color{raared}\bfseries\large ITEM\,—\,SHUFFLED TIME}%
+{\small\color{mygray}\quad Performances programma · 5.–11. jūlijs 2026 · RAA.SPACE, Rīga}%
+\\[-4pt]%
+{\color{raared}\rule{\linewidth}{0.8pt}}
+
+\vspace{0.45cm}
+
+%% ── 1 · Ilze Aulmane ─────────────────────────────────────
+\perfcard%
+  {Svētdiena, 5. jūlijs}%
+  {Ilze Aulmane}%
+  {Ilze Aulmane}%
+  {img/item-aulmane.jpg}%
+  {Pilns nosaukums, apraksts un vizuālais materiāls tiks publicēts drīz.}%
+  {Biogrāfija drīz.}%
+
+%% ── 2 · NOW ──────────────────────────────────────────────
+\perfcard%
+  {Pirmdiena, 6. jūlijs}%
+  {NOW}%
+  {Maruta Gredzena}%
+  {img/item-now.jpg}%
+  {Interaktīvajā performancē \textit{Now} Maruta Gredzena pēta, vai komunikācija
+   bez vārdiem var būt patiesa. Apmeklētāji kļūst par dalībniekiem, izvēloties un
+   uzvelkot vieglus, papīra bāzētus velšanas skulptūras savā pašreizējā noskaņojumā
+   — mīkstas, plūksnainas, ģeometriskas vai akmeņveida formas veido pagaidu otro
+   ādu. Katra izvēle pārveido mainīgu kolektīvo kompozīciju, kur katrs kļūst gan
+   par skatītāju, gan par mākslas darbu. Vai godīgums var pastāvēt bez valodas?
+   Papīra skulptūru instalācija ar objektiem un strēmelēm no griestiem veido
+   telpas fonu.}%
+  {Maruta Gredzena interesējas par to, kas notiek, kad nekas nepaliek mierā.
+   Dzīve pastāvīgo pārcelšanos dēļ mainījusi viņas praksi no objektu radīšanas
+   uz saskarsmes telpu veidošanu. Saknes porcelāna un keramikas skulptūrā,
+   paplašinot caur grafikas mākslu, viņas darbs atklājas caur instalācijām, kas
+   izmanto papīru, materiālu un rotaļīgumu, lai pētītu komunikāciju ārpus valodas.
+   IG:~@em.gaa}%
+
+%% ── 3 · N.3 ──────────────────────────────────────────────
+\perfcard%
+  {Otrdiena, 7. jūlijs}%
+  {N.3}%
+  {Ernests Ā}%
+  {img/item-n3.jpg}%
+  {\textit{Saistošā pārliecība par divu pretstatu esamību vienmēr liek apjukumā
+   maldīties.}\par\vspace{3pt}%
+   Ernests ieradīsies ar virvi, ko vispirms aptīs ap vienu no galerijas kolonnām.
+   Tās galu piesies sev pie kājas un ies apkārt kolonnai, cenšoties attālināties,
+   metot lokus gan telpā, gan ārpus tās sienām — līdz spēku izsīkumam vai ja
+   viņu apturēs ārējie faktori. Ja izdosies atbrīvoties, iespējams, aptinās virvi
+   no jauna. Īsi pārtraukumi performanci nepārtrauc. Performances laikā Ernests
+   nerunās. Ieplānotais laiks: 18:00–24:00.}%
+  {Savā praksē Ernests Ā nododas rotaļīgai realitātes ikdienišķo un nedefinējamo
+   aspektu izpētei neierobežotās izteiksmes formās.}%
+
+%% ── 4 · Rijība ───────────────────────────────────────────
+\perfcard%
+  {Trešdiena, 8. jūlijs}%
+  {Rijība}%
+  {Kristiāna Šuksta \& Sandris Murins}%
+  {img/item-gluttony.jpg}%
+  {Eksperimentāla aromagrāfijas performance, kas savieno divpadsmit vārdus —
+   katru ar savu īpašu aromātu — nepārtraukti mainot secību un tempu. Darbs atklāj,
+   kā smarža var stiprināt, pretoties vai pārveidot teksta nozīmi, pētot vēlmi,
+   atmiņu un gaļas patēriņa sensorās dimensijas.}%
+  {Sandris Murins ir latviešu mākslinieks, Smaržas kameras izgudrotājs un Smaržas +
+   Mākslas festivāla dibinātājs — popularizē aromagrāfiju kā topošu mākslas valodu.
+   Kristiāna Šuksta ir latviešu dzejniece, performances māksliniece un festivāla
+   Starptelpa tehniskā producente. Viņas prakse apvieno dzeju un tiešraides performanci,
+   pētot personisko pieredzi un cilvēciskās attiecības ar asprātību un humoru.}%
+
+%% ── 5 · Presence in Absence, Piece Three ─────────────────
+\perfcard%
+  {Ceturtdiena, 9. jūlijs}%
+  {Presence in Absence, Piece Three}%
+  {Lisette Ros (holandiešu)}%
+  {img/item-presence.jpg}%
+  {\textit{Presence in Absence} ir Lisette Ros sērija, ko viņa uzsāka Mehiko
+   2023. gadā, pētot \textit{Prombūtnē esošo ķermeni} — klātbūtnes uztveri
+   prombūtnē. Trešajā daļā Ros saskaras ar savu klātbūtni, uzņemot dabisku
+   hipnotisku vielu, kas kopš 2014. gada ir daļa no viņas naktsvakara rituāla
+   saistībā ar DSPS (aizkavētas miega fāzes sindroms). Darbs manipulē ar kontroli
+   un apziņu reāllaikā — skatītāju priekšā.}%
+  {Lisette Ros (dz. 1991, Nīderlande) ir holandiešu konceptuālā un performances
+   māksliniece ar indonēziešu saknēm. Viņas darbs pēta identitāti kā sociālu
+   konstruktu caur ķermeni kā pētījuma rīku un mediju. Starptautiski prezentēts:
+   Venēcijas Arhitektūras biennāle, SXSW, Van Abbemuseum, Gētes institūts,
+   MWoods Pekina, Casa Lü CDMX. 2021. gadā rezidence pie Marinas Abramović.}%
+
+%% ── 6 · Time Scores ──────────────────────────────────────
+\perfcard%
+  {Piektdiena, 10. jūlijs}%
+  {Time Scores}%
+  {Vanessa Brzič (horvātu)}%
+  {img/item-timescores.jpg}%
+  {Apmeklētāji izvelk kartes ar īsām instrukcijām — piemēram ,,šķēlē'',
+   ,,sasienu'', ,,apgāz'', ,,klausies'' — un tās veic telpā ar dažādiem
+   priekšmetiem. Katra darbība maina telpu nākamajai. Tā veidojas dzīva, mainīga
+   vide, kur katra atkārtotā karte iegūst jaunu nozīmi.}%
+  {Vanessa Brzič ir horvātu starpdisciplināra māksliniece un OIST QISS pētniece,
+   kas strādā mākslas un fundamentālo zinātņu krustpunktā. Sīkāka informācija drīz.}%
+
+%% ── 7 · Laiks Telpā ─────────────────────────────────────
+\perfcard%
+  {Sestdiena, 11. jūlijs}%
+  {Laiks Telpā}%
+  {Ilze Mazpane \& Jana Zariņa}%
+  {img/item-laikstelpa.jpg}%
+  {Ilgstoša performance, kas esošajā RAA telpā, kāda tā ir, no uz vietas
+   pieejamajiem objektiem radīs muzikāli-ķermeniski-telpisku subjektīvā laika
+   pieredzi. Darbs pēta to, kā laiks izplešas, saraujas, skrien, apstājas un
+   pazūd — bez pulksteņlaika kā vadotnes vai ierobežojuma.}%
+  {Ilze Mazpane ir performances māksliniece no Rīgas ar izglītību un pieredzi
+   filosofijā, vizuālajā mākslā, eksperimentālajā teātrī un radošajā rakstīšanā.
+   Viņa veido no vietas izrietošas ilgstošās performances ar poētisku jutīgumu pret
+   telpu un brīvību no pulksteņlaika tirānijas.
+   Jana Zariņa ir vēsturisko taustiņinstrumentu un skaņas māksliniece, kuras darbība
+   aptver seno mūziku, improvizāciju, elektroakustisko performanci un starpdisciplināro
+   mākslu. Ievērojamākie projekti: elektroakustiskais duets \textit{maiak}, latviešu
+   opera \textit{Ērces} (2024) un starptautiski baroka mūzikas pasākumi. Uzstājusies
+   ar Latvijas Nacionālo simfonisko orķestri.}%
+
+\end{document}

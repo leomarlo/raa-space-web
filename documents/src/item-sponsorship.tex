@@ -1,0 +1,351 @@
+%% ══════════════════════════════════════════════════════════
+%%  ITEM — Shuffled Time   Sponsorship Proposal
+%%  Change the sponsor name here:
+\newcommand{\sponsor}{BALCIA}
+%% ══════════════════════════════════════════════════════════
+
+\documentclass[a4paper,9.5pt]{article}
+
+\usepackage[top=0cm,bottom=0cm,left=0cm,right=0cm]{geometry}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{tabularx}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{enumitem}
+\usepackage{multicol}
+\usepackage{ifthen}
+\usepackage{hyperref}
+
+\hypersetup{hidelinks}
+\pagestyle{empty}
+\setlength{\parskip}{1.5pt}
+\setlength{\columnsep}{0.8em}
+
+\definecolor{raacream}{HTML}{F5F5DC}
+\definecolor{raared}{HTML}{8B0000}
+\definecolor{raadark}{HTML}{0D0D0D}
+\definecolor{itemgold}{HTML}{D4A84B}
+\definecolor{mygray}{HTML}{555555}
+
+\newcommand{\sectionrule}[1]{%
+  \vspace{3pt}%
+  {\color{raared}\bfseries\normalsize #1}\\[-3pt]%
+  {\color{raared}\rule{\linewidth}{0.8pt}}%
+  \vspace{2pt}%
+}
+
+%% Performance card: {date}{title}{artist}{img-or-none}{description}{bio}
+\newcommand{\perfcard}[6]{%
+  \noindent\begin{minipage}[t]{0.37\linewidth}
+    \vspace{0pt}
+    {\small\color{raared}\textbf{#1}}\\[1pt]
+    {\bfseries\small #2}\\[2pt]
+    {\footnotesize\textit{#3}}\\[5pt]
+    \ifthenelse{\equal{#4}{none}}{%
+      \colorbox{black!7}{\makebox[\linewidth][c]{%
+        \parbox[c][3.6cm][c]{0.85\linewidth}{%
+          \centering\footnotesize\color{mygray}impression to follow%
+        }%
+      }}%
+    }{%
+      \includegraphics[width=\linewidth,height=3.6cm,keepaspectratio=false]{#4}%
+    }%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.60\linewidth}
+    \vspace{0pt}
+    {\small #5}%
+    \par\vspace{5pt}%
+    {\footnotesize\color{mygray}\textbf{Bio:}\enspace #6}%
+  \end{minipage}%
+  \par\vspace{0.35cm}%
+  {\color{raared!35}\rule{\linewidth}{0.4pt}}%
+  \par\vspace{0.35cm}%
+}
+
+\begin{document}
+
+%% ══════════════════════════════════════════════════════════
+%%  PAGE 1 — FULL-BLEED POSTER + PROPOSAL CONTENT
+%% ══════════════════════════════════════════════════════════
+\noindent
+\begin{tikzpicture}[x=1cm,y=1cm]
+  \useasboundingbox (0,0) rectangle (21,29.7);
+
+  %% Poster stretched to fill entire A4 page (no margins)
+  \node[anchor=south west, inner sep=0pt] at (0,0) {%
+    \includegraphics[width=21cm,height=29.7cm,keepaspectratio=false]{img/item-poster.png}%
+  };
+
+  %% Dark overlay so text is legible over the image
+  \fill[black,opacity=0.67] (0,0) rectangle (21,29.7);
+
+  %% ── HEADER ──────────────────────────────────────────────
+
+  \node[anchor=north west, inner sep=0pt] at (0.9,29.4) {%
+    \includegraphics[height=1.1cm]{img/raa_logo_v2.png}%
+  };
+
+  \node[anchor=north east, inner sep=0pt] at (20.1,29.5) {%
+    \fontsize{5.5}{7}\selectfont\color{raacream!50}%
+    \textls[180]{S P O N S O R S H I P \ \ P R O P O S A L}%
+  };
+
+  \node[anchor=center] at (10.5,26.8) {%
+    \fontsize{26}{31}\selectfont\bfseries\color{raacream}%
+    ITEM\,—\,SHUFFLED TIME%
+  };
+
+  \node[anchor=center] at (10.5,25.9) {%
+    \fontsize{9}{11}\selectfont\color{raacream!80}%
+    \textit{5.–11. July 2026\enspace·\enspace RAA.SPACE, Mat\={i}sa iela 8, R\={i}ga}%
+  };
+
+  \node[anchor=center] at (10.5,24.85) {%
+    \fontsize{9}{11}\selectfont\color{itemgold}%
+    Presented to\enspace\textbf{\sponsor}%
+  };
+
+  \fill[raared] (0,24.15) rectangle (21,24.45);
+
+  %% ── BODY ─────────────────────────────────────────────────
+  \node[anchor=north west, text width=19cm, inner sep=0pt] at (1.0,24.0) {%
+    \begin{minipage}[t]{19cm}
+      \color{raacream}
+      \setlength{\parskip}{1.5pt}
+      \setlength{\columnsep}{0.8em}
+
+      \vspace{0.18cm}
+      \sectionrule{About the Event}
+
+      \small
+      ITEM\,—\,Shuffled Time is a seven-day performative week at RAA.SPACE in R\={i}ga.
+      Each day one artist or artist group occupies RAA's main hall — a 138\,m\textsuperscript{2}
+      space with ten windows facing Mat\={i}sa iela — for a 24-hour period to \textbf{I}nvoke,
+      \textbf{T}emper, \textbf{E}late, \textbf{M}int the space. Performances may span the full
+      24 hours or take place over a shorter duration with one or more openings. The programme
+      brings together seven distinct artistic voices across durational performance, body art,
+      experimental poetry, aromagraphy and participatory installation.
+      Curated by RAA and supported by Veldze Rado\v{s}\={a} R\={u}pn\={i}ca.
+
+      \vspace{0.1cm}
+
+      \begin{multicols}{2}
+
+        \sectionrule{Programme}
+
+        {\footnotesize\setlength{\parskip}{0pt}
+        \begin{tabular}{@{}p{1.35cm}p{5.65cm}@{}}
+        \textbf{Sun 5.07}   & \textbf{Cocoons} — Maruta Gredzena\\
+                             & Paper cocoons wearables \& installation\\[1pt]
+        \textbf{Mon 6.07}   & \textbf{Laiks Telp\={a}} — Ilze Mazpane\\
+                             & \& Jana Zari\c{n}a\\
+                             & Durational music-body-space performance\\[1pt]
+        \textbf{Tue 7.07}   & \textbf{N.3} — Ernests \={A}bi\c{k}is\\
+                             & Rope \& endurance, 18:00–24:00\\[1pt]
+        \textbf{Wed 8.07}   & \textbf{Ilze Aulmane}\\
+                             & \textit{(details to follow)}\\[1pt]
+        \textbf{Thu 9.07}   & \textbf{Presence in Absence Pt.\,2}\\
+                             & Lisette Ros\\[1pt]
+        \textbf{Fri 10.07}  & \textbf{Gluttony} — K.\,\v{S}uksta \& S.\,Murins\\
+                             & Aromagraphy performance\\[1pt]
+        \textbf{Sat 11.07}  & \textbf{Time Scores} — Vanessa Brzi\v{c}\\
+                             & Fluxus-score participatory piece\\
+        \end{tabular}
+        }
+
+        \columnbreak
+
+        \sectionrule{Audience \& Reach}
+
+        {\small
+        \begin{itemize}[leftmargin=*,itemsep=1pt,topsep=0pt]
+          \item \textbf{200+} visitors across the week
+          \item International and local artists, art professionals, curious public
+          \item Instagram \textbf{@raa\_riga} \& \textbf{@veldze.radosarupnica}:\\
+                combined \textbf{7\,000+} followers
+          \item Media reach: \textbf{100gkultura}, \textbf{riga-neighbourhood},\\
+                \textbf{arterritory.com}, \textbf{notboring.riga}
+        \end{itemize}
+        }
+
+        \vspace{0.05cm}
+        \sectionrule{Why It Matters}
+
+        {\small Live and durational performance is raw and unrepeatable.
+        ITEM places \textbf{\sponsor} at the centre of R\={i}ga's emerging
+        performance scene — in a space already recognised as a focal point
+        for the city's creative and international community.
+        Sponsorship here is a genuine cultural investment, seen and felt by
+        an audience that is engaged, curious and internationally connected.}
+
+      \end{multicols}
+
+      \vspace{0.05cm}
+
+      \sectionrule{Sponsorship Package — \texteuro\,2\,000}
+
+      {\small
+      \begin{tabularx}{19cm}{@{}>{\bfseries}p{3.3cm}X@{}}
+      Credited everywhere   & \sponsor{} acknowledged at every event, on all print materials
+                              and on the RAA.SPACE event page.\\[2pt]
+      Social media          & Dedicated posts \& stories across @raa\_riga,
+                              @veldze.radosarupnica, riga-neighbourhood, notboring.riga,
+                              100gkultura, arterritory.com (7\,000+ combined reach).\\[2pt]
+      VIP access            & 3 reserved seats per evening. Invitation to artist
+                              meet-and-greets and opening nights.\\[2pt]
+      Speaking opportunity  & Brief welcome address at the opening evening (5 Jul).\\[2pt]
+      On-site presence      & \sponsor{} display in the RAA foyer throughout the week.\\[2pt]
+      Press coverage        & Named as principal sponsor in all media communications.\\
+      \end{tabularx}
+      }
+
+      \vspace{0.3cm}
+
+      \begin{center}
+      {\footnotesize\color{mygray}
+      \textbf{RAA.SPACE} \ · \ Mat\={i}sa iela 8, R\={i}ga \ · \
+      \href{https://raa.space}{raa.space} \ · \
+      \href{mailto:enter@raa.space}{enter@raa.space} \ · \
+      @raa\_riga
+      }
+      \end{center}
+
+    \end{minipage}%
+  };
+
+\end{tikzpicture}
+
+%% ══════════════════════════════════════════════════════════
+%%  PAGES 2+ — PERFORMANCE CARDS
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=1.5cm,bottom=1.5cm,left=1.5cm,right=1.5cm}
+
+\noindent
+{\color{raared}\bfseries\large ITEM\,—\,SHUFFLED TIME}%
+{\small\color{mygray}\quad Performance Programme · 5–11 July 2026 · RAA.SPACE, R\={i}ga}%
+\\[-4pt]%
+{\color{raared}\rule{\linewidth}{0.8pt}}
+
+\vspace{0.45cm}
+
+%% ── 1 · Cocoons ─────────────────────────────────────────
+\perfcard%
+  {Sunday, 5 July}%
+  {Cocoons}%
+  {Maruta Gredzena}%
+  {img/item-cocoons.png}%
+  {Visitors are invited to choose and wear a handmade black or white paper cocoon
+   based solely on their mood — a silent, non-verbal act of self-disclosure.
+   Their accumulated choices collectively reshape the atmosphere of the space,
+   making each visitor both audience and co-author of the work. A paper sculpture
+   installation, with objects and strips descending from the ceiling, provides the
+   spatial and conceptual backdrop.}%
+  {Maruta Gredzena is a sensory-driven figurative sculptor currently moving towards
+   abstraction. She has mastered the art of paper objects and installations.
+   IG: @em.gaa}%
+
+%% ── 2 · Laiks Telpā ─────────────────────────────────────
+\perfcard%
+  {Monday, 6 July}%
+  {Laiks Telp\={a}}%
+  {Ilze Mazpane \& Jana Zari\c{n}a}%
+  {img/item-laikstelpa.jpg}%
+  {A durational performance that, using only objects found on site within RAA's
+   existing space, creates a musical-bodily-spatial experience of subjective time.
+   The work explores how time expands, contracts, rushes, stops and disappears —
+   without clock-time as guide or constraint.}%
+  {Ilze Mazpane is a performance artist from R\={i}ga with a background in
+   philosophy, visual art, experimental theatre and creative writing. She creates
+   site-specific durational performances marked by poetic sensibility and a
+   sensitive relationship with space — works that resist the tyranny of clock-time.
+   Jana Zari\c{n}a — details to follow.}%
+
+%% ── 3 · N.3 ──────────────────────────────────────────────
+\perfcard%
+  {Tuesday, 7 July}%
+  {N.3}%
+  {Ernests \={A}bi\c{k}is}%
+  {none}%
+  {Ernests arrives with a rope, wraps it around one of the gallery's columns, ties
+   the end to his leg and walks outward in widening circles — both within and beyond
+   the gallery walls — seeking distance within constraint, until physical exhaustion
+   or external factors intervene. He remains silent throughout. Intended duration:
+   18:00–24:00. Visual impression to follow.}%
+  {In his practice, Ernests \={A}bi\c{k}is devotes himself to playful exploration
+   of the mundane and undefinable aspects of reality within unrestricted forms of
+   expression.}%
+
+%% ── 4 · Ilze Aulmane ─────────────────────────────────────
+\perfcard%
+  {Wednesday, 8 July}%
+  {Ilze Aulmane}%
+  {Ilze Aulmane}%
+  {none}%
+  {We are currently finalising the concept and details for this slot together with
+   the artist. Full title, description and visual impression will be shared shortly.}%
+  {Bio to follow.}%
+
+%% ── 5 · Presence in Absence, Piece Two ───────────────────
+\perfcard%
+  {Thursday, 9 July}%
+  {Presence in Absence, Piece Two}%
+  {Lisette Ros}%
+  {img/item-presence.jpeg}%
+  {Ros will cover the gallery's expansive windows entirely with a custom-developed
+   white mixture including kefir, obscuring the space from within and concealing
+   any activity from the street. Once the mixture has hardened, she will slowly
+   scrape it away with bare nails — revealing the space incrementally, and blurring
+   the boundary between intervention, everyday action and performance. The scraped
+   material will accumulate in the space as an evolving installation.}%
+  {Lisette Ros (b.\,1991, NL) is a Dutch conceptual and performance artist with
+   Indonesian roots. Identifying as queer, woman and humanimal, her work investigates
+   identity as a construct formed through social systems and embodied experience.
+   Presented internationally at the Venice Architecture Biennale, SXSW, Van
+   Abbemuseum, Goethe Institute, MWoods Beijing, Casa L\"{u} CDMX. 2021 residency
+   with Marina Abramović.}%
+
+%% ── 6 · Gluttony ─────────────────────────────────────────
+\perfcard%
+  {Friday, 10 July}%
+  {Gluttony}%
+  {Kristi\={a}na \v{S}uksta \& Sandris Murins}%
+  {img/item-gluttony.jpg}%
+  {An experimental aromagraphy performance pairing twelve words — each coupled with
+   a distinct aroma — performed in continuously reshuffled sequences and tempos.
+   Through congruent and incongruent combinations of language and scent,
+   \textit{Gluttony} reveals how olfactory experience can reinforce, contradict or
+   transform the meaning of text — exploring desire, memory and the sensory
+   dimensions of meat consumption. Meaning emerges through ever-changing temporal
+   configurations rather than a fixed sequence.}%
+  {Sandris Murins is a Latvian artist and inventor of the Scent Camera, founder
+   of the Scent + Art Festival, promoting aromagraphy as an emerging artistic
+   language. Kristi\={a}na \v{S}uksta is a Latvian poet, performance artist and
+   technical producer of the festival Starptelpa. Her practice combines poetry and
+   live performance to explore personal experience and human relationships through
+   wit and humor.}%
+
+%% ── 7 · Time Scores ──────────────────────────────────────
+\perfcard%
+  {Saturday, 11 July}%
+  {Time Scores}%
+  {Vanessa Brzi\v{c}}%
+  {img/item-timescores.jpg}%
+  {Audience members draw Fluxus-inspired event-score cards and perform short
+   instructions involving body, objects, sound and space — rope, mirror, water,
+   scissors, an apple. Each action inherits the accumulated state left by all
+   previous ones. As the room fills with traces, the same score returns but
+   under entirely changed conditions — making the room a living metaphor for
+   social and historical time: every act opens new possibilities while carrying
+   the weight of what came before.}%
+  {Vanessa Brzi\v{c} is a cross-disciplinary artist and OIST QISS Fellow working
+   at the intersection of fundamental research, quantum information and artistic
+   practice. Details being confirmed.}%
+
+\end{document}
