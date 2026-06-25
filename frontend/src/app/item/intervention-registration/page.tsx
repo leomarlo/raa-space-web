@@ -97,8 +97,7 @@ export default function InterventionRegistrationPage() {
                     <div className="flex-1 flex flex-col justify-between gap-3">
                       <div>
                         <p className="text-xs text-[#f5f5dc]/55 mb-1 tracking-wide">
-                          {event.date} · {event.interventionTime}
-                          {event.coreTime ? ` · Core: ${event.coreTime}` : ''}
+                          {event.date} · {event.coreTime || 'All day'}
                         </p>
                         <h2 className="text-xl font-bold mb-2">{event.title}</h2>
                         <p className="text-sm text-[#f5f5dc]/75">

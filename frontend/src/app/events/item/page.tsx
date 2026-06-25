@@ -9,9 +9,11 @@ import { useLanguage } from '@/context/LanguageContext';
 type EventRow = {
   date: string;
   title: string;
+  coreTime: string;
   artists: { displayName: string; nationality: string }[];
   pageUrl: string;
   slug: string;
+  revealed: boolean;
 };
 
 const REVEAL_DATE = new Date('2026-06-27T00:00:00');
@@ -71,8 +73,8 @@ export default function ItemPage() {
                       : ''
                   }`}
                 >
-                  <span className="text-xs text-[#f5f5dc]/45 w-24 flex-shrink-0 tabular-nums">
-                    {event.date}
+                  <span className="text-xs text-[#f5f5dc]/45 flex-shrink-0 tabular-nums whitespace-nowrap">
+                    {event.date} · {event.coreTime || 'All day'}
                   </span>
                   <span className="text-sm font-semibold group-hover:text-white transition-colors">
                     {event.title}
