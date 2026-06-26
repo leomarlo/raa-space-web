@@ -5,6 +5,8 @@ import Entrance from '@/components/Entrance';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import Image from 'next/image';
+import { RegisterFormInline } from '@/components/RegisterForm';
+import { RegisterFormProps } from '@/types/main';
 
 type Artist = {
   displayName: string;
@@ -28,15 +30,13 @@ type ItemEvent = {
   pageUrl: string;
   slug: string;
   revealed: boolean;
+  visitType: 'group-visit' | 'workshop';
 };
 
-const REGISTRATION_OPENS = new Date('2026-06-26T00:00:00');
+const REGISTRATION_OPENS = new Date('2026-06-26T17:00:00Z'); // 20:00 EEST
 
-function handleRegisterClick(e: React.MouseEvent<HTMLAnchorElement>) {
-  if (new Date() < REGISTRATION_OPENS) {
-    e.preventDefault();
-    alert('Registration opens on the 26th of June.');
-  }
+function registrationOpen(): boolean {
+  return new Date() >= REGISTRATION_OPENS;
 }
 
 export default function InterventionRegistrationPage() {
@@ -45,6 +45,19 @@ export default function InterventionRegistrationPage() {
 
   const feature = t.program.features.item;
   const events = feature.events as ItemEvent[];
+
+  function visitLabel(event: ItemEvent): string {
+    return event.visitType === 'workshop' ? 'Workshop' : 'Group visit';
+  }
+
+  function makeRegFormProps(event: ItemEvent): RegisterFormProps {
+    return {
+      title: '',
+      description: `Register for ${visitLabel(event)}: "${event.title}" — ${event.date}`,
+      placeholder: t.registerWorkshop.placeholder,
+      submit: t.registerWorkshop.submit,
+    };
+  }
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
@@ -66,7 +79,7 @@ export default function InterventionRegistrationPage() {
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
         <div className="max-w-4xl w-full bg-black/70 p-6 sm:p-8 rounded-lg shadow-lg">
           <h1 className="text-3xl sm:text-4xl font-bold mb-4 text-center">{feature.title}</h1>
-          <p className="text-center mb-8 text-[#f5f5dc]/75 leading-relaxed whitespace-pre-line text-sm sm:text-base">
+          <p className="text-center mb-8 text-[#f5f5dc]/80 leading-relaxed whitespace-pre-line text-base sm:text-lg">
             {feature.description}
           </p>
 
@@ -75,53 +88,64 @@ export default function InterventionRegistrationPage() {
             {events.map((event, index) => (
               <div key={index}>
                 <div
-                  className={`py-6 transition-all duration-300 ${
+                  className={`py-7 transition-all duration-300 ${
                     !event.revealed ? 'blur-[3px] select-none pointer-events-none' : ''
                   }`}
                 >
                   <div className="flex flex-col sm:flex-row gap-4 sm:gap-6">
                     {/* Theme image */}
-                    <div className="flex-shrink-0 w-full sm:w-36">
-                      <div className="relative h-44 w-full">
+                    <div className="flex-shrink-0 w-full sm:w-40">
+                      <div className="relative h-48 w-full">
                         <Image
                           src={event.themeImage}
                           alt={event.title}
                           fill
                           className="object-cover rounded"
-                          sizes="(max-width: 640px) 100vw, 144px"
+                          sizes="(max-width: 640px) 100vw, 160px"
                         />
                       </div>
                     </div>
 
                     {/* Event info */}
-                    <div className="flex-1 flex flex-col justify-between gap-3">
+                    <div className="flex-1 flex flex-col justify-between gap-4">
                       <div>
-                        <p className="text-xs text-[#f5f5dc]/55 mb-1 tracking-wide">
-                          {event.date} · {event.coreTime || 'All day'}
-                        </p>
-                        <h2 className="text-xl font-bold mb-2">{event.title}</h2>
-                        <p className="text-sm text-[#f5f5dc]/75">
+                        {/* Tag + date/time on same row */}
+                        <div className="flex items-center gap-3 mb-2 flex-wrap">
+                          <span className={`text-sm px-3 py-1 rounded-full font-semibold ${
+                            event.visitType === 'workshop'
+                              ? 'bg-[#8B0000] text-[#f5f5dc]'
+                              : 'bg-[#f5f5dc]/20 text-[#f5f5dc]'
+                          }`}>
+                            {event.visitType === 'workshop' ? 'Workshop' : 'Group visit'}
+                          </span>
+                          <span className="text-base font-medium text-[#f5f5dc] tabular-nums">
+                            {event.date} · {event.interventionTime || '—'}
+                          </span>
+                        </div>
+                        <h2 className="text-2xl font-bold mb-1">{event.title}</h2>
+                        <p className="text-base text-[#f5f5dc]/70">
                           {event.artists.map((a, i) => (
                             <span key={i}>
                               {a.displayName}{' '}
-                              <span className="text-[#f5f5dc]/45 text-xs">({a.nationality})</span>
+                              <span className="text-[#f5f5dc]/45 text-sm">({a.nationality})</span>
                               {i < event.artists.length - 1 ? ', ' : ''}
                             </span>
                           ))}
                         </p>
                       </div>
 
-                      {/* Register button */}
+                      {/* Registration form */}
                       <div>
-                        <a
-                          href={event.registrationUrl}
-                          target="_blank"
-                          rel="noopener noreferrer"
-                          onClick={handleRegisterClick}
-                          className="inline-block border border-[#f5f5dc] px-4 py-2 text-xs sm:text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
-                        >
-                          Register for &ldquo;{event.title}&rdquo; on {event.date}
-                        </a>
+                        {registrationOpen() ? (
+                          <RegisterFormInline
+                            registerFormProps={makeRegFormProps(event)}
+                            link={event.registrationUrl}
+                          />
+                        ) : (
+                          <p className="text-sm text-[#f5f5dc]/85">
+                            Registration for {visitLabel(event)} opens at 20:00 (Riga time) on the 26th of June.
+                          </p>
+                        )}
                       </div>
                     </div>
                   </div>

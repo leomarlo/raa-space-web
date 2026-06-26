@@ -1186,30 +1186,31 @@
     },
     "features": {
       "item": {
-        "title": "ITEM — Intervention Registration",
-        "description": "On each day there is a pre-scheduled intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
+        "title": "ITEM — Sign up for a group visit or workshop",
+        "description": "On each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
         "events": [
           {
             "date": "05.07.2026",
-            "title": "Aulmane",
-            "description": "",
+            "title": "Words to Change the World",
+            "description": "30 minutes\n\nThe three words of the title are an invitation to question, challenge, and reflect. Do we need, want, or have the power to change the world? And are there words capable of doing so? What do we mean when we speak of \"changing the world\" — politics, ecosystems, social environments, or our own perceptions and ways of living?\nDuring the performance, Ilze Aulmane will create a space for this invitation through breath, sound, letters, syllables, unfamiliar words, and performative objects.",
             "artists": [
               {
                 "displayName": "Ilze Aulmane",
-                "image": "/assets/item/05_7_aulmane/aulmane.png",
+                "image": "/assets/item/05_7_words_to_change_the_world/profile.jpeg",
                 "ig": "ilsy_aulman",
                 "nationality": "LV"
               }
             ],
             "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
-            "interventionTime": "19:00",
-            "coreTime": "",
-            "themeImage": "/assets/item/05_7_aulmane/aulmane.png",
+            "interventionTime": "19:30",
+            "coreTime": "19:00 – 20:30",
+            "themeImage": "/assets/item/05_7_words_to_change_the_world/performance.jpeg",
             "revealed": false,
-            "slug": "aulmane",
-            "bio": "",
+            "slug": "words-to-change-the-world",
+            "bio": "Ilze Aulmane is a cross-disciplinary artist working across installation, photography, painting, sound, performance and moving image. Aulmane has done several performances comprising vocal improvisation, prerecorded sound pieces and collaborations with electronic and acoustic musicians. She has developed her own experimental vocal technique, drawing on ideas related to the origins of scat singing, as well as the enduring human impulse to hum and create songs spontaneously in everyday life. Aulmane begins with something accessible, like voice and a mobile phone recorder, and finishes with a multilayered maze of ideas. Accessibility appeases urgency. In her practice, Aulmane employs the logic of perpetual adolescence, where fragmented and layered images and objects, both visual and acoustic, shifting bodily presences, and movements of perception form restless spatial compositions in which the personal and the universal continuously overlap.\n\nIlze Aulmane received both BA and MA degrees from the Art Academy of Latvia and graduated from the Royal Academy Schools, London, in 2024. Alongside her academic pursuits, she has maintained a longstanding interest in sound and has studied the fundamentals of both classical and jazz vocals.",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "/item/words-to-change-the-world",
+            "visitType": "group-visit"
           },
           {
             "date": "06.07.2026",
@@ -1231,12 +1232,13 @@
             "slug": "now",
             "bio": "Maruta Gredzena is interested in what happens when nothing stays still. A life shaped by continual relocation has shifted her practice from making objects to creating spaces for interaction.\n\nRooted in porcelain and ceramic sculpture and expanded through graphic art, her practice now unfolds through installations that use paper, material, and playfulness to explore communication beyond language.\n\nWandering between the Baltic coast and the Iberian Peninsula has cultivated a migratory way of working. Drawn to places that feel temporarily safe, she treats movement as both method and subject, transforming displacement into encounters where form, color, pattern and participation become a shared language.",
             "instagramPost": "https://www.instagram.com/p/DaAdJQ-I71G/",
-            "pageUrl": "/item/now"
+            "pageUrl": "/item/now",
+            "visitType": "group-visit"
           },
           {
             "date": "07.07.2026",
             "title": "N.3",
-            "description": "Ernests will arrive with a rope, initially wrapping it around one of the gallery’s columns. He will then tie the end of it to his leg and walk around the column, attempting to distance himself by making wide circles both within the gallery space and beyond its walls. The piece has no strict time limit, but the intended duration is from 18:00 to 24:00.",
+            "description": "The binding conviction in the existence of two opposites always makes one wander in confusion.\n\nErnests will arrive with a rope, initially wrapping it around one of the gallery's columns. He will then tie the end of it to his leg and walk around the column, attempting to distance himself by making wide circles both within the gallery space and beyond its walls. This action will continue until physical exhaustion or until he is stopped by external factors. If he manages to break free from the column, he may attempt to wrap the rope around it once again. Should Ernests need a momentary rest, he will do so without fully interrupting the piece. He will remain silent throughout the performance. The piece has no strict time limit, but the intended duration is from 18:00 to 24:00.",
             "artists": [
               {
                 "displayName": "Ernests Ā",
@@ -1245,15 +1247,16 @@
                 "nationality": "LV"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/xvzjapyy",
             "interventionTime": "19:00",
-            "coreTime": "18:00 – 24:00",
-            "themeImage": "/assets/item/07_7_N.3/rope.jpeg",
-            "revealed": false,
+            "coreTime": "18:00 – open end",
+            "themeImage": "/assets/item/07_7_N.3/N.3.png",
+            "revealed": true,
             "slug": "n3",
-            "bio": "",
+            "bio": "In his practice, Ernests Ā devotes himself to playful exploration of the mundane and undefinable aspects of reality within unrestricted forms of expression.",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "/item/N_3",
+            "visitType": "group-visit"
           },
           {
             "date": "08.07.2026",
@@ -1281,7 +1284,8 @@
             "slug": "gluttony",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           },
           {
             "date": "09.07.2026",
@@ -1304,7 +1308,8 @@
             "slug": "presence-in-absence-piece-3",
             "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
             "instagramPost": "",
-            "pageUrl": "/item/presenceinabsence_piecethree"
+            "pageUrl": "/item/presenceinabsence_piecethree",
+            "visitType": "workshop"
           },
           {
             "date": "10.07.2026",
@@ -1326,7 +1331,8 @@
             "slug": "timescores",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           },
           {
             "date": "11.07.2026",
@@ -1354,7 +1360,8 @@
             "slug": "laiks-telpa",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           }
         ]
       }

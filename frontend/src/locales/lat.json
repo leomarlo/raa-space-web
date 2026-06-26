@@ -1189,30 +1189,31 @@
     },
     "features": {
       "item": {
-        "title": "ITEM — Pieteikties apmeklēt",
-        "description": "Teksts pieejams tikai angļu valodā.\n\nOn each day there is a pre-scheduled intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
+        "title": "ITEM — Pieteikties grupas apmeklējumam vai darbnīcai",
+        "description": "Teksts pieejams tikai angļu valodā.\n\nOn each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
         "events": [
           {
             "date": "05.07.2026",
-            "title": "Aulmane",
-            "description": "",
+            "title": "Vārdi Pasaules Mainīšanai",
+            "description": "30 minūtes\n\nNosaukuma trīs vārdi ir uzaicinajums uzdot jautājumus, apšaubīt, secināt. Vai vajag, var un gribas mainīt pasauli un vai ir tādi vārdi, kuri to spej darīt. Un ko mēs domājam, kad sakam - mainīt pasauli - politiku, ekosistēmu, sociālo vidi vai mūsu pašu uztveri un dzīvesveidu?\nPerformances laikā Ilze Aulmane radīs vidi šim uzaicinajumam ar elpu, skaņu, burtiem, zilbēm, nepazīstamiem vārdiem un performatīviem objektiem.",
             "artists": [
               {
                 "displayName": "Ilze Aulmane",
-                "image": "/assets/item/05_7_aulmane/aulmane.png",
+                "image": "/assets/item/05_7_words_to_change_the_world/profile.jpeg",
                 "ig": "ilsy_aulman",
                 "nationality": "LV"
               }
             ],
             "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
-            "interventionTime": "19:00",
-            "coreTime": "",
-            "themeImage": "/assets/item/05_7_aulmane/aulmane.png",
+            "interventionTime": "19:30",
+            "coreTime": "19:00 – 20:30",
+            "themeImage": "/assets/item/05_7_words_to_change_the_world/performance.jpeg",
             "revealed": false,
-            "slug": "aulmane",
-            "bio": "",
+            "slug": "words-to-change-the-world",
+            "bio": "Ilze Aulmane ir starpdisciplināra māksliniece, kura strādā instalācijas, fotogrāfijas, glezniecības, skaņas, performances un kustīgā attēla jomās. Aulmane ir radījusi vairākas performances, kurās apvienota vokālā improvizācija, iepriekš ierakstīti skaņdarbi un sadarbības ar elektroniskās un akustiskās mūzikas māksliniekiem. Viņa ir attīstījusi savu eksperimentālo vokālo tehniku, balstoties idejās par sketsinginga (scat singing) izcelsmi, kā arī cilvēkam raksturīgo un nemainīgo tieksmi dungot un spontāni radīt dziesmas ikdienā. Aulmane sāk ar kaut ko pieejamu — balsi un mobilā telefona ierakstītāju — un nonāk līdz daudzslāņainam ideju labirintam. Pieejamība remdē steidzamību. Savā praksē Aulmane izmanto mūžīgas pusaudzības loģiku, kurā fragmentēti un slāņaini attēli un objekti, gan vizuāli, gan akustiski, mainīgas ķermeniskas klātbūtnes un uztveres kustības veido nemierīgas telpiskas kompozīcijas, kur personiskais un universālais nepārtraukti pārklājas.\n\nIlze Aulmane ieguvusi bakalaura un maģistra grādu Latvijas Mākslas akadēmijā, kā arī 2024. gadā absolvējusi Royal Academy Schools Londonā. Paralēli akadēmiskajai darbībai viņa ilgstoši interesējusies par skaņu un guvusi ieskatu gan klasiskā, gan džeza vokāla pamatos.",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "/item/words-to-change-the-world",
+            "visitType": "group-visit"
           },
           {
             "date": "06.07.2026",
@@ -1234,12 +1235,13 @@
             "slug": "now",
             "bio": "Maruta Gredzena is interested in what happens when nothing stays still. A life shaped by continual relocation has shifted her practice from making objects to creating spaces for interaction.\n\nRooted in porcelain and ceramic sculpture and expanded through graphic art, her practice now unfolds through installations that use paper, material, and playfulness to explore communication beyond language.\n\nWandering between the Baltic coast and the Iberian Peninsula has cultivated a migratory way of working. Drawn to places that feel temporarily safe, she treats movement as both method and subject, transforming displacement into encounters where form, color, pattern and participation become a shared language.",
             "instagramPost": "https://www.instagram.com/p/DaAdJQ-I71G/",
-            "pageUrl": "/item/now"
+            "pageUrl": "/item/now",
+            "visitType": "group-visit"
           },
           {
             "date": "07.07.2026",
             "title": "N.3",
-            "description": "Ernests will arrive with a rope, initially wrapping it around one of the gallery’s columns. He will then tie the end of it to his leg and walk around the column, attempting to distance himself by making wide circles both within the gallery space and beyond its walls. The piece has no strict time limit, but the intended duration is from 18:00 to 24:00.",
+            "description": "Saistošā pārliecība par divu pretstatu esamību vienmēr liek apjukumā maldīties.\n\nErnests ieradīsies ar virvi, ko vispirms aptīs ap vienu no galerijas kolonnām, bet pēc tam tās galu piesies sev pie kājas un ies apkārt kolonnai, cenšoties no tās attālināties, metot lokus gan galerijā, gan ārpus tās sienām, līdz spēku izsīkumam vai arī, ja viņu apturēs ārējie faktori. Ja viņam izdosies atbrīvoties no kolonnas, iespējams, viņš centīsies apritināt virvi no jauna. Ja Ernests jutīs, ka nepieciešams uz brīdi atpūsties, viņš to darīs, nepārtraucot performanci pilnībā. Performances laikā Ernests nerunās. Performances ilgums nav ierobežots, bet ieplānotais laiks ir no 18:00 līdz 24:00.",
             "artists": [
               {
                 "displayName": "Ernests Ā",
@@ -1248,15 +1250,16 @@
                 "nationality": "LV"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/xvzjapyy",
             "interventionTime": "19:00",
-            "coreTime": "18:00 – 24:00",
-            "themeImage": "/assets/item/07_7_N.3/rope.jpeg",
-            "revealed": false,
+            "coreTime": "18:00 – open end",
+            "themeImage": "/assets/item/07_7_N.3/N.3.png",
+            "revealed": true,
             "slug": "n3",
-            "bio": "",
+            "bio": "Savā praksē Ernests Ā nododas rotaļīgai realitātes ikdienišķo un nedefinējamo aspektu izpētei neierobežotās izteiksmes formās.",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "/item/N_3",
+            "visitType": "group-visit"
           },
           {
             "date": "08.07.2026",
@@ -1284,7 +1287,8 @@
             "slug": "gluttony",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           },
           {
             "date": "09.07.2026",
@@ -1307,7 +1311,8 @@
             "slug": "presence-in-absence-piece-3",
             "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
             "instagramPost": "",
-            "pageUrl": "/item/presenceinabsence_piecethree"
+            "pageUrl": "/item/presenceinabsence_piecethree",
+            "visitType": "workshop"
           },
           {
             "date": "10.07.2026",
@@ -1329,7 +1334,8 @@
             "slug": "timescores",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           },
           {
             "date": "11.07.2026",
@@ -1357,7 +1363,8 @@
             "slug": "laiks-telpa",
             "bio": "",
             "instagramPost": "",
-            "pageUrl": ""
+            "pageUrl": "",
+            "visitType": "group-visit"
           }
         ]
       }

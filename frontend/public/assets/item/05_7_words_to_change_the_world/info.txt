@@ -1,0 +1,3 @@
+intervention: 19.30
+core: 19:00 - 20:30
+IG: Ilze Aulmane (@ilsy_aulman)

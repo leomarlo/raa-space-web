@@ -36,12 +36,12 @@ type ItemEvent = {
 
 const REGISTRATION_OPENS = new Date('2026-06-26T17:00:00Z'); // 20:00 EEST
 
-export default function PresenceInAbsencePieceThreePage() {
+export default function WordsToChangeTheWorldPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
   const allEvents = t.program.features.item.events as ItemEvent[];
-  const event = allEvents.find((e) => e.slug === 'presence-in-absence-piece-3')!;
+  const event = allEvents.find((e) => e.slug === 'words-to-change-the-world')!;
 
   const visitLabel = event.visitType === 'workshop' ? 'Workshop' : 'Group visit';
 
@@ -114,8 +114,8 @@ export default function PresenceInAbsencePieceThreePage() {
               <Image
                 src={event.themeImage}
                 alt={event.title}
-                width={400}
-                height={600}
+                width={540}
+                height={675}
                 className="w-full h-auto rounded-lg"
               />
             </div>
@@ -147,24 +147,6 @@ export default function PresenceInAbsencePieceThreePage() {
             </div>
           )}
 
-          {/* Additional images */}
-          <div className="border-t border-[#f5f5dc]/20 pt-6 mb-8 grid grid-cols-2 gap-4">
-            <Image
-              src="/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence1.jpeg"
-              alt="Presence in Absence 1"
-              width={540}
-              height={540}
-              className="w-full h-auto rounded"
-            />
-            <Image
-              src="/assets/item/09_7_presenceinabsencepiece3/presenceInAbsence3.jpeg"
-              alt="Presence in Absence 3"
-              width={540}
-              height={540}
-              className="w-full h-auto rounded"
-            />
-          </div>
-
           {/* Bottom links */}
           <div className="border-t border-[#f5f5dc]/20 pt-6 flex flex-wrap gap-3 justify-center mb-6">
             {event.instagramPost && (
@@ -175,16 +157,6 @@ export default function PresenceInAbsencePieceThreePage() {
                 className="inline-block border border-[#f5f5dc] px-5 py-2 text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
               >
                 Instagram Post
-              </a>
-            )}
-            {event.artists[0]?.url && (
-              <a
-                href={event.artists[0].url}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-block border border-[#f5f5dc] px-5 py-2 text-sm hover:bg-[#f5f5dc] hover:text-black transition-colors"
-              >
-                lisetteros.com
               </a>
             )}
             <Link
