@@ -10,6 +10,7 @@ type EventRow = {
   date: string;
   title: string;
   coreTime: string;
+  interventionTime: string;
   artists: { displayName: string; nationality: string }[];
   pageUrl: string;
   slug: string;
@@ -18,16 +19,6 @@ type EventRow = {
 
 const REVEAL_DATE = new Date('2026-06-27T00:00:00');
 
-function handleRowClick(e: React.MouseEvent, pageUrl: string) {
-  if (new Date() < REVEAL_DATE) {
-    e.preventDefault();
-    alert('Performances will be revealed on the 26th of June.');
-    return;
-  }
-  if (!pageUrl) {
-    e.preventDefault();
-  }
-}
 
 export default function ItemPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -56,40 +47,70 @@ export default function ItemPage() {
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
         <EventPageContent event={t.program.items.item}>
 
-          {/* Program rows */}
+          {/* Programme rows */}
           <div className="mt-8 mb-2">
             <h2 className="text-xs uppercase tracking-widest text-[#f5f5dc]/50 mb-3">
-              Program
+              Programme
             </h2>
+            {/* Header row */}
+            <div className="hidden sm:grid sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 pb-1 mb-1 border-b border-[#f5f5dc]/20 text-[10px] uppercase tracking-widest text-[#f5f5dc]/35">
+              <span>Date</span>
+              <span>Performance</span>
+              <span>Performance time</span>
+              <span>Group visit</span>
+            </div>
             <div>
-              {events.map((event, i) => (
-                <a
-                  key={i}
-                  href={event.pageUrl || '#'}
-                  onClick={(e) => handleRowClick(e, event.pageUrl)}
-                  className={`flex flex-col sm:flex-row sm:items-baseline gap-0.5 sm:gap-3 py-2.5 border-b border-[#f5f5dc]/15 hover:bg-[#f5f5dc]/5 px-1 -mx-1 transition-colors group cursor-pointer ${
-                    !revealed && !(event as unknown as { revealed: boolean }).revealed
-                      ? 'blur-[3px] select-none'
-                      : ''
-                  }`}
-                >
-                  <span className="text-xs text-[#f5f5dc]/45 flex-shrink-0 tabular-nums whitespace-nowrap">
-                    {event.date} · {event.coreTime || 'All day'}
-                  </span>
-                  <span className="text-sm font-semibold group-hover:text-white transition-colors">
-                    {event.title}
-                  </span>
-                  <span className="text-xs text-[#f5f5dc]/55 sm:ml-auto">
-                    {event.artists.map((a, j) => (
-                      <span key={j}>
-                        {a.displayName}{' '}
-                        <span className="text-[#f5f5dc]/35">({a.nationality})</span>
-                        {j < event.artists.length - 1 ? ', ' : ''}
+              {events.map((event, i) => {
+                const rowRevealed = revealed || (event as unknown as { revealed: boolean }).revealed;
+                return (
+                  <div
+                    key={i}
+                    onClick={() => {
+                      if (!rowRevealed) {
+                        alert('Performances will be revealed on the 26th of June.');
+                        return;
+                      }
+                      if (event.pageUrl) window.location.href = event.pageUrl;
+                    }}
+                    className={`grid grid-cols-1 sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 gap-y-0.5 py-2.5 border-b border-[#f5f5dc]/15 hover:bg-[#f5f5dc]/5 px-1 -mx-1 transition-colors group cursor-pointer ${
+                      !rowRevealed ? 'blur-[3px] select-none pointer-events-none' : ''
+                    }`}
+                  >
+                    {/* Date */}
+                    <span className="text-sm font-medium text-[#f5f5dc]/80 tabular-nums whitespace-nowrap">
+                      {event.date}
+                    </span>
+                    {/* Title + artists */}
+                    <span className="flex flex-col sm:flex-row sm:items-baseline gap-1 sm:gap-3">
+                      <span className="text-sm font-semibold group-hover:text-white transition-colors">
+                        {event.title}
                       </span>
-                    ))}
-                  </span>
-                </a>
-              ))}
+                      <span className="text-xs text-[#f5f5dc]/50">
+                        {event.artists.map((a, j) => (
+                          <span key={j}>
+                            {a.displayName}{' '}
+                            <span className="text-[#f5f5dc]/30">({a.nationality})</span>
+                            {j < event.artists.length - 1 ? ', ' : ''}
+                          </span>
+                        ))}
+                      </span>
+                    </span>
+                    {/* Core time */}
+                    <span className="text-xs text-[#f5f5dc]/55 tabular-nums whitespace-nowrap sm:pt-0.5">
+                      {event.coreTime || 'All day'}
+                    </span>
+                    {/* Group visit (intervention) time — separate link */}
+                    <span className="text-xs tabular-nums whitespace-nowrap sm:pt-0.5" onClick={(e) => e.stopPropagation()}>
+                      <a
+                        href="/item/intervention-registration"
+                        className="text-[#f5f5dc]/55 underline decoration-dotted hover:text-[#f5f5dc] transition-colors"
+                      >
+                        {event.interventionTime || '—'}
+                      </a>
+                    </span>
+                  </div>
+                );
+              })}
             </div>
           </div>
 
@@ -99,9 +120,9 @@ export default function ItemPage() {
               <a
                 href={t.program.items.item.externalLink}
                 rel="noopener noreferrer"
-                className="inline-block bg-[#8B0000] border border-[#8B0000] text-[#f5f5dc] px-8 py-3 text-base font-bold tracking-wide hover:bg-[#a00000] hover:border-[#a00000] transition-colors"
+                className="inline-block border border-[#f5f5dc]/50 text-[#f5f5dc]/70 px-6 py-2 text-sm tracking-wide hover:border-[#f5f5dc] hover:text-[#f5f5dc] transition-colors"
               >
-                {t.program.items.item.externalLinkText}
+                Register for a scheduled group visit to the performance
               </a>
             </div>
           )}

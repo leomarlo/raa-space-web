@@ -6,6 +6,8 @@ import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import Image from 'next/image';
 import Link from 'next/link';
+import { RegisterFormInline } from '@/components/RegisterForm';
+import { RegisterFormProps } from '@/types/main';
 
 type Artist = {
   displayName: string;
@@ -29,9 +31,10 @@ type ItemEvent = {
   pageUrl: string;
   slug: string;
   revealed: boolean;
+  visitType: 'group-visit' | 'workshop';
 };
 
-const REGISTRATION_OPENS = new Date('2026-06-26T00:00:00');
+const REGISTRATION_OPENS = new Date('2026-06-26T17:00:00Z'); // 20:00 EEST
 
 export default function NowPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -40,12 +43,16 @@ export default function NowPage() {
   const allEvents = t.program.features.item.events as ItemEvent[];
   const event = allEvents.find((e) => e.slug === 'now')!;
 
-  function handleRegisterClick(ev: React.MouseEvent<HTMLAnchorElement>) {
-    if (new Date() < REGISTRATION_OPENS) {
-      ev.preventDefault();
-      alert('Registration opens on the 26th of June.');
-    }
-  }
+  const visitLabel = event.visitType === 'workshop' ? 'Workshop' : 'Group visit';
+
+  const regFormProps: RegisterFormProps = {
+    title: '',
+    description: `Register for ${visitLabel}: "${event.title}" — ${event.date}`,
+    placeholder: t.registerWorkshop.placeholder,
+    submit: t.registerWorkshop.submit,
+  };
+
+  const isOpen = new Date() >= REGISTRATION_OPENS;
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
@@ -141,7 +148,7 @@ export default function NowPage() {
           )}
 
           {/* Bottom links */}
-          <div className="border-t border-[#f5f5dc]/20 pt-6 flex flex-wrap gap-3 justify-center">
+          <div className="border-t border-[#f5f5dc]/20 pt-6 flex flex-wrap gap-3 justify-center mb-6">
             {event.instagramPost && (
               <a
                 href={event.instagramPost}
@@ -158,15 +165,17 @@ export default function NowPage() {
             >
               ITEM — Shuffled Time
             </Link>
-            <a
-              href={event.registrationUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={handleRegisterClick}
-              className="inline-block bg-[#8B0000] border border-[#8B0000] text-[#f5f5dc] px-5 py-2 text-sm font-bold hover:bg-[#a00000] hover:border-[#a00000] transition-colors"
-            >
-              Register for this intervention
-            </a>
+          </div>
+
+          {/* Registration */}
+          <div className="border-t border-[#f5f5dc]/20 pt-6">
+            {isOpen ? (
+              <RegisterFormInline registerFormProps={regFormProps} link={event.registrationUrl} />
+            ) : (
+              <p className="text-center text-sm text-[#f5f5dc]/85">
+                Registration for {visitLabel} opens at 20:00 (Riga time) on the 26th of June.
+              </p>
+            )}
           </div>
 
         </div>
