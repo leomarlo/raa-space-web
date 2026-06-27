@@ -17,15 +17,11 @@ type EventRow = {
   revealed: boolean;
 };
 
-const REVEAL_DATE = new Date('2026-06-27T00:00:00');
-
-
 export default function ItemPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
   const events = t.program.features.item.events as EventRow[];
-  const revealed = new Date() >= REVEAL_DATE;
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
@@ -61,7 +57,7 @@ export default function ItemPage() {
             </div>
             <div>
               {events.map((event, i) => {
-                const rowRevealed = revealed || (event as unknown as { revealed: boolean }).revealed;
+                const rowRevealed = (event as unknown as { revealed: boolean }).revealed;
                 return (
                   <div
                     key={i}

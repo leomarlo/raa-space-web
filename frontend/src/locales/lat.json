@@ -1204,11 +1204,11 @@
                 "nationality": "LV"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/xlgybqnr",
             "interventionTime": "19:30",
             "coreTime": "19:00 – 20:30",
             "themeImage": "/assets/item/05_7_words_to_change_the_world/performance.jpeg",
-            "revealed": false,
+            "revealed": true,
             "slug": "words-to-change-the-world",
             "bio": "Ilze Aulmane ir starpdisciplināra māksliniece, kura strādā instalācijas, fotogrāfijas, glezniecības, skaņas, performances un kustīgā attēla jomās. Aulmane ir radījusi vairākas performances, kurās apvienota vokālā improvizācija, iepriekš ierakstīti skaņdarbi un sadarbības ar elektroniskās un akustiskās mūzikas māksliniekiem. Viņa ir attīstījusi savu eksperimentālo vokālo tehniku, balstoties idejās par sketsinginga (scat singing) izcelsmi, kā arī cilvēkam raksturīgo un nemainīgo tieksmi dungot un spontāni radīt dziesmas ikdienā. Aulmane sāk ar kaut ko pieejamu — balsi un mobilā telefona ierakstītāju — un nonāk līdz daudzslāņainam ideju labirintam. Pieejamība remdē steidzamību. Savā praksē Aulmane izmanto mūžīgas pusaudzības loģiku, kurā fragmentēti un slāņaini attēli un objekti, gan vizuāli, gan akustiski, mainīgas ķermeniskas klātbūtnes un uztveres kustības veido nemierīgas telpiskas kompozīcijas, kur personiskais un universālais nepārtraukti pārklājas.\n\nIlze Aulmane ieguvusi bakalaura un maģistra grādu Latvijas Mākslas akadēmijā, kā arī 2024. gadā absolvējusi Royal Academy Schools Londonā. Paralēli akadēmiskajai darbībai viņa ilgstoši interesējusies par skaņu un guvusi ieskatu gan klasiskā, gan džeza vokāla pamatos.",
             "instagramPost": "",
@@ -1264,7 +1264,7 @@
           {
             "date": "08.07.2026",
             "title": "Gluttony",
-            "description": "An experimental performance exploring meat consumption through the combination of poetry and scent. By combining language, olfaction, and time, Gluttony invites the audience to construct personal meanings and reflect on desire, memory, and the sensory dimensions of meat consumption.",
+            "description": "Gluttony is an experimental performance exploring meat consumption through the combination of poetry and scent. By combining language, olfaction, and time, Gluttony invites the audience to construct personal meanings and reflect on desire, memory, and the sensory dimensions of meat consumption. The performance develops the language of aromagraphy by demonstrating how sequences of text and scent create new emotional and conceptual layers of meaning.\n\nBuilt from twelve words, each paired with its own distinct aroma, the work continuously varies the sequence, tempo, and pauses between reading and smelling. Through both congruent and incongruent relationships between language and scent, the performance reveals how olfactory experience can reinforce, contradict, or transform the interpretation of a text, producing multiple possible readings and sensory narratives.\n\nBy constantly reshuffling the order and timing of words and scents, the performance disrupts linear chronology and creates a form of shuffled time, where meaning emerges through ever-changing temporal configurations rather than a fixed sequence. Each iteration reorders memory and anticipation, allowing past associations and present sensations to coexist in new and unpredictable ways.",
             "artists": [
               {
                 "displayName": "Kristīāna Šuksta",
@@ -1279,15 +1279,15 @@
                 "nationality": "LV"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/mvzjaeqr",
             "interventionTime": "19:00",
-            "coreTime": "",
-            "themeImage": "/assets/item/08_7_gluttony/13.jpg.jpeg",
-            "revealed": false,
+            "coreTime": "19:00 – 20:30",
+            "themeImage": "/assets/item/08_7_gluttony/gluttony.png",
+            "revealed": true,
             "slug": "gluttony",
-            "bio": "",
+            "bio": "Sandris Muriņš\n\nSandris Muriņš is a Latvian artist, inventor, and researcher working at the intersection of scent, technology, and contemporary art. He is the inventor of the Scent Camera, an experimental device designed to capture, store, and reproduce odors, expanding the possibilities of sensory documentation beyond photography and sound recording.\n\nAs the founder and director of the Scent + Art Festival, Muriņš actively promotes aromagraphy as an emerging artistic discipline in which scent functions as a key medium of multisensoriality for storytelling, memory, and spatial experience. His multisensory performances and installations combine smell with the body, text, sound, and visual elements to provoke reflection on perception, identity, and contemporary culture, challenging audiences to experience art through embodied and often overlooked senses.\n\nKristiāna Šuksta\n\nKristiāna Šuksta is a Latvian poet, performance artist, and technical producer of the performance festival Starptelpa. Her artistic practice combines poetry and live performance to create self-reflective works that explore personal experience, everyday life, and human relationships through wit and humor.\n\nWorking across literature and performance, Šuksta embraces experimentation and audience engagement, often using playful language and performative situations to reveal deeper emotional and social layers. Her work balances introspection with irony, inviting viewers to reflect on themselves while maintaining a sense of lightness, curiosity, and critical awareness.",
             "instagramPost": "",
-            "pageUrl": "",
+            "pageUrl": "/item/gluttony",
             "visitType": "group-visit"
           },
           {
@@ -1316,31 +1316,32 @@
           },
           {
             "date": "10.07.2026",
-            "title": "Timescores",
-            "description": "The performance situates social and historical conditions inside an evolving room. Audience members draw cards from decks of event scores — short instructions that produce actions involving the body, objects, sound, and space.",
+            "title": "Time Scores",
+            "description": "The performance unfolds inside a room that changes over time. At the beginning, the space contains a body, a set of objects, and a series of event-score cards: short, open-ended instructions that invite actions such as cutting, tying, spilling, recording, producing sound, and so on. Audience members draw and perform these scores, gradually transforming the room through gestures, traces, sounds, relations, and disruptions. As the work progresses, the same kinds of actions return, but never under the same conditions. An instruction such as \"cut\" or \"spill\" shifts from pure potentiality into an action whose meaning depends on the relations already formed in space and time: on what has been moved, connected, broken, recorded, or left behind. Each action inherits the consequences of previous actions while opening new possibilities for what can happen next. Inspired by Fluxus event scores, the piece treats the room as a metaphor for social and historical time: a space shaped by accumulation, instability, memory, and adjustment. Through the interaction between performer, audience, objects, and traces, the work explores how new meaning emerges in changing conditions.",
             "artists": [
               {
                 "displayName": "Vanessa Brzić",
-                "image": "/assets/item/10_7_timescores/vanessa.jpg",
+                "image": "/assets/item/10_7_timescores/me1.jpg",
+                "ig": "vbrzic",
                 "url": "https://inspirehep.net/authors/3072683",
                 "nationality": "HR"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/mjgqwnlj",
             "interventionTime": "19:00",
             "coreTime": "",
             "themeImage": "/assets/item/10_7_timescores/promo_photo.jpeg",
-            "revealed": false,
+            "revealed": true,
             "slug": "timescores",
-            "bio": "",
+            "bio": "Vanessa Brzić works across theoretical physics, experimental theatre, photography, and performance. Originally from Zagreb, she has lived and worked in Vienna and Japan, and is currently based in Paris, where she is pursuing a PhD in Foundations of Quantum Physics and Quantum Information Theory at Sorbonne Université.\n\nFor ten years, she was part of the ZKM ensemble in Zagreb, where she worked in experimental theatre and explored ways of deconstructing conventional performance forms. Since moving to Paris, she has begun exhibiting her photography, and in 2024 participated in a photo exhibition at Cité Universitaire. The promotional image for this performance originates from a cyanotype preparation she created for that exhibition.\n\nIn 2024, through an art-science residency, she began working with conceptual artist Ben Bogart. What started as a scientific contribution to the residency developed into an ongoing creative collaboration exploring process philosophy, relationalism, and the interface between quantum theory and artistic practice. Brzić is now increasingly drawn toward conceptual and performance art, inspired by Fluxus and process philosophy, and concerned with the nuances of human experience amid rapid technological and scientific change.",
             "instagramPost": "",
-            "pageUrl": "",
+            "pageUrl": "/item/timescores",
             "visitType": "group-visit"
           },
           {
             "date": "11.07.2026",
             "title": "Laiks telpā",
-            "description": "Šī būs ilgstošā performance, kura esošajā Raa telpā, kāda tā ir, no uz vietas pieejamajiem objektiem radīs muzikāli-ķermeniški-telpisku subjektīvā laikā pieredzi ar mērķi pētīt to, kā laiks izplešas, saraujas, skrien, apstājas un pazūd.",
+            "description": "Šī būs ilgstošā performance, kura esošajā Raa telpā, kāda tā ir, no uz vietas pieejamajiem objektiem radīs muzikāli-ķermeniski-telpisku subjektīvā laikā pieredzi ar mērķi pētīt to, kā laiks izplešas, saraujas, skrien, apstājas un pazūd.",
             "artists": [
               {
                 "displayName": "Ilze Mazpane",
@@ -1355,15 +1356,15 @@
                 "nationality": "LV"
               }
             ],
-            "registrationUrl": "https://forms.gle/EQfsL2SZXpMxC7Ku6",
+            "registrationUrl": "https://formspree.io/f/xqevqrjn",
             "interventionTime": "19:00",
             "coreTime": "",
-            "themeImage": "/assets/item/11_7_laikstelpa/ilze_bw_dip_portreti_9.jpg",
+            "themeImage": "/assets/item/11_7_laikstelpa/Laiks_telpaa.png",
             "revealed": false,
             "slug": "laiks-telpa",
-            "bio": "",
+            "bio": "Ilze Mazpane\n\nIlze Mazpane ir performances māksliniece no Rīgas ar izglītību un pieredzi filosofijā, vizuālajā mākslā, eksperimentālajā teātrī un radošajā rakstīšanā.\n\nIlze veido no vietas izrietošas ilgstošās performances, kurām raksturīgs poētiskums, interese par struktūru un jutīgas attiecības ar telpu. Savā darbā viņa tiecas pēc brīvības no pulksteņlaika tirānijas, tāpēc pēta subjektīvā laika pieredzi, \"kairos\" un plūsmas jēdzienus.\n\nJana Zariņa\n\nVēsturisko taustiņinstrumentu un skaņas māksliniece, kuras darbība aptver seno mūziku, improvizāciju, elektroakustisko performanci un starpdisciplināro mākslu.\n\nStarp nozīmīgākajiem projektiem ir elektroakustiskais duets maяk (https://majakmusic.bandcamp.com), kura ievērojamākā performance bija performatīvais akts Nepūlies, bērns! Rīgas Sv. Ģertrūdes Vecajā baznīcā (2025); mūsdienu latviešu opera Ērces (2024, Rīgas Zooloģiskais dārzs); solo elektroakustiskais albums svobodulitce (https://tobeawhile.bandcamp.com/album/svobodulitce); franču baroka opera Les Élémens (2025, Viļņas dižkunigaišu pils); franču baroka opera Blaise le savetier (2025, Kēdaiņi un Panemunes pils, Lietuva); performance Nakts Skaņu Dārzā Hammond ērģeļu festivāla ietvaros Liepājā (2025); performance MELANCHOLIJA VIII festivāla Banchetto Musicale ietvaros Viļņā (2025); kā arī performance Fountain Dreams, ko organizēja mākslas, rezidenču un izglītības centrs Rupert Viļņā (2026). Viņa ir uzstājusies arī kopā ar Latvijas Nacionālo simfonisko orķestri (2024) un starptautiski sadarbojusies ar dejotājiem, vizuālajiem māksliniekiem un mūziķiem.",
             "instagramPost": "",
-            "pageUrl": "",
+            "pageUrl": "/item/laiks_telpa",
             "visitType": "group-visit"
           }
         ]
