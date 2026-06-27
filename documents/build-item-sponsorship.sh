@@ -37,7 +37,7 @@ while IFS= read -r partner || [[ -n "$partner" ]]; do
 
   # Performance card images: max 700px long side, JPEG quality 82 (~80KB)
   sips -Z 700 -s format jpeg -s formatOptions 82 \
-    "$ASSETS_DIR/05_7_aulmane/aulmane.png" --out "$TMP/img/item-aulmane.jpg" > /dev/null 2>&1
+    "$ASSETS_DIR/05_7_words_to_change_the_world/performance.jpeg" --out "$TMP/img/item-aulmane.jpg" > /dev/null 2>&1
   sips -Z 700 -s format jpeg -s formatOptions 82 \
     "$ASSETS_DIR/06_7_now/impression.png" --out "$TMP/img/item-now.jpg" > /dev/null 2>&1
   sips -Z 700 -s format jpeg -s formatOptions 82 \
