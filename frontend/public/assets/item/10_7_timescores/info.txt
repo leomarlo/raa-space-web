@@ -1,3 +1,4 @@
 intervention: 19.00
+core: 18h-21h
 url: https://inspirehep.net/authors/3072683
 IG: @vbrzic
