@@ -1,0 +1,716 @@
+%% ══════════════════════════════════════════════════════════
+%%  ITEM — Shuffled Time · Header Playground (full leaflet)
+%%  Compile: pdflatex item-leaflet-pics.tex  (run twice)
+%% ══════════════════════════════════════════════════════════
+
+\documentclass[a6paper,10pt]{extarticle}
+
+\usepackage[a6paper, top=0cm, bottom=0cm, left=0cm, right=0cm]{geometry}
+\usepackage[T2A,T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[main=english,russian]{babel}
+\usepackage{xcolor}
+\usepackage{tikz}
+\usepackage{graphicx}
+\usepackage{parskip}
+\usepackage{microtype}
+\usepackage{lmodern}
+\usepackage{textcomp}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{eso-pic}
+\usepackage{transparent}
+
+\hypersetup{hidelinks}
+
+\definecolor{raacream}{HTML}{F5F5DC}
+\definecolor{raared}{HTML}{B29C83}
+\definecolor{raadark}{HTML}{0D0D0D}
+\definecolor{mygray}{HTML}{555555}
+
+\newcommand{\assets}{/Users/leo/Projects/Raa/web/frontend/public/assets/item}
+
+\setlength{\parskip}{1.5pt}
+\setlength{\parindent}{0pt}
+
+\fancypagestyle{leaflet}{%
+  \fancyhf{}%
+  \renewcommand{\headrulewidth}{0pt}%
+  \fancyfoot[C]{}%
+}
+\pagestyle{leaflet}
+
+\newcommand{\sectiontitle}[1]{%
+  \vspace{4pt}%
+  {\color{raared}\bfseries\small #1}\\[-4pt]%
+  {\color{raared}\rule{\linewidth}{0.5pt}}%
+  \vspace{2pt}%
+}
+
+\newcommand{\descpagebg}{%
+  \AddToShipoutPictureBG*{%
+    \put(0,0){%
+      \transparent{0.80}%
+      \includegraphics[width=\paperwidth,height=\paperheight,keepaspectratio=false]%
+        {\assets/ITEM-background.png}%
+    }%
+  }%
+}
+
+\newcommand{\fullbleedimage}[2]{%
+  \thispagestyle{empty}%
+  \noindent%
+  \begin{tikzpicture}[x=1cm,y=1cm]%
+    \useasboundingbox (0,0) rectangle (10.5,14.8);%
+    \node[anchor=south west, inner sep=0pt] at (0,0) {%
+      \includegraphics[width=10.5cm,height=14.8cm,keepaspectratio=false]{#1}%
+    };%
+    \ifx&#2&\else%
+      \node[anchor=south west, inner sep=0pt] at (0.4,0.3) {%
+        \fontsize{6.5}{8}\selectfont\color{white}#2%
+      };%
+    \fi%
+  \end{tikzpicture}%
+}
+
+%% ── HEADER HELPERS ─────────────────────────────────────────────────────────
+
+%% Thin sand border, zero padding
+\newcommand{\picframe}[1]{%
+  {\color{raared}%
+   \setlength{\fboxrule}{0.6pt}%
+   \setlength{\fboxsep}{0pt}%
+   \fbox{#1}}%
+}
+
+%% Time badge: filled with theme colour, black bold text
+\newcommand{\timebadge}[1]{%
+  {%
+    \setlength{\fboxsep}{2.5pt}%
+    \colorbox{raared}{\footnotesize\bfseries\strut #1}%
+  }%
+}
+
+%% ── HEADER MACROS ──────────────────────────────────────────────────────────
+%% Left 2/5: date · 2 reserved name lines · time badge · group visit
+%% Right 3/5: pic(s) flush-right
+%% Pic height = 2.4cm to reach top of date
+
+%% soloheader — 1 pic, short name (phantom reserves 2nd name line)
+%% {date}{artist + country}{coretime}{groupvisit}{picpath}
+\newcommand{\soloheader}[5]{%
+  \noindent%
+  \begin{minipage}[t]{0.38\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    {\footnotesize\bfseries#1}\\[2pt]%
+    {\small\bfseries\itshape#2}\\%
+    {\small\phantom{Mg}}\\[3pt]%
+    \timebadge{#3}\\[2pt]%
+    {\footnotesize\bfseries Group Visit:\upshape~#4}%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.58\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    \hfill\picframe{\includegraphics[height=2.4cm,keepaspectratio=true]{#5}}%
+  \end{minipage}%
+  \par\vspace{3pt}%
+}
+
+%% longsoloheader — 1 pic, name wraps to 2 lines naturally (no phantom)
+%% {date}{artist + country}{coretime}{groupvisit}{picpath}
+\newcommand{\longsoloheader}[5]{%
+  \noindent%
+  \begin{minipage}[t]{0.38\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    {\footnotesize\bfseries#1}\\[2pt]%
+    {\small\bfseries\itshape#2}\\[3pt]%
+    \timebadge{#3}\\[2pt]%
+    {\footnotesize\bfseries Group Visit:\upshape~#4}%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.58\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    \hfill\picframe{\includegraphics[height=2.4cm,keepaspectratio=true]{#5}}%
+  \end{minipage}%
+  \par\vspace{3pt}%
+}
+
+%% duoheader — 2 pics, long name wraps to 2 lines naturally (no phantom)
+%% {date}{artists + countries}{coretime}{groupvisit}{pic1}{pic2}
+\newcommand{\duoheader}[6]{%
+  \noindent%
+  \begin{minipage}[t]{0.38\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    {\footnotesize\bfseries#1}\\[2pt]%
+    {\small\bfseries\itshape#2}\\[3pt]%
+    \timebadge{#3}\\[2pt]%
+    {\footnotesize\bfseries Group Visit:\upshape~#4}%
+  \end{minipage}%
+  \hfill%
+  \begin{minipage}[t]{0.58\linewidth}%
+    \vspace{0pt}%
+    \setlength{\parskip}{0pt}%
+    \hfill%
+    \picframe{\includegraphics[height=2.4cm,keepaspectratio=true]{#5}}%
+    \hspace{1.5mm}%
+    \picframe{\includegraphics[height=2.4cm,keepaspectratio=true]{#6}}%
+  \end{minipage}%
+  \par\vspace{3pt}%
+}
+
+\begin{document}
+\pagenumbering{roman}
+
+%% ══════════════════════════════════════════════════════════
+%%  FRONT COVER
+%% ══════════════════════════════════════════════════════════
+\setcounter{page}{0}
+\fullbleedimage{\assets/poster-main.png}{}
+
+%% ══════════════════════════════════════════════════════════
+%%  PAGE i — Event info
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.5cm,right=0.5cm}
+\thispagestyle{empty}
+
+\null\vfill
+
+\begin{center}
+  {\fontsize{28}{32}\selectfont\bfseries ITEM}\\[5pt]
+  {\large\bfseries SHUFFLED TIME}\\[10pt]
+  {\color{raared}\rule{4cm}{0.5pt}}\\[10pt]
+  {\small Performative Week at RAA.SPACE}\\[3pt]
+  {\small\textbf{5\,–\,11 July 2026}}\\[2pt]
+  {\small Matīsa iela 8, Rīga}\\[10pt]
+  {\color{raared}\rule{4cm}{0.5pt}}\\[10pt]
+  {\small Concept and idea by\\[3pt]
+   \textbf{Jana Zariņa} \& \textbf{Leonhard Horstmeyer}}\\[10pt]
+  {\color{raared}\rule{4cm}{0.5pt}}\\[10pt]
+  {\small With the kind support of\\[3pt]
+   \textbf{Radošā Rūpnīca Veldze} and \textbf{LaiZinat.com}}\\[10pt]
+  {\color{raared}\rule{4cm}{0.5pt}}\\[10pt]
+  {\small
+   RAA.SPACE is a free and independent cultural space.\\[3pt]
+   We are grateful for your donations.\\[3pt]
+   \href{https://raa.space/donations}{\texttt{raa.space/donations}}}
+\end{center}
+
+\vfill
+
+%% ══════════════════════════════════════════════════════════
+%%  PAGE ii — About ITEM · About RAA · Contents
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.5cm,right=0.5cm}
+\thispagestyle{empty}
+
+\sectiontitle{About ITEM}
+
+{\small
+\textbf{ITEM\,—\,Shuffled Time} is a seven-day performative week at RAA cultural
+space in Rīga. Each day one artist or artist group has a 24-hour time window to
+\textbf{I}nvoke, \textbf{T}emper, \textbf{E}late, \textbf{M}int the space. The
+window starts and ends at 9\,h in the morning; exactly how the 24 hours are filled
+is at the discretion of the artists.
+
+Anyone is invited to pass by the space at any time. On each day there is a scheduled
+group visit — see \href{https://raa.space/item}{\texttt{raa.space/item}} for times.
+
+The seven participating artists and groups work across durational performance, body
+art, experimental poetry, aromagraphy, and interactive installation. Each performance
+stands independently while forming part of a shared proposition about time, space,
+and presence.
+
+{\footnotesize\color{mygray}
+With thanks to Radošā Rūpnīca Veldze and LaiZinat.com.}
+}
+
+\sectiontitle{About RAA}
+
+{\footnotesize\setlength{\parskip}{0pt}
+RAA is an independent cultural space in Rīga hosting regular theatrical and
+contemporary performances, exhibitions, and workshops. Located at Matīsa iela 8
+within the Veldze creative quarter, the main hall covers 138\,m\textsuperscript{2}
+with ten large windows facing the street. At RAA you don't have to be loud to be
+heard. The name comes from \textit{Reductio ad Absurdum} — an argument that
+establishes a claim by showing that its contrary leads to absurdity.
+
+\vspace{2pt}
+\textbf{raa.space}\enspace·\enspace
+\href{mailto:enter@raa.space}{enter@raa.space}\enspace·\enspace
+@raa\_riga
+}
+
+\sectiontitle{Contents}
+
+{\footnotesize\setlength{\parskip}{1.5pt}
+\begin{tabular*}{\textwidth}{@{}l@{\enspace}l@{\extracolsep{\fill}}r@{}}
+MON & \textbf{NOW} — Maruta Gredzena                        & \textit{iii}\\
+THU & \textbf{Presence in Absence Piece Three} — Lisette Ros & \textit{v}\\
+TUE & \textbf{N.3} — Ernests Ā                             & \textit{vii}\\
+SUN & \textbf{Words to Change the World} — Ilze Aulmane     & \textit{ix}\\
+WED & \textbf{Gluttony} — K.\,Šuksta \& S.\,Muriņš         & \textit{xi}\\
+FRI & \textbf{Time Scores} — Vanessa Brzić                  & \textit{xiii}\\
+SAT & \textbf{Laiks Telpā} — Ilze Mazpane \& Jana Zariņa   & \textit{xv}\\
+\end{tabular*}
+}
+
+%% ══════════════════════════════════════════════════════════
+%%  iii–iv  NOW — Maruta Gredzena  (Mon 6.07)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/06_07_now.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+\soloheader%
+  {Monday, 6 July 2026}%
+  {Maruta Gredzena~{\normalfont\footnotesize(LV)}}%
+  {17:00\,–\,22:00}%
+  {19:00}%
+  {\assets/06_7_now/profile.png}
+
+{\footnotesize\setlength{\parskip}{0pt}
+In her interactive performance \textit{Now}, Maruta Gredzena explores whether
+communication without words can be true. Visitors become participants, choosing and
+wearing light, paper-based wearable sculptures in response to their present state.
+The forms can feel like cocoons — soft, fluffy, geometric, or rock-like — creating
+a temporary second skin. Each choice reshapes a shifting collective composition,
+where everyone becomes both observer and artwork.
+
+\vspace{3pt}
+The work asks: can honesty exist without language? The forms carry the artist's
+intimate visual language, yet are activated only through others. The question of
+authorship and non-verbal communication arises: is the language already created in
+form, or does it emerge only in the moment it is chosen and moved?
+
+\vspace{3pt}
+Here, form becomes language, presence becomes communication, and material becomes a
+shared way of speaking.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artist}
+
+{\footnotesize\setlength{\parskip}{0pt}
+Maruta Gredzena is interested in what happens when nothing stays still. A life
+shaped by continual relocation has shifted her practice from making objects to
+creating spaces for interaction. Rooted in porcelain and ceramic sculpture and
+expanded through graphic art, her practice now unfolds through installations that
+use paper, material, and playfulness to explore communication beyond language.
+Wandering between the Baltic coast and the Iberian Peninsula has cultivated a
+migratory way of working. Drawn to places that feel temporarily safe, she treats
+movement as both method and subject, transforming displacement into encounters
+where form, colour, pattern, and participation become a shared language.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/now}{\texttt{raa.space/item/now}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  v–vi  PRESENCE IN ABSENCE PIECE THREE — Lisette Ros  (Thu 9.07)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/09_07_presence_in_absence_piece_three.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+\soloheader%
+  {Thursday, 9 July 2026}%
+  {Lisette Ros~{\normalfont\footnotesize(NL)}}%
+  {16:00\,–\,open end}%
+  {18:00}%
+  {\assets/09_7_presenceinabsencepiece3/LisetteRos.png}
+
+{\small
+\textit{Presence in Absence} is a research series by Lisette Ros that began in
+Mexico City in 2023, deriving from her project \textit{The Absence of Metamorphosis}.
+The series focuses on the perceptible act of presence in absence by examining
+\textit{The Absent Body}.
+
+In Piece Three, Ros grapples with her own presence, manipulating control and
+consciousness by taking in a natural hypnotic — a substance that has formed part of
+her nightly ritual since 2014, when she was diagnosed with DSPS (Delayed Sleep Phase
+Syndrome). The work unfolds in real time, before the audience.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artist}
+
+{\footnotesize\setlength{\parskip}{0pt}
+Lisette Ros (b.\,1991, NL) is a Dutch conceptual and performance artist with
+Indonesian roots. Identifying as queer, woman and humanimal, her work investigates
+how identity is a construct formed through social systems, trauma, cultural
+conditioning and embodied experience. Using her own body as research tool, source,
+material and medium, she creates performances, video works and installations that
+examine daily rituals, conventions, and the fragile borders between the personal and
+the collective.
+
+Her work has been presented internationally at the Venice Architecture Biennale
+(2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe
+Institute, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo.
+In 2021 she completed a residency with Marina Abramović.
+
+Ros is the creator of the long-term series \textit{My Self,} whose sixth chapter
+\textit{My Self, the (Unfamiliar) Roots} is supported by the Mondriaan Fund and the
+Dutch Embassy in Jakarta.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/presenceinabsence_piecethree}%
+  {\texttt{raa.space/item/presenceinabsence\_piecethree}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  vii–viii  N.3 — Ernests Ā  (Tue 7.07)
+%%  Pic crop: 1/5 top + 1/5 bottom (1920×1/5 = 384bp at 72dpi)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/07_07_N_3.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+%% Inline header — cropped pic passed directly to \picframe
+\noindent%
+\begin{minipage}[t]{0.38\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  {\footnotesize\bfseries Tuesday, 7 July 2026}\\[2pt]%
+  {\small\bfseries\itshape Ernests Ā~{\normalfont\footnotesize(LV)}}\\%
+  {\small\phantom{Mg}}\\[3pt]%
+  \timebadge{18:00\,–\,open end}\\[2pt]%
+  {\footnotesize\bfseries Group Visit:\upshape~19:00}%
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.58\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  \hfill\picframe{\includegraphics[trim={0bp 384bp 0bp 384bp},clip=true,%
+    height=2.4cm,keepaspectratio=true]{\assets/07_7_N.3/ernests.jpeg}}%
+\end{minipage}%
+\par\vspace{3pt}%
+
+{\small
+\textit{The binding conviction in the existence of two opposites always makes one
+wander in confusion.}
+
+\medskip
+Ernests will arrive with a rope, initially wrapping it around one of the gallery's
+columns. He will then tie the end to his leg and walk around the column, attempting
+to distance himself by making wide circles both within the gallery space and beyond
+its walls. This action will continue until physical exhaustion or until he is stopped
+by external factors. If he manages to break free from the column, he may attempt to
+wrap the rope around it once again. Should Ernests need a momentary rest, he will do
+so without fully interrupting the piece. He will remain silent throughout.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artist}
+
+{\footnotesize\setlength{\parskip}{0pt}
+In his practice, Ernests Ā devotes himself to playful exploration of the mundane and
+undefinable aspects of reality within unrestricted forms of expression.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/N_3}{\texttt{raa.space/item/N\_3}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  ix–x  WORDS TO CHANGE THE WORLD — Ilze Aulmane  (Sun 5.07)
+%%  "30 min." on 2nd name line → removed from description body
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/05_07_words_to_change_the_world.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+\longsoloheader%
+  {Sunday, 5 July 2026}%
+  {Ilze Aulmane~{\normalfont\footnotesize(LV)}\\ 30 min.}%
+  {19:00\,–\,20:30}%
+  {19:30}%
+  {\assets/05_7_words_to_change_the_world/profile.jpeg}
+
+{\small
+The three words of the title are an invitation to question, challenge, and reflect.
+Do we need, want, or have the power to change the world? And are there words capable
+of doing so? What do we mean when we speak of ``changing the world'' — politics,
+ecosystems, social environments, or our own perceptions and ways of living?
+
+During the performance, Ilze Aulmane will create a space for this invitation through
+breath, sound, letters, syllables, unfamiliar words, and performative objects.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artist}
+
+{\footnotesize\setlength{\parskip}{0pt}
+Ilze Aulmane is a cross-disciplinary artist working across installation, photography,
+painting, sound, performance and moving image. She has developed her own experimental
+vocal technique, drawing on ideas related to the origins of scat singing and the
+enduring human impulse to create songs spontaneously in everyday life.
+
+In her practice, Aulmane employs the logic of perpetual adolescence, where fragmented
+and layered images and objects — both visual and acoustic — shifting bodily presences,
+and movements of perception form restless spatial compositions in which the personal
+and the universal continuously overlap.
+
+Ilze Aulmane received both BA and MA degrees from the Art Academy of Latvia and
+graduated from the Royal Academy Schools, London, in 2024. Alongside her academic
+pursuits, she has maintained a longstanding interest in sound and has studied the
+fundamentals of both classical and jazz vocals.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/words-to-change-the-world}%
+  {\texttt{raa.space/item/words-to-change-the-world}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  xi–xii  GLUTTONY — Kristiāna Šuksta & Sandris Muriņš  (Wed 8.07)
+%%  Duo header: both photos. Kristiāna centre-portrait crop 1/4 each side.
+%%  (678×452 @ 72dpi → 678bp wide; trim 169bp each side → 340×452bp portrait)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/08_07_gluttony.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+%% Inline duo header — Kristiāna needs crop, Sandris as-is
+\noindent%
+\begin{minipage}[t]{0.38\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  {\footnotesize\bfseries Wednesday, 8 July 2026}\\[2pt]%
+  {\small\bfseries\itshape Kristiāna Šuksta \& Sandris Muriņš~{\normalfont\footnotesize(LV)}}\\[3pt]%
+  \timebadge{18:00\,–\,22:00}\\[2pt]%
+  {\footnotesize\bfseries Group Visit:\upshape~20:00}%
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.58\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  \hfill%
+  \picframe{\includegraphics[trim={169bp 0bp 169bp 0bp},clip=true,%
+    height=2.4cm,keepaspectratio=true]{\assets/08_7_gluttony/kristianasuksta.jpg}}%
+  \hspace{1.5mm}%
+  \picframe{\includegraphics[height=2.4cm,keepaspectratio=true]%
+    {\assets/08_7_gluttony/sandrismurins.jpeg}}%
+\end{minipage}%
+\par\vspace{3pt}%
+
+{\footnotesize\setlength{\parskip}{0pt}
+\textit{Gluttony} is an experimental aromagraphy performance exploring meat
+consumption through the combination of poetry and scent. Built from twelve words,
+each paired with its own distinct aroma, the work continuously varies the sequence,
+tempo, and pauses between reading and smelling. Through both congruent and incongruent
+relationships between language and scent, the performance reveals how olfactory
+experience can reinforce, contradict, or transform the interpretation of a text —
+exploring desire, memory, and the sensory dimensions of consumption.
+
+By constantly reshuffling the order and timing of words and scents, the performance
+disrupts linear chronology, creating a form of shuffled time where meaning emerges
+through ever-changing configurations rather than a fixed sequence. Each iteration
+reorders memory and anticipation, allowing past associations and present sensations
+to coexist in new and unpredictable ways.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artists}
+
+{\footnotesize\setlength{\parskip}{0pt}
+\textbf{Sandris Muriņš} is a Latvian artist, inventor, and researcher working at
+the intersection of scent, technology, and contemporary art. He is the inventor of
+the Scent Camera and the founder and director of the Scent + Art Festival, actively
+promoting aromagraphy as an emerging artistic discipline.
+
+\vspace{3pt}
+\textbf{Kristiāna Šuksta} is a Latvian poet, performance artist, and technical
+producer of the performance festival Starptelpa. Her practice combines poetry and
+live performance to explore personal experience and human relationships with wit
+and humour, inviting viewers to reflect while maintaining a sense of lightness.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/gluttony}{\texttt{raa.space/item/gluttony}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  xiii–xiv  TIME SCORES — Vanessa Brzić  (Fri 10.07)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/10_07_timescores.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+\soloheader%
+  {Friday, 10 July 2026}%
+  {Vanessa Brzić~{\normalfont\footnotesize(HR)}}%
+  {18:00\,–\,21:00}%
+  {19:00}%
+  {\assets/10_7_timescores/vanessa.jpg}
+
+{\footnotesize\setlength{\parskip}{0pt}
+The performance unfolds inside a room that changes over time. At the beginning, the
+space contains a body, a set of objects, and a series of event-score cards: short,
+open-ended instructions that invite actions such as cutting, tying, spilling,
+recording, and producing sound. Audience members draw and perform these scores,
+gradually transforming the room through gestures, traces, sounds, relations, and
+disruptions.
+
+As the work progresses, the same kinds of actions return, but never under the same
+conditions. An instruction such as ``cut'' or ``spill'' shifts from pure potentiality
+into an action whose meaning depends on the relations already formed in space and
+time. Each action inherits the consequences of previous actions while opening new
+possibilities for what can happen next.
+
+Inspired by Fluxus event scores, the piece treats the room as a metaphor for social
+and historical time: a space shaped by accumulation, instability, memory, and
+adjustment.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artist}
+
+{\footnotesize\setlength{\parskip}{0pt}
+Vanessa Brzić works across theoretical physics, experimental theatre, photography,
+and performance. Originally from Zagreb, she is currently based in Paris, where she
+is pursuing a PhD in Foundations of Quantum Physics and Quantum Information Theory
+at Sorbonne Université. For ten years she was part of the ZKM ensemble in Zagreb,
+exploring ways of deconstructing conventional performance forms. In 2024, through
+an art-science residency, she began working with conceptual artist Ben Bogart.
+Brzić is increasingly drawn toward conceptual and performance art, inspired by Fluxus
+and process philosophy.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/timescores}{\texttt{raa.space/item/timescores}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  xv–xvi  LAIKS TELPĀ — Ilze Mazpane & Jana Zariņa  (Sat 11.07)
+%%  Ilze: landscape 6960×4640 @ 300dpi (1670.4×1113.6bp)
+%%    Side trim 5/16 each + top/bottom 1/4 each:
+%%    trim={522bp 278bp 522bp 278bp} → 626×558bp (nearly square)
+%%  Jana: 180×280 @ 72dpi → 1/7 top (40bp) + 1/4 bottom (70bp):
+%%    trim={0bp 70bp 0bp 40bp} → 180×170bp (nearly square)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/11_07_laiks_telpa.png}{\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.2cm,right=0.8cm}
+\descpagebg
+
+%% Inline duo header — both pics cropped
+\noindent%
+\begin{minipage}[t]{0.38\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  {\footnotesize\bfseries Saturday, 11 July 2026}\\[2pt]%
+  {\small\bfseries\itshape Ilze Mazpane \& Jana Zariņa~{\normalfont\footnotesize(LV)}}\\[3pt]%
+  \timebadge{16:00\,–\,open end}\\[2pt]%
+  {\footnotesize\bfseries Group Visit:\upshape~18:00}%
+\end{minipage}%
+\hfill%
+\begin{minipage}[t]{0.58\linewidth}%
+  \vspace{0pt}%
+  \setlength{\parskip}{0pt}%
+  \hfill%
+  \picframe{\includegraphics[trim={522bp 278bp 522bp 278bp},clip=true,%
+    height=2.4cm,keepaspectratio=true]%
+    {\assets/11_7_laikstelpa/ilze_bw_dip_portreti_9.jpg}}%
+  \hspace{1.5mm}%
+  \picframe{\includegraphics[trim={0bp 70bp 0bp 40bp},clip=true,%
+    height=2.4cm,keepaspectratio=true]%
+    {\assets/11_7_laikstelpa/JanaZarina.jpeg}}%
+\end{minipage}%
+\par\vspace{3pt}%
+
+{\footnotesize\setlength{\parskip}{0pt}
+A durational performance that transforms the existing RAA space, using only the
+objects already present, into a musical, physical, and spatial experience of
+subjective time. The work explores how time expands, contracts, rushes, comes to a
+standstill, and disappears.
+
+The performance begins before the performers physically enter the space and continues
+with the live presence of Ilze (action) and Jana (sound) together with everyone
+present.
+
+Throughout the performance, entry and exit are possible at any time. Participation
+is entirely optional and may take any form—or none at all. The main invitation is
+to cultivate sensitivity to the space and attentiveness to time. Everything else
+will unfold in the moment.
+}
+
+\vspace{3pt}
+\sectiontitle{About the artists}
+
+{\footnotesize\setlength{\parskip}{0pt}
+\textbf{Ilze Mazpane} is a performance artist from Rīga with a background in
+philosophy, visual art, experimental theatre and creative writing. She creates
+site-specific durational works marked by poetic sensibility and a sensitive
+relationship with space.
+
+\vspace{3pt}
+\textbf{Jana Zariņa} is primarily a historical keyboard and sound artist whose work
+spans early music, contemporary improvisation, electro-acoustic performance and
+interdisciplinary arts.
+}
+
+\vfill
+\noindent{\footnotesize\color{mygray}%
+  \href{https://raa.space/item/laiks_telpa}{\texttt{raa.space/item/laiks\_telpa}}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  xvii–xviii  NOTES  (watermark only)
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.5cm,right=0.5cm}
+\descpagebg
+\sectiontitle{NOTES}
+\vfill
+\noindent{\footnotesize\color{mygray}\hfill\thepage}
+
+\newpage
+\newgeometry{top=0.4cm,bottom=0.4cm,left=0.5cm,right=0.5cm}
+\descpagebg
+\sectiontitle{NOTES}
+\vfill
+\noindent{\footnotesize\color{mygray}\hfill\thepage}
+
+%% ══════════════════════════════════════════════════════════
+%%  BACK COVER
+%% ══════════════════════════════════════════════════════════
+\newpage
+\newgeometry{top=0cm,bottom=0cm,left=0cm,right=0cm}
+\fullbleedimage{\assets/program.png}{}
+
+\end{document}

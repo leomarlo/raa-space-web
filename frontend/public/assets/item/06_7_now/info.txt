@@ -1,4 +1,4 @@
 IG: Maruta Gredzena (@em.gaa)
 visit: 19.00
 intervention: every hour
-core: 16h - 22h
+core: 17h - 22h

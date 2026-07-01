@@ -1,3 +1,4 @@
 url: https://www.lisetteros.com/
 IG: Lisette Ros (@lisetteros)
-intervention: 20.00
+intervention: 18.00
+core: 16h-open end

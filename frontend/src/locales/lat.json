@@ -170,7 +170,7 @@
       "item": {
         "id": "49",
         "title": "ITEM — Shuffled Time",
-        "image": "/assets/item/item-poster.jpeg",
+        "image": "/assets/item/poster-main.png",
         "url": "/events/item",
         "startDate": "2026-07-05T00:00:00Z",
         "endDate": "2026-07-11T23:59:00Z",
@@ -1229,7 +1229,7 @@
             ],
             "registrationUrl": "https://formspree.io/f/xykqeegr",
             "interventionTime": "19:00",
-            "coreTime": "16:00 – 22:00",
+            "coreTime": "17:00 – 22:00",
             "themeImage": "/assets/item/06_7_now/Press_photo_performance_NOW.png",
             "revealed": true,
             "slug": "now",
@@ -1304,15 +1304,15 @@
               }
             ],
             "registrationUrl": "https://formspree.io/f/xaqgeeyk",
-            "interventionTime": "20:00",
-            "coreTime": "18:00 – 22:00",
+            "interventionTime": "18:00",
+            "coreTime": "16:00 – open end",
             "themeImage": "/assets/item/09_7_presenceinabsencepiece3/theme.jpeg",
             "revealed": true,
             "slug": "presence-in-absence-piece-3",
             "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
             "instagramPost": "",
             "pageUrl": "/item/presenceinabsence_piecethree",
-            "visitType": "workshop"
+            "visitType": "group-visit"
           },
           {
             "date": "10.07.2026",
@@ -1341,7 +1341,7 @@
           {
             "date": "11.07.2026",
             "title": "Laiks telpā",
-            "description": "Šī būs ilgstošā performance, kura esošajā Raa telpā, kāda tā ir, no uz vietas pieejamajiem objektiem radīs muzikāli-ķermeniski-telpisku subjektīvā laikā pieredzi ar mērķi pētīt to, kā laiks izplešas, saraujas, skrien, apstājas un pazūd.",
+            "description": "Šī būs ilgstoša performance, kura esošajā RAA telpā, kāda tā ir, izmantojot tikai jau klātesošos objektus, radīs muzikāli, ķermeniski un telpiski subjektīvā laika pieredzi. Performance pēta to, kā laiks izplešas, saraujas, skrien, apstājas un pazūd.\n\nPerformance sākas, pirms izpildītāji fiziski ienāk telpā, un turpinās ar Ilzes (darbība) un Janas (skaņa) dzīvo klātbūtni kopā ar visiem klātesošajiem.\n\nPerformances laikā ieeja un izeja ir iespējama jebkurā brīdī. Līdzdalība ir pilnībā brīvprātīga un var izpausties jebkādā formā — vai arī nemaz. Galvenais aicinājums ir kopt jutīgumu pret telpu un uzmanību pret laiku. Viss pārējais atklāsies mirklī.",
             "artists": [
               {
                 "displayName": "Ilze Mazpane",
@@ -1357,12 +1357,12 @@
               }
             ],
             "registrationUrl": "https://formspree.io/f/xqevqrjn",
-            "interventionTime": "19:00",
+            "interventionTime": "18:00",
             "coreTime": "16:00 – open end",
             "themeImage": "/assets/item/11_7_laikstelpa/Laiks_telpaa.png",
             "revealed": true,
             "slug": "laiks-telpa",
-            "bio": "Ilze Mazpane\n\nIlze Mazpane ir performances māksliniece no Rīgas ar izglītību un pieredzi filosofijā, vizuālajā mākslā, eksperimentālajā teātrī un radošajā rakstīšanā.\n\nIlze veido no vietas izrietošas ilgstošās performances, kurām raksturīgs poētiskums, interese par struktūru un jutīgas attiecības ar telpu. Savā darbā viņa tiecas pēc brīvības no pulksteņlaika tirānijas, tāpēc pēta subjektīvā laika pieredzi, \"kairos\" un plūsmas jēdzienus.\n\nJana Zariņa\n\nVēsturisko taustiņinstrumentu un skaņas māksliniece, kuras darbība aptver seno mūziku, improvizāciju, elektroakustisko performanci un starpdisciplināro mākslu.\n\nStarp nozīmīgākajiem projektiem ir elektroakustiskais duets maяk (https://majakmusic.bandcamp.com), kura ievērojamākā performance bija performatīvais akts Nepūlies, bērns! Rīgas Sv. Ģertrūdes Vecajā baznīcā (2025); mūsdienu latviešu opera Ērces (2024, Rīgas Zooloģiskais dārzs); solo elektroakustiskais albums svobodulitce (https://tobeawhile.bandcamp.com/album/svobodulitce); franču baroka opera Les Élémens (2025, Viļņas dižkunigaišu pils); franču baroka opera Blaise le savetier (2025, Kēdaiņi un Panemunes pils, Lietuva); performance Nakts Skaņu Dārzā Hammond ērģeļu festivāla ietvaros Liepājā (2025); performance MELANCHOLIJA VIII festivāla Banchetto Musicale ietvaros Viļņā (2025); kā arī performance Fountain Dreams, ko organizēja mākslas, rezidenču un izglītības centrs Rupert Viļņā (2026). Viņa ir uzstājusies arī kopā ar Latvijas Nacionālo simfonisko orķestri (2024) un starptautiski sadarbojusies ar dejotājiem, vizuālajiem māksliniekiem un mūziķiem.",
+            "bio": "Ilze Mazpane\n\nIlze Mazpane ir performances māksliniece no Rīgas ar izglītību un pieredzi filosofijā, vizuālajā mākslā, eksperimentālajā teātrī un radošajā rakstīšanā. Viņa veido no vietas izrietošas ilgstošas performances, kurām raksturīgs poētiskums un jutīgas attiecības ar telpu.\n\nJana Zariņa\n\nJana Zariņa galvenokārt ir vēsturisko taustiņinstrumentu un skaņas māksliniece, kuras darbība aptver seno mūziku, mūsdienu improvizāciju, elektroakustisko performanci un starpdisciplināro mākslu.",
             "instagramPost": "",
             "pageUrl": "/item/laiks_telpa",
             "visitType": "group-visit"
