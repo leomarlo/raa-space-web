@@ -169,7 +169,7 @@
       "item": {
         "id": "49",
         "title": "ITEM — Shuffled Time",
-        "image": "/assets/item/item-poster.jpeg",
+        "image": "/assets/item/poster-main.png",
         "url": "/events/item",
         "startDate": "2026-07-05T00:00:00Z",
         "endDate": "2026-07-11T23:59:00Z",
@@ -1226,7 +1226,7 @@
             ],
             "registrationUrl": "https://formspree.io/f/xykqeegr",
             "interventionTime": "19:00",
-            "coreTime": "16:00 – 22:00",
+            "coreTime": "17:00 – 22:00",
             "themeImage": "/assets/item/06_7_now/Press_photo_performance_NOW.png",
             "revealed": true,
             "slug": "now",
@@ -1301,15 +1301,15 @@
               }
             ],
             "registrationUrl": "https://formspree.io/f/xaqgeeyk",
-            "interventionTime": "20:00",
-            "coreTime": "18:00 – 22:00",
+            "interventionTime": "18:00",
+            "coreTime": "16:00 – open end",
             "themeImage": "/assets/item/09_7_presenceinabsencepiece3/theme.jpeg",
             "revealed": true,
             "slug": "presence-in-absence-piece-3",
             "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
             "instagramPost": "",
             "pageUrl": "/item/presenceinabsence_piecethree",
-            "visitType": "workshop"
+            "visitType": "group-visit"
           },
           {
             "date": "10.07.2026",
@@ -1354,12 +1354,12 @@
               }
             ],
             "registrationUrl": "https://formspree.io/f/xqevqrjn",
-            "interventionTime": "19:00",
+            "interventionTime": "18:00",
             "coreTime": "16:00 – open end",
             "themeImage": "/assets/item/11_7_laikstelpa/Laiks_telpaa.png",
             "revealed": true,
             "slug": "laiks-telpa",
-            "bio": "Ilze Mazpane\n\nIlze Mazpane ir performances māksliniece no Rīgas ar izglītību un pieredzi filosofijā, vizuālajā mākslā, eksperimentālajā teātrī un radošajā rakstīšanā.\n\nIlze veido no vietas izrietošas ilgstošās performances, kurām raksturīgs poētiskums, interese par struktūru un jutīgas attiecības ar telpu. Savā darbā viņa tiecas pēc brīvības no pulksteņlaika tirānijas, tāpēc pēta subjektīvā laika pieredzi, \"kairos\" un plūsmas jēdzienus.\n\nJana Zariņa\n\nPrimarily a historical keyboard and sound artist, her work spans early music, improvisation, electro-acoustic performance, and interdisciplinary arts.\n\nSelected projects include the electro-acoustic duo maяk (https://majakmusic.bandcamp.com), whose most notable performance was the performative act Don't Struggle, Child! at St. Gertrude's Old Church in Riga (2025); the contemporary Latvian opera Ticks (2024, Riga Zoo); the solo electro-acoustic album svobodulitce (https://tobeawhile.bandcamp.com/album/svobodulitce); the French Baroque opera Les Élémens (2025, Vilnius, Palace of the Grand Dukes of Lithuania); the French Baroque opera Blaise le savetier (2025, Kėdainiai and Panemunė Castle, Lithuania); the performance Night in the Sound Garden as part of the Hammond Organ Festival in Liepāja (2025); the performance MELANCHOLIJA VIII as part of the Banchetto Musicale Festival in Vilnius (2025); the performance Fountain Dreams organised by Rupert Art, Residencies and Education Center in Vilnius (2026). She has also performed with the Latvian National Symphony Orchestra (2024) and collaborated internationally with dancers, visual artists, and musicians.",
+            "bio": "Ilze Mazpane\n\nIlze Mazpane is a performance artist from Rīga with a background in philosophy, visual art, experimental theatre and creative writing. She creates site-specific durational works marked by poetic sensibility and a sensitive relationship with space.\n\nJana Zariņa\n\nJana Zariņa is primarily a historical keyboard and sound artist whose work spans early music, contemporary improvisation, electro-acoustic performance and interdisciplinary arts.",
             "instagramPost": "",
             "pageUrl": "/item/laiks_telpa",
             "visitType": "group-visit"

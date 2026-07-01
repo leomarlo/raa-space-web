@@ -45,11 +45,11 @@ export default function ItemPage() {
 
           {/* Programme rows */}
           <div className="mt-8 mb-2">
-            <h2 className="text-xs uppercase tracking-widest text-[#f5f5dc]/50 mb-3">
+            <h2 className="text-xs uppercase tracking-widest text-[#f5f5dc]/70 mb-3">
               Programme
             </h2>
             {/* Header row */}
-            <div className="hidden sm:grid sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 pb-1 mb-1 border-b border-[#f5f5dc]/20 text-[10px] uppercase tracking-widest text-[#f5f5dc]/35">
+            <div className="hidden sm:grid sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 pb-1 mb-2 border-b border-[#f5f5dc]/35 text-[10px] uppercase tracking-widest text-[#f5f5dc]/65">
               <span>Date</span>
               <span>Performance</span>
               <span>Performance time</span>
@@ -68,12 +68,12 @@ export default function ItemPage() {
                       }
                       if (event.pageUrl) window.location.href = event.pageUrl;
                     }}
-                    className={`grid grid-cols-1 sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 gap-y-0.5 py-2.5 border-b border-[#f5f5dc]/15 hover:bg-[#f5f5dc]/5 px-1 -mx-1 transition-colors group cursor-pointer ${
+                    className={`grid grid-cols-1 sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 gap-y-0.5 py-3 border-b border-[#f5f5dc]/25 hover:bg-[#f5f5dc]/5 px-1 -mx-1 transition-colors group cursor-pointer ${
                       !rowRevealed ? 'blur-[3px] select-none pointer-events-none' : ''
                     }`}
                   >
                     {/* Date */}
-                    <span className="text-sm font-medium text-[#f5f5dc]/80 tabular-nums whitespace-nowrap">
+                    <span className="text-sm font-medium text-[#f5f5dc]/90 tabular-nums whitespace-nowrap">
                       {event.date}
                     </span>
                     {/* Title + artists */}
@@ -81,25 +81,25 @@ export default function ItemPage() {
                       <span className="text-sm font-semibold group-hover:text-white transition-colors">
                         {event.title}
                       </span>
-                      <span className="text-xs text-[#f5f5dc]/50">
+                      <span className="text-xs text-[#f5f5dc]/65">
                         {event.artists.map((a, j) => (
                           <span key={j}>
                             {a.displayName}{' '}
-                            <span className="text-[#f5f5dc]/30">({a.nationality})</span>
+                            <span className="text-[#f5f5dc]/45">({a.nationality})</span>
                             {j < event.artists.length - 1 ? ', ' : ''}
                           </span>
                         ))}
                       </span>
                     </span>
                     {/* Core time */}
-                    <span className="text-xs text-[#f5f5dc]/55 tabular-nums whitespace-nowrap sm:pt-0.5">
+                    <span className="text-xs text-[#f5f5dc]/75 tabular-nums whitespace-nowrap sm:pt-0.5">
                       {event.coreTime || 'All day'}
                     </span>
                     {/* Group visit (intervention) time — separate link */}
                     <span className="text-xs tabular-nums whitespace-nowrap sm:pt-0.5" onClick={(e) => e.stopPropagation()}>
                       <a
                         href="/item/intervention-registration"
-                        className="text-[#f5f5dc]/55 underline decoration-dotted hover:text-[#f5f5dc] transition-colors"
+                        className="text-[#f5f5dc]/75 underline decoration-dotted hover:text-[#f5f5dc] transition-colors"
                       >
                         {event.interventionTime || '—'}
                       </a>
