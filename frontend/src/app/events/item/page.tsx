@@ -3,6 +3,7 @@
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import EventPageContent from '@/components/EventPageContent';
+import Image from 'next/image';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -19,9 +20,17 @@ type EventRow = {
 
 export default function ItemPage() {
   const [navOpen, setNavOpen] = useState(false);
+  const [posterOpen, setPosterOpen] = useState(false);
   const { t } = useLanguage();
 
   const events = t.program.features.item.events as EventRow[];
+
+  // On the event page itself show the artwork poster (poster-main),
+  // while listings / OG use the item's main image (public-poster).
+  const eventForPage = {
+    ...t.program.items.item,
+    image: '/assets/item/poster-main.png',
+  };
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
@@ -41,15 +50,19 @@ export default function ItemPage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.item}>
+        <EventPageContent event={eventForPage}>
 
-          {/* Programme rows */}
-          <div className="mt-8 mb-2">
-            <h2 className="text-xs uppercase tracking-widest text-[#f5f5dc]/70 mb-3">
+          {/* Programme rows — opaque background for readability */}
+          <div className="mt-8 mb-2 bg-black rounded-lg p-4 sm:p-5">
+            <button
+              type="button"
+              onClick={() => setPosterOpen(true)}
+              className="text-xs uppercase tracking-widest text-[#f5f5dc] mb-3 underline decoration-dotted underline-offset-4 hover:text-white transition-colors cursor-pointer"
+            >
               Programme
-            </h2>
+            </button>
             {/* Header row */}
-            <div className="hidden sm:grid sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 pb-1 mb-2 border-b border-[#f5f5dc]/35 text-[10px] uppercase tracking-widest text-[#f5f5dc]/65">
+            <div className="hidden sm:grid sm:grid-cols-[7rem_1fr_9rem_7rem] gap-x-3 pb-1 mb-2 border-b border-[#f5f5dc]/50 text-[10px] uppercase tracking-widest text-[#f5f5dc] font-semibold">
               <span>Date</span>
               <span>Performance</span>
               <span>Performance time</span>
@@ -124,6 +137,23 @@ export default function ItemPage() {
           )}
         </EventPageContent>
       </div>
+
+      {/* Poster lightbox — opened by the Programme caption */}
+      {posterOpen && (
+        <div
+          className="fixed inset-0 z-50 bg-black/90 flex items-center justify-center p-4 cursor-zoom-out pointer-events-auto"
+          onClick={() => setPosterOpen(false)}
+        >
+          <Image
+            src="/assets/item/public-poster.png"
+            alt="ITEM — Shuffled Time programme poster"
+            width={1080}
+            height={1350}
+            className="max-h-[90vh] w-auto h-auto rounded-lg shadow-2xl"
+            onClick={(e) => e.stopPropagation()}
+          />
+        </div>
+      )}
     </div>
   );
 }
