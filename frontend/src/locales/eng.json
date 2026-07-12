@@ -166,6 +166,48 @@
   },
   "program": {
     "items": {
+      "raaChessWeek": {
+        "id": "51",
+        "title": "RAA Chess Week",
+        "image": "/assets/raa-chess-week/poster.png",
+        "url": "/events/chess-week",
+        "startDate": "2026-07-20T14:00:00Z",
+        "endDate": "2026-07-24T20:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "One week of celebrating chess and its cultural aspects: talks, opera, theatre, poetry and, of course, chess—lots of chess!",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "20.–24.07.2026, each day from 17:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission, except for the opera “Blaise le Savetier”",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "One week of celebrating chess and its cultural aspects: talks, opera, theatre, poetry and, of course, chess—lots of chess!\n\n**Monday, July 20**\n17:00 — Opening\n18:00 — Signe Kacēna (LU Chess Club)\nThe Invisible Side of Chess\n19:00 — Bruno Rancis (Intelekta attīstības centrs)\nChess: Bright and Dark Sides\n20:00 — Chess Café — RAA and Ex Libris\n\n**Tuesday, July 21**\n17:00 — Chess Speed Dating and Speed Chess Dating\n18:00–21:00 — Hands and Brain Tournament — RAA and Ex Libris\nRegister in pairs!\n\n**Wednesday, July 22**\n17:00 — Chess Café — RAA and Ex Libris\n19:00 — Baroque opera “Blaise le Savetier”\nWritten by chess master F. A. D. Philidor\nBaroque Music Ensemble “Lieto Fine”\n[Event information and tickets](/events/blaise-le-savetier)\n\n**Thursday, July 23**\n17:00 — Chess Café\n19:30 — Poetry with Sintakses Stupors\n\n**Friday, July 24**\n17:00 — Chess Café, open-ended\n19:00 — Chess Theatre\n\nAll events are free except the opera “Blaise le Savetier”."
+      },
+      "blaiseLeSavetier": {
+        "id": "50",
+        "title": "Blaise le Savetier",
+        "image": "/assets/blaise-le-savetier/poster.png",
+        "url": "/events/blaise-le-savetier",
+        "startDate": "2026-07-22T16:00:00Z",
+        "endDate": "2026-07-22T16:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "A concert performance of F.-A.-D. Philidor’s comic one-act Baroque opera, presented during RAA Chess Week.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "22.07.2026 at 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "€16 / €14 students and seniors / €10 under 18",
+        "externalLink": "https://www.bilesuparadize.lv/lv/event/175491",
+        "externalLinkText": "Tickets",
+        "description": "For the first time in Riga, the comic one-act opera **“The Shoemaker Blaise” (“Blaise le savetier”)** by the distinguished French composer and legendary chess player François-André Danican Philidor will be performed. This concert performance is one of the events of the RAA Cultural Space Chess Festival (July 20–24).\n\nThe Lithuanian Baroque opera ensemble **“Lieto Fine”**, in collaboration with Latvian instrumentalists and director Evelina Brėdikytė, presents a contemporary interpretation of this 18th-century opera, where historically informed performance practice is combined with elements of cinema, physical theatre, and modern stage direction.\n\nThe production will appeal to enthusiasts of Baroque music as well as anyone interested in experiencing an unconventional interpretation of opera. It is also suitable for families with children aged 8 and above, combining humour, theatre, music, and the story of one of history’s most extraordinary personalities.\n\n**Baroque Music Ensemble “Lieto Fine”**\nStage Director: Evelina Brėdikytė\n\n• Karolina Parmas – soprano\n• Justina Kaminskaitė – soprano\n• Ignas Ščesnulevičius – tenor\n• Ervinas Jasevičius – baritone\n• Marianna Puriņa – violin\n• Eglė Petraitienė – violin\n• Laura Šarova – viola\n• Elfrīda Švalbe – cello\n• Jana Zariņa – harpsichord\n\nTickets: €16; €14 for students and seniors; €10 for visitors under 18.\n\n[Buy tickets](https://www.bilesuparadize.lv/lv/event/175491)"
+      },
       "item": {
         "id": "49",
         "title": "ITEM — Shuffled Time",
@@ -1185,6 +1227,57 @@
       }
     },
     "features": {
+      "chessWeek": {
+        "days": [
+          {
+            "date": "20.07.2026",
+            "day": "Monday",
+            "pageUrl": "/chess-week/monday-20-jul",
+            "events": [
+              { "time": "17:00", "title": "Opening", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00", "title": "The Invisible Side of Chess", "details": "Signe Kacēna (LU Chess Club)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Chess: Bright and Dark Sides", "details": "Bruno Rancis (Intelekta attīstības centrs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "20:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "21.07.2026",
+            "day": "Tuesday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Speed Dating and Speed Chess Dating", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00–21:00", "title": "Hands and Brain Tournament", "details": "RAA and Ex Libris · Register in pairs!", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Register on Lu.ma" }
+            ]
+          },
+          {
+            "date": "22.07.2026",
+            "day": "Wednesday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Baroque Opera “Blaise le Savetier”", "details": "Written by chess master F. A. D. Philidor · Baroque Music Ensemble “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Buy tickets" }
+            ]
+          },
+          {
+            "date": "23.07.2026",
+            "day": "Thursday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Café", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:30", "title": "Poetry with Sintakses Stupors", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "24.07.2026",
+            "day": "Friday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00–open end", "title": "Chess Café", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Chess Theatre", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          }
+        ]
+      },
       "item": {
         "title": "ITEM — Sign up for a group visit or workshop",
         "description": "On each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",

@@ -1,0 +1,22 @@
+{
+  "encoded_url": "https://raa.space/c#08hh",
+  "base_url": "https://raa.space/c",
+  "nonce": 10997,
+  "nonce_text": "08hh",
+  "mask": 0,
+  "qr_version": 3,
+  "module_count": 29,
+  "alternating_windows": 117,
+  "total_windows": 784,
+  "alternating_percent": 14.923469387755103,
+  "largest_connected_region": 28,
+  "central_alternating_windows": 37,
+  "central_total_windows": 196,
+  "central_alternating_percent": 18.877551020408163,
+  "changed_modules": 0,
+  "decoder": "zbarimg",
+  "decoded_value": "https://raa.space/c#08hh",
+  "iterations": 12000,
+  "candidates_evaluated": 96000,
+  "output": "frontend/public/assets/raa-chess-week/chess-qr.png"
+}

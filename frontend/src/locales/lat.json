@@ -167,6 +167,48 @@
   },
   "program": {
     "items": {
+      "raaChessWeek": {
+        "id": "51",
+        "title": "RAA Šaha nedēļa",
+        "image": "/assets/raa-chess-week/poster.png",
+        "url": "/events/chess-week",
+        "startDate": "2026-07-20T14:00:00Z",
+        "endDate": "2026-07-24T20:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Nedēļa, kurā svinam šahu un tā kultūras aspektus: sarunas, opera, teātris, dzeja un, protams, šahs—daudz šaha!",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "20.–24.07.2026, katru dienu no plkst. 17.00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas, izņemot operu “Blaise le Savetier”",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Nedēļa, kurā svinam šahu un tā kultūras aspektus: sarunas, opera, teātris, dzeja un, protams, šahs—daudz šaha!\n\n**Pirmdiena, 20. jūlijs**\n17.00 — Atklāšana\n18.00 — Signe Kacēna (LU Šaha klubs)\nŠaha neredzamā puse\n19.00 — Bruno Rancis (Intelekta attīstības centrs)\nŠahs: gaišās un tumšās puses\n20.00 — Šaha kafejnīca — RAA un Ex Libris\n\n**Otrdiena, 21. jūlijs**\n17.00 — Šaha ātrie randiņi un ātrā šaha randiņi\n18.00–21.00 — “Hands and Brain” turnīrs — RAA un Ex Libris\nReģistrējieties pāros!\n\n**Trešdiena, 22. jūlijs**\n17.00 — Šaha kafejnīca — RAA un Ex Libris\n19.00 — Baroka opera “Blaise le Savetier”\nŠaha meistara F. A. D. Filidora opera\nBaroka mūzikas ansamblis “Lieto Fine”\n[Informācija par pasākumu un biļetes](/events/blaise-le-savetier)\n\n**Ceturtdiena, 23. jūlijs**\n17.00 — Šaha kafejnīca\n19.30 — Dzeja ar “Sintakses stuporu”\n\n**Piektdiena, 24. jūlijs**\n17.00 — Šaha kafejnīca bez noteikta beigu laika\n19.00 — Šaha teātris\n\nVisi pasākumi ir bez maksas, izņemot operu “Blaise le Savetier”."
+      },
+      "blaiseLeSavetier": {
+        "id": "50",
+        "title": "Blaise le Savetier",
+        "image": "/assets/blaise-le-savetier/poster.png",
+        "url": "/events/blaise-le-savetier",
+        "startDate": "2026-07-22T16:00:00Z",
+        "endDate": "2026-07-22T16:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "F. A. D. Filidora komiskās viencēliena baroka operas koncertuzvedums RAA Šaha nedēļas ietvaros.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "22.07.2026 plkst. 19.00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "16 € / 14 € studentiem un senioriem / 10 € jauniešiem līdz 18 gadu vecumam",
+        "externalLink": "https://www.bilesuparadize.lv/lv/event/175491",
+        "externalLinkText": "Biļetes",
+        "description": "Pirmo reizi Rīgā tiks atskaņota izcilā franču komponista un leģendārā šahista Fransuā Andrē Danikana Filidora komiskā viencēliena opera **“Kurpnieks Blēzs” (“Blaise le savetier”)**. Koncertuzvedums ir viens no RAA kultūrtelpas Šaha festivāla pasākumiem (20.–24. jūlijs).\n\nLietuvas baroka operas ansamblis **“Lieto Fine”** sadarbībā ar Latvijas instrumentālistiem un režisori Evelinu Brėdikytė piedāvā laikmetīgu 18. gadsimta operas interpretāciju, kurā vēsturiski informēta atskaņojuma prakse apvienota ar kino, fiziskā teātra un mūsdienīgas režijas elementiem.\n\nIestudējums uzrunās gan baroka mūzikas cienītājus, gan ikvienu, kurš vēlas piedzīvot neparastu operas interpretāciju. Tas ir piemērots arī ģimenēm ar bērniem no 8 gadu vecuma, apvienojot humoru, teātri, mūziku un stāstu par vienu no neparastākajām personībām vēsturē.\n\n**Baroka mūzikas ansamblis “Lieto Fine”**\nRežisore: Evelina Brėdikytė\n\n• Karolina Parmas – soprāns\n• Justina Kaminskaitė – soprāns\n• Ignas Ščesnulevičius – tenors\n• Ervinas Jasevičius – baritons\n• Marianna Puriņa – vijole\n• Eglė Petraitienė – vijole\n• Laura Šarova – alts\n• Elfrīda Švalbe – čells\n• Jana Zariņa – klavesīns\n\nBiļetes: 16 €; studentiem un senioriem 14 €; jauniešiem līdz 18 gadu vecumam 10 €.\n\n[Pirkt biļetes](https://www.bilesuparadize.lv/lv/event/175491)"
+      },
       "item": {
         "id": "49",
         "title": "ITEM — Shuffled Time",
@@ -1188,6 +1230,57 @@
       }
     },
     "features": {
+      "chessWeek": {
+        "days": [
+          {
+            "date": "20.07.2026",
+            "day": "Pirmdiena",
+            "pageUrl": "/chess-week/monday-20-jul",
+            "events": [
+              { "time": "17.00", "title": "Atklāšana", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00", "title": "Šaha neredzamā puse", "details": "Signe Kacēna (LU Šaha klubs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Šahs: gaišās un tumšās puses", "details": "Bruno Rancis (Intelekta attīstības centrs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "20.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "21.07.2026",
+            "day": "Otrdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha ātrie randiņi un ātrā šaha randiņi", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00–21.00", "title": "“Hands and Brain” turnīrs", "details": "RAA un Ex Libris · Reģistrējieties pāros!", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Reģistrēties Lu.ma" }
+            ]
+          },
+          {
+            "date": "22.07.2026",
+            "day": "Trešdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Baroka opera “Blaise le Savetier”", "details": "Šaha meistara F. A. D. Filidora opera · Baroka mūzikas ansamblis “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Pirkt biļetes" }
+            ]
+          },
+          {
+            "date": "23.07.2026",
+            "day": "Ceturtdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.30", "title": "Dzeja ar “Sintakses stuporu”", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "24.07.2026",
+            "day": "Piektdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00–bez noteikta beigu laika", "title": "Šaha kafejnīca", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Šaha teātris", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          }
+        ]
+      },
       "item": {
         "title": "ITEM — Pieteikties grupas apmeklējumam vai darbnīcai",
         "description": "Teksts pieejams tikai angļu valodā.\n\nOn each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
