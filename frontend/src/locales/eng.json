@@ -166,6 +166,27 @@
   },
   "program": {
     "items": {
+      "vienkarsiSarezgiti": {
+        "id": "52",
+        "title": "Vienkārši sarežģīti",
+        "image": "/assets/vienkarsi-sarezgiti/poster.webp",
+        "url": "/events/vienkarsi-sarezgiti",
+        "startDate": "2026-07-23T16:30:00Z",
+        "endDate": "2026-07-23T16:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Poetry readings by Sintakses stupors and songs by Zoya Zoyroko about situations that are simply complicated.",
+        "location": "RAA.SPACE, Matīsa iela 8, Riga",
+        "when": "23 July 2026 at 19:30",
+        "instaLink": "https://www.instagram.com/p/DasefpiOWVn/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**Organised by Sintakses stupors.**\n\nFrom 20 to 26 July, RAA cultural space will host Chess Week. We will be taking part too. On 23 July at 19:30, inspired by this complicated game, we will read poems about precisely those kinds of situations that are simply complicated.\n\nWondering which situations exactly? Well, to find out, you will have to come and listen in person.\n\nPoems will be read by Evelīna Mūrniece, Džonatans Melgalvis, Dainis Deigelis, Linda Tīmane, Andris Alps, Laima Ābele, Ilze Kuzmicka, Kristīne Jučkoviča and Dita Putniņa.\n\nSinger Zoya Zoyroko will delight the audience’s ears with her songs.\n\nSee you there!\n\nP.S. Thanks to Arnolds Ščuckis for the poster, to me (Andris Alps) for the idea, and to artificial intelligence for the tangle."
+      },
       "raaChessWeek": {
         "id": "51",
         "title": "RAA Chess Week",
@@ -185,7 +206,7 @@
         "price": "Free admission, except for the opera “Blaise le Savetier”",
         "externalLink": "",
         "externalLinkText": "",
-        "description": "One week of celebrating chess and its cultural aspects: talks, opera, theatre, poetry and, of course, chess—lots of chess!\n\n**Monday, July 20**\n17:00 — Opening\n18:00 — Signe Kacēna (LU Chess Club)\nThe Invisible Side of Chess\n19:00 — Bruno Rancis (Intelekta attīstības centrs)\nChess: Bright and Dark Sides\n20:00 — Chess Café — RAA and Ex Libris\n\n**Tuesday, July 21**\n17:00 — Chess Speed Dating and Speed Chess Dating\n18:00–21:00 — Hands and Brain Tournament — RAA and Ex Libris\nRegister in pairs!\n\n**Wednesday, July 22**\n17:00 — Chess Café — RAA and Ex Libris\n19:00 — Baroque opera “Blaise le Savetier”\nWritten by chess master F. A. D. Philidor\nBaroque Music Ensemble “Lieto Fine”\n[Event information and tickets](/events/blaise-le-savetier)\n\n**Thursday, July 23**\n17:00 — Chess Café\n19:30 — Poetry with Sintakses Stupors\n\n**Friday, July 24**\n17:00 — Chess Café, open-ended\n19:00 — Chess Theatre\n\nAll events are free except the opera “Blaise le Savetier”."
+        "description": "One week of celebrating chess and its cultural aspects: talks, opera, theatre, poetry and, of course, chess—lots of chess!\n\n**Monday, July 20 — World Chess Day**\n17:00 — Opening\n18:00 — Behind the Chess Scenes\nSigne Kacēna · Talk in Latvian\n19:00 — Chess: Bright and Dark Sides\nBruno Rancis · Talk in Latvian\n20:00 — Chess Café — RAA and Ex Libris\n\n**Tuesday, July 21**\n17:00 — Chess speed dating — Ex Libris\n18:00–21:00 — Hands and Brain Tournament\nOrganized by Signe Kacēna and Visvaldis Gercāns\nRegister in pairs or we will find a partner\nRAA and Ex Libris\n[Register on Lu.ma](https://luma.com/d8s1qtv8)\n\n**Wednesday, July 22**\n17:00 — Chess Café — RAA and Ex Libris\n19:00 — Baroque opera “Blaise le Savetier”\nWritten by chess master F. A. D. Philidor\nBaroque Collective “Lieto Fine”\n[Tickets available on Biļešu Paradīze](https://www.bilesuparadize.lv/lv/event/175491)\n[Event information](/events/blaise-le-savetier)\n\n**Thursday, July 23**\n17:00 — Chess Café — RAA and Ex Libris\n19:30 — Simply complicated!\nPoetry by Sintakses stupors with music\n[Event information](/events/vienkarsi-sarezgiti)\n\n**Friday, July 24**\n17:00 — Chess Café — RAA and Ex Libris\n19:00 — Make Chess Great Again\nTheatre by Santa Didžus and Leonhard Horstmeyer\n\nAll events are free except the opera “Blaise le Savetier”."
       },
       "blaiseLeSavetier": {
         "id": "50",
@@ -1235,8 +1256,8 @@
             "pageUrl": "/chess-week/monday-20-jul",
             "events": [
               { "time": "17:00", "title": "Opening", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18:00", "title": "The Invisible Side of Chess", "details": "Signe Kacēna (LU Chess Club)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Chess: Bright and Dark Sides", "details": "Bruno Rancis (Intelekta attīstības centrs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00", "title": "Behind the Chess Scenes", "details": "Signe Kacēna · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Chess: Bright and Dark Sides", "details": "Bruno Rancis · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
               { "time": "20:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
             ]
           },
@@ -1245,8 +1266,8 @@
             "day": "Tuesday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess Speed Dating and Speed Chess Dating", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18:00–21:00", "title": "Hands and Brain Tournament", "details": "RAA and Ex Libris · Register in pairs!", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Register on Lu.ma" }
+              { "time": "17:00", "title": "Chess speed dating", "details": "Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00–21:00", "title": "Hands and Brain Tournament", "details": "Organized by Signe Kacēna and Visvaldis Gercāns · Register in pairs or we will find a partner · RAA and Ex Libris", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Register on Lu.ma" }
             ]
           },
           {
@@ -1255,7 +1276,7 @@
             "pageUrl": "",
             "events": [
               { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Baroque Opera “Blaise le Savetier”", "details": "Written by chess master F. A. D. Philidor · Baroque Music Ensemble “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Buy tickets" }
+              { "time": "19:00", "title": "Baroque Opera “Blaise le Savetier”", "details": "Written by chess master F. A. D. Philidor · Baroque Collective “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Buy tickets" }
             ]
           },
           {
@@ -1263,8 +1284,8 @@
             "day": "Thursday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess Café", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:30", "title": "Poetry with Sintakses Stupors", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:30", "title": "Simply complicated!", "details": "Poetry by Sintakses stupors with music", "pageUrl": "/events/vienkarsi-sarezgiti", "registrationUrl": "", "registrationLabel": "" }
             ]
           },
           {
@@ -1272,8 +1293,8 @@
             "day": "Friday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00–open end", "title": "Chess Café", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Chess Theatre", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Make Chess Great Again", "details": "Theatre by Santa Didžus and Leonhard Horstmeyer", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
             ]
           }
         ]

@@ -167,6 +167,27 @@
   },
   "program": {
     "items": {
+      "vienkarsiSarezgiti": {
+        "id": "52",
+        "title": "Vienkārši sarežģīti",
+        "image": "/assets/vienkarsi-sarezgiti/poster.webp",
+        "url": "/events/vienkarsi-sarezgiti",
+        "startDate": "2026-07-23T16:30:00Z",
+        "endDate": "2026-07-23T16:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Sintakses stupora dzejas lasījumi un Zoya Zoyroko dziesmas par situācijām, kas ir vienkārši sarežģītas.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "23.07.2026 plkst. 19.30",
+        "instaLink": "https://www.instagram.com/p/DasefpiOWVn/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**Organizē Sintakses stupors.**\n\nNo 20. līdz 26. jūlijam kultūras telpā RAA norisināsies šaha nedēļa. Arī mēs tajā piedalīsimies. Proti, 23. jūlijā plkst. 19.30, iedvesmojoties no šīs sarežģītās spēles, lasīsim dzejoļus par tieši šādām situācijām, kas ir vienkārši sarežģītas.\n\nJautāsi, par kādām tieši situācijām? Nu, lai to noskaidrotu, būs jāatnāk klātienē un jāpaklausās.\n\nDzejoļus lasīs Evelīna Mūrniece, Džonatans Melgalvis, Dainis Deigelis, Linda Tīmane, Andris Alps, Laima Ābele, Ilze Kuzmicka, Kristīne Jučkoviča un Dita Putniņa.\n\nAr savām dziesmām klausītāju ausis darīs laimīgas dziedātāja Zoya Zoyroko.\n\nTiekamies!\n\nP.S. Paldies Arnoldam Ščuckim par plakātu, man (Andrim Alpam) par ideju un mākslīgajam intelektam par mudžekli."
+      },
       "raaChessWeek": {
         "id": "51",
         "title": "RAA Šaha nedēļa",
@@ -186,7 +207,7 @@
         "price": "Ieeja bez maksas, izņemot operu “Blaise le Savetier”",
         "externalLink": "",
         "externalLinkText": "",
-        "description": "Nedēļa, kurā svinam šahu un tā kultūras aspektus: sarunas, opera, teātris, dzeja un, protams, šahs—daudz šaha!\n\n**Pirmdiena, 20. jūlijs**\n17.00 — Atklāšana\n18.00 — Signe Kacēna (LU Šaha klubs)\nŠaha neredzamā puse\n19.00 — Bruno Rancis (Intelekta attīstības centrs)\nŠahs: gaišās un tumšās puses\n20.00 — Šaha kafejnīca — RAA un Ex Libris\n\n**Otrdiena, 21. jūlijs**\n17.00 — Šaha ātrie randiņi un ātrā šaha randiņi\n18.00–21.00 — “Hands and Brain” turnīrs — RAA un Ex Libris\nReģistrējieties pāros!\n\n**Trešdiena, 22. jūlijs**\n17.00 — Šaha kafejnīca — RAA un Ex Libris\n19.00 — Baroka opera “Blaise le Savetier”\nŠaha meistara F. A. D. Filidora opera\nBaroka mūzikas ansamblis “Lieto Fine”\n[Informācija par pasākumu un biļetes](/events/blaise-le-savetier)\n\n**Ceturtdiena, 23. jūlijs**\n17.00 — Šaha kafejnīca\n19.30 — Dzeja ar “Sintakses stuporu”\n\n**Piektdiena, 24. jūlijs**\n17.00 — Šaha kafejnīca bez noteikta beigu laika\n19.00 — Šaha teātris\n\nVisi pasākumi ir bez maksas, izņemot operu “Blaise le Savetier”."
+        "description": "Nedēļa, kurā svinam šahu un tā kultūras aspektus: sarunas, opera, teātris, dzeja un, protams, šahs—daudz šaha!\n\n**Pirmdiena, 20. jūlijs — Pasaules šaha diena**\n17.00 — Atklāšana\n18.00 — Šahs aiz gājieniem\nSigne Kacēna (LU Šaha klubs)\n19.00 — Šaha gaisma un tumsa\nBruno Rancis\n20.00 — Šaha kafejnīca — RAA un Ex Libris\n\n**Otrdiena, 21. jūlijs**\n17.00 — Šaha speed dating — Ex Libris\n18.00–21.00 — Rokas un smadzenes turnīrs\nOrganizē Signe Kacēna un Visvaldis Gercāns\nReģistrējies pāros vai atradīsim partneri\nRAA un Ex Libris\n[Reģistrēties Lu.ma](https://luma.com/d8s1qtv8)\n\n**Trešdiena, 22. jūlijs**\n17.00 — Šaha kafejnīca — RAA un Ex Libris\n19.00 — Baroka opera “Blaise le Savetier”\nKomponists un šaha meistars F. A. D. Philidor\nBaroka kolektīvs “Lieto Fine”\n[Biļetes pieejamas Biļešu Paradīzē](https://www.bilesuparadize.lv/lv/event/175491)\n[Informācija par pasākumu](/events/blaise-le-savetier)\n\n**Ceturtdiena, 23. jūlijs**\n17.00 — Šaha kafejnīca — RAA un Ex Libris\n19.30 — Vienkārši sarežģīti\n“Sintakses stupors” dzeja un mūzika\n[Informācija par pasākumu](/events/vienkarsi-sarezgiti)\n\n**Piektdiena, 24. jūlijs**\n17.00 — Šaha kafejnīca — RAA un Ex Libris\n19.00 — Make Chess Great Again\nTeātris — Santa Didžus un Leonhard Horstmeyer\n\nVisi pasākumi ir bez maksas, izņemot operu “Blaise le Savetier”."
       },
       "blaiseLeSavetier": {
         "id": "50",
@@ -1238,8 +1259,8 @@
             "pageUrl": "/chess-week/monday-20-jul",
             "events": [
               { "time": "17.00", "title": "Atklāšana", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18.00", "title": "Šaha neredzamā puse", "details": "Signe Kacēna (LU Šaha klubs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19.00", "title": "Šahs: gaišās un tumšās puses", "details": "Bruno Rancis (Intelekta attīstības centrs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00", "title": "Šahs aiz gājieniem", "details": "Signe Kacēna (LU Šaha klubs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Šaha gaisma un tumsa", "details": "Bruno Rancis", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
               { "time": "20.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
             ]
           },
@@ -1248,8 +1269,8 @@
             "day": "Otrdiena",
             "pageUrl": "",
             "events": [
-              { "time": "17.00", "title": "Šaha ātrie randiņi un ātrā šaha randiņi", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18.00–21.00", "title": "“Hands and Brain” turnīrs", "details": "RAA un Ex Libris · Reģistrējieties pāros!", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Reģistrēties Lu.ma" }
+              { "time": "17.00", "title": "Šaha speed dating", "details": "Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00–21.00", "title": "Rokas un smadzenes turnīrs", "details": "Organizē Signe Kacēna un Visvaldis Gercāns · Reģistrējies pāros vai atradīsim partneri · RAA un Ex Libris", "pageUrl": "/chess-week/hands-and-brain", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Reģistrēties Lu.ma" }
             ]
           },
           {
@@ -1258,7 +1279,7 @@
             "pageUrl": "",
             "events": [
               { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19.00", "title": "Baroka opera “Blaise le Savetier”", "details": "Šaha meistara F. A. D. Filidora opera · Baroka mūzikas ansamblis “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Pirkt biļetes" }
+              { "time": "19.00", "title": "Baroka opera “Blaise le Savetier”", "details": "Komponists un šaha meistars F. A. D. Philidor · Baroka kolektīvs “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Pirkt biļetes" }
             ]
           },
           {
@@ -1266,8 +1287,8 @@
             "day": "Ceturtdiena",
             "pageUrl": "",
             "events": [
-              { "time": "17.00", "title": "Šaha kafejnīca", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19.30", "title": "Dzeja ar “Sintakses stuporu”", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.30", "title": "Vienkārši sarežģīti", "details": "“Sintakses stupors” dzeja un mūzika", "pageUrl": "/events/vienkarsi-sarezgiti", "registrationUrl": "", "registrationLabel": "" }
             ]
           },
           {
@@ -1275,8 +1296,8 @@
             "day": "Piektdiena",
             "pageUrl": "",
             "events": [
-              { "time": "17.00–bez noteikta beigu laika", "title": "Šaha kafejnīca", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19.00", "title": "Šaha teātris", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Make Chess Great Again", "details": "Teātris — Santa Didžus un Leonhard Horstmeyer", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
             ]
           }
         ]
