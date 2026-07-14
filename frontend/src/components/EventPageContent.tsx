@@ -2,6 +2,7 @@
 
 import Image from 'next/image';
 import { ProgramItem } from '@/types/program';
+import BackToProgram from '@/components/BackToProgram';
 
 interface EventPageContentProps {
   event: ProgramItem;
@@ -68,6 +69,7 @@ export default function EventPageContent({ event, children }: EventPageContentPr
       </div>
 
       {children}
+      <BackToProgram />
     </div>
   );
 }

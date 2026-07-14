@@ -25,12 +25,9 @@ type ChessWeekDay = {
 
 export default function ChessWeekPage() {
   const [navOpen, setNavOpen] = useState(false);
-  const { t } = useLanguage();
+  const { locale, t } = useLanguage();
   const days = t.program.features.chessWeek.days as ChessWeekDay[];
-  const eventForPage = {
-    ...t.program.items.raaChessWeek,
-    description: t.program.items.raaChessWeek.shortDescription,
-  };
+  const eventForPage = t.program.items.raaChessWeek;
 
   return (
     <div className="relative w-full min-h-screen text-[#f5f5dc]">
@@ -53,7 +50,7 @@ export default function ChessWeekPage() {
         <EventPageContent event={eventForPage}>
           <div className="mt-8 bg-black rounded-lg p-4 sm:p-5">
             <p className="text-xs uppercase tracking-widest text-[#f5f5dc]/60 mb-4">
-              Programme
+              {locale === 'lat' ? 'Programma' : 'Programme'}
             </p>
 
             {days.map((day) => (
