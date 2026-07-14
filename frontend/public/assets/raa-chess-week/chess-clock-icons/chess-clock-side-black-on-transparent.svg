@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="48" viewBox="0 0 64 48" fill="none">
+  <title>Chess clock — side perspective</title>
+  <defs>
+    <mask id="clock-cutouts">
+      <rect width="64" height="48" fill="white"/>
+      <circle cx="20" cy="29" r="9" fill="black"/>
+      <circle cx="44" cy="29" r="9" fill="black"/>
+    </mask>
+  </defs>
+
+  <path d="M12 8H24V14H12V8Z" fill="#000"/>
+  <path d="M40 8H52V14H40V8Z" fill="#000"/>
+  <path d="M7 14H57L61 44H3L7 14Z" fill="#000" mask="url(#clock-cutouts)"/>
+
+  <path d="M20 22V29L24 32" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M44 22V29L40 32" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="30" y="18" width="4" height="22" rx="1" fill="#000"/>
+  <rect x="8" y="42" width="10" height="4" rx="1" fill="#000"/>
+  <rect x="46" y="42" width="10" height="4" rx="1" fill="#000"/>
+</svg>

@@ -21,7 +21,7 @@ export default function ComingSoon() {
   // Pinned event for the flashing box
   const upcomingEvent = useMemo(() => {
     const programItems = t.program.items as Record<string, ProgramItem>;
-    return programItems['item'] ?? null;
+    return programItems['raaChessWeek'] ?? null;
   }, [t.program.items]);
 
   const isSpecialPeriod = useMemo(() => {
@@ -31,16 +31,16 @@ export default function ComingSoon() {
     return today >= start && today <= end;
   }, []);
 
-  // Show flashing box from Jun 1, 2026 through Jul 10, 2026
+  // Show the Chess Week box from Jul 14 through Jul 25, 2026 (inclusive).
   const isActivePeriod = useMemo(() => {
     const today = new Date();
     const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 5, 1); // Jun 1, 2026
-    const endDate = new Date(2026, 6, 10, 23, 59, 59); // Jul 10, 2026
+    const startDate = new Date(2026, 6, 14);
+    const endDate = new Date(2026, 6, 25, 23, 59, 59);
     return todayStart >= startDate && todayStart <= endDate;
   }, []);
 
-  const shouldShowFlashingBox = isActivePeriod && upcomingEvent && upcomingEvent.externalLink;
+  const shouldShowFlashingBox = isActivePeriod && upcomingEvent;
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
@@ -89,7 +89,7 @@ export default function ComingSoon() {
               </p>
               <div className="flex flex-wrap justify-center gap-4">
                 <Link
-                  href="/events/item"
+                  href={upcomingEvent.url}
                   className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
                 >
                   {upcomingEvent.title}
