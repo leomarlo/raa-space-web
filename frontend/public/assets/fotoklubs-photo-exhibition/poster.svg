@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1080 1440" role="img" aria-labelledby="title desc">
+  <title id="title">Fotoklubs.lv photo exhibition</title>
+  <desc id="desc">Photo exhibition at RAA from 13 to 18 July, open daily from 15:00 to 20:00.</desc>
+  <rect width="1080" height="1440" fill="#d8d0c5"/>
+  <rect x="54" y="54" width="972" height="1332" fill="none" stroke="#111" stroke-width="5"/>
+  <g transform="translate(540 445)" fill="none" stroke="#111" stroke-width="22" stroke-linejoin="round">
+    <circle r="240"/>
+    <path d="M0-240 108-52 240-52M240-52 119 126 120 208M120 208-96 208-137 137M-137 137-240-52-104-52M-104-52 0-240M108-52-104-52 0 128 119 126"/>
+    <circle r="61" fill="#111"/>
+  </g>
+  <g fill="#111" font-family="Arial, Helvetica, sans-serif">
+    <text x="540" y="805" text-anchor="middle" font-size="98" font-weight="700" letter-spacing="3">FOTOKLUBS.LV</text>
+    <text x="540" y="885" text-anchor="middle" font-size="40" letter-spacing="8">FOTOIZSTĀDE</text>
+    <path d="M160 950h760" stroke="#111" stroke-width="4"/>
+    <text x="540" y="1055" text-anchor="middle" font-size="70" font-weight="700">13.–18. JŪLIJS</text>
+    <text x="540" y="1130" text-anchor="middle" font-size="52">KATRU DIENU · 15:00–20:00</text>
+    <text x="540" y="1240" text-anchor="middle" font-size="52" font-weight="700">RAA</text>
+    <text x="540" y="1300" text-anchor="middle" font-size="38">MATĪSA IELA 8 · RĪGA</text>
+  </g>
+</svg>

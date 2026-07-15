@@ -6,6 +6,7 @@ import { LanguageProvider } from "@/context/LanguageContext";
 const geistSans = Geist({variable: "--font-geist-sans", subsets: ["latin"]});
 const geistMono = Geist_Mono({ variable: "--font-geist-mono", subsets: ["latin"]});
 export const metadata: Metadata = {
+  metadataBase: new URL("https://raa.space"),
   title: "RAA SPACE",
   description: "Raa is a venue for performances, exhibitions, and workshops in Riga.",
   icons: {
