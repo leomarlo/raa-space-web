@@ -123,9 +123,19 @@ export default function ItemPage() {
             </div>
           </div>
 
-          {/* Intervention registration button */}
-          {t.program.items.item.externalLink && (
-            <div className="mt-6 text-center">
+          {/* Instagram + intervention registration buttons */}
+          <div className="mt-6 flex flex-wrap gap-3 justify-center">
+            {t.program.items.item.instaLink && (
+              <a
+                href={t.program.items.item.instaLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block border border-[#f5f5dc]/50 text-[#f5f5dc]/70 px-6 py-2 text-sm tracking-wide hover:border-[#f5f5dc] hover:text-[#f5f5dc] transition-colors"
+              >
+                Instagram Post
+              </a>
+            )}
+            {t.program.items.item.externalLink && (
               <a
                 href={t.program.items.item.externalLink}
                 rel="noopener noreferrer"
@@ -133,8 +143,8 @@ export default function ItemPage() {
               >
                 Register for a scheduled group visit to the performance
               </a>
-            </div>
-          )}
+            )}
+          </div>
         </EventPageContent>
       </div>
 

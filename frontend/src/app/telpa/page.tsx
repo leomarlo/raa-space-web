@@ -94,8 +94,26 @@ export default function TelpaPage() {
             height={1000}
           />
 
-          <h2 className="text-2xl font-bold text-center">{t.telpa.cvTitle}</h2>
+          <h2 id="cv" className="text-2xl font-bold text-center">{t.telpa.cvTitle}</h2>
           <p className="text-justify leading-relaxed">{t.telpa.cvDescription}</p>
+          <div className="flex flex-wrap justify-center gap-4">
+            <a
+              href="/assets/telpa/raa-cv-en.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-[#8B0000] text-[#f5f5dc] rounded-full hover:bg-[#8B0000] transition"
+            >
+              {t.telpa.cvLinkEn}
+            </a>
+            <a
+              href="/assets/telpa/raa-cv-lv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="px-4 py-2 border border-[#8B0000] text-[#f5f5dc] rounded-full hover:bg-[#8B0000] transition"
+            >
+              {t.telpa.cvLinkLv}
+            </a>
+          </div>
           <div className="flex flex-col gap-4">
             <iframe
               src="/assets/telpa/raa-cv-en.pdf"
