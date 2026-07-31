@@ -6,6 +6,7 @@
   "more": "More",
   "less": "Less",
   "today": "Today",
+  "backToProgram": "Back to program",
   "menu": {
     "raaSpace": "RAA SPACE",
     "program": "Program",
@@ -169,7 +170,7 @@
   "program": {
     "items": {
       "hg80": {
-        "id": "51",
+        "id": "56",
         "title": "Hg80",
         "image": "/assets/raa_coming_soon.png",
         "url": "/events/hg80",
@@ -190,7 +191,7 @@
         "description": "Hg80 is an experimental sound performance on the theme of mercury by Kristīne and Artūrs.\n\nMore details to follow."
       },
       "architectureOfFeeling": {
-        "id": "50",
+        "id": "55",
         "title": "Architecture of Feeling",
         "image": "/assets/architecture-of-feeling/poster.jpeg",
         "url": "/events/architecture-of-feeling",
@@ -209,6 +210,111 @@
         "externalLink": "",
         "externalLinkText": "",
         "description": "In the beginning of August, we are bringing our concert programme, The Architecture of Feeling, to Riga RAA Cultural Space. We will be joined by lutenist Marco Baronchelli (Italy) and our Latvian colleagues Elfrīda Švalbe (baroque cello) and Marianna Puriņa (baroque violin). Our hearts are full of joy as this concert cycle becomes a celebration of music and international exchange. We are waiting for you in Riga to listen to our early Baroque programme, composed of 17th-century music, and let’s see where this evening will bring us!\n\nEnsemble Sans Frayeur:\nJustina Kaminskaitė (mezzo-soprano)\nSkirmantė Kirkliauskaitė (harpsichord)\n\nGuest artists:\nMarco Baronchelli (lute)\nMarianna Puriņa (baroque violin)\nElfrīda Švalbe (baroque cello)\n\nBy Justina Kaminskaitė and Skirmantė Kirkliauskaitė.\n\nSupported by Veldzes vasara and Lietuvos kultūros taryba."
+      },
+      "fotoklubsPhotoExhibition": {
+        "id": "54",
+        "title": "Fotoklubs.lv Photo Exhibition",
+        "image": "/assets/fotoklubs-photo-exhibition/poster.png",
+        "url": "/events/fotoklubs-photo-exhibition",
+        "startDate": "2026-07-13T12:00:00Z",
+        "endDate": "2026-07-18T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "An ongoing photo exhibition by Fotoklubs.lv, open daily at RAA from 13 to 18 July.",
+        "location": "RAA.SPACE, Matīsa iela 8, Riga",
+        "when": "13–18 July 2026, daily 15:00–20:00",
+        "instaLink": "https://www.instagram.com/fotoklubs.lv/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "✨ The exhibition is now open to visitors!\n\nWe invite you to visit the Fotoklubs.lv photo exhibition at RAA, Matīsa iela 8, Riga. It is open every day from 13 to 18 July.\n\n**Opening hours: 15:00–20:00**\n\nCome for inspiration, discover photography and art, and spend a pleasant time with us.\n\nWe look forward to seeing you! 💛"
+      },
+      "handsAndBrainTournament": {
+        "id": "53",
+        "title": "Hands and Brain Tournament",
+        "image": "/assets/hands-and-brain-tournament/poster.png",
+        "url": "/events/hands-and-brain-tournament",
+        "startDate": "2026-07-21T15:00:00Z",
+        "endDate": "2026-07-21T18:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "A pairs chess tournament organised by Signe Kacēna and Visvaldis Gercāns during RAA Chess Week.",
+        "location": "RAA.SPACE, Matīsa iela 8, Riga",
+        "when": "21 July 2026, 18:00–21:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission",
+        "externalLink": "https://luma.com/d8s1qtv8",
+        "externalLinkText": "Register on Lu.ma",
+        "description": "The **Hands and Brain Tournament** takes place during RAA Chess Week on Tuesday, 21 July, from 18:00 to 21:00.\n\nThe tournament is organised by **Signe Kacēna** and **Visvaldis Gercāns**, together with RAA and Ex Libris.\n\nThis is a tournament for anyone who likes to play chess in pairs. Hands and Brain is played by two people. One person sits at the board and moves the pieces. The other person names only the type of piece that should be moved, but not how it should be moved.\n\nThe details of the tournament format and rules will be announced on the day.\n\nRegister in pairs—or register on your own and we will help you find a partner.\n\n[Register on Lu.ma](https://luma.com/d8s1qtv8)"
+      },
+      "vienkarsiSarezgiti": {
+        "id": "52",
+        "title": "Vienkārši sarežģīti",
+        "image": "/assets/vienkarsi-sarezgiti/poster.png",
+        "url": "/events/vienkarsi-sarezgiti",
+        "startDate": "2026-07-23T16:30:00Z",
+        "endDate": "2026-07-23T16:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Poetry readings by Sintakses stupors and songs by Zoya Zoyroko about situations that are simply complicated.",
+        "location": "RAA.SPACE, Matīsa iela 8, Riga",
+        "when": "23 July 2026 at 19:30",
+        "instaLink": "https://www.instagram.com/p/DasefpiOWVn/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**Organised by Sintakses stupors.**\n\nFrom 20 to 26 July, RAA cultural space will host Chess Week. We will be taking part too. On 23 July at 19:30, inspired by this complicated game, we will read poems about precisely those kinds of situations that are simply complicated.\n\nWondering which situations exactly? Well, to find out, you will have to come and listen in person.\n\nPoems will be read by Evelīna Mūrniece, Džonatans Melgalvis, Dainis Deigelis, Linda Tīmane, Andris Alps, Laima Ābele, Ilze Kuzmicka, Kristīne Jučkoviča and Dita Putniņa.\n\nSinger Zoya Zoyroko will delight the audience’s ears with her songs.\n\nSee you there!\n\nP.S. Thanks to Arnolds Ščuckis for the poster, Andris Alps for the idea, and artificial intelligence for the tangle."
+      },
+      "raaChessWeek": {
+        "id": "51",
+        "title": "RAA Chess Week",
+        "image": "/assets/raa-chess-week/poster.png",
+        "url": "/events/chess-week",
+        "startDate": "2026-07-20T14:00:00Z",
+        "endDate": "2026-07-24T20:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "From 20 to 24 July, RAA celebrates chess and its cultural imprint with talks, theatre, opera, poetry and plenty of chess.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "20.–24.07.2026, each day from 17:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free admission, except for the opera “Blaise le Savetier”",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**RAA Chess Week**\n\nFrom 20 to 24 July, we celebrate and enjoy the game that has shaped cultures across the globe and left a particular cultural imprint on Latvia. There will be talks, theatre, opera, poetry and chess—lots of chess.\n\nWait, opera? Yes. One of the highlights of the week is the Latvian premiere of the Baroque opera **“Blaise le Savetier”**, written by chess master F. A. D. Philidor and staged by Baroque Collective **“Lieto Fine”** under director Evelina Brėdikytė.\n\nEach day, there will of course be chess played in an informal atmosphere, co-hosted by Ex Libris and RAA. On Tuesday, 21 July, Signe Kacēna and Visvaldis Gercāns will organise a **Hands and Brain Tournament**. It is played in pairs!\n\n20 July is International Chess Day, and 2026 marks the **60th anniversary** of its first observance. To mark the occasion, we open the week with talks by Bruno Rancis and Signe Kacēna.\n\nOn Thursday, 23 July, poetry collective Sintakses stupors will take the stage accompanied by Zoya Zoyroko.\n\nWe close the event on 24 July with theatrical chess scenes by Santa Didžus and Leonhard Horstmeyer.\n\nAll details in English and Latvian can be found at [raa.space/chess-week](/chess-week)."
+      },
+      "blaiseLeSavetier": {
+        "id": "50",
+        "title": "Blaise le Savetier",
+        "image": "/assets/blaise-le-savetier/poster.png",
+        "url": "/events/blaise-le-savetier",
+        "startDate": "2026-07-22T16:00:00Z",
+        "endDate": "2026-07-22T16:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "A concert performance of F.-A.-D. Philidor’s comic one-act Baroque opera, presented during RAA Chess Week.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "22.07.2026 at 19:00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "€16 / €14 students and seniors / €10 under 18",
+        "externalLink": "https://www.bilesuparadize.lv/lv/event/175491",
+        "externalLinkText": "Tickets",
+        "description": "For the first time in Riga, the comic one-act opera **“The Shoemaker Blaise” (“Blaise le savetier”)** by the distinguished French composer and legendary chess player François-André Danican Philidor will be performed. This concert performance is one of the events of the RAA Cultural Space Chess Festival (July 20–24).\n\nThe Lithuanian Baroque opera ensemble **“Lieto Fine”**, in collaboration with Latvian instrumentalists and director Evelina Brėdikytė, presents a contemporary interpretation of this 18th-century opera, where historically informed performance practice is combined with elements of cinema, physical theatre, and modern stage direction.\n\nThe production will appeal to enthusiasts of Baroque music as well as anyone interested in experiencing an unconventional interpretation of opera. It is also suitable for families with children aged 8 and above, combining humour, theatre, music, and the story of one of history’s most extraordinary personalities.\n\n**Baroque Music Ensemble “Lieto Fine”**\nStage Director: Evelina Brėdikytė\n\n• Karolina Parmas – soprano\n• Justina Kaminskaitė – soprano\n• Ignas Ščesnulevičius – tenor\n• Ervinas Jasevičius – baritone\n• Marianna Puriņa – violin\n• Eglė Petraitienė – violin\n• Laura Šarova – viola\n• Elfrīda Švalbe – cello\n• Jana Zariņa – harpsichord\n\nTickets: €16; €14 for students and seniors; €10 for visitors under 18.\n\n[Buy tickets](https://www.bilesuparadize.lv/lv/event/175491)"
       },
       "item": {
         "id": "49",
@@ -1229,6 +1335,57 @@
       }
     },
     "features": {
+      "chessWeek": {
+        "days": [
+          {
+            "date": "20.07.2026",
+            "day": "Monday",
+            "pageUrl": "/chess-week/monday-20-jul",
+            "events": [
+              { "time": "17:00", "title": "Opening", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00", "title": "Behind the Chess Scenes", "details": "Signe Kacēna · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Chess: Bright and Dark Sides", "details": "Bruno Rancis · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "20:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "21.07.2026",
+            "day": "Tuesday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess speed dating", "details": "Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18:00–21:00", "title": "Hands and Brain Tournament", "details": "Organised by Signe Kacēna and Visvaldis Gercāns · Register in pairs or we will find a partner · RAA and Ex Libris", "pageUrl": "/events/hands-and-brain-tournament", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Register on Lu.ma" }
+            ]
+          },
+          {
+            "date": "22.07.2026",
+            "day": "Wednesday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Baroque Opera “Blaise le Savetier”", "details": "Written by chess master F. A. D. Philidor · Baroque Collective “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Buy tickets" }
+            ]
+          },
+          {
+            "date": "23.07.2026",
+            "day": "Thursday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:30", "title": "Simply complicated", "details": "Poetry and music · Sintakses stupors & Zoya Zoyroko", "pageUrl": "/events/vienkarsi-sarezgiti", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "24.07.2026",
+            "day": "Friday",
+            "pageUrl": "",
+            "events": [
+              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19:00", "title": "Theatre — Make Chess Great Again", "details": "Santa Didžus and Leonhard Horstmeyer", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          }
+        ]
+      },
       "item": {
         "title": "ITEM — Sign up for a group visit or workshop",
         "description": "On each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",

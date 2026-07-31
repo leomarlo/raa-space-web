@@ -1,0 +1,12 @@
+{
+  "encoded_url": "https://raa.space/chess-week",
+  "qr_version": 4,
+  "module_count": 33,
+  "error_correction": "H",
+  "module_pixels": 18,
+  "quiet_zone": 4,
+  "decoder": "zbarimg",
+  "decoded_value": "https://raa.space/chess-week",
+  "output": "frontend/public/assets/raa-chess-week/chess-qr.png",
+  "transparent_output": "frontend/public/assets/raa-chess-week/chess-qr-transparent.png"
+}

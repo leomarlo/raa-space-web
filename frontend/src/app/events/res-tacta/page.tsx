@@ -6,6 +6,7 @@ import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { RegisterFormInline } from '@/components/RegisterForm';
 import { RegisterFormProps } from '@/types/main';
+import BackToProgram from '@/components/BackToProgram';
 
 export default function ResTactaPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -63,6 +64,7 @@ export default function ResTactaPage() {
               link={event.registrationLink}
             />
           </div>
+          <BackToProgram />
         </div>
       </div>
     </div>

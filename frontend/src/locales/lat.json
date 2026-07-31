@@ -6,6 +6,7 @@
   "more": "Vairāk",
   "less": "Mazāk",
   "today": "Šodien",
+  "backToProgram": "Atpakaļ uz programmu",
   "menu": {
     "raaSpace": "RAA TELPA",
     "program": "Programma",
@@ -170,7 +171,7 @@
   "program": {
     "items": {
       "hg80": {
-        "id": "51",
+        "id": "56",
         "title": "Hg80",
         "image": "/assets/raa_coming_soon.png",
         "url": "/events/hg80",
@@ -191,7 +192,7 @@
         "description": "Hg80 ir Kristīnes un Artūra eksperimentāla skaņas performance par dzīvsudraba tēmu.\n\nSīkāka informācija sekos."
       },
       "architectureOfFeeling": {
-        "id": "50",
+        "id": "55",
         "title": "Architecture of Feeling",
         "image": "/assets/architecture-of-feeling/poster.jpeg",
         "url": "/events/architecture-of-feeling",
@@ -210,6 +211,111 @@
         "externalLink": "",
         "externalLinkText": "",
         "description": "Augusta sākumā mēs atvedam savu koncertprogrammu “Architecture of Feeling” uz Rīgas kultūras telpu RAA. Mums pievienosies lautas spēlētājs Marco Baronchelli (Itālija) un mūsu latviešu kolēģes Elfrīda Švalbe (baroka čells) un Marianna Puriņa (baroka vijole). Mūsu sirdis ir prieka pilnas, jo šis koncertu cikls kļūst par mūzikas un starptautiskas apmaiņas svētkiem. Gaidīsim jūs Rīgā, lai kopā klausītos mūsu agrīnā baroka programmu, kas veidota no 17. gadsimta mūzikas — un redzēsim, kurp šis vakars mūs aizvedīs!\n\nAnsamblis Sans Frayeur:\nJustina Kaminskaitė (mecosoprāns)\nSkirmantė Kirkliauskaitė (klavesīns)\n\nKoncerta viesi:\nMarco Baronchelli (lauta)\nMarianna Puriņa (baroka vijole)\nElfrīda Švalbe (baroka čells)\n\nProgrammas autores: Justina Kaminskaitė un Skirmantė Kirkliauskaitė.\n\nAtbalsta “Veldzes vasara” un Lietuvos kultūros taryba."
+      },
+      "fotoklubsPhotoExhibition": {
+        "id": "54",
+        "title": "Fotoklubs.lv fotoizstāde",
+        "image": "/assets/fotoklubs-photo-exhibition/poster.png",
+        "url": "/events/fotoklubs-photo-exhibition",
+        "startDate": "2026-07-13T12:00:00Z",
+        "endDate": "2026-07-18T17:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Fotoklubs.lv fotoizstāde RAA, kas no 13. līdz 18. jūlijam atvērta katru dienu.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "13.–18.07.2026, katru dienu plkst. 15.00–20.00",
+        "instaLink": "https://www.instagram.com/fotoklubs.lv/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "✨ No šodienas mūsu izstāde ir atvērta apmeklētājiem!\n\nAicinām jūs apmeklēt Fotoklubs.lv fotoizstādi RAA, Matīsa ielā 8, Rīgā. Izstāde būs atvērta katru dienu no 13. līdz 18. jūlijam.\n\n**Darba laiks: 15.00–20.00**\n\nNāciet iedvesmoties, iepazīt fotogrāfiju un mākslu un pavadīt patīkamu laiku kopā ar mums.\n\nGaidīsim jūs! 💛"
+      },
+      "handsAndBrainTournament": {
+        "id": "53",
+        "title": "Rokas un smadzenes turnīrs",
+        "image": "/assets/hands-and-brain-tournament/poster.png",
+        "url": "/events/hands-and-brain-tournament",
+        "startDate": "2026-07-21T15:00:00Z",
+        "endDate": "2026-07-21T18:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Pāru šaha turnīrs, ko RAA Šaha nedēļas ietvaros organizē Signe Kacēna un Visvaldis Gercāns.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "21.07.2026 plkst. 18.00–21.00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "https://luma.com/d8s1qtv8",
+        "externalLinkText": "Reģistrēties Lu.ma",
+        "description": "**Rokas un smadzenes turnīrs** notiks RAA Šaha nedēļas ietvaros otrdien, 21. jūlijā, no plkst. 18.00 līdz 21.00.\n\nTurnīru kopā ar RAA un Ex Libris organizē **Signe Kacēna** un **Visvaldis Gercāns**.\n\nŠis ir turnīrs ikvienam, kam patīk spēlēt šahu pāros. “Rokas un smadzenes” spēlē divatā. Viens spēlētājs sēž pie galdiņa un pārvieto figūras. Otrs spēlētājs tikai nosauc figūras veidu, kas jāpārvieto, bet nenorāda, kāds gājiens jāizdara.\n\nSīkāka informācija par turnīra formātu un noteikumiem tiks izziņota pasākuma dienā.\n\nReģistrējieties pāros vai piesakieties individuāli, un mēs palīdzēsim atrast partneri.\n\n[Reģistrēties Lu.ma](https://luma.com/d8s1qtv8)"
+      },
+      "vienkarsiSarezgiti": {
+        "id": "52",
+        "title": "Vienkārši sarežģīti",
+        "image": "/assets/vienkarsi-sarezgiti/poster.png",
+        "url": "/events/vienkarsi-sarezgiti",
+        "startDate": "2026-07-23T16:30:00Z",
+        "endDate": "2026-07-23T16:30:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Sintakses stupora dzejas lasījumi un Zoya Zoyroko dziesmas par situācijām, kas ir vienkārši sarežģītas.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "23.07.2026 plkst. 19.30",
+        "instaLink": "https://www.instagram.com/p/DasefpiOWVn/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**Organizē Sintakses stupors.**\n\nNo 20. līdz 26. jūlijam kultūras telpā RAA norisināsies šaha nedēļa. Arī mēs tajā piedalīsimies. Proti, 23. jūlijā plkst. 19.30, iedvesmojoties no šīs sarežģītās spēles, lasīsim dzejoļus par tieši šādām situācijām, kas ir vienkārši sarežģītas.\n\nJautāsi, par kādām tieši situācijām? Nu, lai to noskaidrotu, būs jāatnāk klātienē un jāpaklausās.\n\nDzejoļus lasīs Evelīna Mūrniece, Džonatans Melgalvis, Dainis Deigelis, Linda Tīmane, Andris Alps, Laima Ābele, Ilze Kuzmicka, Kristīne Jučkoviča un Dita Putniņa.\n\nAr savām dziesmām klausītāju ausis darīs laimīgas dziedātāja Zoya Zoyroko.\n\nTiekamies!\n\nP.S. Paldies Arnoldam Ščuckim par plakātu, Andrim Alpam par ideju un mākslīgajam intelektam par mudžekli."
+      },
+      "raaChessWeek": {
+        "id": "51",
+        "title": "RAA Šaha nedēļa",
+        "image": "/assets/raa-chess-week/poster.png",
+        "url": "/events/chess-week",
+        "startDate": "2026-07-20T14:00:00Z",
+        "endDate": "2026-07-24T20:59:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "No 20. līdz 24. jūlijam RAA svinēs šahu un tā nospiedumu kultūrā ar sarunām, teātri, operu, dzeju un daudz šaha.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "20.–24.07.2026, katru dienu no plkst. 17.00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Ieeja bez maksas, izņemot operu “Blaise le Savetier”",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "**RAA Šaha nedēļa**\n\nNo 20. līdz 24. jūlijam svinēsim un baudīsim spēli, kas veidojusi kultūras visā pasaulē un atstājusi īpašu nospiedumu arī Latvijas kultūrā. Būs sarunas, teātris, opera, dzeja un šahs — daudz šaha.\n\nPaga, opera? Jā! Viens no nedēļas spilgtākajiem notikumiem būs baroka operas **“Blaise le Savetier”** pirmizrāde Latvijā. Operu sarakstījis šaha meistars F. A. D. Philidor, un to iestudē baroka kolektīvs **“Lieto Fine”**; režisore — Evelina Brėdikytė.\n\nKatru dienu, protams, varēs spēlēt šahu neformālā gaisotnē kopā ar Ex Libris un RAA. Otrdien, 21. jūlijā, Signe Kacēna un Visvaldis Gercāns organizēs **Rokas un smadzenes turnīru**. To spēlē pāros!\n\n20. jūlijs ir Starptautiskā šaha diena, un 2026. gadā aprit **60 gadi kopš tās pirmās atzīmēšanas**. Par godu šim notikumam nedēļu ar sarunām atklās Bruno Rancis un Signe Kacēna.\n\nCeturtdien, 23. jūlijā, uz skatuves kāps dzejas kolektīvs Sintakses stupors kopā ar Zoya Zoyroko.\n\nPasākumu noslēgsim 24. jūlijā ar Santa Didžus un Leonhard Horstmeyer teatrālām šaha ainām.\n\nVisa informācija angļu un latviešu valodā pieejama [raa.space/chess-week](/chess-week)."
+      },
+      "blaiseLeSavetier": {
+        "id": "50",
+        "title": "Blaise le Savetier",
+        "image": "/assets/blaise-le-savetier/poster.png",
+        "url": "/events/blaise-le-savetier",
+        "startDate": "2026-07-22T16:00:00Z",
+        "endDate": "2026-07-22T16:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "F. A. D. Filidora komiskās viencēliena baroka operas koncertuzvedums RAA Šaha nedēļas ietvaros.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "22.07.2026 plkst. 19.00",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "16 € / 14 € studentiem un senioriem / 10 € jauniešiem līdz 18 gadu vecumam",
+        "externalLink": "https://www.bilesuparadize.lv/lv/event/175491",
+        "externalLinkText": "Biļetes",
+        "description": "Pirmo reizi Rīgā tiks atskaņota izcilā franču komponista un leģendārā šahista Fransuā Andrē Danikana Filidora komiskā viencēliena opera **“Kurpnieks Blēzs” (“Blaise le savetier”)**. Koncertuzvedums ir viens no RAA kultūrtelpas Šaha festivāla pasākumiem (20.–24. jūlijs).\n\nLietuvas baroka operas ansamblis **“Lieto Fine”** sadarbībā ar Latvijas instrumentālistiem un režisori Evelinu Brėdikytė piedāvā laikmetīgu 18. gadsimta operas interpretāciju, kurā vēsturiski informēta atskaņojuma prakse apvienota ar kino, fiziskā teātra un mūsdienīgas režijas elementiem.\n\nIestudējums uzrunās gan baroka mūzikas cienītājus, gan ikvienu, kurš vēlas piedzīvot neparastu operas interpretāciju. Tas ir piemērots arī ģimenēm ar bērniem no 8 gadu vecuma, apvienojot humoru, teātri, mūziku un stāstu par vienu no neparastākajām personībām vēsturē.\n\n**Baroka mūzikas ansamblis “Lieto Fine”**\nRežisore: Evelina Brėdikytė\n\n• Karolina Parmas – soprāns\n• Justina Kaminskaitė – soprāns\n• Ignas Ščesnulevičius – tenors\n• Ervinas Jasevičius – baritons\n• Marianna Puriņa – vijole\n• Eglė Petraitienė – vijole\n• Laura Šarova – alts\n• Elfrīda Švalbe – čells\n• Jana Zariņa – klavesīns\n\nBiļetes: 16 €; studentiem un senioriem 14 €; jauniešiem līdz 18 gadu vecumam 10 €.\n\n[Pirkt biļetes](https://www.bilesuparadize.lv/lv/event/175491)"
       },
       "item": {
         "id": "49",
@@ -1232,6 +1338,57 @@
       }
     },
     "features": {
+      "chessWeek": {
+        "days": [
+          {
+            "date": "20.07.2026",
+            "day": "Pirmdiena",
+            "pageUrl": "/chess-week/monday-20-jul",
+            "events": [
+              { "time": "17.00", "title": "Atklāšana", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00", "title": "Šahs aiz gājieniem", "details": "Signe Kacēna (LU Šaha klubs)", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Šaha gaisma un tumsa", "details": "Bruno Rancis", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "20.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "21.07.2026",
+            "day": "Otrdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha speed dating", "details": "Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "18.00–21.00", "title": "Rokas un smadzenes turnīrs", "details": "Organizē Signe Kacēna un Visvaldis Gercāns · Reģistrējieties pāros vai arī mēs palīdzēsim atrast partneri · RAA un Ex Libris", "pageUrl": "/events/hands-and-brain-tournament", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Reģistrēties Lu.ma" }
+            ]
+          },
+          {
+            "date": "22.07.2026",
+            "day": "Trešdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Baroka opera “Blaise le Savetier”", "details": "Komponists un šaha meistars F. A. D. Philidor · Baroka kolektīvs “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Pirkt biļetes" }
+            ]
+          },
+          {
+            "date": "23.07.2026",
+            "day": "Ceturtdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.30", "title": "Vienkārši sarežģīti", "details": "Dzeja un mūzika · “Sintakses stupors” & Zoya Zoyroko", "pageUrl": "/events/vienkarsi-sarezgiti", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          },
+          {
+            "date": "24.07.2026",
+            "day": "Piektdiena",
+            "pageUrl": "",
+            "events": [
+              { "time": "17.00", "title": "Šaha kafejnīca", "details": "RAA un Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
+              { "time": "19.00", "title": "Teātris — Make Chess Great Again", "details": "Santa Didžus un Leonhard Horstmeyer", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+            ]
+          }
+        ]
+      },
       "item": {
         "title": "ITEM — Pieteikties grupas apmeklējumam vai darbnīcai",
         "description": "Teksts pieejams tikai angļu valodā.\n\nOn each day there is a group visit, a workshop or some other intervention — please find the times below. In some cases these are workshops with limited capacity. Registration opens on the 26th of June.",
