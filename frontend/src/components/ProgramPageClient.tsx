@@ -20,6 +20,51 @@ export default function ProgramPageClient() {
     (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
   );
 
+  // Calendar: instead of one ITEM block spanning the whole week, place each
+  // festival performance on its own day. These are synthesized from the
+  // existing sub-event data (no description duplication) and link to /item/<slug>.
+  type ItemSubEvent = {
+    title: string;
+    date: string; // "06.07.2026"
+    themeImage: string;
+    pageUrl: string;
+    slug: string;
+  };
+  const itemSubEvents: ProgramItem[] = (
+    t.program.features.item.events as unknown as ItemSubEvent[]
+  ).map((e) => {
+    const [dd, mm, yyyy] = e.date.split('.');
+    const iso = `${yyyy}-${mm}-${dd}T00:00:00Z`;
+    return {
+      id: `item-${e.slug}`,
+      image: e.themeImage,
+      title: e.title,
+      url: e.pageUrl,
+      startDate: iso,
+      endDate: iso,
+      color: '7',
+      location: '',
+      shortDescription: '',
+      when: '',
+      instaLink: '',
+      fbLink: '',
+      registrationLink: '',
+      price: '',
+      description: '',
+      showTextOverThumbnail: 0,
+      registerPage: '',
+      externalLink: '',
+      externalLinkText: '',
+    };
+  });
+
+  // Drop the week-spanning umbrella ITEM entry from the calendar and use the
+  // per-day performances instead. The list view keeps the umbrella entry.
+  const calendarItems: ProgramItem[] = [
+    ...programItems.filter((p) => p.id !== t.program.items.item.id),
+    ...itemSubEvents,
+  ];
+
   return (
     <div className="relative w-full h-screen overflow-hidden">
       <RaaHieroglyphMatrix frequency={0} initialState={0} />
@@ -55,7 +100,7 @@ export default function ProgramPageClient() {
           {view === 'list' ? (
             <ProgramListView items={programItems} />
           ) : (
-            <CalendarView items={programItems} startDate={startDate} endDate={endDate} />
+            <CalendarView items={calendarItems} startDate={startDate} endDate={endDate} />
           )}
         </div>
       </div>

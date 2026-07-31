@@ -117,7 +117,9 @@
     "instagram": "@raa_riga",
     "impressionsTitle": "Impressions",
     "cvTitle": "Reference Document",
-    "cvDescription": "Download the RAA.SPACE reference document (CV) in English or Latvian."
+    "cvDescription": "Download the RAA.SPACE reference document (CV) in English or Latvian.",
+    "cvLinkEn": "Open CV (English)",
+    "cvLinkLv": "Open CV (Latvian)"
   },
   "times": {
     "title": "Opening Times",
@@ -167,6 +169,48 @@
   },
   "program": {
     "items": {
+      "hg80": {
+        "id": "56",
+        "title": "Hg80",
+        "image": "/assets/raa_coming_soon.png",
+        "url": "/events/hg80",
+        "startDate": "2026-08-06T19:00:00Z",
+        "endDate": "2026-08-06T21:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "An experimental sound performance on the theme of mercury by Kristīne and Artūrs.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "06.08.2026",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Hg80 is an experimental sound performance on the theme of mercury by Kristīne and Artūrs.\n\nMore details to follow."
+      },
+      "architectureOfFeeling": {
+        "id": "55",
+        "title": "Architecture of Feeling",
+        "image": "/assets/architecture-of-feeling/poster.jpeg",
+        "url": "/events/architecture-of-feeling",
+        "startDate": "2026-08-05T19:00:00Z",
+        "endDate": "2026-08-05T21:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Ensemble Sans Frayeur brings its early Baroque concert programme The Architecture of Feeling to RAA, joined by lutenist Marco Baronchelli and Latvian colleagues Elfrīda Švalbe and Marianna Puriņa.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "05.08.2026, 19:00",
+        "instaLink": "https://www.instagram.com/p/DbIxK3BCG4k",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "In the beginning of August, we are bringing our concert programme, The Architecture of Feeling, to Riga RAA Cultural Space. We will be joined by lutenist Marco Baronchelli (Italy) and our Latvian colleagues Elfrīda Švalbe (baroque cello) and Marianna Puriņa (baroque violin). Our hearts are full of joy as this concert cycle becomes a celebration of music and international exchange. We are waiting for you in Riga to listen to our early Baroque programme, composed of 17th-century music, and let’s see where this evening will bring us!\n\nEnsemble Sans Frayeur:\nJustina Kaminskaitė (mezzo-soprano)\nSkirmantė Kirkliauskaitė (harpsichord)\n\nGuest artists:\nMarco Baronchelli (lute)\nMarianna Puriņa (baroque violin)\nElfrīda Švalbe (baroque cello)\n\nBy Justina Kaminskaitė and Skirmantė Kirkliauskaitė.\n\nSupported by Veldzes vasara and Lietuvos kultūros taryba."
+      },
       "fotoklubsPhotoExhibition": {
         "id": "54",
         "title": "Fotoklubs.lv Photo Exhibition",
@@ -285,7 +329,7 @@
         "shortDescription": "ITEM — Shuffled Time: a seven-day performative week at RAA. Each day one artist has a 24-hour window to Invoke, Temper, Elate, Mint the space. July 5–11, 2026.",
         "location": "RAA.SPACE, Matīsa iela 8, Rīga",
         "when": "05.–11.07.2026",
-        "instaLink": "",
+        "instaLink": "https://www.instagram.com/p/DaNWyGjIqpj/",
         "fbLink": "",
         "registrationLink": "",
         "price": "Free entrance",
@@ -1365,7 +1409,7 @@
             "revealed": true,
             "slug": "words-to-change-the-world",
             "bio": "Ilze Aulmane is a cross-disciplinary artist working across installation, photography, painting, sound, performance and moving image. Aulmane has done several performances comprising vocal improvisation, prerecorded sound pieces and collaborations with electronic and acoustic musicians. She has developed her own experimental vocal technique, drawing on ideas related to the origins of scat singing, as well as the enduring human impulse to hum and create songs spontaneously in everyday life. Aulmane begins with something accessible, like voice and a mobile phone recorder, and finishes with a multilayered maze of ideas. Accessibility appeases urgency. In her practice, Aulmane employs the logic of perpetual adolescence, where fragmented and layered images and objects, both visual and acoustic, shifting bodily presences, and movements of perception form restless spatial compositions in which the personal and the universal continuously overlap.\n\nIlze Aulmane received both BA and MA degrees from the Art Academy of Latvia and graduated from the Royal Academy Schools, London, in 2024. Alongside her academic pursuits, she has maintained a longstanding interest in sound and has studied the fundamentals of both classical and jazz vocals.",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaDW34sopRV/",
             "pageUrl": "/item/words-to-change-the-world",
             "visitType": "group-visit"
           },
@@ -1411,7 +1455,7 @@
             "revealed": true,
             "slug": "n3",
             "bio": "In his practice, Ernests Ā devotes himself to playful exploration of the mundane and undefinable aspects of reality within unrestricted forms of expression.",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaCzAmYIPun/",
             "pageUrl": "/item/N_3",
             "visitType": "group-visit"
           },
@@ -1440,7 +1484,7 @@
             "revealed": true,
             "slug": "gluttony",
             "bio": "Sandris Muriņš\n\nSandris Muriņš is a Latvian artist, inventor, and researcher working at the intersection of scent, technology, and contemporary art. He is the inventor of the Scent Camera, an experimental device designed to capture, store, and reproduce odors, expanding the possibilities of sensory documentation beyond photography and sound recording.\n\nAs the founder and director of the Scent + Art Festival, Muriņš actively promotes aromagraphy as an emerging artistic discipline in which scent functions as a key medium of multisensoriality for storytelling, memory, and spatial experience. His multisensory performances and installations combine smell with the body, text, sound, and visual elements to provoke reflection on perception, identity, and contemporary culture, challenging audiences to experience art through embodied and often overlooked senses.\n\nKristiāna Šuksta\n\nKristiāna Šuksta is a Latvian poet, performance artist, and technical producer of the performance festival Starptelpa. Her artistic practice combines poetry and live performance to create self-reflective works that explore personal experience, everyday life, and human relationships through wit and humor.\n\nWorking across literature and performance, Šuksta embraces experimentation and audience engagement, often using playful language and performative situations to reveal deeper emotional and social layers. Her work balances introspection with irony, inviting viewers to reflect on themselves while maintaining a sense of lightness, curiosity, and critical awareness.",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaFzXeCIOl-/",
             "pageUrl": "/item/gluttony",
             "visitType": "group-visit"
           },
@@ -1464,7 +1508,7 @@
             "revealed": true,
             "slug": "presence-in-absence-piece-3",
             "bio": "Lisette Ros (1991) is a Dutch conceptual and performance artist with roots in Indonesia. Identifying as queer, woman and humanimal, her work investigates how identity is a construct formed through social systems, trauma, cultural conditioning and embodied experience. Using her own body as both research tool, source, material and medium, Ros creates performances, video works and installations that examine daily rituals, conventions, structures and the fragile borders between the personal and the collective. By evoking discomfort through repeated gestures, her visceral work embodies emotions, vulnerabilities, and the human experience.\n\nHer work has been presented internationally, including at the Venice Architecture Biennale (2016), South by Southwest (Austin, 2018), EYE Filmmuseum, Van Abbemuseum, Goethe Institute, Piramidón Centre d'Art Contemporani, Amsterdam Museum, MWoods Beijing, Casa Lü CDMX and Oped Space Tokyo. In 2021 she completed a residency with Marina Abramović.\n\nRos is the creator of the long-term research series 'My Self.' Its 6th chapter, 'My Self, the (Unfamiliar) Roots' (2023-current), developed in Java, Indonesia under the mentorship of Melati Suryodarmo, is supported by the Mondriaan Fund, Erasmus Huis Jakarta (Dutch Embassy), Culture Fund and Nederlandse Dansdagen. In parallel, her performative research 'The Absence of Metamorphosis' began in Mexico City (Casa Lü, 2023) and was featured in the NOWNESS short docu 'Monstruo de Agua' (2023).",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaBDZLnI1nx/",
             "pageUrl": "/item/presenceinabsence_piecethree",
             "visitType": "group-visit"
           },
@@ -1488,7 +1532,7 @@
             "revealed": true,
             "slug": "timescores",
             "bio": "Vanessa Brzić works across theoretical physics, experimental theatre, photography, and performance. Originally from Zagreb, she has lived and worked in Vienna and Japan, and is currently based in Paris, where she is pursuing a PhD in Foundations of Quantum Physics and Quantum Information Theory at Sorbonne Université.\n\nFor ten years, she was part of the ZKM ensemble in Zagreb, where she worked in experimental theatre and explored ways of deconstructing conventional performance forms. Since moving to Paris, she has begun exhibiting her photography, and in 2024 participated in a photo exhibition at Cité Universitaire. The promotional image for this performance originates from a cyanotype preparation she created for that exhibition.\n\nIn 2024, through an art-science residency, she began working with conceptual artist Ben Bogart. What started as a scientific contribution to the residency developed into an ongoing creative collaboration exploring process philosophy, relationalism, and the interface between quantum theory and artistic practice. Brzić is now increasingly drawn toward conceptual and performance art, inspired by Fluxus and process philosophy, and concerned with the nuances of human experience amid rapid technological and scientific change.",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaGe8xRopBc/",
             "pageUrl": "/item/timescores",
             "visitType": "group-visit"
           },
@@ -1517,7 +1561,7 @@
             "revealed": true,
             "slug": "laiks-telpa",
             "bio": "Ilze Mazpane\n\nIlze Mazpane is a performance artist from Rīga with a background in philosophy, visual art, experimental theatre and creative writing. She creates site-specific durational works marked by poetic sensibility and a sensitive relationship with space.\n\nJana Zariņa\n\nJana Zariņa is primarily a historical keyboard and sound artist whose work spans early music, contemporary improvisation, electro-acoustic performance and interdisciplinary arts.",
-            "instagramPost": "",
+            "instagramPost": "https://www.instagram.com/p/DaIQ9zKoCTL/",
             "pageUrl": "/item/laiks_telpa",
             "visitType": "group-visit"
           }
