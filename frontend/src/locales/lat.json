@@ -170,9 +170,30 @@
   },
   "program": {
     "items": {
+      "lidojums": {
+        "id": "58",
+        "title": "Lidojums — Kristiāns Kļava",
+        "image": "/assets/lidojums/poster.jpeg",
+        "url": "/events/lidojums",
+        "startDate": "2026-08-14T19:00:00Z",
+        "endDate": "2026-08-22T21:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Gleznotāja Kristiāna Kļavas personālizstāde, kas glezniecībā pēta nemieru, karu un pārveidošanos.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīgā",
+        "when": "14.08.–22.08.2026 (Atklāšana 14.08., plkst. 19:00)",
+        "instaLink": "https://www.instagram.com/makonustumeji3/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Bezmaksas ieeja",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Gleznotāja **Kristiāna Kļavas** personālizstāde.\n\nKopš 2023. gada turpinās mana reakcija uz tikko izcēlušos kara situāciju Ukrainā, 2022. gada martā, caur glezniecību. Tas ir bijis tekošs process, meklējot veidus, kā autentiski un vismorālākajā veidā iesaistīties ar šo traģisko problēmu - precīzāk sakot, meklējot alternatīvu sociālo mediju \"reaģējošajai kultūrai\" un mēģinot iesaistīties ar kara traģēdiju ļoti cilvēciskā līmenī, arī neatrodoties ar to tiešā saskarsmē.\n\nTurpinātās radošās darbības \"lidojuma\" ciklā nāk no mana paša pieredzēm un sajūtām; par jūtamo nemieru, apjukumu un neskaidrībām gan par militāro aktivitāti un ģeopolitisko kontekstu Latvijā, gan pasaulē, un par manu radošo iniciatīvu visā šajā kontekstā. Lietojot glezniecību kā mēdiju - spoguli vai skaņas trauku - ļauj veidot darbu, kas atskan…\n\n**Par autoru**\n\nKristiāns Kļava ir ieguvis savu bakalaura grādu glezniecībā 2021. gadā, Ilinoisā, ASV. Viņš ir divu Ņujorkas Studijas Skolas glezniecības maratonu dalībnieks un daudzu žūrijotu izstāžu balvu saņēmējs, kā arī visnesenāk ticis izlases sarakstā ar darbu \"alķīmiķis\" (2024) \"Herbert Smith Freehills Kramer\" 2025. gada Portretu balvas izstādē Nacionālajā Portretu Galerijā, Londonā. Viņa darbi ir bijuši apskatāmi personālizstādēs \"square, you\" (2022., ASV), \"piedzērušies eņģeļi un spartieši\", \"Milžu Cīņa\" un \"lietus. bērzi. puma.\" (2024., Rīgā), kā arī daudzās grupu izstādēs Latvijā un ASV.\n\nSekojiet māksliniekam: [@makonustumeji3](https://www.instagram.com/makonustumeji3/)"
+      },
       "velApmacies": {
         "id": "57",
-        "title": "Orbīta — vēl apmācies",
+        "title": "vēl apmācies",
         "image": "/assets/vel-apmacies/poster.jpeg",
         "url": "/events/vel-apmacies",
         "startDate": "2026-08-07T19:00:00Z",

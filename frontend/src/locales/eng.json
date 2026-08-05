@@ -169,9 +169,30 @@
   },
   "program": {
     "items": {
+      "lidojums": {
+        "id": "58",
+        "title": "Lidojums — Kristiāns Kļava",
+        "image": "/assets/lidojums/poster.jpeg",
+        "url": "/events/lidojums",
+        "startDate": "2026-08-14T19:00:00Z",
+        "endDate": "2026-08-22T21:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "A solo painting exhibition by Kristiāns Kļava, exploring anxiety, war and transformation through painting.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "14.08–22.08.2026 (Opening 14.08, 19:00)",
+        "instaLink": "https://www.instagram.com/makonustumeji3/",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "Free entrance",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "A solo painting exhibition by **Kristiāns Kļava**.\n\nMy most recent venture started with reacting to the outbreak of War in Ukraine through painting. It was a process of finding how to authentically and in the most moral way speak about such a difficult issue - particularly, by finding an alternative way to interact with something so difficult without having a first-hand experience with it.\n\nThe series of “a straw in the wind” paintings come from my personal experiences; with the felt anxiety of military activity and the geographical context of Latvia and by uncovering war-like qualities in my own being through my artistic process. By embracing paintings’ feral and untamable nature I embrace the shaping of myself through painting: a simultaneous transformative journey for the artist and the painting, sculpting…\n\n**About the artist**\n\nKristiāns Kļava received his undergraduate degree in Painting in 2021, Illinois, USA. He is a two-time participant of the New York Studio School’s painting marathons and a recipient of many cash merit Awards in juried exhibitions, most recently getting short-listed with the work “the alchemist” (2024) at the National Portrait Gallery in London for the “Herbert Smith Freehills Kramer” Portrait Award in 2025. His works have made appearance in solo exhibitions “square, you” (2022, USA), “drunken angels, and spartans”, “Giants’ battle” and in “rain. birch trees. puma.” (2024, Riga), as well as in many group exhibitions in Latvia and in the USA.\n\nFollow the artist: [@makonustumeji3](https://www.instagram.com/makonustumeji3/)"
+      },
       "velApmacies": {
         "id": "57",
-        "title": "Orbīta — vēl apmācies",
+        "title": "vēl apmācies",
         "image": "/assets/vel-apmacies/poster.jpeg",
         "url": "/events/vel-apmacies",
         "startDate": "2026-08-07T19:00:00Z",
