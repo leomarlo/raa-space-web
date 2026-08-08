@@ -1,11 +1,18 @@
 'use client';
 
+import Image from 'next/image';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import EventLinks from '@/components/EventLinks';
 import EventPageContent from '@/components/EventPageContent';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+
+const galleryImages = [
+  '/assets/lidojums/pic1.jpeg',
+  '/assets/lidojums/pic2.jpeg',
+  '/assets/lidojums/pic3.jpeg',
+];
 
 export default function LidojumsPage() {
   const [navOpen, setNavOpen] = useState(false);
@@ -31,6 +38,18 @@ export default function LidojumsPage() {
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
         <EventPageContent event={t.program.items.lidojums}>
           <EventLinks event={t.program.items.lidojums} />
+          <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mt-6">
+            {galleryImages.map((src) => (
+              <Image
+                key={src}
+                src={src}
+                alt={t.program.items.lidojums.title}
+                width={800}
+                height={600}
+                className="w-full h-auto rounded-lg"
+              />
+            ))}
+          </div>
         </EventPageContent>
       </div>
     </div>
