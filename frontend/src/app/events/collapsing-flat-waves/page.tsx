@@ -9,12 +9,10 @@ import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
 const galleryImages = [
-  '/assets/lidojums/pic1.jpeg',
-  '/assets/lidojums/pic2.jpeg',
-  '/assets/lidojums/pic3.jpeg',
+  '/assets/collapsing-flat-waves/poster-1.jpg',
 ];
 
-export default function LidojumsPage() {
+export default function CollapsingFlatWavesPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
@@ -36,16 +34,16 @@ export default function LidojumsPage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.lidojums}>
-          <EventLinks event={t.program.items.lidojums} />
+        <EventPageContent event={t.program.items.collapsingFlatWaves}>
+          <EventLinks event={t.program.items.collapsingFlatWaves} />
           <div className="grid grid-cols-1 gap-4 mt-6">
             {galleryImages.map((src) => (
               <Image
                 key={src}
                 src={src}
-                alt={t.program.items.lidojums.title}
-                width={800}
-                height={600}
+                alt={t.program.items.collapsingFlatWaves.title}
+                width={1922}
+                height={2560}
                 className="w-full h-auto rounded-lg"
               />
             ))}

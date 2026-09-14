@@ -19,6 +19,9 @@ interface ProgramItem {
   registerPage: string;
   externalLink: string;
   externalLinkText: string;
+  // ISO start times of individual performances; the calendar shows one entry
+  // per performance instead of spanning startDate..endDate.
+  performances?: string[];
 }
 
 interface ProgramListViewProps {

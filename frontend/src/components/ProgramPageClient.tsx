@@ -14,7 +14,7 @@ export default function ProgramPageClient() {
   const { t } = useLanguage();
 
   const startDate = new Date('2025-07-01T00:00:00Z');
-  const endDate = new Date('2026-10-31T23:59:59Z');
+  const endDate = new Date('2026-11-30T23:59:59Z');
 
   const programItems: ProgramItem[] = Object.values(t.program.items).sort(
     (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
@@ -60,8 +60,16 @@ export default function ProgramPageClient() {
 
   // Drop the week-spanning umbrella ITEM entry from the calendar and use the
   // per-day performances instead. The list view keeps the umbrella entry.
+  // Events with several performances show up on each performance day only,
+  // not on every day between the first and the last one.
   const calendarItems: ProgramItem[] = [
-    ...programItems.filter((p) => p.id !== t.program.items.item.id),
+    ...programItems
+      .filter((p) => p.id !== t.program.items.item.id)
+      .flatMap((p) =>
+        p.performances?.length
+          ? p.performances.map((iso, i) => ({ ...p, id: `${p.id}-${i}`, startDate: iso, endDate: iso }))
+          : [p]
+      ),
     ...itemSubEvents,
   ];
 
