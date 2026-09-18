@@ -11,6 +11,7 @@ export default function SeriesPage() {
   const { t } = useLanguage();
 
   const seriesItems = [
+    t.series.items.raaCeturtdienas,
     t.series.items.raaMuseum,
     t.series.items.dialogoAdAbsurdum,
     t.series.items.kabiirijasSalons,

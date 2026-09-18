@@ -164,6 +164,14 @@
         "url": "/events/citizen-research-meetup-first-meeting",
         "events": "Events",
         "description": "Weekly meetups for researchers and curious minds. We share insights, learn new skills, and crunch publicly available data together."
+      },
+      "raaCeturtdienas": {
+        "id": "5",
+        "title": "RAA Ceturtdienas",
+        "image": "/assets/raa-ceturtdienas/poster-plain-en.jpg",
+        "url": "/raa-ceturtdienas",
+        "listings": "Performance",
+        "description": "Every Thursday RAA becomes a stage for short performances, stage experiments, ideas, miniatures, open readings and other kinds of acts."
       }
     }
   },
@@ -176,7 +184,10 @@
         "url": "/events/dievs-pamet-johanu-novembris",
         "startDate": "2026-11-27T19:00:00Z",
         "endDate": "2026-11-28T17:10:00Z",
-        "performances": ["2026-11-27T19:00:00Z", "2026-11-28T16:00:00Z"],
+        "performances": [
+          "2026-11-27T19:00:00Z",
+          "2026-11-28T16:00:00Z"
+        ],
         "color": "1",
         "showTextOverThumbnail": 0,
         "registerPage": "",
@@ -198,7 +209,10 @@
         "url": "/events/dievs-pamet-johanu-oktobris",
         "startDate": "2026-10-16T19:00:00Z",
         "endDate": "2026-10-18T20:10:00Z",
-        "performances": ["2026-10-16T19:00:00Z", "2026-10-18T19:00:00Z"],
+        "performances": [
+          "2026-10-16T19:00:00Z",
+          "2026-10-18T19:00:00Z"
+        ],
         "color": "1",
         "showTextOverThumbnail": 0,
         "registerPage": "",
@@ -247,7 +261,7 @@
         "shortDescription": "A sound installation exhibition by Leipzig-based sound artist Robert Rehnig about space, silence and the transition from hearing to listening.",
         "location": "RAA.SPACE, Matīsa iela 8, Rīga + one yet undisclosed location",
         "when": "24.09–14.10.2026, Wed–Sun 13:00–20:00 (Soft opening 24.09 – no set time, drop by whenever you like)",
-        "instaLink": "",
+        "instaLink": "https://www.instagram.com/p/DdRzAJ_I8d0/",
         "fbLink": "",
         "registrationLink": "",
         "price": "Free entrance",
@@ -1481,6 +1495,195 @@
         "externalLinkText": "",
         "price": "free entry",
         "description": "On Friday, July 11, at 6:00 PM magno cum tempore, the new interdisciplinary cultural space R A A will open its doors. The opening evening will feature: an exhibition by young artists from the Art Academy of Latvia under the guidance of Maija Kurševa, electronic and acoustic music, exploration of the space, conversations with sparkling drinks, as well as a theatrical performance by the makers of the cultural space, marking the beginning of R A A's theatrical activities.\n\nR A A opening #1\n\nProgram\n18.00 R A A Opening magno cum tempore (Dj Meile)\n19.00 Opening of the LMA’s exhibition of young artists “In your shoes” (within the festival SABRS, organised by Maija Kurševa)\n20.00 Musical performance (Katrīna Kovaļuka, Ēriks Frišenfelds)\n21.00 Theatrical opening (Helias Dzimoulakis, Leonhard Horstmeyer)\n22.00 Live sound (Jana Zariņa, Sarma Gabrena)"
+      },
+      "raaCeturtdienasOkt01": {
+        "id": "64",
+        "title": "RAA Ceturtdienas — Oct 1",
+        "image": "/assets/raa-ceturtdienas-okt-01/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-okt-01",
+        "startDate": "2026-10-01T16:00:00Z",
+        "endDate": "2026-10-01T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "01.10.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasOkt08": {
+        "id": "65",
+        "title": "RAA Ceturtdienas — Oct 8",
+        "image": "/assets/raa-ceturtdienas-okt-08/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-okt-08",
+        "startDate": "2026-10-08T16:00:00Z",
+        "endDate": "2026-10-08T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "08.10.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasOkt22": {
+        "id": "67",
+        "title": "RAA Ceturtdienas — Oct 22",
+        "image": "/assets/raa-ceturtdienas-okt-22/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-okt-22",
+        "startDate": "2026-10-22T16:00:00Z",
+        "endDate": "2026-10-22T19:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "22.10.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasNov05": {
+        "id": "69",
+        "title": "RAA Ceturtdienas — Nov 5",
+        "image": "/assets/raa-ceturtdienas-nov-05/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-nov-05",
+        "startDate": "2026-11-05T17:00:00Z",
+        "endDate": "2026-11-05T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "05.11.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasNov12": {
+        "id": "70",
+        "title": "RAA Ceturtdienas — Nov 12",
+        "image": "/assets/raa-ceturtdienas-nov-12/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-nov-12",
+        "startDate": "2026-11-12T17:00:00Z",
+        "endDate": "2026-11-12T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "12.11.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasNov19": {
+        "id": "71",
+        "title": "RAA Ceturtdienas — Nov 19",
+        "image": "/assets/raa-ceturtdienas-nov-19/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-nov-19",
+        "startDate": "2026-11-19T17:00:00Z",
+        "endDate": "2026-11-19T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "19.11.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasDec03": {
+        "id": "73",
+        "title": "RAA Ceturtdienas — Dec 3",
+        "image": "/assets/raa-ceturtdienas-dec-03/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-dec-03",
+        "startDate": "2026-12-03T17:00:00Z",
+        "endDate": "2026-12-03T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "03.12.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasDec10": {
+        "id": "74",
+        "title": "RAA Ceturtdienas — Dec 10",
+        "image": "/assets/raa-ceturtdienas-dec-10/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-dec-10",
+        "startDate": "2026-12-10T17:00:00Z",
+        "endDate": "2026-12-10T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "10.12.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
+      },
+      "raaCeturtdienasDec17": {
+        "id": "75",
+        "title": "RAA Ceturtdienas — Dec 17",
+        "image": "/assets/raa-ceturtdienas-dec-17/poster-en.jpg",
+        "url": "/events/raa-ceturtdienas-dec-17",
+        "startDate": "2026-12-17T17:00:00Z",
+        "endDate": "2026-12-17T20:00:00Z",
+        "color": "1",
+        "showTextOverThumbnail": 0,
+        "registerPage": "",
+        "shortDescription": "Program coming soon.",
+        "location": "RAA.SPACE, Matīsa iela 8, Rīga",
+        "when": "17.12.2026, Thursday",
+        "instaLink": "",
+        "fbLink": "",
+        "registrationLink": "",
+        "price": "5 EUR per person",
+        "externalLink": "",
+        "externalLinkText": "",
+        "description": "Program coming soon."
       }
     },
     "features": {
@@ -1491,10 +1694,38 @@
             "day": "Monday",
             "pageUrl": "/chess-week/monday-20-jul",
             "events": [
-              { "time": "17:00", "title": "Opening", "details": "", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18:00", "title": "Behind the Chess Scenes", "details": "Signe Kacēna · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Chess: Bright and Dark Sides", "details": "Bruno Rancis · Talk in Latvian", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "20:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              {
+                "time": "17:00",
+                "title": "Opening",
+                "details": "",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "18:00",
+                "title": "Behind the Chess Scenes",
+                "details": "Signe Kacēna · Talk in Latvian",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "19:00",
+                "title": "Chess: Bright and Dark Sides",
+                "details": "Bruno Rancis · Talk in Latvian",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "20:00",
+                "title": "Chess Café",
+                "details": "RAA and Ex Libris",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              }
             ]
           },
           {
@@ -1502,8 +1733,22 @@
             "day": "Tuesday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess speed dating", "details": "Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "18:00–21:00", "title": "Hands and Brain Tournament", "details": "Organised by Signe Kacēna and Visvaldis Gercāns · Register in pairs or we will find a partner · RAA and Ex Libris", "pageUrl": "/events/hands-and-brain-tournament", "registrationUrl": "https://luma.com/d8s1qtv8", "registrationLabel": "Register on Lu.ma" }
+              {
+                "time": "17:00",
+                "title": "Chess speed dating",
+                "details": "Ex Libris",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "18:00–21:00",
+                "title": "Hands and Brain Tournament",
+                "details": "Organised by Signe Kacēna and Visvaldis Gercāns · Register in pairs or we will find a partner · RAA and Ex Libris",
+                "pageUrl": "/events/hands-and-brain-tournament",
+                "registrationUrl": "https://luma.com/d8s1qtv8",
+                "registrationLabel": "Register on Lu.ma"
+              }
             ]
           },
           {
@@ -1511,8 +1756,22 @@
             "day": "Wednesday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Baroque Opera “Blaise le Savetier”", "details": "Written by chess master F. A. D. Philidor · Baroque Collective “Lieto Fine”", "pageUrl": "/events/blaise-le-savetier", "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491", "registrationLabel": "Buy tickets" }
+              {
+                "time": "17:00",
+                "title": "Chess Café",
+                "details": "RAA and Ex Libris",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "19:00",
+                "title": "Baroque Opera “Blaise le Savetier”",
+                "details": "Written by chess master F. A. D. Philidor · Baroque Collective “Lieto Fine”",
+                "pageUrl": "/events/blaise-le-savetier",
+                "registrationUrl": "https://www.bilesuparadize.lv/lv/event/175491",
+                "registrationLabel": "Buy tickets"
+              }
             ]
           },
           {
@@ -1520,8 +1779,22 @@
             "day": "Thursday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:30", "title": "Simply complicated", "details": "Poetry and music · Sintakses stupors & Zoya Zoyroko", "pageUrl": "/events/vienkarsi-sarezgiti", "registrationUrl": "", "registrationLabel": "" }
+              {
+                "time": "17:00",
+                "title": "Chess Café",
+                "details": "RAA and Ex Libris",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "19:30",
+                "title": "Simply complicated",
+                "details": "Poetry and music · Sintakses stupors & Zoya Zoyroko",
+                "pageUrl": "/events/vienkarsi-sarezgiti",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              }
             ]
           },
           {
@@ -1529,8 +1802,22 @@
             "day": "Friday",
             "pageUrl": "",
             "events": [
-              { "time": "17:00", "title": "Chess Café", "details": "RAA and Ex Libris", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" },
-              { "time": "19:00", "title": "Theatre — Make Chess Great Again", "details": "Santa Didžus and Leonhard Horstmeyer", "pageUrl": "", "registrationUrl": "", "registrationLabel": "" }
+              {
+                "time": "17:00",
+                "title": "Chess Café",
+                "details": "RAA and Ex Libris",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              },
+              {
+                "time": "19:00",
+                "title": "Theatre — Make Chess Great Again",
+                "details": "Santa Didžus and Leonhard Horstmeyer",
+                "pageUrl": "",
+                "registrationUrl": "",
+                "registrationLabel": ""
+              }
             ]
           }
         ]
@@ -1739,6 +2026,13 @@
       "name": "Helias Dzimoulakis",
       "role": "theatre director",
       "description": ""
+    },
+    "Elvita": {
+      "id": "team-id-3",
+      "image": "/assets/team/placeholder-raa.png",
+      "name": "Elvita Rakštīte",
+      "role": "curator of the RAA Ceturtdienas",
+      "description": ""
     }
   },
   "register": {
@@ -1793,5 +2087,35 @@
         "emailAddress": "enter@raa.space"
       }
     }
+  },
+  "raaCeturtdienas": {
+    "title": "RAA Ceturtdienas",
+    "poster": "/assets/raa-ceturtdienas/poster-plain-en.jpg",
+    "description": "Every Thursday, from October, RAA becomes a stage for short performances, stage experiments, ideas, miniatures, voice or reading performances, and other kinds of acts. These don't have to be fully produced pieces, nor impromptu open-mics. Instead these are sketches of ideas that see the light of day or the dark of a little theatre, some with a dramaturgy, others less so. Can be groups, can be individual, can be non-human. As a gesture to the artist each event is 5 Euros per person. The detailed program for each Thursday will be published a week in advance. Find more info about the program, tickets and how to participate on https://raa.space/raa-ceturtdienas.",
+    "programTitle": "Program",
+    "programIntro": "Open a month to see its Thursdays, or follow the month itself for its own page.",
+    "seeMonth": "See the whole month",
+    "noEvent": "No event",
+    "comingSoon": "Program coming soon",
+    "teamTitle": "Team",
+    "team": [
+      {
+        "name": "Leonhard Horstmeyer",
+        "role": "space maker",
+        "instagram": "https://www.instagram.com/leonhardmarlo/"
+      },
+      {
+        "name": "Jana Zariņa",
+        "role": "artistic director",
+        "instagram": "https://www.instagram.com/tobeawhile/"
+      },
+      {
+        "name": "Elvita Rakštīte",
+        "role": "curator of the RAA Ceturtdienas",
+        "instagram": "https://www.instagram.com/elirasssa/"
+      }
+    ],
+    "allEvents": "All RAA events",
+    "backToSeries": "Back to RAA Ceturtdienas"
   }
 }
