@@ -1,0 +1,220 @@
+{
+  "source": "pics/theme.jpg",
+  "method": "k-means in CIE Lab over 132720 sampled pixels, k=18",
+  "note": "share = fraction of the photo's pixels in that cluster",
+  "colors": [
+    {
+      "name": "amber",
+      "hex": "#6B512A",
+      "rgb": [
+        107,
+        81,
+        42
+      ],
+      "label": "amber, olive-cast",
+      "tier": "core",
+      "share": "3.3%",
+      "use": "body warm / large fields",
+      "lab": [
+        36.3,
+        5.9,
+        26.8
+      ],
+      "chroma": 27.5,
+      "contrast_on_ground": 2.77,
+      "contrast_on_white": 7.41
+    },
+    {
+      "name": "olive",
+      "hex": "#66603F",
+      "rgb": [
+        102,
+        96,
+        63
+      ],
+      "label": "greenish olive",
+      "tier": "core",
+      "share": "2.0%",
+      "use": "secondary field, borders",
+      "lab": [
+        40.5,
+        -3.1,
+        19.7
+      ],
+      "chroma": 20.0,
+      "contrast_on_ground": 3.24,
+      "contrast_on_white": 6.34
+    },
+    {
+      "name": "green",
+      "hex": "#C3C967",
+      "rgb": [
+        195,
+        201,
+        103
+      ],
+      "label": "bright green",
+      "tier": "core",
+      "share": "0.015%",
+      "use": "high-contrast accent, links, headings",
+      "lab": [
+        78.7,
+        -15.9,
+        47.8
+      ],
+      "chroma": 50.4,
+      "contrast_on_ground": 11.61,
+      "contrast_on_white": 1.77
+    },
+    {
+      "name": "black",
+      "hex": "#070301",
+      "rgb": [
+        7,
+        3,
+        1
+      ],
+      "label": "near-black ground",
+      "tier": "core",
+      "share": "26.4%",
+      "use": "page ground",
+      "lab": [
+        1.0,
+        0.8,
+        1.1
+      ],
+      "chroma": 1.4,
+      "contrast_on_ground": 1.0,
+      "contrast_on_white": 20.54
+    },
+    {
+      "name": "brown",
+      "hex": "#221709",
+      "rgb": [
+        34,
+        23,
+        9
+      ],
+      "label": "dark brown surface",
+      "tier": "extra",
+      "share": "11.2%",
+      "use": "raised surface on the ground",
+      "lab": [
+        8.8,
+        3.4,
+        9.5
+      ],
+      "chroma": 10.1,
+      "contrast_on_ground": 1.17,
+      "contrast_on_white": 17.58
+    },
+    {
+      "name": "orange",
+      "hex": "#BC6F20",
+      "rgb": [
+        188,
+        111,
+        32
+      ],
+      "label": "sequin orange",
+      "tier": "extra",
+      "share": "0.5%",
+      "use": "sparing accent, hover",
+      "lab": [
+        54.2,
+        24.8,
+        53.3
+      ],
+      "chroma": 58.7,
+      "contrast_on_ground": 5.31,
+      "contrast_on_white": 3.87
+    },
+    {
+      "name": "sage",
+      "hex": "#A1A477",
+      "rgb": [
+        161,
+        164,
+        119
+      ],
+      "label": "sage mid-light",
+      "tier": "extra",
+      "share": "0.9%",
+      "use": "muted text on dark",
+      "lab": [
+        66.1,
+        -8.6,
+        23.1
+      ],
+      "chroma": 24.6,
+      "contrast_on_ground": 7.91,
+      "contrast_on_white": 2.6
+    }
+  ],
+  "alternates": [
+    {
+      "name": "pale-green",
+      "hex": "#C1CB8F",
+      "rgb": [
+        193,
+        203,
+        143
+      ],
+      "why": "the earlier, softer green",
+      "lab": [
+        79.6,
+        -13.2,
+        28.9
+      ],
+      "chroma": 31.7
+    },
+    {
+      "name": "cream",
+      "hex": "#DEE6C5",
+      "rgb": [
+        222,
+        230,
+        197
+      ],
+      "why": "brightest sequin flash; paper/text tone",
+      "lab": [
+        89.9,
+        -8.3,
+        15.2
+      ],
+      "chroma": 17.3
+    },
+    {
+      "name": "khaki",
+      "hex": "#53472B",
+      "rgb": [
+        83,
+        71,
+        43
+      ],
+      "why": "amber with the red bias removed",
+      "lab": [
+        30.7,
+        0.6,
+        18.7
+      ],
+      "chroma": 18.7
+    },
+    {
+      "name": "amber-warm",
+      "hex": "#90612E",
+      "rgb": [
+        144,
+        97,
+        46
+      ],
+      "why": "brighter, more orange amber",
+      "lab": [
+        45.2,
+        13.9,
+        36.0
+      ],
+      "chroma": 38.6
+    }
+  ]
+}
