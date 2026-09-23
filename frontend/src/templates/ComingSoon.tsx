@@ -21,7 +21,7 @@ export default function ComingSoon() {
   // Pinned event for the flashing box
   const upcomingEvent = useMemo(() => {
     const programItems = t.program.items as Record<string, ProgramItem>;
-    return programItems['raaChessWeek'] ?? null;
+    return programItems['collapsingFlatWaves'] ?? null;
   }, [t.program.items]);
 
   const isSpecialPeriod = useMemo(() => {
@@ -31,16 +31,23 @@ export default function ComingSoon() {
     return today >= start && today <= end;
   }, []);
 
-  // Show the Chess Week box from Jul 14 through Jul 25, 2026 (inclusive).
+  // Show the Collapsing Flat Waves box from a week before opening (17 Sep)
+  // through the day after the exhibition closes (15 Oct 2026, inclusive).
   const isActivePeriod = useMemo(() => {
     const today = new Date();
     const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 6, 14);
-    const endDate = new Date(2026, 6, 25, 23, 59, 59);
+    const startDate = new Date(2026, 8, 17);
+    const endDate = new Date(2026, 9, 15, 23, 59, 59);
     return todayStart >= startDate && todayStart <= endDate;
   }, []);
 
   const shouldShowFlashingBox = isActivePeriod && upcomingEvent;
+
+  // externalLink is empty for this event; fall back to its Instagram post.
+  const secondaryLink = upcomingEvent?.externalLink || upcomingEvent?.instaLink || '';
+  const secondaryLinkText = upcomingEvent?.externalLink
+    ? upcomingEvent.externalLinkText || 'Register'
+    : 'Instagram';
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
@@ -94,12 +101,14 @@ export default function ComingSoon() {
                 >
                   {upcomingEvent.title}
                 </Link>
-                {upcomingEvent.externalLink && (
+                {secondaryLink && (
                   <Link
-                    href={upcomingEvent.externalLink}
+                    href={secondaryLink}
+                    target={secondaryLink.startsWith('http') ? '_blank' : undefined}
+                    rel={secondaryLink.startsWith('http') ? 'noopener noreferrer' : undefined}
                     className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
                   >
-                    {upcomingEvent.externalLinkText || 'Register'}
+                    {secondaryLinkText}
                   </Link>
                 )}
               </div>

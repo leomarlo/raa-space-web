@@ -86,6 +86,20 @@ export default function RaaCeturtdienasPage() {
             <p className="text-justify leading-relaxed whitespace-pre-line">
               {c.description}
             </p>
+            <p className="mt-3 text-sm font-semibold" style={{ color: ACCENT }}>
+              {c.capacity}
+            </p>
+            <p className="mt-2 text-xs opacity-70">
+              {c.pressLabel}:{' '}
+              <a
+                href={c.pressUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="underline hover:opacity-80"
+              >
+                {c.pressLinkText}
+              </a>
+            </p>
           </div>
 
           {/* Program: a month opens in place, and its name leads to its own page */}

@@ -1,0 +1,20 @@
+/* Raā Čertūrdienas — theme palette
+   extracted from pics/theme.jpg (k-means in CIE Lab)
+   see theme-palette.json for Lab values, pixel shares and contrast ratios */
+
+:root {
+  --raa-amber: #6b512a;         /* amber, olive-cast — body warm / large fields */
+  --raa-olive: #66603f;         /* greenish olive — secondary field, borders */
+  --raa-green: #c3c967;         /* bright green — high-contrast accent, links, headings */
+  --raa-black: #070301;         /* near-black ground — page ground */
+  --raa-brown: #221709;         /* dark brown surface — raised surface on the ground */
+  --raa-orange: #bc6f20;        /* sequin orange — sparing accent, hover */
+  --raa-sage: #a1a477;          /* sage mid-light — muted text on dark */
+
+  /* alternates, if a swap is wanted: */
+  /* --raa-pale-green: #c1cb8f;     the earlier, softer green */
+  /* --raa-cream: #dee6c5;          brightest sequin flash; paper/text tone */
+  /* --raa-khaki: #53472b;          amber with the red bias removed */
+  /* --raa-amber-warm: #90612e;     brighter, more orange amber */
+}
+
