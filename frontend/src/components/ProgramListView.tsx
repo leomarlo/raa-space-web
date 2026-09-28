@@ -3,6 +3,7 @@
 import { useEffect, useRef } from 'react';
 import ProgramCard from '@/components/ProgramCard';
 import { ProgramListViewProps } from '@/types/program';
+import { scrollIntoViewWhenReady } from '@/lib/scrollWhenReady';
 
 
 export default function ProgramListView({ items }: ProgramListViewProps) {
@@ -26,19 +27,12 @@ export default function ProgramListView({ items }: ProgramListViewProps) {
   });
 
   useEffect(() => {
-    // Wait a paint past mount so every card has taken its final layout
-    // position before we measure where to scroll -- calling scrollIntoView
-    // in the same tick as the list first renders can land on a stale layout.
-    const raf = requestAnimationFrame(() =>
-      requestAnimationFrame(() => {
-        if (closestFutureRef.current) {
-          closestFutureRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-        } else if (listRef.current) {
-          listRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-        }
-      })
-    );
-    return () => cancelAnimationFrame(raf);
+    if (closestFutureRef.current) {
+      return scrollIntoViewWhenReady(closestFutureRef.current);
+    }
+    if (listRef.current) {
+      listRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+    }
     // Re-run only when which event is "closest to today" actually changes,
     // not on every re-render that hands us a same-content-but-new-reference items array.
     // eslint-disable-next-line react-hooks/exhaustive-deps
