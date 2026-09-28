@@ -73,9 +73,15 @@ export default function CalendarView({ items, startDate, endDate, cellOpacity = 
   const { t } = useLanguage();
 
   useEffect(() => {
-    if (todayRef.current) {
-      todayRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    }
+    // Wait a paint past mount so the day grid has taken its final layout
+    // position before we measure where to scroll -- calling scrollIntoView
+    // in the same tick as the grid first renders can land on a stale layout.
+    const raf = requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      })
+    );
+    return () => cancelAnimationFrame(raf);
   }, []);
 
   const formatDate = (date: Date) => date.toISOString().split('T')[0];

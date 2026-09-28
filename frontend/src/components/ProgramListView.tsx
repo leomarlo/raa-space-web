@@ -9,15 +9,6 @@ export default function ProgramListView({ items }: ProgramListViewProps) {
   const listRef = useRef<HTMLDivElement | null>(null);
   const closestFutureRef = useRef<HTMLDivElement | null>(null);
 
-  useEffect(() => {
-    // Scroll to the closest future event if available, otherwise to top
-    if (closestFutureRef.current) {
-      closestFutureRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
-    } else if (listRef.current) {
-      listRef.current.scrollTo({ top: 0, behavior: 'smooth' });
-    }
-  }, [items]);
-
   const today = new Date();
 
   // Find the closest future event
@@ -33,6 +24,25 @@ export default function ProgramListView({ items }: ProgramListViewProps) {
       }
     }
   });
+
+  useEffect(() => {
+    // Wait a paint past mount so every card has taken its final layout
+    // position before we measure where to scroll -- calling scrollIntoView
+    // in the same tick as the list first renders can land on a stale layout.
+    const raf = requestAnimationFrame(() =>
+      requestAnimationFrame(() => {
+        if (closestFutureRef.current) {
+          closestFutureRef.current.scrollIntoView({ behavior: 'smooth', block: 'center' });
+        } else if (listRef.current) {
+          listRef.current.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+      })
+    );
+    return () => cancelAnimationFrame(raf);
+    // Re-run only when which event is "closest to today" actually changes,
+    // not on every re-render that hands us a same-content-but-new-reference items array.
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [closestFutureIndex]);
 
   return (
     <div ref={listRef} className="flex flex-col items-center w-full">

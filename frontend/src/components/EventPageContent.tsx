@@ -7,6 +7,8 @@ import BackToProgram from '@/components/BackToProgram';
 interface EventPageContentProps {
   event: ProgramItem;
   children?: React.ReactNode;
+  /** Optional action rendered top-right next to the title (e.g. a ticket button). */
+  titleAction?: React.ReactNode;
 }
 
 function renderDescription(text: string) {
@@ -45,10 +47,17 @@ function renderDescription(text: string) {
   return parts;
 }
 
-export default function EventPageContent({ event, children }: EventPageContentProps) {
+export default function EventPageContent({ event, children, titleAction }: EventPageContentProps) {
   return (
     <div className="max-w-4xl w-full bg-black/70 p-6 sm:p-8 rounded-lg shadow-lg">
-      <h1 className="text-4xl font-bold mb-6 text-center">{event.title}</h1>
+      <div className="relative mb-6">
+        <h1 className="text-4xl font-bold text-center px-0 sm:px-28">{event.title}</h1>
+        {titleAction && (
+          <div className="mt-3 flex justify-center sm:mt-0 sm:absolute sm:top-1/2 sm:right-0 sm:-translate-y-1/2">
+            {titleAction}
+          </div>
+        )}
+      </div>
 
       <div className="overflow-hidden">
         {event.image && (
