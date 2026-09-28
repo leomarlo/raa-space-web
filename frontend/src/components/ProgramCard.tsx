@@ -9,17 +9,21 @@ export default function ProgramCard({ item }: { item: ProgramItem }) {
 
   return (
     <div className="border-[3pt] border-black bg-black text-[#f5f5dc] p-6 md:p-8 max-w-3xl w-full mx-auto mb-8">
-      {/* Image on click open / push item.url */}
-      <div className="w-full mb-4">
+      {/* Image on click open / push item.url. A fixed-aspect box (rather than
+          fixed width/height matching a single 16:9 shape) reserves the right
+          space before the real file loads -- posters here are portrait, so a
+          hardcoded landscape box was causing every card to jump taller once
+          its image arrived, throwing off anything that scrolls to a card
+          shortly after mount (see ProgramListView's scroll-to-today). */}
+      <div className="relative w-full aspect-[3/4] mb-4">
         <a href={item.url} target="_blank" rel="noopener noreferrer">
           <Image
             src={item.image.replace(/(\.[^.]+)$/, '-mid$1')}
             alt={item.title}
-            width={800}
-            height={450}
+            fill
             sizes="100vw"
             loading="lazy"
-            className="w-full h-auto border border-black object-contain mx-auto"
+            className="border border-black object-contain mx-auto"
           />
         </a>
       </div>

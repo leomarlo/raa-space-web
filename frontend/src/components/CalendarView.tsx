@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { useRef, useEffect } from 'react';
 import { CalendarViewProps, Translations, ProgramItem } from '@/types/program';
 import { useLanguage } from '@/context/LanguageContext';
+import { scrollIntoViewWhenReady } from '@/lib/scrollWhenReady';
 
 const calendarColors = [
   '#000000', // 0 - fallback (black)
@@ -73,15 +74,10 @@ export default function CalendarView({ items, startDate, endDate, cellOpacity = 
   const { t } = useLanguage();
 
   useEffect(() => {
-    // Wait a paint past mount so the day grid has taken its final layout
-    // position before we measure where to scroll -- calling scrollIntoView
-    // in the same tick as the grid first renders can land on a stale layout.
-    const raf = requestAnimationFrame(() =>
-      requestAnimationFrame(() => {
-        todayRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
-      })
-    );
-    return () => cancelAnimationFrame(raf);
+    // The grid can be 500+ day cells; on a slower device a fixed frame or
+    // two isn't always enough time to finish laying it out before we measure
+    // where to scroll, so wait for the browser to actually catch up instead.
+    return scrollIntoViewWhenReady(todayRef.current);
   }, []);
 
   const formatDate = (date: Date) => date.toISOString().split('T')[0];
