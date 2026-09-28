@@ -50,3 +50,19 @@ body {
 .green-glow-box {
   animation: greenGlow 1.5s ease-in-out infinite;
 }
+
+/* Same pulse as .flashing-box, but the colour comes from --glow-color, so any
+   number of boxes can each glow their own colour without a new keyframe per
+   colour. Set --glow-color (and usually borderColor to match) inline. */
+@keyframes glowPulse {
+  0%, 100% {
+    box-shadow: 0 0 0px var(--glow-color, #ff0000), 0 0 0px var(--glow-color, #ff0000), 0 0 0px var(--glow-color, #ff0000);
+  }
+  50% {
+    box-shadow: 0 0 20px var(--glow-color, #ff0000), 0 0 30px var(--glow-color, #ff0000), 0 0 40px var(--glow-color, #ff0000);
+  }
+}
+
+.glow-box {
+  animation: glowPulse 1s ease-in-out infinite;
+}

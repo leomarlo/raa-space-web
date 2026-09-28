@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import Link from 'next/link';
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
@@ -7,6 +8,11 @@ import EventLinks from '@/components/EventLinks';
 import EventPageContent from '@/components/EventPageContent';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
+
+const galleryImages = [
+  { src: '/assets/raa-ceturtdienas-okt-01/mes-group.jpg', width: 1600, height: 1200 },
+  { src: '/assets/raa-ceturtdienas-okt-01/annija.jpg', width: 1400, height: 1867 },
+];
 
 export default function Page() {
   const [navOpen, setNavOpen] = useState(false);
@@ -36,6 +42,18 @@ export default function Page() {
             {event.when} · {event.location} · {event.price}
           </p>
           <EventLinks event={event} />
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 mt-6">
+            {galleryImages.map((img) => (
+              <Image
+                key={img.src}
+                src={img.src}
+                alt={event.title}
+                width={img.width}
+                height={img.height}
+                className="w-full h-auto rounded-lg"
+              />
+            ))}
+          </div>
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/raa-ceturtdienas"

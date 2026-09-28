@@ -2,7 +2,7 @@
 
 import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
-import { useState } from 'react';
+import { useMemo, useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 import { ProgramItem } from '@/types/program';
 import CalendarView from '@/components/CalendarView';
@@ -14,10 +14,17 @@ export default function ProgramPageClient() {
   const { t } = useLanguage();
 
   const startDate = new Date('2025-07-01T00:00:00Z');
-  const endDate = new Date('2026-11-30T23:59:59Z');
+  const endDate = new Date('2026-12-31T23:59:59Z');
 
-  const programItems: ProgramItem[] = Object.values(t.program.items).sort(
-    (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+  // Memoized so navOpen (or any other unrelated re-render) doesn't hand the
+  // views a new array reference every time -- that would re-trigger their
+  // scroll-to-today effect and yank the view back while someone is browsing.
+  const programItems: ProgramItem[] = useMemo(
+    () =>
+      Object.values(t.program.items).sort(
+        (a, b) => new Date(b.startDate).getTime() - new Date(a.startDate).getTime()
+      ),
+    [t.program.items]
   );
 
   // Calendar: instead of one ITEM block spanning the whole week, place each
@@ -30,48 +37,53 @@ export default function ProgramPageClient() {
     pageUrl: string;
     slug: string;
   };
-  const itemSubEvents: ProgramItem[] = (
-    t.program.features.item.events as unknown as ItemSubEvent[]
-  ).map((e) => {
-    const [dd, mm, yyyy] = e.date.split('.');
-    const iso = `${yyyy}-${mm}-${dd}T00:00:00Z`;
-    return {
-      id: `item-${e.slug}`,
-      image: e.themeImage,
-      title: e.title,
-      url: e.pageUrl,
-      startDate: iso,
-      endDate: iso,
-      color: '7',
-      location: '',
-      shortDescription: '',
-      when: '',
-      instaLink: '',
-      fbLink: '',
-      registrationLink: '',
-      price: '',
-      description: '',
-      showTextOverThumbnail: 0,
-      registerPage: '',
-      externalLink: '',
-      externalLinkText: '',
-    };
-  });
+  const itemSubEvents: ProgramItem[] = useMemo(
+    () =>
+      (t.program.features.item.events as unknown as ItemSubEvent[]).map((e) => {
+        const [dd, mm, yyyy] = e.date.split('.');
+        const iso = `${yyyy}-${mm}-${dd}T00:00:00Z`;
+        return {
+          id: `item-${e.slug}`,
+          image: e.themeImage,
+          title: e.title,
+          url: e.pageUrl,
+          startDate: iso,
+          endDate: iso,
+          color: '7',
+          location: '',
+          shortDescription: '',
+          when: '',
+          instaLink: '',
+          fbLink: '',
+          registrationLink: '',
+          price: '',
+          description: '',
+          showTextOverThumbnail: 0,
+          registerPage: '',
+          externalLink: '',
+          externalLinkText: '',
+        };
+      }),
+    [t.program.features.item.events]
+  );
 
   // Drop the week-spanning umbrella ITEM entry from the calendar and use the
   // per-day performances instead. The list view keeps the umbrella entry.
   // Events with several performances show up on each performance day only,
   // not on every day between the first and the last one.
-  const calendarItems: ProgramItem[] = [
-    ...programItems
-      .filter((p) => p.id !== t.program.items.item.id)
-      .flatMap((p) =>
-        p.performances?.length
-          ? p.performances.map((iso, i) => ({ ...p, id: `${p.id}-${i}`, startDate: iso, endDate: iso }))
-          : [p]
-      ),
-    ...itemSubEvents,
-  ];
+  const calendarItems: ProgramItem[] = useMemo(
+    () => [
+      ...programItems
+        .filter((p) => p.id !== t.program.items.item.id)
+        .flatMap((p) =>
+          p.performances?.length
+            ? p.performances.map((iso, i) => ({ ...p, id: `${p.id}-${i}`, startDate: iso, endDate: iso }))
+            : [p]
+        ),
+      ...itemSubEvents,
+    ],
+    [programItems, itemSubEvents, t.program.items.item.id]
+  );
 
   return (
     <div className="relative w-full h-screen overflow-hidden">

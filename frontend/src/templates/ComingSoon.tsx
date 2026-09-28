@@ -18,11 +18,11 @@ export default function ComingSoon() {
   const toggleLabel = locale === 'eng' ? 'Latviski, lūdzu' : 'In British English, please';
   const toggleBgColor = locale === 'eng' ? '#8B0000' : '#00008B'; // red or blue
 
-  // Pinned event for the flashing box
-  const upcomingEvent = useMemo(() => {
-    const programItems = t.program.items as Record<string, ProgramItem>;
-    return programItems['collapsingFlatWaves'] ?? null;
-  }, [t.program.items]);
+  const programItems = t.program.items as Record<string, ProgramItem>;
+
+  // Cycled by position, so any number of boxes each get their own glow colour
+  // automatically -- add a 6th box and it wraps back to GLOW_COLORS[0].
+  const GLOW_COLORS = ['#8B0000', '#22c55e', '#0ea5e9', '#eab308', '#a855f7'];
 
   const isSpecialPeriod = useMemo(() => {
     const today = new Date();
@@ -31,23 +31,36 @@ export default function ComingSoon() {
     return today >= start && today <= end;
   }, []);
 
-  // Show the Collapsing Flat Waves box from a week before opening (17 Sep)
-  // through the day after the exhibition closes (15 Oct 2026, inclusive).
-  const isActivePeriod = useMemo(() => {
-    const today = new Date();
-    const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const startDate = new Date(2026, 8, 17);
-    const endDate = new Date(2026, 9, 15, 23, 59, 59);
-    return todayStart >= startDate && todayStart <= endDate;
-  }, []);
+  // Boxes are shown top to bottom in this order, each within its own active
+  // window (inclusive on both ends). A box with no event is simply skipped.
+  const today = new Date();
+  const todayStart = new Date(today.getFullYear(), today.getMonth(), today.getDate());
 
-  const shouldShowFlashingBox = isActivePeriod && upcomingEvent;
-
-  // externalLink is empty for this event; fall back to its Instagram post.
-  const secondaryLink = upcomingEvent?.externalLink || upcomingEvent?.instaLink || '';
-  const secondaryLinkText = upcomingEvent?.externalLink
-    ? upcomingEvent.externalLinkText || 'Register'
-    : 'Instagram';
+  const boxes = [
+    {
+      // RAA Ceturtdienas — 1 October: live now through the event itself.
+      event: programItems['raaCeturtdienasOkt01'] ?? null,
+      start: new Date(2026, 8, 24),
+      end: new Date(2026, 9, 1, 23, 59, 59),
+    },
+    {
+      // Collapsing Flat Waves: a week before opening through the day after close.
+      event: programItems['collapsingFlatWaves'] ?? null,
+      start: new Date(2026, 8, 17),
+      end: new Date(2026, 9, 15, 23, 59, 59),
+    },
+  ]
+    .filter((b) => b.event && todayStart >= b.start && todayStart <= b.end)
+    .map((b, i) => {
+      const event = b.event as ProgramItem;
+      // externalLink is empty for these events; fall back to their Instagram post.
+      const secondaryLink = event.externalLink || event.instaLink || '';
+      const secondaryLinkText = event.externalLink
+        ? event.externalLinkText || 'Register'
+        : 'Instagram';
+      const glowColor = GLOW_COLORS[i % GLOW_COLORS.length];
+      return { event, secondaryLink, secondaryLinkText, glowColor };
+    });
 
   return (
     <div className="relative flex min-h-screen flex-col items-center justify-center bg-black text-[#f5f5dc] px-4 overflow-hidden">
@@ -64,10 +77,11 @@ export default function ComingSoon() {
         </button>
       </div>
 
-      {/* Main Content Container */}
-      <div className="flex flex-col items-center gap-6 z-10 w-full max-w-3xl">
+      {/* Main Content Container -- wide enough for two glow-box columns; the
+          ENTER panel itself stays at its own narrower reading width below. */}
+      <div className="flex flex-col items-center gap-6 z-10 w-full max-w-5xl">
         {/* Main Content */}
-        <div className="border-white border-[3pt] p-8 rounded-lg bg-black w-full">
+        <div className="border-white border-[3pt] p-8 rounded-lg bg-black w-full max-w-3xl">
           <h1 className="text-4xl font-bold mb-6 text-center">{t.title}</h1>
           <p className="text-center mb-6">
             {t.description}
@@ -84,38 +98,54 @@ export default function ComingSoon() {
           </div>
         </div>
 
-        {/* Flashing Event Box */}
-        {shouldShowFlashingBox && (
-          <div className="relative w-full">
-            <div className="border-[#8B0000] border-[3pt] p-8 rounded-lg bg-black w-full flashing-box">
-              <h2 className="text-3xl font-bold mb-4 text-center text-[#f5f5dc]">
-                {upcomingEvent.title}
-              </h2>
-              <p className="text-center text-[#f5f5dc] mb-6 leading-relaxed">
-                {upcomingEvent.shortDescription}
-              </p>
-              <div className="flex flex-wrap justify-center gap-4">
-                <Link
-                  href={upcomingEvent.url}
-                  className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
-                >
-                  {upcomingEvent.title}
-                </Link>
-                {secondaryLink && (
+        {/* Flashing Event Boxes -- two columns from md up (so a normal desktop
+            doesn't have to scroll for two boxes), one column below that; a
+            single box stays centred at the ENTER panel's width instead of
+            stretching across a now-empty second column. */}
+        <div
+          className={
+            boxes.length > 1
+              ? 'grid grid-cols-1 md:grid-cols-2 gap-6 w-full items-start'
+              : 'flex w-full justify-center'
+          }
+        >
+          {boxes.map(({ event, secondaryLink, secondaryLinkText, glowColor }) => (
+            <div
+              key={event.id}
+              className={boxes.length > 1 ? 'relative w-full' : 'relative w-full max-w-3xl'}
+            >
+              <div
+                className="border-[3pt] p-8 rounded-lg bg-black w-full h-full glow-box"
+                style={{ borderColor: glowColor, ['--glow-color' as string]: glowColor }}
+              >
+                <h2 className="text-3xl font-bold mb-4 text-center text-[#f5f5dc]">
+                  {event.title}
+                </h2>
+                <p className="text-center text-[#f5f5dc] mb-6 leading-relaxed">
+                  {event.shortDescription}
+                </p>
+                <div className="flex flex-wrap justify-center gap-4">
                   <Link
-                    href={secondaryLink}
-                    target={secondaryLink.startsWith('http') ? '_blank' : undefined}
-                    rel={secondaryLink.startsWith('http') ? 'noopener noreferrer' : undefined}
+                    href={event.url}
                     className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
                   >
-                    {secondaryLinkText}
+                    {event.title}
                   </Link>
-                )}
+                  {secondaryLink && (
+                    <Link
+                      href={secondaryLink}
+                      target={secondaryLink.startsWith('http') ? '_blank' : undefined}
+                      rel={secondaryLink.startsWith('http') ? 'noopener noreferrer' : undefined}
+                      className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+                    >
+                      {secondaryLinkText}
+                    </Link>
+                  )}
+                </div>
               </div>
             </div>
-          </div>
-        )}
-
+          ))}
+        </div>
       </div>
 
       {/* Opening Hours strip */}
