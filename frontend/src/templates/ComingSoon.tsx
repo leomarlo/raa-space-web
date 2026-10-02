@@ -38,6 +38,12 @@ export default function ComingSoon() {
 
   const boxes = [
     {
+      // RAA Ceturtdienas — 8 October: from the day after 1 October through the event.
+      event: programItems['raaCeturtdienasOkt08'] ?? null,
+      start: new Date(2026, 9, 2),
+      end: new Date(2026, 9, 8, 23, 59, 59),
+    },
+    {
       // RAA Ceturtdienas — 1 October: live now through the event itself.
       event: programItems['raaCeturtdienasOkt01'] ?? null,
       start: new Date(2026, 8, 24),
