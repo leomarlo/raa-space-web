@@ -24,7 +24,7 @@ export default function Page() {
   const pillClass =
     'px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition';
   const ticketPillClass =
-    'px-4 py-2 border-2 border-[#8B0000] text-[#f5f5dc] rounded-full hover:bg-[#8B0000] transition';
+    'px-4 py-2 border-2 border-[#8B0000] bg-[#8B0000]/40 text-[#f5f5dc] rounded-full hover:bg-[#8B0000] transition';
   const buyTicketsButton = event.externalLink && (
     <a href={event.externalLink} target="_blank" rel="noopener noreferrer" className={ticketPillClass}>
       {event.externalLinkText || 'Tickets'}
