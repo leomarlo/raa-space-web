@@ -68,3 +68,5 @@ sponsorship/out/*
 *.env
 
 .DS_Store
+# Claude Code
+.claude/
