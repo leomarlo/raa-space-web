@@ -1,0 +1,304 @@
+% John Dowland to Sir Robert Cecil (1595): study edition.
+% Part I : full letter, original | modern English, the seven performance
+%          passages highlighted, followed by the explanatory notes.
+% Part II: one page per passage, original | modern English, with a list of
+%          pronunciations and meanings at the bottom.
+%
+% Build (LuaLaTeX is required for the lua-ul highlighting), from documents/:
+%   cd src && lualatex -output-directory=../out/doulande dowland-letter.tex
+\documentclass[11pt,a4paper]{article}
+
+\usepackage[top=18mm,bottom=20mm,left=17mm,right=17mm]{geometry}
+\usepackage{fontspec}
+\setmainfont{EBGaramond}[Extension=.otf, UprightFont=*-Regular, ItalicFont=*-Italic,
+  BoldFont=*-SemiBold, BoldItalicFont=*-SemiBoldItalic]
+\usepackage{microtype}
+\usepackage[dvipsnames]{xcolor}
+\usepackage{luacolor}
+\usepackage{lua-ul}
+\usepackage{paracol}
+\usepackage{multicol}
+\usepackage[hidelinks]{hyperref}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.55em}
+\setlength{\columnsep}{7mm}
+\setlength{\columnseprule}{0.3pt}
+\def\columnseprulecolor{\color{black!25}}
+\setlength{\emergencystretch}{2em}
+\pagestyle{plain}
+\frenchspacing
+
+% ------------------------------------------------------------ passages
+% Tag colour (dark, for labels) and highlight colour (light, behind text).
+\definecolor{tag1}{HTML}{3F7D3A}  \colorlet{hl1}{tag1!22}
+\definecolor{tag2}{HTML}{B8860B}  \colorlet{hl2}{tag2!25}
+\definecolor{tag3}{HTML}{2C7FB8}  \colorlet{hl3}{tag3!20}
+\definecolor{tag4}{HTML}{B03A5B}  \colorlet{hl4}{tag4!18}
+\definecolor{tag5}{HTML}{6A4C9C}  \colorlet{hl5}{tag5!20}
+\definecolor{tag6}{HTML}{3B4A5A}  \colorlet{hl6}{tag6!18}
+\definecolor{tag7}{HTML}{1F8A86}  \colorlet{hl7}{tag7!22}
+\colorlet{notecol}{black!55}
+
+\newcommand{\ptitle}[1]{\ifcase#1\or
+  O Sweet Woods, the Delight of Solitariness\or
+  Fine Knacks for Ladies\or
+  Clear or Cloudy, Sweet as April Showering\or
+  Lasso vita mia, mi fa morire\or
+  Come Again, Sweet Love doth Now Invite\or
+  In Darkness Let Me Dwell\or
+  Weep You No More, Sad Fountains\fi}
+
+% Small coloured label that opens a passage.
+\newcommand{\pbadge}[1]{\colorbox{tag#1}{\color{white}\bfseries\small\,#1\,}}
+\newcommand{\ptag}[1]{\par\noindent\pbadge{#1}\enspace
+  {\color{tag#1}\small\itshape\ptitle{#1}}\par\nobreak\vspace{-0.3em}}
+% Highlight a stretch of original text in a passage colour.
+\newcommand{\mk}[2]{\highLight[hl#1]{#2}}
+% Word crossed out in the manuscript.
+\newcommand{\strike}[1]{\strikeThrough{#1}}
+% Note reference in the translation.
+\newcommand{\fn}[1]{\textsuperscript{\color{notecol}#1}}
+% Interlude inside passage 6.
+\newcommand{\intermission}{\par\begin{center}\color{tag6}\small\itshape
+  \textasciitilde\ [Marenzio song] \textasciitilde\end{center}\par}
+\newcommand{\colhead}[1]{{\small\scshape\color{black!60}#1}\par\vspace{-0.2em}}
+
+% Explanatory notes.
+\newcommand{\note}[3]{\par\noindent{\bfseries #1\quad #2}\par\nobreak\vspace{-0.4em}#3\par}
+
+% Glossary entry: word, pronunciation (may be empty), meaning.
+\newcommand{\gl}[3]{\par\noindent\hangindent=1.2em\hangafter=1
+  {\bfseries #1}\if\relax\detokenize{#2}\relax\else\ {\color{black!60}[#2]}\fi
+  \ -- #3\par}
+
+\input{doulande/text}
+\input{doulande/notes}
+\input{doulande/glossary}
+
+\begin{document}
+
+% ================================================================= PART I
+\begin{center}
+  {\LARGE John Dowland to Sir Robert Cecil}\par\vspace{0.3em}
+  {\large Nuremberg, 10 November 1595}\par\vspace{0.2em}
+  {\small\color{black!60}Cecil Papers 172/91--93 \textperiodcentered\
+  original text with a modern English translation, notes and the seven
+  marked passages}
+\end{center}
+
+\vspace{0.4em}
+{\small
+\textbf{The seven passages}, in performance order. In the letter they occur
+in the order 1, 5, 2, 4, 3, 6, 7; each is highlighted in its colour on the
+original side.\par\vspace{0.2em}
+\begin{multicols}{2}
+\raggedright
+\pbadge{1}\enspace\ptitle{1}\par
+\pbadge{2}\enspace\ptitle{2}\par
+\pbadge{3}\enspace\ptitle{3}\par
+\pbadge{4}\enspace\ptitle{4}\par
+\pbadge{5}\enspace\ptitle{5}\par
+\pbadge{6}\enspace\ptitle{6}\par
+\pbadge{7}\enspace\ptitle{7}\par
+\end{multicols}
+\vspace{-0.4em}
+\textbf{About this translation.} \AboutText\par
+Words struck through (\strike{thinck}) are crossed out in the manuscript.
+Superscript numbers refer to the explanatory notes after the letter.\par}
+
+\vspace{0.3em}
+\section*{I.\enspace The letter}
+
+\begin{paracol}{2}
+\colhead{Original (1595)}
+\switchcolumn
+\colhead{Modern English}
+\switchcolumn*
+
+\ptag{1}\mk{1}{\OiA}
+\switchcolumn
+\ptag{1}\TiA
+\switchcolumn*
+\mk{1}{\OiB}
+\switchcolumn
+\TiB
+\switchcolumn*
+\OgA
+\switchcolumn
+\TgA
+\switchcolumn*
+
+\ptag{5}\mk{5}{\Ov}
+\switchcolumn
+\ptag{5}\Tv
+\switchcolumn*
+\OgB
+\switchcolumn
+\TgB
+\switchcolumn*
+
+\ptag{2}\mk{2}{\OiiA}
+\switchcolumn
+\ptag{2}\TiiA
+\switchcolumn*
+\mk{2}{\OiiB}
+\switchcolumn
+\TiiB
+\switchcolumn*
+\mk{2}{\OiiC}
+\switchcolumn
+\TiiC
+\switchcolumn*
+\mk{2}{\OiiD}
+\switchcolumn
+\TiiD
+\switchcolumn*
+
+\ptag{4}\mk{4}{\Oiv}
+\switchcolumn
+\ptag{4}\Tiv
+\switchcolumn*
+
+\ptag{3}\mk{3}{\Oiii}
+\switchcolumn
+\ptag{3}\Tiii
+\switchcolumn*
+
+\OgCa
+\switchcolumn
+\TgCa
+\switchcolumn*
+\OgCb
+\switchcolumn
+\TgCb
+\switchcolumn*
+\OgCc
+\switchcolumn
+\TgCc
+\switchcolumn*
+\OgCd
+\switchcolumn
+\TgCd
+\switchcolumn*
+\OgCe
+\switchcolumn
+\TgCe
+\switchcolumn*
+\OgCf
+\switchcolumn
+\TgCf
+\switchcolumn*
+\OgCg
+\switchcolumn
+\TgCg
+\switchcolumn*
+
+\ptag{6}\mk{6}{\OviA}
+\switchcolumn
+\ptag{6}\TviA
+\switchcolumn*
+\intermission
+\switchcolumn
+\intermission
+\switchcolumn*
+\mk{6}{\OviB}\OgDa
+\switchcolumn
+\TviB\ \TgDa
+\switchcolumn*
+
+\OgDb
+\switchcolumn
+\TgDb
+\switchcolumn*
+\OgDc
+\switchcolumn
+\TgDc
+\switchcolumn*
+\OgDd
+\switchcolumn
+\TgDd
+\switchcolumn*
+\OgDe
+\switchcolumn
+\TgDe
+\switchcolumn*
+\OgDf
+\switchcolumn
+\TgDf
+\switchcolumn*
+
+\ptag{7}\mk{7}{\Ovii}
+\switchcolumn
+\ptag{7}\Tvii
+\switchcolumn*
+{\itshape \OviiDate}\par
+\mk{7}{\OviiClose}\\
+\OSign
+\switchcolumn
+{\itshape \TviiDate}\par
+\TviiClose\\
+\TSign
+\end{paracol}
+
+% ------------------------------------------------------------ notes
+\section*{Explanatory notes}
+{\small
+\begin{multicols}{2}
+\setlength{\parskip}{0.35em}
+\input{doulande/notelist}
+\end{multicols}
+
+\subsection*{What the letter is doing}
+\DoingText
+
+\subsection*{Textual source}
+\SourceText\ Critical edition and transcription:
+\url{https://philological.cal.bham.ac.uk/dowland/text.html}; commentary notes:
+\url{https://philological.cal.bham.ac.uk/dowland/notes.html}. Original
+spelling as given at
+\url{https://walterbitner.com/john-dowland-to-sir-robert-cecil-november-10-1595/}.
+\par}
+
+% ================================================================= PART II
+% One page per passage.
+\newcommand{\passagepage}[4]{%
+  \begin{paracol}{2}
+  \colhead{Original (1595)}
+  #2
+  \switchcolumn
+  \colhead{Modern English}
+  #3
+  \end{paracol}
+  % Passage caption below the excerpt.
+  \par\vspace{0.4em}
+  \noindent{\Large\colorbox{tag#1}{\color{white}\bfseries\,#1\,}\enspace
+    \color{tag#1}\ptitle{#1}}\par\vspace{0.1em}
+  \noindent{\color{tag#1}\rule{\linewidth}{1.2pt}}\par
+  \vfill
+  \noindent{\color{tag#1}\rule{\linewidth}{0.6pt}}\par
+  {\small\colhead{Pronunciation and meanings}
+  \begin{multicols}{2}
+  \setlength{\parskip}{0.15em}\raggedright
+  #4
+  \end{multicols}}
+}
+
+\clearpage
+\section*{II.\enspace The seven passages}
+Each passage on its own page: original on the left, modern English on the
+right, and at the bottom a list of words to say or understand. Old spellings
+are read as the modern word given in brackets; capitals mark the stressed
+syllable. Several brackets give a period sound rather than the modern
+one (e.g.\ \emph{saarv} for serve, \emph{warld} for world, \emph{oown} for
+one, \emph{fart-n} for fortune).
+
+\passagepage{1}{\OiA\ \OiB}{\TiA\par\TiB}{\GlossI}
+\clearpage\passagepage{2}{\OiiA\ \OiiB\ \OiiC\ \OiiD}{\TiiA\par\TiiB\par\TiiC\par\TiiD}{\GlossII}
+\clearpage\passagepage{3}{\Oiii}{\Tiii}{\GlossIII}
+\clearpage\passagepage{4}{\Oiv}{\Tiv}{\GlossIV}
+\clearpage\passagepage{5}{\Ov}{\Tv}{\GlossV}
+\clearpage\passagepage{6}{\OviA\intermission\OviB}{\TviA\intermission\TviB}{\GlossVI}
+\clearpage\passagepage{7}{\Ovii\par\OviiClose}{\Tvii\par\TviiClose}{\GlossVII}
+
+\end{document}

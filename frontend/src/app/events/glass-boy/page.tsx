@@ -7,7 +7,7 @@ import EventPageContent from '@/components/EventPageContent';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
-export default function StealthModePage() {
+export default function GlassBoyPage() {
   const [navOpen, setNavOpen] = useState(false);
   const { t } = useLanguage();
 
@@ -29,8 +29,8 @@ export default function StealthModePage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.stealthMode}>
-          <EventLinks event={t.program.items.stealthMode} />
+        <EventPageContent event={t.program.items.glassBoy}>
+          <EventLinks event={t.program.items.glassBoy} />
         </EventPageContent>
       </div>
     </div>
