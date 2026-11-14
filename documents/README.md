@@ -9,6 +9,7 @@ PDF generation for RAA events — sponsorship proposals, programmes, and partici
 | `./build.sh` | Per-partner sponsorship proposals (EN + LV) → `out/<Partner>/` |
 | `./build-program.sh` | Chess Week programme (LV) → `out/Program/` |
 | `./build-item-letters.sh` | ITEM acceptance letters → `out/ITEM/<Name>/` |
+| `./build-doulande.sh` | John Dowland letter study edition → `out/doulande/` |
 
 ## Chess Week Sponsorship Proposals
 
@@ -46,6 +47,16 @@ The third column controls the travel reimbursement paragraph: `none` omits it, `
 ```
 
 Source: `src/item-acceptance.tex`
+
+## John Dowland Letter (study edition)
+
+Dowland's 1595 letter to Robert Cecil: the full letter (original | modern English) with the seven performance passages highlighted, the explanatory notes, then one page per passage with pronunciations and meanings. Needs LuaLaTeX.
+
+```bash
+./build-doulande.sh
+```
+
+Source: `src/dowland-letter.tex`, which imports `src/doulande/` (`text.tex` letter and translation, `notes.tex` + `notelist.tex` notes, `glossary.tex` pronunciation lists).
 
 ## Images
 
