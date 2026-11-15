@@ -38,6 +38,12 @@ export default function ComingSoon() {
 
   const boxes = [
     {
+      // Dowland: A Letter From Nuremberg (4 December): ticket sales through the concert.
+      event: programItems['dowlandLetterFromNuremberg'] ?? null,
+      start: new Date(2026, 10, 15),
+      end: new Date(2026, 11, 4, 23, 59, 59),
+    },
+    {
       // RAA Ceturtdienas — 12 November: shown alongside 5 November from 3 November through the event.
       event: programItems['raaCeturtdienasNov12'] ?? null,
       start: new Date(2026, 10, 3),
@@ -82,8 +88,10 @@ export default function ComingSoon() {
       const secondaryLinkText = event.externalLink
         ? event.externalLinkText || 'Register'
         : 'Instagram';
+      // An externalLink here is a ticket / registration link: shown in red.
+      const secondaryIsTicket = Boolean(event.externalLink);
       const glowColor = GLOW_COLORS[i % GLOW_COLORS.length];
-      return { event, secondaryLink, secondaryLinkText, glowColor };
+      return { event, secondaryLink, secondaryLinkText, secondaryIsTicket, glowColor };
     });
 
   return (
@@ -133,7 +141,7 @@ export default function ComingSoon() {
               : 'flex w-full justify-center'
           }
         >
-          {boxes.map(({ event, secondaryLink, secondaryLinkText, glowColor }) => (
+          {boxes.map(({ event, secondaryLink, secondaryLinkText, secondaryIsTicket, glowColor }) => (
             <div
               key={event.id}
               className={boxes.length > 1 ? 'relative w-full' : 'relative w-full max-w-3xl'}
@@ -160,7 +168,11 @@ export default function ComingSoon() {
                       href={secondaryLink}
                       target={secondaryLink.startsWith('http') ? '_blank' : undefined}
                       rel={secondaryLink.startsWith('http') ? 'noopener noreferrer' : undefined}
-                      className="px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+                      className={
+                        secondaryIsTicket
+                          ? 'px-6 py-3 border-2 border-[#8B0000] bg-[#8B0000]/40 text-[#f5f5dc] font-semibold rounded-full hover:bg-[#8B0000] transition'
+                          : 'px-6 py-3 border border-[#f5f5dc] bg-transparent text-[#f5f5dc] font-semibold rounded-full hover:bg-[#f5f5dc] hover:text-black transition'
+                      }
                     >
                       {secondaryLinkText}
                     </Link>

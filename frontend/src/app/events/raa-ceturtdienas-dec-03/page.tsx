@@ -5,6 +5,7 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import EventLinks from '@/components/EventLinks';
 import EventPageContent from '@/components/EventPageContent';
+import TicketButton from '@/components/TicketButton';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -31,11 +32,11 @@ export default function Page() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={event}>
+        <EventPageContent event={event} titleAction={<TicketButton event={event} />}>
           <p className="mt-6 text-sm opacity-80">
             {event.when} · {event.location} · {event.price}
           </p>
-          <EventLinks event={event} />
+          <EventLinks event={event} externalIsTicket />
           <div className="mt-6 flex flex-wrap gap-3">
             <Link
               href="/raa-ceturtdienas"
