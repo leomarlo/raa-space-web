@@ -1,12 +1,15 @@
 'use client';
 
 import { ProgramItem } from '@/types/program';
+import { ticketPillClass } from '@/components/TicketButton';
 
 interface EventLinksProps {
   event: ProgramItem;
+  /** Style the external link as a ticket button (red). */
+  externalIsTicket?: boolean;
 }
 
-export default function EventLinks({ event }: EventLinksProps) {
+export default function EventLinks({ event, externalIsTicket = false }: EventLinksProps) {
   const hasLinks = event.instaLink || event.fbLink || event.externalLink;
 
   if (!hasLinks) {
@@ -40,7 +43,11 @@ export default function EventLinks({ event }: EventLinksProps) {
           href={event.externalLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition"
+          className={
+            externalIsTicket
+              ? ticketPillClass
+              : 'px-4 py-2 border border-[#f5f5dc] text-[#f5f5dc] rounded-full hover:bg-[#f5f5dc] hover:text-black transition'
+          }
         >
           {event.externalLinkText || 'External Link'}
         </a>

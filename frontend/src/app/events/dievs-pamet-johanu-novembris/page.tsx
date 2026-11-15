@@ -4,6 +4,7 @@ import RaaHieroglyphMatrix from '@/components/RaaHieroglyphMatrix';
 import Entrance from '@/components/Entrance';
 import EventLinks from '@/components/EventLinks';
 import EventPageContent from '@/components/EventPageContent';
+import TicketButton from '@/components/TicketButton';
 import { useState } from 'react';
 import { useLanguage } from '@/context/LanguageContext';
 
@@ -29,8 +30,11 @@ export default function DievsPametJohanuNovembrisPage() {
       />
 
       <div className="relative z-10 py-20 px-4 sm:px-8 pointer-events-auto flex justify-center">
-        <EventPageContent event={t.program.items.dievsPametJohanuNovembris}>
-          <EventLinks event={t.program.items.dievsPametJohanuNovembris} />
+        <EventPageContent
+          event={t.program.items.dievsPametJohanuNovembris}
+          titleAction={<TicketButton event={t.program.items.dievsPametJohanuNovembris} />}
+        >
+          <EventLinks event={t.program.items.dievsPametJohanuNovembris} externalIsTicket />
         </EventPageContent>
       </div>
     </div>
